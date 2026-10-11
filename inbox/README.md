@@ -27,5 +27,21 @@ The publisher sent a social-media graphic comparing club front threes' goals + a
   (e.g. "all competitions this season, to <date>").
 - Work out which three players each club uses as its front three from current line-ups.
 
+### 2. Barcelona's winning start: record watch (requested 11 Oct 2026)
+Graphic: "Longest winning start to a LaLiga season" (ESPN FC), saved as
+`inbox/barca-winning-start-espnfc.jpg` (cropped to just the graphic). The publisher says they
+have permission. Credit: **"Graphic: ESPN FC, used with permission"** (confirm wording with the
+publisher if they say otherwise).
+
+What it shows: Real Madrid 1968-69 hold the record with 9 straight wins (won the league);
+8-win starts: Barcelona 2026-27, Barcelona 2013-14 (runners-up), Atlético 2013-14 (won),
+Real Madrid 1987-88 (won), Real Madrid 1961-62 (won).
+
+- Use it in the La Liga article as a "record watch" feature: Barça are one win from equalling
+  the record. Their next league game is Real Betis away (Sat 17 Oct), then El Clásico (25 Oct).
+- At build time, check the latest result: if Barça beat Betis, the story becomes "record
+  equalled, and next up is Real Madrid of all teams, with the record on the line".
+- Re-check the historical list against a second source before printing it in our own words.
+
 ## Done
 (nothing yet)
