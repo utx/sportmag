@@ -29,6 +29,8 @@ It should read like a proper product: no reader names or personal references any
 
 ## Mechanics
 
+- **Before building any issue, read `inbox/README.md`** for publisher requests (images, article ideas)
+  and include them; then mark them done there.
 - New issue: copy the structure of `issues/001/` to `issues/NNN/`, write the fragments,
   then `build/build.sh` (add `--shots` to review screenshots in `build/out/shots/`).
 - Keep the Kindle address out of the repo (it lives only in the Google Apps Script).
