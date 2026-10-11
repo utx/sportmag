@@ -3,6 +3,10 @@
 Check this folder before building the next issue of either magazine, then move handled
 items to the "Done" section with the issue number.
 
+Standing note from the publisher (11 Oct 2026): every image they send for the magazines
+comes with permission to use it. Save it here, credit it in photos.json
+(`{"credit": "... used with permission"}`), and ask the publisher who to credit if it's unclear.
+
 ## For the next Touchline
 
 ### 1. "Front Three Face-Off" (requested 11 Oct 2026)
@@ -44,10 +48,11 @@ Real Madrid 1987-88 (won), Real Madrid 1961-62 (won).
 - Re-check the historical list against a second source before printing it in our own words.
 
 ### 3. "The craziest half ever?": AIK 5-6 Brommapojkarna (requested 11 Oct 2026)
-A short, fun article (one page) on this absurd Swedish game. The publisher sent a scoreline
-screenshot as a reference only, with no permission to reuse it, so it is **not** saved here. Draw our own
-Touchline-style SVG instead, such as a goal-by-goal timeline or a "scoreline rollercoaster"
-chart of the lead swinging back and forth.
+A short, fun article (one page) on this absurd Swedish game. The publisher sent the scoreline
+graphic (goal-by-goal list, full time 5-6) **with permission**, saved as
+`inbox/aik-brommapojkarna-5-6.jpg`. Use it with the credit **"Graphic: used with permission"**
+(ask the publisher for the creator's name). Next to it, draw our own Touchline-style SVG,
+such as a "scoreline rollercoaster" chart of the lead swinging back and forth.
 
 Facts found on 11 Oct 2026 (re-check against a full report at build time):
 - Allsvenskan, round 23, Sat 10 Oct 2026, Strawberry Arena, Solna (AIK at home).
