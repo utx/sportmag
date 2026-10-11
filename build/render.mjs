@@ -42,6 +42,23 @@ if (fs.existsSync("/opt/pw-browsers/chromium")) {
 }
 const browser = await playwright.chromium.launch(launchOpts);
 
+// every top-level page must actually get its stylesheet (catches broken relative paths)
+{
+  const ctx = await browser.newContext();
+  const page = await ctx.newPage();
+  for (const p of ["/", "/archive.html"]) {
+    await page.goto(base + p, { waitUntil: "networkidle" });
+    const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    if (bg !== "rgb(243, 238, 228)") throw new Error(`render: ${p} is unstyled (body background ${bg})`);
+    const broken = await page.$$eval("a[href]", (as) => as.map((a) => a.href).filter((h) => h.startsWith(location.origin)));
+    for (const h of broken) {
+      const r = await page.request.get(h);
+      if (!r.ok()) throw new Error(`render: broken link ${h} on ${p}`);
+    }
+  }
+  await ctx.close();
+}
+
 const issues = JSON.parse(fs.readFileSync(path.join(DOCS, "issues.json"), "utf8"));
 for (const { slug } of issues) {
   const outDir = path.join(OUT, slug);

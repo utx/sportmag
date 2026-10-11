@@ -154,11 +154,12 @@ def build_article_page(issue: dict, idx: int, glossary_html: str) -> str:
                       og_image=f"issues/{issue['slug']}/cover.png")
 
 
-def build_issue_index(issue: dict, rel: str, base: str | None = None) -> str:
+def build_issue_index(issue: dict, rel: str, link_prefix: str = "") -> str:
+    """link_prefix is prepended to article links (the site root page lives outside the issue folder)."""
     cover = read_fragment(issue, issue["cover"])
     toc = []
     for i, a in enumerate(issue["articles"]):
-        toc.append(f"""<a class="toc-item" href="{a['slug']}.html">
+        toc.append(f"""<a class="toc-item" href="{link_prefix}{a['slug']}.html">
   <span class="toc-item__num">{a['page']:02d}</span>
   <span><span class="toc-item__sec">{a['section']}</span>
   <span class="toc-item__title">{a['toc_title']}</span>
@@ -171,7 +172,7 @@ def build_issue_index(issue: dict, rel: str, base: str | None = None) -> str:
 {cover}
 </section>
 <div class="cover-actions">
-  <a class="btn-ghost" href="{first}.html">Start reading →</a>
+  <a class="btn-ghost" href="{link_prefix}{first}.html">Start reading →</a>
   <button class="kindle-btn kindle-btn--big" type="button" data-kindle>{KINDLE_ICON}<span>Send this issue to Kindle</span></button>
 </div>
 <section class="contents" id="contents">
@@ -182,10 +183,9 @@ def build_issue_index(issue: dict, rel: str, base: str | None = None) -> str:
 </section>
 {letter}
 """
-    head = f'<base href="{base}">' if base else ""
     title = f"{SITE_TITLE} — Issue {issue['number']}: {issue['cover_headline']}"
     return page_shell(title=title, desc=issue["description"], body=body, issue=issue, rel=rel,
-                      og_image=f"issues/{issue['slug']}/cover.png", extra_head=head, body_class="is-cover")
+                      og_image=f"issues/{issue['slug']}/cover.png", body_class="is-cover")
 
 
 def build_glossary(issue: dict) -> str:
@@ -245,7 +245,7 @@ def build_web() -> None:
 
     latest = issues[-1]
     (DOCS / "index.html").write_text(
-        build_issue_index(latest, rel="../../", base=f"issues/{latest['slug']}/"), encoding="utf-8")
+        build_issue_index(latest, rel="", link_prefix=f"issues/{latest['slug']}/"), encoding="utf-8")
     (DOCS / "archive.html").write_text(build_archive(issues), encoding="utf-8")
     (DOCS / "issues.json").write_text(json.dumps(
         [{"number": i["number"], "slug": i["slug"], "date": i["date"]} for i in issues], indent=2))
