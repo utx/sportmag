@@ -18,6 +18,7 @@ LEAGUES = [
     ("italian-serie-a", "Serie A", "Italy", 4, 3),
     ("german-bundesliga", "Bundesliga", "Germany", 4, 2),
     ("french-ligue-one", "Ligue 1", "France", 3, 2),
+    ("scottish-premiership", "Scottish Premiership", "Scotland", 2, 1),
     ("australian-a-league", "A-League Men", "Australia", 6, 0),   # top six = finals places
 ]
 SHORT = {
@@ -25,7 +26,7 @@ SHORT = {
     "Tottenham Hotspur": "Spurs", "Nottingham Forest": "Nott'm Forest", "Newcastle United": "Newcastle",
     "Leeds United": "Leeds", "Ipswich Town": "Ipswich", "Hull City": "Hull", "Coventry City": "Coventry",
     "Bayer 04 Leverkusen": "Bayer Leverkusen", "Borussia M'gladbach": "Gladbach", "Olympique Lyonnais": "Lyon",
-    "Racing de Santander": "Racing Santander", "Sydney": "Sydney FC", "Auckland": "Auckland FC", "Deportivo de A Coruña": "Deportivo La Coruña",
+    "Racing de Santander": "Racing Santander", "Heart of Midlothian": "Hearts", "Sydney": "Sydney FC", "Auckland": "Auckland FC", "Deportivo de A Coruña": "Deportivo La Coruña",
 }
 STAR = {"Manchester United", "Sydney FC", "Sydney"}   # our teams get the highlighted row
 

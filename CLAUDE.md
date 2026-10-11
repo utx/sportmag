@@ -16,7 +16,7 @@ It should read like a proper product: no reader names or personal references any
 - Shorter reviews of other Premier League games and the big La Liga clubs (Barcelona, Real Madrid,
   plus Atlético when relevant).
 - **Full league tables from the major leagues in every issue**: Premier League, La Liga, Serie A,
-  Bundesliga, Ligue 1, and the A-League Men when it is in season — every club, not just the top.
+  Bundesliga, Ligue 1, the Scottish Premiership, and the A-League Men when it is in season — every club, not just the top.
   Generate them with `python3 build/league_tables.py <out.html>` (BBC Sport data) and include
   them in the tables article; add the "who's on top" summary cards above them.
 - Shorter sections on other sports: rugby (union and league), NBA, tennis.
