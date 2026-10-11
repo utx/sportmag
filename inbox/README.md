@@ -43,5 +43,24 @@ Real Madrid 1987-88 (won), Real Madrid 1961-62 (won).
   equalled, and next up is Real Madrid of all teams, with the record on the line".
 - Re-check the historical list against a second source before printing it in our own words.
 
+### 3. "The craziest half ever?": AIK 5-6 Brommapojkarna (requested 11 Oct 2026)
+A short, fun article (one page) on this absurd Swedish game. The publisher sent a scoreline
+screenshot as a reference only, with no permission to reuse it, so it is **not** saved here. Draw our own
+Touchline-style SVG instead, such as a goal-by-goal timeline or a "scoreline rollercoaster"
+chart of the lead swinging back and forth.
+
+Facts found on 11 Oct 2026 (re-check against a full report at build time):
+- Allsvenskan, round 23, Sat 10 Oct 2026, Strawberry Arena, Solna (AIK at home).
+- **0-0 at half-time, then 11 goals in the second half.**
+- 0-1 Simon Strand 48' · 1-1 Abdihakin Ali 55' · 1-2 Kamilcan Sever 59' · 1-3 Wilmer Odefalk 61'
+  · 1-4 Sever 65' · 1-5 Anton Kurochkin 70' · 2-5 Taha Ayari 73' · 3-5 Sixten Gustafsson 81'
+  · 4-5 Gustafsson 83' · 5-5 Johan Hove 90'+7 · **5-6 Mads Hansen 90'+9** (assist Oliver Zandén).
+- AIK came back from 1-5 down to 5-5 in stoppage time, then lost two minutes later.
+- Claims to verify before printing: a new Allsvenskan record for goals in one half, and BP's
+  first ever Allsvenskan win over AIK (both from bollsvenskan.se only so far).
+- Angle: a "you had to be there" story. Anyone who left at 1-5 (70') missed 5 more goals
+  (tie it to the Sydney FC "stay to the final whistle" message). Add a "what would you have
+  done at 1-5?" box and Word Watch words such as *pandemonium*, *capitulate* and *improbable*.
+
 ## Done
 (nothing yet)
