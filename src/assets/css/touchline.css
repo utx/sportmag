@@ -476,3 +476,17 @@ table.ltable { width: 100%; border-collapse: collapse; font-family: var(--label)
 @media print {
   .topbar, .kindle-btn, .turner, .foot, body::after { display: none !important; }
 }
+
+/* photos */
+figure.photo { margin: 1.6em 0; }
+figure.photo img { width: 100%; height: auto; display: block; background: var(--paper-2); border: 1px solid var(--rule); }
+figure.photo figcaption .credit { display: block; font-size: .78rem; font-weight: 500; letter-spacing: .02em; color: var(--ink-3); margin-top: 4px; }
+figure.photo figcaption .credit a { color: inherit; text-decoration-color: var(--rule); }
+.a-body > figure.photo.wide { max-width: 1000px; }
+.photo.side img { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 22%; }
+@media (min-width: 1040px) {
+  .a-body > .photo.side { float: right; clear: right; width: 300px; margin: .3em 0 1.4em 0; }
+}
+@media (max-width: 1039px) {
+  .a-body > .photo.side { max-width: 360px; }
+}

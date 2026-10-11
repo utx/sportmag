@@ -48,8 +48,44 @@ def load_issues() -> list[dict]:
     return issues
 
 
+LICENCE_URLS = {
+    "CC0": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "CC BY 2.0": "https://creativecommons.org/licenses/by/2.0/",
+    "CC BY 3.0": "https://creativecommons.org/licenses/by/3.0/",
+    "CC BY 4.0": "https://creativecommons.org/licenses/by/4.0/",
+    "CC BY-SA 2.0": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "CC BY-SA 3.0": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "CC BY-SA 3.0 DE": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "CC BY-SA 4.0": "https://creativecommons.org/licenses/by-sa/4.0/",
+}
+
+
+def photo_credits(issue: dict) -> dict[str, str]:
+    """photos.json -> {id: credit HTML}. Every photo is from Wikimedia Commons under a free licence."""
+    f = issue["dir"] / "photos.json"
+    if not f.exists():
+        return {}
+    out = {}
+    for pid, m in json.loads(f.read_text(encoding="utf-8")).items():
+        page = "https://commons.wikimedia.org/wiki/File:" + m["file"].replace(" ", "_")
+        lic = m["license"]
+        out[pid] = (f'Photo: <a href="{html.escape(page)}">{html.escape(m["author"])}</a> / '
+                    f'<a href="{LICENCE_URLS[lic]}">{lic}</a>, via Wikimedia Commons')
+    return out
+
+
 def read_fragment(issue: dict, name: str) -> str:
-    return (issue["dir"] / name).read_text(encoding="utf-8")
+    s = (issue["dir"] / name).read_text(encoding="utf-8")
+    credits = issue.setdefault("_credits", photo_credits(issue))
+    def credit(m: re.Match) -> str:
+        if m.group(1) not in credits:
+            raise SystemExit(f"{name}: no photos.json entry for photo '{m.group(1)}'")
+        return credits[m.group(1)]
+    s = re.sub(r"@@([\w-]+)", credit, s)
+    for src in re.findall(r'<img src="img/([\w-]+\.jpg)"', s):
+        if not (issue["dir"] / "img" / src).exists():
+            raise SystemExit(f"{name}: missing photo issues/{issue['slug']}/img/{src}")
+    return s
 
 
 def strip_tags(s: str) -> str:
@@ -323,6 +359,8 @@ def epubify(fragment: str, images: dict[str, str]) -> str:
             raise SystemExit(f"epub: no rendered image for graphic '{gid}'. Run build/render.mjs first.")
         return f'<img src="images/{images[gid]}" alt=""/>'
     s = re.sub(r'<div class="g[^"]*" data-epub="([\w-]+)"[^>]*>.*?</div><!--/g-->', swap, s, flags=re.S)
+    s = re.sub(r'<img src="img/([\w-]+)\.jpg"', r'<img src="images/photo-\1.jpg"', s)
+    s = re.sub(r'(<img [^>]*?)\s*/?>', lambda m: m.group(1).rstrip("/ ") + "/>", s)
     if "<svg" in s:
         raise SystemExit("epub: an inline <svg> survived outside a .g[data-epub] block.")
     # web-only niceties that mean nothing on paper
@@ -342,7 +380,7 @@ def to_greyscale(src: Path, dst: Path, max_w: int = 1200) -> None:
 
 
 def build_epub() -> None:
-    from PIL import Image
+    from PIL import Image, ImageOps
     for issue in load_issues():
         slug = issue["slug"]
         rendered = RENDER_OUT / slug
@@ -359,6 +397,14 @@ def build_epub() -> None:
             name = png.stem + ".png"
             to_greyscale(png, work / "images" / name)
             images[png.stem] = name
+        photos = []
+        for jpg in sorted((issue["dir"] / "img").glob("*.jpg")):
+            g = ImageOps.grayscale(ImageOps.exif_transpose(Image.open(jpg)))
+            g.thumbnail((1000, 1000))
+            g = ImageOps.autocontrast(g, cutoff=0.3)
+            name = f"photo-{jpg.stem}.jpg"
+            g.save(work / "images" / name, quality=80, optimize=True)
+            photos.append(name)
         cover = Image.open(rendered / "cover.png").convert("L")
         cover.thumbnail((1200, 1600))
         cover.save(work / "images" / "cover.jpg", quality=88)
@@ -411,6 +457,7 @@ def build_epub() -> None:
                     '<item id="contents" href="contents.xhtml" media-type="application/xhtml+xml"/>',
                     '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>']
         manifest += [f'<item id="img-{Path(f).stem}" href="images/{f}" media-type="image/png"/>' for f in images.values()]
+        manifest += [f'<item id="{Path(f).stem}" href="images/{f}" media-type="image/jpeg"/>' for f in photos]
         manifest += [f'<item id="c{i}" href="{n}" media-type="application/xhtml+xml"/>' for i, (n, _, _) in enumerate(chapters)]
         spine = ['<itemref idref="cover"/>', '<itemref idref="contents"/>'] + [f'<itemref idref="c{i}"/>' for i in range(len(chapters))]
         opf = f"""<?xml version="1.0" encoding="utf-8"?>
