@@ -46,11 +46,12 @@ const browser = await playwright.chromium.launch(launchOpts);
 {
   const ctx = await browser.newContext();
   const page = await ctx.newPage();
-  for (const p of ["/", "/archive.html"]) {
+  const homes = [...new Set(JSON.parse(fs.readFileSync(path.join(DOCS, "render.json"), "utf8")).map((j) => j.page_dir.replace(/issues\/[^/]+$/, "")))];
+  for (const p of homes.flatMap((h) => [`/${h}`, `/${h}archive.html`])) {
     await page.goto(base + p, { waitUntil: "networkidle" });
-    const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
-    if (bg !== "rgb(243, 238, 228)") throw new Error(`render: ${p} is unstyled (body background ${bg})`);
-    const broken = await page.$$eval("a[href]", (as) => as.map((a) => a.href).filter((h) => h.startsWith(location.origin)));
+    const styled = await page.evaluate(() => getComputedStyle(document.querySelector(".topbar")).position === "sticky");
+    if (!styled) throw new Error(`render: ${p} is unstyled (stylesheet did not load)`);
+    const broken = await page.$$eval("a[href]", (as) => as.map((a) => a.href).filter((h) => h.startsWith(location.origin) && !h.endsWith(".epub")));  // .epub is made after rendering
     for (const h of broken) {
       const r = await page.request.get(h);
       if (!r.ok()) throw new Error(`render: broken link ${h} on ${p}`);
@@ -59,9 +60,9 @@ const browser = await playwright.chromium.launch(launchOpts);
   await ctx.close();
 }
 
-const issues = JSON.parse(fs.readFileSync(path.join(DOCS, "issues.json"), "utf8"));
-for (const { slug } of issues) {
-  const outDir = path.join(OUT, slug);
+const jobs = JSON.parse(fs.readFileSync(path.join(DOCS, "render.json"), "utf8"));
+for (const { mag, slug, page_dir } of jobs) {
+  const outDir = path.join(OUT, mag, slug);
   fs.mkdirSync(outDir, { recursive: true });
   for (const f of fs.readdirSync(outDir)) if (f.endsWith(".png")) fs.unlinkSync(path.join(outDir, f));
 
@@ -70,19 +71,19 @@ for (const { slug } of issues) {
   // hide the paper grain + sticky bar for clean captures
   const clean = "body::after{display:none!important} .toast{display:none!important} .topbar{position:static!important}";
 
-  await page.goto(`${base}/issues/${slug}/index.html`, { waitUntil: "networkidle" });
+  await page.goto(`${base}/${page_dir}/index.html`, { waitUntil: "networkidle" });
   await page.addStyleTag({ content: clean + " .cover{box-shadow:none!important;border:0!important}" });
   await page.evaluate(() => document.fonts.ready);
   await page.locator("#cover").screenshot({ path: path.join(outDir, "cover.png") });
   if (SHOTS) {
     fs.mkdirSync(path.join(OUT, "shots"), { recursive: true });
-    await page.screenshot({ path: path.join(OUT, "shots", `${slug}-index.png`), fullPage: true });
+    await page.screenshot({ path: path.join(OUT, "shots", `${mag}-${slug}-index.png`), fullPage: true });
   }
 
-  const pages = fs.readdirSync(path.join(DOCS, "issues", slug)).filter((f) => f.endsWith(".html") && f !== "index.html");
+  const pages = fs.readdirSync(path.join(DOCS, page_dir)).filter((f) => f.endsWith(".html") && f !== "index.html");
   let count = 0;
   for (const p of pages) {
-    await page.goto(`${base}/issues/${slug}/${p}`, { waitUntil: "networkidle" });
+    await page.goto(`${base}/${page_dir}/${p}`, { waitUntil: "networkidle" });
     await page.addStyleTag({ content: clean });
     await page.evaluate(() => document.fonts.ready);
     const ids = await page.$$eval(".g[data-epub]", (els) => els.map((e) => e.dataset.epub));
@@ -93,12 +94,12 @@ for (const { slug } of issues) {
     if (SHOTS) {
       for (const [w, tag] of [[1280, "desk"], [390, "phone"]]) {
         await page.setViewportSize({ width: w, height: 900 });
-        await page.screenshot({ path: path.join(OUT, "shots", `${slug}-${p.replace(".html", "")}-${tag}.png`), fullPage: true });
+        await page.screenshot({ path: path.join(OUT, "shots", `${mag}-${slug}-${p.replace(".html", "")}-${tag}.png`), fullPage: true });
       }
       await page.setViewportSize({ width: 900, height: 1200 });
     }
   }
-  console.log(`render: issue ${slug} -> cover + ${count} graphics`);
+  console.log(`render: ${mag} ${slug} -> cover + ${count} graphics`);
   await ctx.close();
 }
 await browser.close();

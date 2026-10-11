@@ -6,7 +6,8 @@ with a one-tap "Send to Kindle" button.
 ## How it's put together
 
 ```
-issues/NNN/          one folder per issue
+issues/NNN/          one folder per Touchline issue
+chugjug/issues/NNN/  one folder per issue of The Chug Jug (Fortnite fan magazine)
   issue.json         running order, headlines, page numbers
   cover.html         the cover (HTML + inline SVG art)
   editor.html        welcome letter on the contents page

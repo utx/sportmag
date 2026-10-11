@@ -490,3 +490,93 @@ figure.photo figcaption .credit a { color: inherit; text-decoration-color: var(-
 @media (max-width: 1039px) {
   .a-body > .photo.side { max-width: 360px; }
 }
+
+/* ==========================================================================
+   THE CHUG JUG — theme (body.mag-chugjug)
+   Lilac paper, deep-indigo ink, Chug Jug blue, legendary gold.
+   ========================================================================== */
+.mag-chugjug {
+  --paper: #f1eeff;
+  --paper-2: #e2dbfb;
+  --ink: #1d1257;
+  --ink-2: #3a3277;
+  --ink-3: #6c65a3;
+  --rule: #cdc5f0;
+  --red: #1b8cff;
+  --red-deep: #0a5bc4;
+  --sky: #8f3cff;
+  --sky-deep: #6a1fd6;
+  --gold: #ffb21a;
+  --grass: #23b26d;
+  --white: #ffffff;
+}
+.mag-chugjug .topbar { background: linear-gradient(90deg, #1d1257, #2b1677 60%, #3a1690); }
+.mag-chugjug .topbar__logo span, .mag-chugjug .foot__logo span { color: var(--gold); }
+.mag-chugjug .foot { background: #140c40; }
+.mag-chugjug .disclaimer { border-top: 1px solid #2f2770; padding-top: 10px; margin-top: 6px; color: #a7a0d8; }
+.mag-chugjug .ww { background: linear-gradient(transparent 60%, rgba(27,140,255,.28) 60%); }
+.mag-chugjug .box--word { border-top-color: var(--red); }
+.mag-chugjug .box--word h4::before { content: "◆ "; color: var(--red); }
+.mag-chugjug .box--ink { background: linear-gradient(160deg, #1d1257, #33157e); box-shadow: 4px 4px 0 var(--gold); }
+.mag-chugjug .tip { background: linear-gradient(160deg, #1d1257, #2e1675); border-bottom-color: var(--red); }
+.mag-chugjug .tip h5 { color: #7cc4ff; }
+.mag-chugjug .kindle-btn[data-state="sent"] { background: var(--grass); }
+
+/* rarity-coloured section labels (Fortnite's loot colours) */
+.rarity--common    { background: #8b929c !important; }
+.rarity--uncommon  { background: #2ea84e !important; }
+.rarity--rare      { background: #1b8cff !important; }
+.rarity--epic      { background: #9b3cf0 !important; }
+.rarity--legendary { background: #e98b0c !important; }
+.rarity--mythic    { background: linear-gradient(90deg, #f0b40a, #ffdc5e) !important; color: #3a2400 !important; }
+
+/* jug ratings: <span class="jugs" style="--n:4"><span class="sr-only">4 out of 5 Chug Jugs</span></span> */
+.jugs {
+  --n: 0; display: inline-block; position: relative; vertical-align: -5px;
+  width: 120px; height: 24px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9 2h6v3l3 3v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8l3-3z' fill='none' stroke='%23b8b0e0' stroke-width='1.6'/></svg>") repeat-x 0 0 / 24px 24px;
+}
+.jugs::before {
+  content: ""; position: absolute; inset: 0; width: calc(var(--n) * 24px);
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9 2h6v3l3 3v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8l3-3z' fill='%231b8cff' stroke='%231d1257' stroke-width='1.6'/><rect x='9.5' y='1.5' width='5' height='2.6' rx='.6' fill='%23ffb21a' stroke='%231d1257' stroke-width='1'/><path d='M8.5 12h7' stroke='%23bfe3ff' stroke-width='1.6' stroke-linecap='round'/></svg>") repeat-x 0 0 / 24px 24px;
+}
+.jug-rating { font-family: var(--label); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .9rem; color: var(--ink-2); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+/* item tiles, Item-Shop style */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 1.4em 0; }
+.a-body > .tiles:has(> .tile:only-child) { max-width: 340px; }
+.tile { background: var(--white); border: 1px solid var(--rule); display: flex; flex-direction: column; overflow: hidden; }
+.tile__art { aspect-ratio: 1 / 1; min-height: 0; position: relative; overflow: hidden; }
+.tile__art img { position: absolute; left: 4%; bottom: 0; width: 92%; height: 95%; object-fit: contain; object-position: bottom; filter: drop-shadow(0 6px 10px rgba(0,0,0,.35)); }
+.tile--common .tile__art    { background: radial-gradient(circle at 50% 35%, #c8ccd2, #6d747e); }
+.tile--uncommon .tile__art  { background: radial-gradient(circle at 50% 35%, #8fe39a, #1f7b38); }
+.tile--rare .tile__art      { background: radial-gradient(circle at 50% 35%, #7ec2ff, #0f4fa8); }
+.tile--epic .tile__art      { background: radial-gradient(circle at 50% 35%, #d39bff, #5a148f); }
+.tile--legendary .tile__art { background: radial-gradient(circle at 50% 35%, #ffd27a, #b24f00); }
+.tile__price { position: absolute; top: 8px; right: 8px; background: rgba(13,8,40,.82); color: #fff; font-family: var(--label); font-weight: 800; font-size: .9rem; letter-spacing: .04em; padding: 3px 8px; border-radius: 3px; }
+.tile__body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.tile__name { font-family: var(--display); text-transform: uppercase; font-size: 1.35rem; line-height: 1; }
+.tile__meta { font-family: var(--label); font-weight: 600; font-size: .85rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; }
+.tile p { font-size: .95rem; line-height: 1.45; margin: 4px 0 0; }
+
+/* the Chug Jug cover */
+.cover--cj { background: radial-gradient(120% 90% at 50% 40%, #3b1d9a 0%, #1d1257 55%, #0e0832 100%); border-color: #0e0832; }
+.cover--cj .cover__mast { white-space: nowrap; color: #fff; font-size: 17.5cqw; top: 3cqw; text-shadow: .5cqw .5cqw 0 #0a5bc4, 1cqw 1cqw 0 rgba(0,0,0,.35); }
+.cover--cj .cover__mast span { color: var(--gold); }
+.cover--cj .cover__strap { top: 20.8cqw; color: #cfc7ff; border-top-color: var(--gold); }
+.cover--cj .cline__head { color: #fff; }
+.cover--cj .cline__head em { color: var(--gold); }
+.cover--cj .cline__sub { color: #cfc7ff; }
+.cover--cj .cline__kick { background: var(--gold); color: #1d1257; }
+.cover--cj .cline__kick--blue { background: #1b8cff; color: #fff; }
+.cover--cj .cline__kick--purple { background: #9b3cf0; color: #fff; }
+.cover--cj .cover__lead-kick { color: var(--gold); }
+.cover--cj .cover__lead-head { color: #fff; text-shadow: .4cqw .4cqw 0 #0a5bc4; }
+.cover--cj .cover__lead-head span { color: #7cc4ff; }
+.cover--cj .cover__lead-sub { color: #e2ddff; }
+.cover--cj .cover__foot-lines { border-top-color: var(--gold); }
+.cover--cj .cover__foot-item b { color: #fff; }
+.cover--cj .cover__foot-item span { color: #cfc7ff; }
+.cover--cj .cover__unofficial { position: absolute; left: 3.6cqw; bottom: 1cqw; font-family: var(--label); font-size: 1.25cqw; letter-spacing: .08em; color: #8f86c9; text-transform: uppercase; }
+
+.cover--cj .cover__lines { top: 31cqw; gap: 4.4cqw; }

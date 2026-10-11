@@ -33,3 +33,28 @@ It should read like a proper product: no reader names or personal references any
   then `build/build.sh` (add `--shots` to review screenshots in `build/out/shots/`).
 - Keep the Kindle address out of the repo (it lives only in the Google Apps Script).
 - See README.md for file layout and writing conventions.
+
+---
+
+# The Chug Jug — brief for the sister magazine
+
+An unofficial Fortnite fan magazine for the same reader, published at
+https://utx.github.io/sportmag/chugjug/ (issues in `chugjug/issues/NNN/`, same build).
+
+- Name stays "The Chug Jug", with "An unofficial Fortnite fan magazine" under the masthead.
+  Puns on Chug Jugs and other in-game items throughout (section names, headings, ratings
+  out of five Chug Jugs).
+- Epic's Fan Content Policy (https://legal.epicgames.com/epicgames/fan-art-policy) applies:
+  the disclaimer is in every page footer and the Kindle edition (MAGS config in build.py);
+  never look official, never link to cheats/hacks, non-commercial only.
+- Images: Epic's own assets only. Use fortnite-api.com (v1/map with POI coordinates,
+  v2/shop, v2/cosmetics, v2/news/br) and Epic's lobby news art. Do NOT show official art of
+  collaboration characters owned by other companies (Sonic, Pac-Man, FNAF, Marvel, horror
+  films, celebrities, etc.) — filter by `series`/`set`; mention them in text only. Credit
+  images in photos.json with {"credit": "Image: Epic Games / Fortnite"}.
+- Map markers: world (x, y) -> 2048px map image: px = 975 + 0.00658·x, py = 1016 + 0.00661·y
+  (re-check against the labelled map each season).
+- Age-appropriate: skip horror collabs in picks, never pressure spending, "ask a grown-up".
+- Fortnite.com blocks automated access; use fortnite-api.com plus several news write-ups
+  (cross-check) for patch details.
+- Kindle: issue codes are prefixed "cj" (e.g. cj001); kindle/Code.gs handles both magazines.
