@@ -1,0 +1,119 @@
+/* Graphics for books, rendered to PNG by build/book-render.mjs.
+   Everything ends up on a black-and-white Kindle, so it's drawn in strong greys, not colours. */
+@font-face { font-family: "Anton"; src: url("/src/assets/fonts/anton-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-weight: 600; src: url("/src/assets/fonts/barlow-condensed-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-weight: 700; src: url("/src/assets/fonts/barlow-condensed-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-weight: 800; src: url("/src/assets/fonts/barlow-condensed-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Literata"; font-weight: 400; src: url("/src/assets/fonts/literata-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Literata"; font-weight: 700; src: url("/src/assets/fonts/literata-latin-700-normal.woff2") format("woff2"); }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #fff; color: #111; }
+body { font-family: "Barlow Condensed", sans-serif; }
+.sheet { width: 640px; padding: 20px; }
+.sheet > :not(.g):not(.item) { display: none; }
+.item > :not(.g) { display: none; }
+.g { width: 600px; margin: 0 0 24px; background: #fff; }
+.label { font-family: "Barlow Condensed", sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+.anton { font-family: "Anton", sans-serif; font-weight: 400; }
+
+/* ---------- item card ---------- */
+.g-card { width: 300px; padding: 0; }
+.card { position: relative; width: 300px; height: 300px; border: 7px solid #111; border-radius: 22px; overflow: hidden;
+  background: radial-gradient(circle at 50% 45%, #ffffff 0%, #ececec 55%, #c9c9c9 100%); }
+.card::before { content: ""; position: absolute; inset: 0; opacity: .5;
+  background: repeating-linear-gradient(135deg, transparent 0 14px, rgba(0,0,0,.05) 14px 16px); }
+.card.t-S { background: radial-gradient(circle at 50% 45%, #ffffff 0%, #e3e3e3 45%, #9d9d9d 100%); border-width: 9px; }
+.card.t-S::after { content: ""; position: absolute; inset: -40%; opacity: .55;
+  background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,255,255,.9) 0 7deg, transparent 7deg 18deg); }
+.card__art { position: absolute; inset: 26px 26px 58px 26px; display: flex; align-items: center; justify-content: center; z-index: 2; }
+.card__art img { max-width: 100%; max-height: 100%; filter: drop-shadow(0 6px 6px rgba(0,0,0,.35)); }
+.card__noart { font-family: "Anton", sans-serif; font-size: 34px; line-height: 1.1; text-align: center; color: #555;
+  border: 5px dashed #777; border-radius: 14px; padding: 20px 24px; }
+.card__tier { position: absolute; z-index: 3; left: 0; top: 0; width: 78px; height: 84px; background: #111; color: #fff;
+  border-bottom-right-radius: 18px; text-align: center; font-family: "Anton", sans-serif; font-size: 52px; line-height: 1; padding-top: 6px; }
+.card__tier small { display: block; font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 13px; letter-spacing: .2em; margin-bottom: 1px; }
+.card__jugs { position: absolute; z-index: 3; left: 0; right: 0; bottom: 0; height: 52px; background: #111;
+  display: flex; align-items: center; justify-content: center; gap: 9px; }
+.jug { width: 26px; height: 34px; fill: #fff; stroke: #fff; stroke-width: 2.5; }
+.jug .band { fill: #111; stroke: none; }
+.jug .h { stroke-width: 4; }
+.jug.empty { fill: none; stroke: #777; }
+.jug.empty .band { fill: none; }
+
+/* ---------- tier board ---------- */
+.board { border: 6px solid #111; border-radius: 16px; overflow: hidden; }
+.board__title { background: #111; color: #fff; font-family: "Anton", sans-serif; font-size: 30px; letter-spacing: .02em;
+  padding: 10px 18px 12px; text-transform: uppercase; }
+.trow { display: flex; border-top: 3px solid #111; min-height: 112px; }
+.trow__l { flex: 0 0 86px; display: flex; align-items: center; justify-content: center; font-family: "Anton", sans-serif; font-size: 56px; }
+.t-S .trow__l { background: #111; color: #fff; }
+.t-A .trow__l { background: #3d3d3d; color: #fff; }
+.t-B .trow__l { background: #7a7a7a; color: #fff; }
+.t-C .trow__l { background: #b9b9b9; color: #111; }
+.t-D .trow__l { background: #e6e6e6; color: #111; }
+.trow__chips { flex: 1; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; align-content: center;
+  background: repeating-linear-gradient(135deg, #fff 0 12px, #f2f2f2 12px 14px); }
+.chip { width: 96px; text-align: center; }
+.chip img, .chip__no { width: 76px; height: 76px; object-fit: contain; display: block; margin: 0 auto 3px;
+  background: radial-gradient(circle, #fff 0%, #ddd 100%); border: 3px solid #111; border-radius: 12px; padding: 5px; }
+.chip__no { font-family: "Anton", sans-serif; font-size: 40px; line-height: 62px; color: #777; }
+.chip span { display: block; font-weight: 800; font-size: 15px; line-height: 1.05; text-transform: uppercase; }
+
+/* ---------- chapter opener ---------- */
+.g-opener { width: 600px; }
+.opener { position: relative; height: 300px; border-radius: 18px; overflow: hidden; background: #111; color: #fff; }
+.opener__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.1) brightness(.75); }
+.opener__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,.85) 0%, rgba(0,0,0,.35) 55%, rgba(0,0,0,0) 100%); }
+.opener__num { position: absolute; left: 26px; top: 18px; font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+  letter-spacing: .25em; font-size: 20px; text-transform: uppercase; }
+.opener__big { position: absolute; left: 22px; bottom: 14px; font-family: "Anton", sans-serif; font-size: 150px; line-height: .9;
+  color: #fff; -webkit-text-stroke: 3px #111; text-shadow: 6px 6px 0 #000; }
+.opener__word { position: absolute; left: 26px; top: 50px; font-family: "Anton", sans-serif; font-size: 46px; line-height: 1;
+  text-transform: uppercase; max-width: 300px; text-shadow: 3px 3px 0 #000; }
+.opener__icons { position: absolute; right: 10px; top: 10px; bottom: 10px; width: 300px; }
+.opener__icons img { position: absolute; filter: drop-shadow(0 8px 8px rgba(0,0,0,.6)); }
+
+/* ---------- bar chart ---------- */
+.chart { border: 5px solid #111; border-radius: 16px; padding: 14px 18px 12px; }
+.chart__title { font-family: "Anton", sans-serif; font-size: 28px; text-transform: uppercase; line-height: 1.05; }
+.chart__sub { font-weight: 700; font-size: 16px; color: #444; margin: 2px 0 10px; }
+.bar { display: flex; align-items: center; gap: 10px; margin: 7px 0; }
+.bar__name { flex: 0 0 170px; font-weight: 800; font-size: 17px; text-transform: uppercase; line-height: 1; text-align: right; }
+.bar__track { flex: 1; height: 30px; background: repeating-linear-gradient(135deg, #fff 0 8px, #eee 8px 10px); border: 2px solid #111; border-radius: 6px; overflow: hidden; }
+.bar__fill { height: 100%; background: #111; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;
+  color: #fff; font-weight: 800; font-size: 17px; }
+.bar__fill.lo { justify-content: flex-start; }
+.bar__val { font-weight: 800; font-size: 17px; flex: 0 0 auto; }
+.chart__foot { font-size: 14px; font-weight: 600; color: #444; margin-top: 8px; }
+
+/* ---------- map ---------- */
+.mapfig { position: relative; width: 600px; height: 600px; border: 5px solid #111; border-radius: 14px; overflow: hidden; }
+.mapfig > img { width: 100%; height: 100%; display: block; filter: grayscale(1) contrast(1.3) brightness(1.05); }
+.pin { position: absolute; transform: translate(-50%, -50%); width: 34px; height: 34px; border-radius: 50%; background: #fff; border: 4px solid #111;
+  font-family: "Anton", sans-serif; font-size: 18px; line-height: 26px; text-align: center; color: #111; box-shadow: 0 2px 0 3px rgba(255,255,255,.6); }
+.pin.t-S { background: #111; color: #fff; border-color: #fff; box-shadow: 0 0 0 3px #111; }
+.pin.t-A { background: #444; color: #fff; }
+.mapkey { position: absolute; left: 10px; bottom: 10px; background: #fff; border: 3px solid #111; border-radius: 10px; padding: 6px 10px; font-weight: 800; font-size: 14px; }
+.mapkey .pin { position: static; display: inline-block; transform: none; width: 24px; height: 24px; font-size: 12px; line-height: 17px; border-width: 3px; vertical-align: middle; margin-right: 4px; }
+
+/* ---------- versus / loadout / misc panels ---------- */
+.panel { border: 5px solid #111; border-radius: 16px; padding: 14px 16px; }
+.panel__title { font-family: "Anton", sans-serif; font-size: 30px; text-transform: uppercase; line-height: 1; margin-bottom: 10px; }
+.slots { display: flex; gap: 8px; }
+.slot { flex: 1; border: 4px solid #111; border-radius: 12px; text-align: center; padding: 8px 4px 6px;
+  background: radial-gradient(circle, #fff 0%, #ddd 100%); }
+.slot img { width: 84px; height: 84px; object-fit: contain; display: block; margin: 0 auto 4px; }
+.slot b { display: block; font-weight: 800; font-size: 15px; text-transform: uppercase; line-height: 1.05; }
+.slot small { display: block; font-weight: 700; font-size: 13px; color: #444; margin-top: 2px; }
+.slot__n { font-family: "Anton", sans-serif; font-size: 18px; color: #fff; background: #111; border-radius: 6px; display: inline-block; padding: 0 8px; margin-bottom: 4px; }
+.vs { display: flex; align-items: stretch; gap: 0; }
+.vs__side { flex: 1; text-align: center; padding: 10px; }
+.vs__mid { flex: 0 0 70px; display: flex; align-items: center; justify-content: center; font-family: "Anton", sans-serif; font-size: 40px; }
+.vs__side img { width: 180px; height: 150px; object-fit: contain; }
+.vs__side b { display: block; font-family: "Anton", sans-serif; font-size: 26px; text-transform: uppercase; }
+.vs__side ul { text-align: left; margin: 6px 0 0; padding-left: 18px; font-weight: 700; font-size: 16px; line-height: 1.25; }
+.stamp { display: inline-block; border: 4px solid #111; border-radius: 8px; padding: 2px 10px; font-family: "Anton", sans-serif; font-size: 22px; transform: rotate(-4deg); }
+.maplabel { position: absolute; background: #fff; border: 3px solid #111; border-radius: 7px; padding: 1px 7px 2px; font-weight: 800;
+  font-size: 15px; text-transform: uppercase; white-space: nowrap; line-height: 1.2; }
+.mapfig.wide { height: auto; }

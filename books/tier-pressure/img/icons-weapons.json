@@ -1,0 +1,163 @@
+{
+ "assault-rifle": {
+  "name": "Assault Rifle",
+  "file": "w-assault-rifle.png",
+  "source": "https://fortnite.weirdgloop.org/images/Assault_Rifle_%28v11.00_-_High_Tier%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Assault_Rifle_(v11.00_-_High_Tier)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "enhanced-assault-rifle": {
+  "name": "Enhanced Assault Rifle (Mythic; shares the Assault Rifle icon)",
+  "file": "w-enhanced-assault-rifle.png",
+  "source": "https://fortnite.weirdgloop.org/images/Assault_Rifle_%28v11.00_-_High_Tier%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Assault_Rifle_(v11.00_-_High_Tier)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "heavy-assault-rifle": {
+  "name": "Heavy Assault Rifle",
+  "file": "w-heavy-assault-rifle.png",
+  "source": "https://fortnite.weirdgloop.org/images/Heavy_Assault_Rifle_%28High_Tier%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Heavy_Assault_Rifle_(High_Tier)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "balloon-popper-assault-rifle": {
+  "name": "Balloon Popper Assault Rifle",
+  "file": "w-balloon-popper-assault-rifle.png",
+  "source": "https://fortnite.weirdgloop.org/images/Balloon_Popper_Assault_Rifle_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Balloon_Popper_Assault_Rifle_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "infantry-rifle": {
+  "name": "Infantry Rifle",
+  "file": "w-infantry-rifle.png",
+  "source": "https://fortnite.weirdgloop.org/images/Infantry_Rifle_%28v8.20_-_High_Tier%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Infantry_Rifle_(v8.20_-_High_Tier)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "light-machine-gun": {
+  "name": "Light Machine Gun",
+  "file": "w-light-machine-gun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Light_Machine_Gun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Light_Machine_Gun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "pump-shotgun": {
+  "name": "Pump Shotgun",
+  "file": "w-pump-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pump_Shotgun_%28v11.00%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Pump_Shotgun_(v11.00)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "8-bit-shotgun": {
+  "name": "8-Bit Shotgun",
+  "file": "w-8-bit-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/8-Bit_Shotgun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:8-Bit_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "overpowered-pump-shotgun": {
+  "name": "Overpowered Pump Shotgun",
+  "file": "w-overpowered-pump-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Overpowered_Pump_Shotgun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Overpowered_Pump_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "overclocked-8-bit-shotgun": {
+  "name": "Overclocked 8-Bit Shotgun",
+  "file": "w-overclocked-8-bit-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Overclocked_8-Bit_Shotgun_%28v42.20%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Overclocked_8-Bit_Shotgun_(v42.20)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "sweeper-shotgun": {
+  "name": "Sweeper Shotgun",
+  "file": "w-sweeper-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Sweeper_Shotgun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Sweeper_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "wood-stake-shotgun": {
+  "name": "Wood Stake Shotgun",
+  "file": "w-wood-stake-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Wood_Stake_Shotgun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Wood_Stake_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "high-stakes-shotgun": {
+  "name": "High Stakes' Shotgun (Mythic; shares the Wood Stake Shotgun icon)",
+  "file": "w-high-stakes-shotgun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Wood_Stake_Shotgun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Wood_Stake_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "bonerattler-smg": {
+  "name": "Bonerattler SMG",
+  "file": "w-bonerattler-smg.png",
+  "source": "https://fortnite.weirdgloop.org/images/Bonerattler_SMG_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Bonerattler_SMG_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "marker-bonerattler-smg": {
+  "name": "Marker Bonerattler SMG",
+  "file": "w-marker-bonerattler-smg.png",
+  "source": "https://fortnite.weirdgloop.org/images/Marker_Bonerattler_SMG_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Marker_Bonerattler_SMG_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "accelerant-drum-gun": {
+  "name": "Accelerant Drum Gun",
+  "file": "w-accelerant-drum-gun.png",
+  "source": "https://fortnite.weirdgloop.org/images/Accelerant_Drum_Gun_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Accelerant_Drum_Gun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "tactical-pistol": {
+  "name": "Tactical Pistol",
+  "file": "w-tactical-pistol.png",
+  "source": "https://fortnite.weirdgloop.org/images/Tactical_Pistol_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Tactical_Pistol_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "dual-fiend-hunters": {
+  "name": "Dual Fiend Hunters",
+  "file": "w-dual-fiend-hunters.png",
+  "source": "https://fortnite.weirdgloop.org/images/Dual_Fiend_Hunters_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Dual_Fiend_Hunters_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "midas-masterpiece": {
+  "name": "Midas' Masterpiece",
+  "file": "w-midas-masterpiece.png",
+  "source": "https://fortnite.weirdgloop.org/images/Midas%27_Masterpiece_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Midas'_Masterpiece_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "where-we-droppin-pistol": {
+  "name": "Where We Droppin Pistol (Zero Build only)",
+  "file": "w-where-we-droppin-pistol.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pistol_%28v11.00%29_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Pistol_(v11.00)_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "pumpkin-launcher": {
+  "name": "Pumpkin Launcher",
+  "file": "w-pumpkin-launcher.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pumpkin_Launcher_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Pumpkin_Launcher_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "easy-ride-pumpkin-launcher": {
+  "name": "Easy Ride Pumpkin Launcher",
+  "file": "w-easy-ride-pumpkin-launcher.png",
+  "source": "https://fortnite.weirdgloop.org/images/Easy_Ride_Pumpkin_Launcher_-_Weapon_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Easy_Ride_Pumpkin_Launcher_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "witch-broom": {
+  "name": "Witch Broom (mobility item, not a weapon)",
+  "file": "w-witch-broom.png",
+  "source": "https://fortnite.weirdgloop.org/images/Witch_Broom_%28v26.30%29_-_Item_-_Fortnite.png",
+  "file_page": "https://fortnite.weirdgloop.org/w/File:Witch_Broom_(v26.30)_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ }
+}

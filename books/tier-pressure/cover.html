@@ -1,0 +1,97 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #1d1257; font-family: "Barlow Condensed", sans-serif; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 61% 30%; filter: saturate(1.15); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(14,8,50,.92) 0%, rgba(14,8,50,.55) 24%, rgba(14,8,50,0) 42%, rgba(14,8,50,0) 62%, rgba(14,8,50,.85) 84%, #0e0832 100%); }
+#cover .rays { position: absolute; left: 50%; top: 66%; width: 1500px; height: 1500px; transform: translate(-50%, -50%); opacity: .28;
+  background: repeating-conic-gradient(from 0deg, rgba(255,210,63,.9) 0 6deg, transparent 6deg 15deg);
+  -webkit-mask: radial-gradient(circle, #000 0%, #000 18%, transparent 52%); mask: radial-gradient(circle, #000 0%, #000 18%, transparent 52%); }
+
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 74px; text-align: center; transform: rotate(-4deg) skewX(-6deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .86; color: #ffd23f; text-transform: uppercase;
+  -webkit-text-stroke: 7px #0e0832; paint-order: stroke fill; letter-spacing: .01em;
+  text-shadow: 3px 3px 0 #0e0832, 6px 6px 0 #0e0832, 9px 9px 0 #0e0832, 12px 12px 0 #0e0832, 15px 15px 0 #9b3cf0, 18px 18px 0 #9b3cf0, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t1 { font-size: 214px; }
+#cover .t2 { font-size: 152px; color: #fff !important; margin-top: 4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 420px; transform: translateX(-50%) rotate(-4deg); white-space: nowrap;
+  background: #fff; color: #0e0832; font-weight: 800; font-size: 31px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 30px 9px; border: 5px solid #0e0832; box-shadow: 8px 8px 0 #0e0832; }
+#cover .ribbon b { color: #9b3cf0; }
+
+#cover .hero { position: absolute; bottom: 160px; filter: drop-shadow(0 14px 18px rgba(0,0,0,.6)); }
+#cover .h-geno { height: 700px; left: 430px; bottom: 330px; opacity: .55; filter: brightness(.55) saturate(.8) drop-shadow(0 0 30px rgba(155,60,240,.9)); }
+#cover .h-punk { height: 590px; left: -6px; bottom: 150px; }
+#cover .h-mali { height: 580px; right: -4px; bottom: 150px; }
+#cover .h-hack { height: 668px; left: 50%; transform: translateX(-50%); bottom: 124px; }
+
+#cover .badge { position: absolute; left: 34px; top: 92px; width: 150px; transform: rotate(-12deg); filter: drop-shadow(6px 6px 0 #0e0832); }
+#cover .floaty { position: absolute; filter: drop-shadow(0 10px 10px rgba(0,0,0,.6)); }
+
+#cover .jugs { position: absolute; right: 22px; top: 96px; transform: rotate(10deg); width: 186px; height: 186px; border-radius: 50%;
+  background: #ffd23f; border: 6px solid #0e0832; box-shadow: 7px 7px 0 #0e0832; text-align: center; color: #0e0832; padding-top: 22px; }
+#cover .jugs .k { font-weight: 800; font-size: 20px; letter-spacing: .12em; text-transform: uppercase; }
+#cover .jugs .row { display: flex; justify-content: center; gap: 4px; margin: 6px 0 2px; }
+#cover .jugs .row svg { width: 26px; height: 34px; }
+#cover .jugs .big { font-family: "Anton", sans-serif; font-size: 38px; line-height: 1; text-transform: uppercase; }
+#cover .jugs .s { font-weight: 800; font-size: 16px; letter-spacing: .06em; text-transform: uppercase; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 168px; padding: 0 34px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+#cover .chips span { background: rgba(255,255,255,.12); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px;
+  font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #cfc7ff; margin-top: 14px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #8f86c9; margin-top: 8px; }
+</style>
+<div id="cover">
+  <img class="bg" src="art/lobby-override.jpg" alt=""/>
+  <div class="rays"></div>
+  <div class="shade"></div>
+
+  <img class="hero h-geno" src="art/hero-geno.png" alt=""/>
+  <img class="hero h-punk" src="art/hero-gold-punk.png" alt=""/>
+  <img class="hero h-mali" src="art/hero-mali.png" alt=""/>
+  <img class="hero h-hack" src="art/hero-nitemare-hack.png" alt=""/>
+
+  <!--FLOATIES-->
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">Tier</div><div class="t2">Pressure</div></div>
+
+  <div class="ribbon">Every weapon, item &amp; drop spot <b>ranked!</b></div>
+
+  <svg class="badge" viewBox="0 0 200 230">
+    <path d="M100 6 L188 40 L180 140 C172 186 136 212 100 224 C64 212 28 186 20 140 L12 40 Z" fill="#0e0832"/>
+    <path d="M100 20 L174 49 L167 137 C160 176 130 198 100 208 C70 198 40 176 33 137 L26 49 Z" fill="#ffd23f"/>
+    <path d="M100 34 L160 58 L154 134 C148 166 124 184 100 192 C76 184 52 166 46 134 L40 58 Z" fill="#9b3cf0"/>
+    <text x="100" y="170" text-anchor="middle" font-family="Anton" font-size="104" fill="#fff" stroke="#0e0832" stroke-width="6" paint-order="stroke">S</text>
+    <text x="100" y="74" text-anchor="middle" font-family="Barlow Condensed" font-weight="800" font-size="19" letter-spacing="3" fill="#fff">TIER</text>
+  </svg>
+
+  <div class="jugs">
+    <div class="k">Rated in</div>
+    <div class="row">
+      <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#1b8cff" stroke="#0e0832" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#0e0832"/></svg>
+      <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#1b8cff" stroke="#0e0832" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#0e0832"/></svg>
+      <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#1b8cff" stroke="#0e0832" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#0e0832"/></svg>
+      <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#1b8cff" stroke="#0e0832" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#0e0832"/></svg>
+      <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="none" stroke="#0e0832" stroke-width="3"/></svg>
+    </div>
+    <div class="big">Chug Jugs</div>
+    <div class="s">out of five</div>
+  </div>
+
+  <div class="foot">
+    <div class="chips"><span>Weapons</span><span>Items</span><span>Sprites</span><span>Drop spots</span></div>
+    <div class="ver">Chapter 7 · Season 4 · Fortnitemares · October 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>

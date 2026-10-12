@@ -1,0 +1,31 @@
+{
+  "title": "Tier Pressure",
+  "subtitle": "Every weapon, item and drop spot in Fortnite, ranked",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-12",
+  "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.30. Rankings as of 12 October 2026.",
+  "description": "An unofficial Fortnite fan book ranking every weapon, item, Sprite, Override and drop spot in Battle Royale right now.",
+  "glossary_blurb": "Every Word Watch word in the book, A to Z.",
+  "chapters": [
+    {
+      "file": "00-before-you-drop.html",
+      "title": "Before You Drop",
+      "kicker": "How this book works",
+      "label": "Start here",
+      "dek": "What the tiers mean, how we decided, and the small print."
+    },
+    {
+      "file": "13-drop-zones.html",
+      "title": "Drop It Like It's Hot",
+      "kicker": "Landing spots",
+      "number": 13,
+      "dek": "Every named location on the Island, ranked, plus the hidden gems most players fly straight past."
+    },
+    {
+      "file": "@glossary",
+      "title": "Jug of Words",
+      "kicker": "Word bank",
+      "label": "Back of the book"
+    }
+  ]
+}
