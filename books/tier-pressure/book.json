@@ -5,26 +5,140 @@
   "date": "2026-10-12",
   "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.30. Rankings as of 12 October 2026.",
   "description": "An unofficial Fortnite fan book ranking every weapon, item, Sprite, Override and drop spot in Battle Royale right now.",
-  "glossary_blurb": "Every Word Watch word in the book, A to Z.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Try dropping three of them into conversation this week. Bonus points for using one in the lobby.",
   "chapters": [
     {
       "file": "00-before-you-drop.html",
       "title": "Before You Drop",
       "kicker": "How this book works",
+      "toc": "How to use this book",
       "label": "Start here",
       "dek": "What the tiers mean, how we decided, and the small print."
     },
     {
-      "file": "13-drop-zones.html",
+      "file": "01-island-right-now.html",
+      "title": "The Island Right Now",
+      "kicker": "The season",
+      "toc": "The season so far",
+      "number": 1,
+      "dek": "Override, Geno, Fortnitemares and everything else you need to know before the rankings begin."
+    },
+    {
+      "file": "02-spray-day.html",
+      "title": "Spray Day",
+      "kicker": "Assault rifles",
+      "toc": "Assault rifles",
+      "number": 2,
+      "dek": "How to read weapon stats like a pro, and every assault rifle on the Island, ranked."
+    },
+    {
+      "file": "03-pump-it-up.html",
+      "title": "Pump It Up",
+      "kicker": "Shotguns",
+      "toc": "Shotguns",
+      "number": 3,
+      "dek": "The weapons that win close fights, from the mighty Pump to a shotgun that fires a single wooden stake."
+    },
+    {
+      "file": "04-small-but-mighty.html",
+      "title": "Small but Mighty",
+      "kicker": "SMGs and pistols",
+      "toc": "SMGs and pistols",
+      "number": 4,
+      "dek": "Fast-firing sprayers, including a spooky new SMG that sees through walls."
+    },
+    {
+      "file": "05-kaboom-corner.html",
+      "title": "Kaboom Corner",
+      "kicker": "Explosives and specials",
+      "toc": "Explosives and specials",
+      "number": 5,
+      "dek": "Pumpkin rockets, magic keys and arm cannons: the weapons that don't fit anywhere else."
+    },
+    {
+      "file": "06-mythic-proportions.html",
+      "title": "Mythic Proportions",
+      "kicker": "Exotics, Mythics and bosses",
+      "toc": "Exotics, Mythics and bosses",
+      "number": 6,
+      "dek": "The rarest weapons in the game, where to find them, and who's guarding them."
+    },
+    {
+      "file": "07-chug-life.html",
+      "title": "Chug Life",
+      "kicker": "Heals and shields",
+      "toc": "Heals and shields",
+      "number": 7,
+      "dek": "Every way to top up your health and shield, from the mighty Chug Jug to the humble bandage."
+    },
+    {
+      "file": "08-get-a-move-on.html",
+      "title": "Get a Move On",
+      "kicker": "Utility, gizmos and vehicles",
+      "toc": "Utility, gizmos and vehicles",
+      "number": 8,
+      "dek": "Brooms, boats, bunkers and extra lives: the items that get you out of trouble."
+    },
+    {
+      "file": "09-sprite-fight.html",
+      "title": "Sprite Fight",
+      "kicker": "Sprites",
+      "toc": "Sprites",
+      "number": 9,
+      "dek": "Every Sprite on the Island, ranked by how much its power really helps you."
+    },
+    {
+      "file": "10-rule-breakers.html",
+      "title": "Rule Breakers",
+      "kicker": "Overrides",
+      "toc": "Overrides",
+      "number": 10,
+      "dek": "How Override Consoles work, and which rule changes are worth grabbing."
+    },
+    {
+      "file": "11-drop-zones.html",
       "title": "Drop It Like It's Hot",
       "kicker": "Landing spots",
-      "number": 13,
+      "toc": "Landing spots",
+      "number": 11,
       "dek": "Every named location on the Island, ranked, plus the hidden gems most players fly straight past."
+    },
+    {
+      "file": "12-loadout-lab.html",
+      "title": "Loadout Lab",
+      "kicker": "Putting it all together",
+      "toc": "Best loadouts",
+      "number": 12,
+      "dek": "Five slots, endless choices. Four winning loadouts, and how to choose your own."
+    },
+    {
+      "file": "13-great-debates.html",
+      "title": "The Great Debates",
+      "kicker": "Where the experts disagree",
+      "toc": "The biggest arguments",
+      "number": 13,
+      "dek": "Pump or 8-Bit? Is the Bonerattler overrated? The biggest arguments of the season, settled (sort of)."
+    },
+    {
+      "file": "14-quiz.html",
+      "title": "The Tier Pressure Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Fifteen questions. One Chug Jug for each right answer."
     },
     {
       "file": "@glossary",
       "title": "Jug of Words",
       "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "16-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
       "label": "Back of the book"
     }
   ]

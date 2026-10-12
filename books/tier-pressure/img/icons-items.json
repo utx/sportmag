@@ -1,0 +1,520 @@
+{
+ "i-bandage": {
+  "name": "Bandage",
+  "file": "i-bandage.png",
+  "source": "https://fortnite.weirdgloop.org/images/Bandage_%28v11.00%29_-_Item_-_Fortnite.png?85c08",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABandage_%28v11.00%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-med-kit": {
+  "name": "Med Kit",
+  "file": "i-med-kit.png",
+  "source": "https://fortnite.weirdgloop.org/images/Med_Kit_-_Item_-_Fortnite.png?8762b",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AMedkit_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-small-shield-potion": {
+  "name": "Small Shield Potion",
+  "file": "i-small-shield-potion.png",
+  "source": "https://fortnite.weirdgloop.org/images/Small_Shield_Potion_%28v11.00%29_-_Item_-_Fortnite.png?fdebd",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASmall_Shield_Potion_%28v11.00%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-shield-potion": {
+  "name": "Shield Potion",
+  "file": "i-shield-potion.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shield_Potion_%28v11.00%29_-_Item_-_Fortnite.png?06200",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AShield_Potion_%28v11.00%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-chug-jug": {
+  "name": "Chug Jug",
+  "file": "i-chug-jug.png",
+  "source": "https://fortnite.weirdgloop.org/images/Chug_Jug_-_Item_-_Fortnite.png?1ed8a",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AChug_Jug_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-quack-snacks": {
+  "name": "Quack Snacks",
+  "file": "i-quack-snacks.png",
+  "source": "https://fortnite.weirdgloop.org/images/Quack_Snacks_-_Item_-_Fortnite.png?fd4bb",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AQuack_Snacks_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-apple": {
+  "name": "Apple",
+  "file": "i-apple.png",
+  "source": "https://fortnite.weirdgloop.org/images/Apple_%28v15.20%29_-_Item_-_Fortnite.png?d90de",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AApple_%28v15.20%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pepper": {
+  "name": "Pepper",
+  "file": "i-pepper.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pepper_-_Item_-_Fortnite.png?63323",
+  "page": "https://fortnite.weirdgloop.org/w/File%3APepper_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-golden-apple": {
+  "name": "Golden Apple",
+  "file": "i-golden-apple.png",
+  "source": "https://fortnite.weirdgloop.org/images/Golden_Apple_-_Item_-_Fortnite.png?c724c",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AGolden_Apple_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-cabbage": {
+  "name": "Cabbage",
+  "file": "i-cabbage.png",
+  "source": "https://fortnite.weirdgloop.org/images/Cabbage_%28v15.20%29_-_Item_-_Fortnite.png?fb6c6",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACabbage_%28v15.20%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-candy-corn": {
+  "name": "Candy Corn (also the icon used for Slap Candy Corn)",
+  "file": "i-candy-corn.png",
+  "source": "https://fortnite.weirdgloop.org/images/Candy_Corn_-_Item_-_Fortnite.png?8cfab",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACandy_Corn_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-hop-drop": {
+  "name": "Hop Drop",
+  "file": "i-hop-drop.png",
+  "source": "https://fortnite.weirdgloop.org/images/Hop_Drop_-_Item_-_Fortnite.png?8cfab",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AHop_Drop_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-jelly-bean": {
+  "name": "Jelly Bean",
+  "file": "i-jelly-bean.png",
+  "source": "https://fortnite.weirdgloop.org/images/Jelly_Bean_-_Item_-_Fortnite.png?8cfab",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AJelly_Bean_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-birthday-cake": {
+  "name": "Birthday Cake!",
+  "file": "i-birthday-cake.png",
+  "source": "https://fortnite.weirdgloop.org/images/Birthday_Cake%21_%28v42.20%29_-_Item_-_Fortnite.png?bebbc",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABirthday_Cake%21_%28v42.20%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-coconut": {
+  "name": "Coconut",
+  "file": "i-coconut.png",
+  "source": "https://fortnite.weirdgloop.org/images/Coconut_-_Item_-_Fortnite.png?c3c32",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACoconut_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-spicy-taco": {
+  "name": "Spicy Taco (Gizmo)",
+  "file": "i-spicy-taco.png",
+  "source": "https://fortnite.weirdgloop.org/images/Spicy_Taco_%28Gizmo%29_-_Item_-_Fortnite.png?298f9",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASpicy_Taco_%28Gizmo%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-small-fry": {
+  "name": "Small Fry",
+  "file": "i-small-fry.png",
+  "source": "https://fortnite.weirdgloop.org/images/Small_Fry_%28v14.00%29_-_Item_-_Fortnite.png?b8e42",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASmall_Fry_%28v14.00%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-flopper": {
+  "name": "Flopper",
+  "file": "i-flopper.png",
+  "source": "https://fortnite.weirdgloop.org/images/Flopper_%28v14.00%29_-_Item_-_Fortnite.png?a0a16",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AFlopper_%28v14.00%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-shield-fish": {
+  "name": "Shield Fish",
+  "file": "i-shield-fish.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shield_Fish_-_Item_-_Fortnite.png?ae249",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AShield_Fish_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-slurpfish": {
+  "name": "Slurpfish",
+  "file": "i-slurpfish.png",
+  "source": "https://fortnite.weirdgloop.org/images/Slurpfish_%28v14.00%29_-_Item_-_Fortnite.png?bae96",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASlurpfish_%28v14.00%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-jellyfish": {
+  "name": "Jellyfish",
+  "file": "i-jellyfish.png",
+  "source": "https://fortnite.weirdgloop.org/images/Jellyfish_-_Item_-_Fortnite.png?bc5bf",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AJellyfish_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-overdrive-grenade": {
+  "name": "Overdrive Grenade",
+  "file": "i-overdrive-grenade.png",
+  "source": "https://fortnite.weirdgloop.org/images/Overdrive_Grenade_-_Item_-_Fortnite.png?65d7a",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AOverdrive_Grenade_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-witch-broom": {
+  "name": "Witch Broom",
+  "file": "i-witch-broom.png",
+  "source": "https://fortnite.weirdgloop.org/images/Witch_Broom_%28v26.30%29_-_Item_-_Fortnite.png?bc558",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AWitch_Broom_%28v26.30%29_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-fishing-rod": {
+  "name": "Fishing Rod",
+  "file": "i-fishing-rod.png",
+  "source": "https://fortnite.weirdgloop.org/images/Fishing_Rod_-_Item_-_Fortnite.png?d92f3",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AFishing_Rod_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pro-fishing-rod": {
+  "name": "Pro Fishing Rod",
+  "file": "i-pro-fishing-rod.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pro_Fishing_Rod_-_Item_-_Fortnite.png?7f8e1",
+  "page": "https://fortnite.weirdgloop.org/w/File%3APro_Fishing_Rod_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-snack-o-lantern": {
+  "name": "Snack-O'-Lantern",
+  "file": "i-snack-o-lantern.png",
+  "source": "https://fortnite.weirdgloop.org/images/Snack-O%27-Lantern_-_Item_-_Fortnite.png?8862c",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASnack-O%27-Lantern_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-skeleton-key": {
+  "name": "Skeleton Key",
+  "file": "i-skeleton-key.png",
+  "source": "https://fortnite.weirdgloop.org/images/Skeleton_Key_-_Item_-_Fortnite.png?b59c1",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASkeleton_Key_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-temple-vault-key": {
+  "name": "Temple Vault Key",
+  "file": "i-temple-vault-key.png",
+  "source": "https://fortnite.weirdgloop.org/images/Temple_Vault_Key_-_Item_-_Fortnite.png?1149e",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ATemple_Vault_Key_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-1-up-token": {
+  "name": "1-Up Token",
+  "file": "i-1-up-token.png",
+  "source": "https://fortnite.weirdgloop.org/images/1-Up_Token_-_Item_-_Fortnite.png?0ba3e",
+  "page": "https://fortnite.weirdgloop.org/w/File%3A1-Up_Token_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-portable-extractor": {
+  "name": "Portable Extractor",
+  "file": "i-portable-extractor.png",
+  "source": "https://fortnite.weirdgloop.org/images/Portable_Extractor_-_Item_-_Fortnite.png?c118b",
+  "page": "https://fortnite.weirdgloop.org/w/File%3APortable_Extractor_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-cheat-code-locator": {
+  "name": "Cheat Code Locator",
+  "file": "i-cheat-code-locator.png",
+  "source": "https://fortnite.weirdgloop.org/images/Cheat_Code_Locator_-_Item_-_Fortnite.png?e62e2",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACheat_Code_Locator_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-llama-supply-drop": {
+  "name": "Llama Supply Drop",
+  "file": "i-llama-supply-drop.png",
+  "source": "https://fortnite.weirdgloop.org/images/Llama_Supply_Drop_-_Item_-_Fortnite.png?d8216",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ALlama_Supply_Drop_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-extraction-accelerator": {
+  "name": "Extraction Accelerator",
+  "file": "i-extraction-accelerator.png",
+  "source": "https://fortnite.weirdgloop.org/images/Extraction_Accelerator_-_Item_-_Fortnite.png?27e95",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AExtraction_Accelerator_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-lucky-locator": {
+  "name": "Lucky Locator",
+  "file": "i-lucky-locator.png",
+  "source": "https://fortnite.weirdgloop.org/images/Lucky_Locator_-_Item_-_Fortnite.png?7d6b2",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ALucky_Locator_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-shield-bubble-jr": {
+  "name": "Shield Bubble Jr. (Zero Build)",
+  "file": "i-shield-bubble-jr.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shield_Bubble_Jr._-_Item_-_Fortnite.png?7643f",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AShield_Bubble_Jr._-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-port-a-bunker": {
+  "name": "Port-A-Bunker / Brick-A-Bunker (Zero Build)",
+  "file": "i-port-a-bunker.png",
+  "source": "https://fortnite.weirdgloop.org/images/Port-A-Bunker_-_Item_-_Fortnite.png?a0259",
+  "page": "https://fortnite.weirdgloop.org/w/File%3APort-A-Bunker_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-smoke-cloud": {
+  "name": "Smoke Cloud (Zero Build)",
+  "file": "i-smoke-cloud.png",
+  "source": "https://fortnite.weirdgloop.org/images/Smoke_Cloud_-_Item_-_Fortnite.png?36444",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASmoke_Cloud_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-bush": {
+  "name": "Bush (Zero Build)",
+  "file": "i-bush.png",
+  "source": "https://fortnite.weirdgloop.org/images/Bush_-_Item_-_Fortnite.png?d214c",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABush_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-shrub-bomb": {
+  "name": "Shrub Bomb (Zero Build)",
+  "file": "i-shrub-bomb.png",
+  "source": "https://fortnite.weirdgloop.org/images/Big_Bush_Bomb_-_Item_-_Fortnite.png?ddf62",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABig_Bush_Bomb_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pocket-shockwave-grenade": {
+  "name": "Pocket Shockwave Grenade (Zero Build)",
+  "file": "i-pocket-shockwave-grenade.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shockwave_Grenade_-_Item_-_Fortnite.png?01be4",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AShockwave_Grenade_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pocket-crash-pad-jr": {
+  "name": "Pocket Crash Pad Jr. (Zero Build)",
+  "file": "i-pocket-crash-pad-jr.png",
+  "source": "https://fortnite.weirdgloop.org/images/Crash_Pad_Jr._-_Item_-_Fortnite.png?e5bbb",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACrash_Pad_Jr._-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-shield-keg": {
+  "name": "Shield Keg (Zero Build pocket item)",
+  "file": "i-shield-keg.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shield_Keg_-_Item_-_Fortnite.png?5b802",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AShield_Keg_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-adventure": {
+  "name": "Adventure Sprite",
+  "file": "s-adventure.png",
+  "source": "https://fortnite.weirdgloop.org/images/Adventure_Sprite_-_Item_-_Fortnite.png?aa423",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AAdventure_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy": {
+  "name": "Jonesy Sprite",
+  "file": "s-jonesy.png",
+  "source": "https://fortnite.weirdgloop.org/images/Jonesy_Sprite_-_Item_-_Fortnite.png?4a51e",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AJonesy_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-bush": {
+  "name": "Bush Sprite",
+  "file": "s-bush.png",
+  "source": "https://fortnite.weirdgloop.org/images/Bush_Sprite_-_Item_-_Fortnite.png?f5d26",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABush_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-8-bit": {
+  "name": "8-Bit Sprite",
+  "file": "s-8-bit.png",
+  "source": "https://fortnite.weirdgloop.org/images/8-Bit_Sprite_-_Item_-_Fortnite.png?08190",
+  "page": "https://fortnite.weirdgloop.org/w/File%3A8-Bit_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-killswitch": {
+  "name": "Killswitch Sprite",
+  "file": "s-killswitch.png",
+  "source": "https://fortnite.weirdgloop.org/images/Killswitch_Sprite_-_Item_-_Fortnite.png?9a1d0",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AKillswitch_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-klombo": {
+  "name": "Klombo Sprite",
+  "file": "s-klombo.png",
+  "source": "https://fortnite.weirdgloop.org/images/Klombo_Sprite_-_Item_-_Fortnite.png?d7336",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AKlombo_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-crown": {
+  "name": "Crown Sprite",
+  "file": "s-crown.png",
+  "source": "https://fortnite.weirdgloop.org/images/Crown_Sprite_-_Item_-_Fortnite.png?3ec41",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACrown_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-storm-scout": {
+  "name": "Storm Scout Sprite",
+  "file": "s-storm-scout.png",
+  "source": "https://fortnite.weirdgloop.org/images/Storm_Scout_Sprite_-_Item_-_Fortnite.png?a1117",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AStorm_Scout_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-onigiri": {
+  "name": "Onigiri Sprite",
+  "file": "s-onigiri.png",
+  "source": "https://fortnite.weirdgloop.org/images/Onigiri_Sprite_-_Item_-_Fortnite.png?29fe6",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AOnigiri_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-overshield": {
+  "name": "Overshield Sprite",
+  "file": "s-overshield.png",
+  "source": "https://fortnite.weirdgloop.org/images/Overshield_Sprite_-_Item_-_Fortnite.png?2f9ba",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AOvershield_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-x-ray": {
+  "name": "X-Ray Sprite",
+  "file": "s-x-ray.png",
+  "source": "https://fortnite.weirdgloop.org/images/X-Ray_Sprite_-_Item_-_Fortnite.png?30da4",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AX-Ray_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-pond": {
+  "name": "Pond Sprite",
+  "file": "s-pond.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pond_Sprite_-_Item_-_Fortnite.png?6300e",
+  "page": "https://fortnite.weirdgloop.org/w/File%3APond_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-birthday": {
+  "name": "Birthday Sprite",
+  "file": "s-birthday.png",
+  "source": "https://fortnite.weirdgloop.org/images/Birthday_Sprite_-_Item_-_Fortnite.png?b5970",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABirthday_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-dumpster-dive": {
+  "name": "Dumpster Dive Sprite",
+  "file": "s-dumpster-dive.png",
+  "source": "https://fortnite.weirdgloop.org/images/Dumpster_Dive_Sprite_-_Item_-_Fortnite.png?1922f",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ADumpster_Dive_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-vampire": {
+  "name": "Vampire Sprite",
+  "file": "s-vampire.png",
+  "source": "https://fortnite.weirdgloop.org/images/Vampire_Sprite_-_Item_-_Fortnite.png?12b2e",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AVampire_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-spooky-dash": {
+  "name": "Spooky Dash Sprite",
+  "file": "s-spooky-dash.png",
+  "source": "https://fortnite.weirdgloop.org/images/Spooky_Dash_Sprite_-_Item_-_Fortnite.png?510a1",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASpooky_Dash_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy-gold": {
+  "name": "Gold Jonesy Sprite (Gold variant example)",
+  "file": "s-jonesy-gold.png",
+  "source": "https://fortnite.weirdgloop.org/images/Gold_Jonesy_Sprite_-_Item_-_Fortnite.png?d0541",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AGold_Jonesy_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy-cheat-master": {
+  "name": "Cheat Master Jonesy Sprite (Cheat Master variant example)",
+  "file": "s-jonesy-cheat-master.png",
+  "source": "https://fortnite.weirdgloop.org/images/Cheat_Master_Jonesy_Sprite_-_Item_-_Fortnite.png?da618",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACheat_Master_Jonesy_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy-loot-hacker": {
+  "name": "Loot Hacker Jonesy Sprite (Loot Hacker variant example)",
+  "file": "s-jonesy-loot-hacker.png",
+  "source": "https://fortnite.weirdgloop.org/images/Loot_Hacker_Jonesy_Sprite_-_Item_-_Fortnite.png?ed05e",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ALoot_Hacker_Jonesy_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy-bounty-hunter": {
+  "name": "Bounty Hunter Jonesy Sprite (Bounty Hunter variant example)",
+  "file": "s-jonesy-bounty-hunter.png",
+  "source": "https://fortnite.weirdgloop.org/images/Bounty_Hunter_Jonesy_Sprite_-_Item_-_Fortnite.png?e349b",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABounty_Hunter_Jonesy_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy-trick-or-treat": {
+  "name": "Trick or Treat Jonesy Sprite (Trick or Treat variant example)",
+  "file": "s-jonesy-trick-or-treat.png",
+  "source": "https://fortnite.weirdgloop.org/images/Trick_or_Treat_Jonesy_Sprite_-_Item_-_Fortnite.png?6c185",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ATrick_or_Treat_Jonesy_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-vampire-trick-or-treat": {
+  "name": "Trick or Treat Vampire Sprite",
+  "file": "s-vampire-trick-or-treat.png",
+  "source": "https://fortnite.weirdgloop.org/images/Trick_or_Treat_Vampire_Sprite_-_Item_-_Fortnite.png?0edf6",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ATrick_or_Treat_Vampire_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-spooky-dash-trick-or-treat": {
+  "name": "Trick or Treat Spooky Dash Sprite",
+  "file": "s-spooky-dash-trick-or-treat.png",
+  "source": "https://fortnite.weirdgloop.org/images/Trick_or_Treat_Spooky_Dash_Sprite_-_Item_-_Fortnite.png?5c472",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ATrick_or_Treat_Spooky_Dash_Sprite_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "v-victory-motors-whiplash": {
+  "name": "Victory Motors Whiplash",
+  "file": "v-victory-motors-whiplash.png",
+  "source": "https://fortnite.weirdgloop.org/images/Victory_Motors_Whiplash_-_Vehicle_-_Fortnite.png?72d37",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AVictory_Motors_Whiplash_-_Vehicle_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "v-grandeur-trailsmasher": {
+  "name": "Grandeur Trailsmasher",
+  "file": "v-grandeur-trailsmasher.png",
+  "source": "https://fortnite.weirdgloop.org/images/Grandeur_Trailsmasher_-_Vehicle_-_Fortnite.png?385ac",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AGrandeur_Trailsmasher_-_Vehicle_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "v-motorboat": {
+  "name": "Motorboat",
+  "file": "v-motorboat.png",
+  "source": "https://fortnite.weirdgloop.org/images/Motorboat_-_Vehicle_-_Fortnite.png?9581b",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AMotorboat_-_Vehicle_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-override-console": {
+  "name": "Override Console (landmark)",
+  "file": "x-override-console.png",
+  "source": "https://fortnite.weirdgloop.org/images/Override_Console_%281%29_-_Landmark_-_Fortnite.png?f1480",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AOverride_Console_%281%29_-_Landmark_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-cheat-code": {
+  "name": "Cheat Code (container)",
+  "file": "x-cheat-code.png",
+  "source": "https://fortnite.weirdgloop.org/images/Cheat_Codes_-_Container_-_Fortnite.png?34b0b",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ACheat_Codes_-_Container_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-pumpkin-chest": {
+  "name": "Pumpkin Chest",
+  "file": "x-pumpkin-chest.png",
+  "source": "https://fortnite.weirdgloop.org/images/Pumpkin_Chest_-_Container_-_Fortnite.png?66f03",
+  "page": "https://fortnite.weirdgloop.org/w/File%3APumpkin_Chest_-_Container_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-sprite-dust": {
+  "name": "Sprite Dust",
+  "file": "x-sprite-dust.png",
+  "source": "https://fortnite.weirdgloop.org/images/Sprite_Dust_-_Item_-_Fortnite.png?2c1b9",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ASprite_Dust_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-boss-drop": {
+  "name": "Boss Drop rift anomaly marker",
+  "file": "x-boss-drop.png",
+  "source": "https://fortnite.weirdgloop.org/images/Boss_Drop_%28Mark_Icon%29_-_Rift_Anomaly_-_Fortnite.png?f6b2f",
+  "page": "https://fortnite.weirdgloop.org/w/File%3ABoss_Drop_%28Mark_Icon%29_-_Rift_Anomaly_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-extraction-site": {
+  "name": "Extraction Site map icon",
+  "file": "x-extraction-site.png",
+  "source": "https://fortnite.weirdgloop.org/images/Extraction_Site_%28Icon%29_-_Unnamed_Location_-_Fortnite.png?e3206",
+  "page": "https://fortnite.weirdgloop.org/w/File%3AExtraction_Site_%28Icon%29_-_Unnamed_Location_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ }
+}

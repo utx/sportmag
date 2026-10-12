@@ -20,14 +20,14 @@ body { font-family: "Barlow Condensed", sans-serif; }
 /* ---------- item card ---------- */
 .g-card { width: 300px; padding: 0; }
 .card { position: relative; width: 300px; height: 300px; border: 7px solid #111; border-radius: 22px; overflow: hidden;
-  background: radial-gradient(circle at 50% 45%, #ffffff 0%, #ececec 55%, #c9c9c9 100%); }
+  background: radial-gradient(circle at 50% 45%, #e4e4e4 0%, #cdcdcd 55%, #a9a9a9 100%); }
 .card::before { content: ""; position: absolute; inset: 0; opacity: .5;
   background: repeating-linear-gradient(135deg, transparent 0 14px, rgba(0,0,0,.05) 14px 16px); }
-.card.t-S { background: radial-gradient(circle at 50% 45%, #ffffff 0%, #e3e3e3 45%, #9d9d9d 100%); border-width: 9px; }
+.card.t-S { background: radial-gradient(circle at 50% 45%, #e8e8e8 0%, #cfcfcf 45%, #8f8f8f 100%); border-width: 9px; }
 .card.t-S::after { content: ""; position: absolute; inset: -40%; opacity: .55;
   background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,255,255,.9) 0 7deg, transparent 7deg 18deg); }
 .card__art { position: absolute; inset: 26px 26px 58px 26px; display: flex; align-items: center; justify-content: center; z-index: 2; }
-.card__art img { max-width: 100%; max-height: 100%; filter: drop-shadow(0 6px 6px rgba(0,0,0,.35)); }
+.card__art img { max-width: 100%; max-height: 100%; filter: grayscale(1) contrast(1.2) drop-shadow(0 0 1.6px rgba(0,0,0,.95)) drop-shadow(0 6px 6px rgba(0,0,0,.35)); }
 .card__noart { font-family: "Anton", sans-serif; font-size: 34px; line-height: 1.1; text-align: center; color: #555;
   border: 5px dashed #777; border-radius: 14px; padding: 20px 24px; }
 .card__tier { position: absolute; z-index: 3; left: 0; top: 0; width: 78px; height: 84px; background: #111; color: #fff;
@@ -56,7 +56,8 @@ body { font-family: "Barlow Condensed", sans-serif; }
   background: repeating-linear-gradient(135deg, #fff 0 12px, #f2f2f2 12px 14px); }
 .chip { width: 96px; text-align: center; }
 .chip img, .chip__no { width: 76px; height: 76px; object-fit: contain; display: block; margin: 0 auto 3px;
-  background: radial-gradient(circle, #fff 0%, #ddd 100%); border: 3px solid #111; border-radius: 12px; padding: 5px; }
+  background: radial-gradient(circle, #e2e2e2 0%, #c4c4c4 100%); border: 3px solid #111; border-radius: 12px; padding: 5px; filter: none; }
+.chip img, .slot img { filter: grayscale(1) contrast(1.2) drop-shadow(0 0 1.4px rgba(0,0,0,.95)); }
 .chip__no { font-family: "Anton", sans-serif; font-size: 40px; line-height: 62px; color: #777; }
 .chip span { display: block; font-weight: 800; font-size: 15px; line-height: 1.05; text-transform: uppercase; }
 
@@ -102,7 +103,7 @@ body { font-family: "Barlow Condensed", sans-serif; }
 .panel__title { font-family: "Anton", sans-serif; font-size: 30px; text-transform: uppercase; line-height: 1; margin-bottom: 10px; }
 .slots { display: flex; gap: 8px; }
 .slot { flex: 1; border: 4px solid #111; border-radius: 12px; text-align: center; padding: 8px 4px 6px;
-  background: radial-gradient(circle, #fff 0%, #ddd 100%); }
+  background: radial-gradient(circle, #e8e8e8 0%, #c8c8c8 100%); }
 .slot img { width: 84px; height: 84px; object-fit: contain; display: block; margin: 0 auto 4px; }
 .slot b { display: block; font-weight: 800; font-size: 15px; text-transform: uppercase; line-height: 1.05; }
 .slot small { display: block; font-weight: 700; font-size: 13px; color: #444; margin-top: 2px; }
@@ -117,3 +118,5 @@ body { font-family: "Barlow Condensed", sans-serif; }
 .maplabel { position: absolute; background: #fff; border: 3px solid #111; border-radius: 7px; padding: 1px 7px 2px; font-weight: 800;
   font-size: 15px; text-transform: uppercase; white-space: nowrap; line-height: 1.2; }
 .mapfig.wide { height: auto; }
+.pill { display: inline-block; background: #fff; border: 3px solid #111; border-radius: 30px; padding: 3px 12px 4px; font-weight: 800;
+  font-size: 20px; text-transform: uppercase; line-height: 1.1; }

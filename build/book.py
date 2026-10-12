@@ -173,6 +173,9 @@ h4 { font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.08em; margin
 .fig-card { text-align: center; margin: 1.2em 0 0.3em 0; page-break-after: avoid; }
 .fig-card img { width: 42%; }
 .fig-opener img { width: 100%; }
+.pic { text-align: center; margin: 0.8em 0 1em 0; page-break-inside: avoid; }
+.pic img { width: 55%; }
+.pic-wide img { width: 100%; }
 .cap { font-size: 0.8em; font-style: italic; text-align: center; margin: 0.3em 0 0 0; }
 .item { margin: 0 0 1.4em 0; padding: 0 0 0.6em 0; border-bottom: 1px solid #888; }
 .item h3 { text-align: center; }
@@ -196,8 +199,8 @@ table.data th { font-family: sans-serif; }
 .title-page { text-align: center; margin-top: 2em; }
 .title-page h1 { text-align: center; font-size: 2.4em; }
 .title-page .sub { font-size: 1.15em; font-style: italic; }
-.toc { padding-left: 1.2em; }
-.toc li { margin: 0 0 0.45em 0; }
+.toc-item { margin: 0 0 0.55em 0; padding-left: 2em; text-indent: -2em; }
+.toc-num { font-family: sans-serif; font-weight: bold; display: inline-block; width: 1.6em; text-indent: 0; }
 ol.quiz > li { margin: 0 0 0.9em 0; }
 ol.quiz ol { list-style-type: upper-alpha; margin: 0.2em 0 0 0; }
 .cover-img { text-align: center; margin: 0; padding: 0; }
@@ -304,7 +307,7 @@ def epub(slug: str) -> None:
         if ch["file"] == "@glossary":
             dl = "".join(f'<dt>{html.escape(w)}{f"<small>{html.escape(k)}</small>" if k else ""}</dt><dd>{d}</dd>'
                          for w, k, d in words)
-            frag = f'<p>{book.get("glossary_blurb", "")}</p>\n<div class="box word"><dl>{dl}</dl></div>'
+            frag = f'<p>{book.get("glossary_blurb", "")}</p>\n<div class="word glossary"><dl>{dl}</dl></div>'
         else:
             frag = raw[ch["file"]]
         num = ch.get("label", f"Chapter {ch['number']}" if "number" in ch else "")
@@ -349,10 +352,11 @@ def epub(slug: str) -> None:
                   f'<p class="sub">{html.escape(book["subtitle"])}</p>\n<p class="small">{html.escape(book["version_note"])}</p>\n'
                   f'<p class="small">An unofficial Fortnite fan book.</p>\n<p class="small"><i>{EPIC_DISCLAIMER}</i></p></div>')
     (work / "title.xhtml").write_text(xhtml("Title page", title_page), encoding="utf-8")
-    toc_items = "".join(f'<li><a href="{n}">{html.escape(ch["title"])}</a>'
-                        + (f' <span class="small">({html.escape(ch["toc"])})</span>' if ch.get("toc") else "") + "</li>"
+    toc_items = "".join(f'<p class="toc-item"><span class="toc-num">{ch["number"] if "number" in ch else "•"}</span> '
+                        f'<a href="{n}">{html.escape(ch["title"])}</a>'
+                        + (f'<br/><span class="small">{html.escape(ch["toc"])}</span>' if ch.get("toc") else "") + "</p>"
                         for n, ch in chapters)
-    (work / "contents.xhtml").write_text(xhtml("Contents", f'<h1>Contents</h1>\n<ol class="toc">{toc_items}</ol>'), encoding="utf-8")
+    (work / "contents.xhtml").write_text(xhtml("Contents", f'<h1>Contents</h1>\n{toc_items}'), encoding="utf-8")
     nav = xhtml("Contents", '<nav epub:type="toc" id="toc"><h1>Contents</h1><ol>'
                 + "".join(f'<li><a href="{n}">{html.escape(ch["title"])}</a></li>' for n, ch in chapters)
                 + '</ol></nav>\n<nav epub:type="landmarks" hidden="hidden"><ol>'
