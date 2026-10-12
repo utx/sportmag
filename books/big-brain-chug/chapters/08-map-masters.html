@@ -1,0 +1,94 @@
+<div class="g g-opener" id="g-open-08" data-alt=""><div class="opener"><img class="opener__bg" src="img/map.jpg" alt="" style="object-position:50% 50%"/><div class="opener__shade"></div><div class="opener__num">Chapter 8</div><div class="opener__word">Grids, scale and directions</div>
+<div class="opener__icons"><img src="img/c-tilted-map.png" alt="" style="width:230px;right:20px;top:30px;transform:rotate(6deg)"/></div></div></div><!--/g-->
+
+<p>"Enemy at D5! Pushing from the north-east!" If you've ever played squads, you've used a <b>grid reference</b> and a <b>compass direction</b> without even thinking about it. Your map is split into squares, each with a letter and a number, so everyone can say exactly where something is in a couple of words.</p>
+
+<p>That simple idea, a grid with letters and numbers, is one of the most powerful tools ever invented. Sailors, pilots, game designers and the satnav in a car all depend on it.</p>
+
+<div class="box word"><h4>Word Watch</h4><dl>
+<dt>Coordinates<small>plural noun</small></dt><dd>A pair of letters or numbers that tells you exactly where something is on a grid.</dd>
+<dt>Scale<small>noun</small></dt><dd>How much smaller a map is than the real place. A scale of "1 cm to 1 km" means 1 centimetre on the map is 1 kilometre in real life.</dd>
+<dt>Navigate<small>verb</small></dt><dd>To find your way from one place to another.</dd>
+<dt>Distort<small>verb</small></dt><dd>To pull or twist something out of its true shape.</dd>
+</dl></div>
+
+<h2>Reading a grid</h2>
+
+<p>Here's the Island with our own grid drawn over it. Columns go across, A to H. Rows go down, 1 to 8. To name a square, give the <b>letter first, then the number</b>. Stone Sanctum is in <b>D5</b>: go along to column D, then down to row 5. A pair like that is called a set of <span class="ww">coordinates</span>.</p>
+
+<div class="g" id="g-grid-map" data-alt="The Island map with an 8 by 8 grid, columns A to H across and rows 1 to 8 down. Dots mark Lifty Lodge (C1), Freaky Fields (E2), Chopped Shop (A3), Nightmare Neighborhood (C3), Green Hill Zone (C4), Reality's Reign (E4), Stone Sanctum (D5), Heatwave Harbor (B6), Shaken Sanctuary (F6) and Sunken Shores (D7). Three circles mark secret spots X (in the north), Y (in the south-west) and Z (in the south-east).">
+<div class="mapfig"><img src="img/map.jpg" alt=""/><svg viewBox="0 0 600 600" style="position:absolute;inset:0;width:600px;height:600px"><line x1="75" y1="0" x2="75" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="75" x2="600" y2="75" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="150" y1="0" x2="150" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="150" x2="600" y2="150" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="225" y1="0" x2="225" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="225" x2="600" y2="225" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="300" y1="0" x2="300" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="300" x2="600" y2="300" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="375" y1="0" x2="375" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="375" x2="600" y2="375" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="450" y1="0" x2="450" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="450" x2="600" y2="450" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="525" y1="0" x2="525" y2="600" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><line x1="0" y1="525" x2="600" y2="525" stroke="#000" stroke-width="2.5" stroke-dasharray="8 5" opacity=".8"/><rect x="26" y="3" width="24" height="26" rx="5" fill="#111"/><text x="38" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">A</text><rect x="101" y="3" width="24" height="26" rx="5" fill="#111"/><text x="113" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">B</text><rect x="176" y="3" width="24" height="26" rx="5" fill="#111"/><text x="188" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">C</text><rect x="251" y="3" width="24" height="26" rx="5" fill="#111"/><text x="263" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">D</text><rect x="326" y="3" width="24" height="26" rx="5" fill="#111"/><text x="338" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">E</text><rect x="401" y="3" width="24" height="26" rx="5" fill="#111"/><text x="413" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">F</text><rect x="476" y="3" width="24" height="26" rx="5" fill="#111"/><text x="488" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">G</text><rect x="551" y="3" width="24" height="26" rx="5" fill="#111"/><text x="563" y="24" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">H</text><rect x="3" y="25" width="24" height="26" rx="5" fill="#111"/><text x="15" y="46" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">1</text><rect x="3" y="100" width="24" height="26" rx="5" fill="#111"/><text x="15" y="121" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">2</text><rect x="3" y="175" width="24" height="26" rx="5" fill="#111"/><text x="15" y="196" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">3</text><rect x="3" y="250" width="24" height="26" rx="5" fill="#111"/><text x="15" y="271" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">4</text><rect x="3" y="325" width="24" height="26" rx="5" fill="#111"/><text x="15" y="346" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">5</text><rect x="3" y="400" width="24" height="26" rx="5" fill="#111"/><text x="15" y="421" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">6</text><rect x="3" y="475" width="24" height="26" rx="5" fill="#111"/><text x="15" y="496" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">7</text><rect x="3" y="550" width="24" height="26" rx="5" fill="#111"/><text x="15" y="571" text-anchor="middle" fill="#fff" font-family="Anton" font-size="20">8</text><circle cx="246" cy="137" r="21" fill="#fff" stroke="#111" stroke-width="4"/><text x="246" y="146" text-anchor="middle" font-family="Anton" font-size="26">X</text><circle cx="162" cy="481" r="21" fill="#fff" stroke="#111" stroke-width="4"/><text x="162" y="490" text-anchor="middle" font-family="Anton" font-size="26">Y</text><circle cx="367" cy="468" r="21" fill="#fff" stroke="#111" stroke-width="4"/><text x="367" y="477" text-anchor="middle" font-family="Anton" font-size="26">Z</text></svg><div style="position:absolute;left:164px;top:54px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:178px;top:47px;font-size:13px">Lifty Lodge</div><div style="position:absolute;left:51px;top:162px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:65px;top:155px;font-size:13px">Chopped Shop</div><div style="position:absolute;left:199px;top:169px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:213px;top:162px;font-size:13px">Nightmare Neighborhood</div><div style="position:absolute;left:166px;top:261px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:180px;top:254px;font-size:13px">Green Hill Zone</div><div style="position:absolute;left:250px;top:349px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:264px;top:342px;font-size:13px">Stone Sanctum</div><div style="position:absolute;left:343px;top:260px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:357px;top:253px;font-size:13px">Reality&#8217;s Reign</div><div style="position:absolute;left:346px;top:89px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:360px;top:82px;font-size:13px">Freaky Fields</div><div style="position:absolute;left:92px;top:395px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:106px;top:388px;font-size:13px">Heatwave Harbor</div><div style="position:absolute;left:388px;top:389px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:402px;top:382px;font-size:13px">Shaken Sanctuary</div><div style="position:absolute;left:239px;top:469px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #111"></div><div class="maplabel" style="left:253px;top:462px;font-size:13px">Sunken Shores</div></div>
+</div><!--/g-->
+
+<p class="small center"><i>The Island map: Epic Games / Fortnite. Grid, dots and secret spots added by us. North is at the top.</i></p>
+
+<div class="box"><h4>Puzzle 8.1 · Logic Lobby · 1 Chug Jug</h4>
+<p>Use the grid. (a) Which place is in square A3? (b) Which place is in F6? (c) Which square is Freaky Fields in? (d) Name all three places in column C.</p></div>
+
+<div class="box"><h4>The fly on the ceiling</h4>
+<p>There's a famous story that the French thinker <b>René Descartes</b>, who lived about 400 years ago, invented coordinates while lying in bed watching a fly crawl across his ceiling. He realised he could describe exactly where the fly was by saying how far it was from two walls. Nobody knows if the fly was real (it's probably a legend), but the idea definitely was. Graphs in maths still use his system, and they're called <b>Cartesian coordinates</b> in his honour.</p></div>
+
+<h2>Which way is north?</h2>
+
+<div class="g" id="g-compass" data-alt="A compass rose with eight directions: north at the top, then north-east, east, south-east, south, south-west, west and north-west, going clockwise. A quarter turn is 90 degrees; turning halfway between two main directions is 45 degrees.">
+<div class="svgfig"><div class="svgfig__title">The compass rose</div><div class="svgfig__sub">Eight directions, going clockwise from north</div>
+<svg viewBox="0 0 560 280">
+<g transform="translate(150 140)">
+<circle r="112" fill="none" stroke="#111" stroke-width="4"/>
+<g fill="#111"><path d="M0 -100 L14 -14 L0 0 Z"/><path d="M100 0 L14 14 L0 0 Z"/><path d="M0 100 L-14 14 L0 0 Z"/><path d="M-100 0 L-14 -14 L0 0 Z"/></g>
+<g fill="#fff" stroke="#111" stroke-width="3"><path d="M0 -100 L-14 -14 L0 0 Z"/><path d="M100 0 L14 -14 L0 0 Z"/><path d="M0 100 L14 14 L0 0 Z"/><path d="M-100 0 L-14 14 L0 0 Z"/></g>
+<g fill="#888"><path d="M60 -60 L10 -4 L4 -10 Z"/><path d="M60 60 L4 10 L10 4 Z"/><path d="M-60 60 L-10 4 L-4 10 Z"/><path d="M-60 -60 L-4 -10 L-10 -4 Z"/></g>
+<g font-size="24" text-anchor="middle" class="a"><text y="-118">N</text><text x="132" y="9">E</text><text y="138">S</text><text x="-132" y="9">W</text></g>
+<g font-size="18" text-anchor="middle"><text x="92" y="-82">NE</text><text x="92" y="96">SE</text><text x="-92" y="96">SW</text><text x="-92" y="-82">NW</text></g>
+</g>
+<g font-size="21"><text x="320" y="70">Quarter turn = 90°</text><text x="320" y="104">Half turn = 180°</text><text x="320" y="138">Full turn = 360°</text><text x="320" y="172">N to NE = 45°</text><text x="320" y="216">Clockwise: the way</text><text x="320" y="240">a clock's hands go</text></g>
+</svg></div>
+</div><!--/g-->
+
+<div class="box"><h4>Puzzle 8.2 · Logic Lobby · 2 Chug Jugs</h4>
+<p>You're standing at Stone Sanctum. Use the map. (a) Which place is north-east of you: Reality's Reign or Heatwave Harbor? (b) Which place is north-west of you: Chopped Shop or Shaken Sanctuary? (c) In which direction is Sunken Shores? (d) In which direction is Heatwave Harbor?</p></div>
+
+<div class="box"><h4>Puzzle 8.3 · Logic Lobby · 2 Chug Jugs</h4>
+<p>We've marked three secret spots on the map with the letters X, Y and Z. From Stone Sanctum, in which of the eight compass directions is each one?</p></div>
+
+<div class="box"><h4>Puzzle 8.4 · Logic Lobby · 3 Chug Jugs</h4>
+<p>You land facing north. You turn 90° clockwise. Then you turn another 90° clockwise. Then you turn 45° anticlockwise. Which direction are you facing now? And how many degrees would you need to turn (clockwise) to face north again?</p></div>
+
+<h2>Shrinking the world: scale</h2>
+
+<p>A map has to be much smaller than the real place, or it wouldn't fit in your pocket. The <span class="ww">scale</span> tells you how much smaller. On a map with a scale of "1 cm to 2 km", every centimetre on the paper stands for 2 kilometres of real ground.</p>
+
+<p>We use a scale to put markers on the Fortnite map in our magazines. The game's own location data uses enormous numbers: a place might be tens of thousands of units from the middle. To turn those into a spot on a map picture 2,048 pixels wide, we multiply by a tiny number (0.00658) and then add 975 to move everything into the right position. Here's our real formula:</p>
+
+<p class="center"><b>across the picture = 975 + (0.00658 × the game's "across" number)</b></p>
+
+<div class="box"><h4>Puzzle 8.5 · Number Crunch · 2 Chug Jugs</h4>
+<p>A map has a scale of 1 cm to 2 km. (a) Two towns are 7 cm apart on the map. How far apart are they in real life? (b) Two other towns are 9 km apart. How far apart are they on the map?</p></div>
+
+<div class="box"><h4>Puzzle 8.6 · Number Crunch · 3 Chug Jugs</h4>
+<p>Use our real formula. (a) A place has a game "across" number of 0. Where does it go on the picture? (b) A place has a game "across" number of 50,000. How far across the picture does it go? (Hint: 0.00658 × 50,000 is the same as 658 × 50,000 ÷ 100,000.)</p></div>
+
+<h2>The map that tells fibs</h2>
+
+<p>The Earth is round, but maps are flat. Try flattening the peel of an orange and you'll see the problem: something has to stretch or tear. In 1569, a map-maker named <b>Gerardus Mercator</b> made a world map that was perfect for sailors, because a straight line on it showed a constant compass direction. But to make that work, he had to stretch the parts near the North and South Poles, more and more the further you go.</p>
+
+<p>The result: on Mercator's map, and on many world maps you'll still see today, Greenland looks about as big as Africa. In real life, <b>Africa is about 14 times bigger</b>. Even Australia is more than three times the size of Greenland, though on these maps they look much closer. A map can <span class="ww">distort</span> the truth without anybody meaning to.</p>
+
+<div class="g" id="g-mercator" data-alt="Real areas, in millions of square kilometres: Africa about 30, Australia about 7.7, Greenland about 2.2. Africa is about 14 times the size of Greenland.">
+<div class="chart"><div class="chart__title">How big are they REALLY?</div><div class="chart__sub">Land area in millions of square kilometres, rounded</div>
+<div class="bar"><div class="bar__name">Africa</div><div class="bar__track"><div class="bar__fill" style="width:100%">30.4</div></div></div>
+<div class="bar"><div class="bar__name">Australia</div><div class="bar__track"><div class="bar__fill" style="width:25.3%">7.7</div></div></div>
+<div class="bar"><div class="bar__name">Greenland</div><div class="bar__track"><div class="bar__fill lo" style="width:7.1%"></div></div><div class="bar__val">2.2</div></div>
+<div class="chart__foot">On a Mercator map, Greenland looks almost as big as Africa.</div>
+</div>
+</div><!--/g-->
+
+<h2>Mapping this land</h2>
+
+<p>Long before any European map of Australia existed, Aboriginal and Torres Strait Islander peoples had been finding their way across this continent for tens of thousands of years. In many Aboriginal cultures, knowledge of Country, including routes, landmarks and places to find water, is passed on through songs, stories and art.</p>
+
+<p>In 1770, the British navigator <b>James Cook</b> sailed the ship <i>Endeavour</i> up the east coast, carefully drawing charts as he went. In late April, the Gweagal people watched the ship sail into Kamay, the bay Cook later named Botany Bay. The <i>Endeavour</i> stayed for eight days, and the meeting between the two peoples is still remembered and talked about today. About 30 years later, <b>Matthew Flinders</b> sailed all the way around the continent, and his book helped make the name "Australia" popular.</p>
+
+<div class="box box-heavy"><h4>Spot the Flaw: Geno gets it wrong</h4>
+<p><i>"I looked at the world map on my wall, and Greenland is nearly as big as Africa. Maps are drawn by experts, so it must be true."</i></p>
+<p>What has Geno forgotten? And what's the problem with "experts made it, so it must be true"?</p></div>
