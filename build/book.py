@@ -13,6 +13,7 @@ Source layout (books/<slug>/):
   chapters/*.html  XHTML-safe fragments. Macros:
       <item name=".." icon="w-slug" tier="S|A|B|C|D" rarity=".." stats="Label=value;Label=value">..</item>
       <tierboard title=".."/>   tier board of every <item> in the chapter
+      <steal score="1-5" difficulty=".." mode=".." needs=".."/>   Steal-ability panel (one per chapter)
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
@@ -119,6 +120,20 @@ def expand(book: dict, ch: dict, frag: str) -> tuple[str, list[dict]]:
                 f'{"".join(rows)}</div></div><!--/g-->')
 
     s = re.sub(r"<tierboard\s*([^>]*?)/>", board, s)
+
+    def steal(m: re.Match) -> str:
+        a = attrs(m.group(1))
+        n = int(a["score"])
+        jugs = "".join(JUG.format(cls="" if i < n else " empty") for i in range(5))
+        rows = "".join(f'<div class="steal__row"><b>{html.escape(k)}</b><span>{html.escape(a[f])}</span></div>'
+                       for k, f in (("How hard", "difficulty"), ("Works in", "mode"), ("You need", "needs")) if a.get(f))
+        alt = f"Steal-ability: {n} out of 5 Chug Jugs. " + " ".join(f"{k}: {a[f]}." for k, f in
+              (("How hard", "difficulty"), ("Works in", "mode"), ("You need", "needs")) if a.get(f))
+        return (f'<div class="g g-steal" id="g-steal-{ch["slug"]}" data-alt="{html.escape(alt)}"><div class="steal">'
+                f'<div class="steal__head"><div class="steal__t">Steal-ability</div><div class="steal__jugs">{jugs}</div>'
+                f'<div class="steal__n">{n}/5</div></div>{rows}</div></div><!--/g-->')
+
+    s = re.sub(r"<steal\s([^>]*?)/>", steal, s)
     return s, items
 
 

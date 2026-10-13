@@ -120,3 +120,15 @@ body { font-family: "Barlow Condensed", sans-serif; }
 .mapfig.wide { height: auto; }
 .pill { display: inline-block; background: #fff; border: 3px solid #111; border-radius: 30px; padding: 3px 12px 4px; font-weight: 800;
   font-size: 20px; text-transform: uppercase; line-height: 1.1; }
+
+/* ---------- steal-ability panel (True Royale) ---------- */
+.steal { border: 6px solid #111; border-radius: 16px; overflow: hidden; }
+.steal__head { display: flex; align-items: center; gap: 14px; background: #111; color: #fff; padding: 10px 16px 12px; }
+.steal__t { font-family: "Anton", sans-serif; font-size: 30px; text-transform: uppercase; line-height: 1; }
+.steal__jugs { display: flex; gap: 7px; flex: 1; justify-content: center; }
+.steal__jugs .jug { width: 30px; height: 39px; }
+.steal__n { font-family: "Anton", sans-serif; font-size: 30px; line-height: 1; }
+.steal__row { display: flex; gap: 12px; padding: 8px 16px; border-top: 3px solid #111; font-size: 19px; font-weight: 700; line-height: 1.15;
+  background: repeating-linear-gradient(135deg, #fff 0 12px, #f4f4f4 12px 14px); }
+.steal__row:first-of-type { border-top: 0; }
+.steal__row b { flex: 0 0 104px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; }
