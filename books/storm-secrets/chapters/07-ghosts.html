@@ -1,0 +1,63 @@
+<div class="g g-opener" id="g-open-07" data-alt=""><div class="opener"><img class="opener__bg" src="art/lobby-fortnitemares.jpg" alt="" style="object-position:70% 40%"/><div class="opener__shade"></div><div class="opener__num">Chapter 7</div><div class="opener__word">Inside a ghost&#8217;s brain</div>
+<div class="opener__icons"><svg viewBox="0 0 300 280" style="position:absolute;right:0;top:20px;width:210px;height:196px"><g font-family="Anton" font-size="38" fill="#fff"><text x="20" y="60">IF</text><text x="20" y="120">THEN</text><text x="20" y="180">REPEAT</text><text x="20" y="240">ELSE</text></g><g fill="#fff"><circle cx="230" cy="50" r="10"/><circle cx="230" cy="110" r="10"/><circle cx="230" cy="170" r="10"/><circle cx="230" cy="230" r="10"/></g></svg></div></div></div><!--/g-->
+
+<p>Fly over the north of the Island and you'll spot an island shaped like a hungry yellow circle with a slice missing, and a couple of little ghost-shaped islands down south. They're there because of <b>Pac-Man</b>, the famous 1980 arcade game (it belongs to another company, so no pictures). At night, robot ghosts roam around them. Beat one and you might win the <b>Blinky Sprite</b>, which hides you for a moment whenever you take damage.</p>
+
+<p>In the original game, four ghosts chase you around a maze. They seem to have personalities: one's relentless, one's sneaky, one's unpredictable and one's a bit hopeless. But here's the secret: <b>none of them can think</b>. Each one just follows a simple rule. Learn the rules and you can beat them.</p>
+
+<div class="box word"><h4>Word Drop</h4><dl>
+<dt>Algorithm<small>noun</small></dt><dd>A set of step-by-step instructions for doing a job. A recipe is an algorithm. So is every ghost's brain.</dd>
+<dt>Debug<small>verb</small></dt><dd>To find and fix the mistakes in a set of instructions or a computer program.</dd>
+</dl></div>
+
+<h2>Four ghosts, four rules</h2>
+
+<table class="data">
+<tr><th>Ghost</th><th>Japanese name means…</th><th>Its rule</th></tr>
+<tr><td><b>Blinky</b> (red)</td><td>"Chaser"</td><td>Head for the exact square where the player is right now.</td></tr>
+<tr><td><b>Pinky</b> (pink)</td><td>"Ambusher"</td><td>Head for the square four spaces in front of the player, to cut them off.</td></tr>
+<tr><td><b>Inky</b> (blue)</td><td>"Fickle" (moody)</td><td>Use a tricky rule that depends on where both the player AND Blinky are. Hard to predict!</td></tr>
+<tr><td><b>Clyde</b> (orange)</td><td>"Playing dumb"</td><td>Chase the player when far away, but when he gets close, wander off to his corner.</td></tr>
+</table>
+
+<p>Four tiny rules, and together they make a chase that feels clever and alive. A set of step-by-step rules like this is called an <span class="ww">algorithm</span>. The ghosts in Pac-Man, the robots guarding Override Consoles, the bots you meet in your first few matches: they're all algorithms.</p>
+
+<div class="box"><h4>Real or fake? The pizza story</h4>
+<p>The most famous story about Pac-Man is that its designer, <b>Toru Iwatani</b>, got the idea when he took a slice of pizza and looked at what was left. <b>Half true!</b> Iwatani himself has told the story, but in 1986 he admitted it was only "half true". The shape also came from rounding off the Japanese written symbol for "mouth", which is a square.</p></div>
+
+<div class="box"><h4>True story: the bug that was a real bug</h4>
+<p>On 9 September 1947, engineers working on an enormous early computer at Harvard University found something stuck inside it: a real <b>moth</b>. They taped it into their logbook with a note: "First actual case of bug being found." Engineers already called mistakes "bugs", but the moth made the joke famous. Fixing mistakes in a program is still called <span class="ww">debugging</span>.</p></div>
+
+<h2>Program the Robot Llama</h2>
+
+<p>Your turn to write an algorithm. The Robot Llama lives on this grid. Squares are named by letter, then number, so the bottom-left square is <b>A1</b>. It always starts on A1, <b>facing north</b> (up the page), and it understands just three commands: <b>F</b> (move forward one square), <b>L</b> (turn left) and <b>R</b> (turn right). Turning doesn't move it.</p>
+
+<div class="g" id="g-robot" data-alt="A six by six grid, columns A to F and rows 1 to 6. The Robot Llama starts at A1, facing north. A Chug Jug is on E5, a chest on C4, a Supply Llama on F2 and a storm on D2.">
+<div class="svgfig"><div class="svgfig__title">The Robot Llama's grid</div>
+<svg viewBox="0 0 680 450"><rect x="50" y="10" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="50" y="76" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="50" y="142" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="50" y="208" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="50" y="274" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="50" y="340" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="116" y="10" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="116" y="76" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="116" y="142" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="116" y="208" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="116" y="274" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="116" y="340" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="182" y="10" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="182" y="76" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="182" y="142" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="182" y="208" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="182" y="274" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="182" y="340" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="248" y="10" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="248" y="76" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="248" y="142" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="248" y="208" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="248" y="274" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="248" y="340" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="314" y="10" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="314" y="76" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="314" y="142" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="314" y="208" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="314" y="274" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="314" y="340" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="380" y="10" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="380" y="76" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="380" y="142" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="380" y="208" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="380" y="274" width="66" height="66" fill="#f2f2f2" stroke="#111" stroke-width="2"/><rect x="380" y="340" width="66" height="66" fill="#fff" stroke="#111" stroke-width="2"/><rect x="50" y="10" width="396" height="396" fill="none" stroke="#111" stroke-width="5"/><text x="83.0" y="436" text-anchor="middle" class="a" font-size="26">A</text><text x="149.0" y="436" text-anchor="middle" class="a" font-size="26">B</text><text x="215.0" y="436" text-anchor="middle" class="a" font-size="26">C</text><text x="281.0" y="436" text-anchor="middle" class="a" font-size="26">D</text><text x="347.0" y="436" text-anchor="middle" class="a" font-size="26">E</text><text x="413.0" y="436" text-anchor="middle" class="a" font-size="26">F</text><text x="30" y="382.0" text-anchor="middle" class="a" font-size="26">1</text><text x="30" y="316.0" text-anchor="middle" class="a" font-size="26">2</text><text x="30" y="250.0" text-anchor="middle" class="a" font-size="26">3</text><text x="30" y="184.0" text-anchor="middle" class="a" font-size="26">4</text><text x="30" y="118.0" text-anchor="middle" class="a" font-size="26">5</text><text x="30" y="52.0" text-anchor="middle" class="a" font-size="26">6</text><image href="img/i-chug-jug.png" x="320" y="80" width="54" height="58"/><image href="img/i-llama-supply-drop.png" x="384" y="278" width="58" height="58"/><g transform="translate(191 158)"><rect x="0" y="12" width="48" height="26" fill="#777" stroke="#111" stroke-width="3"/><path d="M0 12 q24 -22 48 0 z" fill="#999" stroke="#111" stroke-width="3"/><rect x="19" y="10" width="10" height="12" fill="#fff" stroke="#111" stroke-width="2"/></g><g transform="translate(281.0 307.0)" fill="none" stroke="#111" stroke-width="4"><path d="M0 0 m-4 0 a4 4 0 1 1 8 0 a9 9 0 1 1 -18 0 a14 14 0 1 1 28 0 a19 19 0 1 1 -38 0"/></g><path d="M83.0 350 l20 34 h-40 z" fill="#111"/><text x="83.0" y="400" text-anchor="middle" font-size="13">START</text><g font-size="19"><text x="476" y="40" class="a" font-size="24">KEY</text><path d="M488 58 l12 20 h-24 z" fill="#111"/><text x="510" y="76">Robot Llama</text><text x="510" y="96">(starts facing north)</text><image href="img/i-chug-jug.png" x="476" y="110" width="26" height="30"/><text x="510" y="132">Chug Jug (E5)</text><rect x="476" y="158" width="26" height="16" fill="#777" stroke="#111" stroke-width="2"/><text x="510" y="174">Chest (C4)</text><image href="img/i-llama-supply-drop.png" x="474" y="192" width="30" height="30"/><text x="510" y="214">Supply Llama (F2)</text><circle cx="489" cy="248" r="11" fill="none" stroke="#111" stroke-width="3"/><text x="510" y="255">Storm! (D2)</text><text x="476" y="300" class="a" font-size="22">COMMANDS</text><text x="476" y="326">F = forward 1 square</text><text x="476" y="350">L = turn left (quarter turn)</text><text x="476" y="374">R = turn right (quarter turn)</text><text x="476" y="398">Turning doesn't move you.</text></g></svg></div>
+</div><!--/g-->
+
+<div class="box"><h4>Quest 7.1</h4>
+<p>This program was supposed to take the Robot Llama to the Chug Jug: <b>F F R F F F F L F F F</b>. Run it, one command at a time. Where does it really end up? Which single command would you delete to <span class="ww">debug</span> it?</p></div>
+<p class="turn">Turn the page for the answer.</p>
+
+<div class="answer"><h4>Answer: Quest 7.1</h4>
+<p><b>It ends on E6, one square past the Chug Jug. Delete the last F.</b></p>
+<p><i>How to crack it:</i> F F takes it from A1 up to A3. R turns it to face east. F F F F moves it along to E3. L turns it to face north again. Then F F F moves it to E4, E5 (the Chug Jug!) and E6. One step too many. Remove the final F and it stops right on the Chug Jug.</p></div>
+
+<div class="box box-heavy"><h4>Vault Quest 7</h4>
+<p>Run this program on the Robot Llama's grid, starting on A1, facing north: <b>F F F F R F F</b>. Which <b>row number</b> does it finish on?</p></div>
+<p class="turn">Turn the page for the answer and your vault letter.</p>
+
+<div class="answer"><h4>Answer: Vault Quest 7</h4>
+<p><b>Row 5.</b></p>
+<p><i>How to crack it:</i> F F F F moves it from A1 up to A5. R turns it to face east. F F moves it to B5, then C5. It finishes on C5, in row 5.</p>
+<p class="vault-letter">Vault letter: E (the 5th letter of the alphabet). Write it in box 7.</p></div>
+
+<div class="box box-heavy"><h4>Geno's Worst Take</h4>
+<p><i>"That orange ghost chased me, but as soon as I got close, he ran off to his corner. He's clearly terrified of me. Who wouldn't be?"</i></p>
+<p>Why did Clyde really run away?</p></div>
+<p class="turn">Turn the page for the roast.</p>
+
+<div class="answer"><h4>The roast</h4>
+<p>Clyde isn't scared. He's just following his rule: chase when you're far away, head to your corner when you get close. He'd do exactly the same to anyone. Geno made up a reason (fear) with zero evidence, because it made him feel important.</p></div>

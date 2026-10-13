@@ -204,6 +204,10 @@ table.data th { font-family: sans-serif; }
 ol.quiz > li { margin: 0 0 0.9em 0; }
 ol.quiz ol { list-style-type: upper-alpha; margin: 0.2em 0 0 0; }
 .cover-img { text-align: center; margin: 0; padding: 0; }
+.turn { font-family: sans-serif; font-size: 0.85em; font-style: italic; text-align: right; margin: 0.2em 0 1em 0; }
+.answer { page-break-before: always; border: 2px dashed #000; padding: 0.5em 0.8em 0.3em 0.8em; margin: 0 0 1.4em 0; }
+.answer h4 { margin-top: 0.2em; }
+.vault-letter { font-family: sans-serif; font-weight: bold; text-align: center; font-size: 1.1em; border: 3px solid #000; padding: 0.3em; margin: 0.5em 0 0.4em 0; }
 .cover-img img { max-width: 100%; }
 """
 
