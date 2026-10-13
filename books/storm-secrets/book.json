@@ -1,0 +1,153 @@
+{
+  "title": "Storm Secrets",
+  "subtitle": "Wild facts, true stories and brain-bending quests from the Island",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-13",
+  "version_note": "Game details from Chapter 7 Season 4 (Override), Fortnitemares update v42.30, as of 12 October 2026. Real-world facts checked October 2026.",
+  "description": "An unofficial Fortnite fan book of secrets, true stories and quests. Geno has locked the Cursed Cartridge in a vault, and every chapter hides one letter of the code.",
+  "glossary_blurb": "Every Word Drop in this book, from A to Z. Collect them all. Bonus XP (from us, not Epic) for using one in the lobby this week.",
+  "chapters": [
+    {
+      "file": "00-before-you-drop.html",
+      "title": "Before You Drop",
+      "kicker": "The vault",
+      "toc": "The vault, the quests, and how to level up",
+      "label": "Start here",
+      "dek": "Geno has locked the Cursed Cartridge in a vault and hidden the code all over the Island. Here's how to find it."
+    },
+    {
+      "file": "01-bus-stop-science.html",
+      "title": "The Perfect Drop",
+      "kicker": "Jumping off the Battle Bus",
+      "toc": "Falling, gliding and the first daredevils",
+      "number": 1,
+      "dek": "Who lands first, the heavy outfit or the banana? The answer took humans 2,000 years, a trip to the Moon and a lot of bravery."
+    },
+    {
+      "file": "02-storm-maths.html",
+      "title": "Why the Storm Cheats",
+      "kicker": "The storm circle",
+      "toc": "The storm's sneaky trick",
+      "number": 2,
+      "dek": "The circle gets half as wide, but three-quarters of your space vanishes. Here's why, and the ancient genius who'd have seen it coming."
+    },
+    {
+      "file": "03-shield-sums.html",
+      "title": "Heal Like a Pro",
+      "kicker": "Health and shields",
+      "toc": "Reading your bars, and the heal-order secret",
+      "number": 3,
+      "dek": "Two bars, both up to 100. Read them like a pro, and find out why the order you heal in can win or lose a fight."
+    },
+    {
+      "file": "04-block-party.html",
+      "title": "The Blocks That Flattened a Town",
+      "kicker": "Sunken Shores",
+      "toc": "Falling blocks and the game made of brackets",
+      "number": 4,
+      "dek": "Giant blocks squashed a whole town on the Island. They came from a game invented on a computer that couldn't draw pictures."
+    },
+    {
+      "file": "05-gotta-go-fast.html",
+      "title": "Faster Than Sound",
+      "kicker": "Green Hill Zone",
+      "toc": "Speed, sonic booms and a very important broom",
+      "number": 5,
+      "dek": "How fast is fast? From Usain Bolt to Concorde, and the pilot who broke the sound barrier with two broken ribs and a broomstick."
+    },
+    {
+      "file": "06-chomp-logic.html",
+      "title": "How the Ghosts Think",
+      "kicker": "The arcade islands",
+      "toc": "Ghost rules, and programming the Robot Llama",
+      "number": 6,
+      "dek": "The ghosts seem to have personalities. They don't. Each one follows a few simple rules, and once you know them, you can beat them."
+    },
+    {
+      "file": "07-builders-brain.html",
+      "title": "Builds That Never Break",
+      "kicker": "Building",
+      "toc": "Triangles, arches and the Coathanger",
+      "number": 7,
+      "dek": "Why does a triangle stay strong when a square wobbles? The secret behind the pyramids, the Harbour Bridge and your best box."
+    },
+    {
+      "file": "08-map-masters.html",
+      "title": "Callouts Like a Pro",
+      "kicker": "The map",
+      "toc": "Grid callouts, compasses and a map that lies",
+      "number": 8,
+      "dek": "\"Enemy at D5!\" Make perfect callouts, never get lost, and spot the world map that's been telling fibs for 450 years."
+    },
+    {
+      "file": "09-vault-codes.html",
+      "title": "Crack the Vault",
+      "kicker": "Codes and keys",
+      "toc": "Secret messages from Caesar to Bletchley Park",
+      "number": 9,
+      "dek": "Keys open vaults. Codes protect secrets. Crack messages from a Roman general, the telegraph and the greatest code-breakers who ever lived."
+    },
+    {
+      "file": "10-sprite-science.html",
+      "title": "Real-Life Sprites",
+      "kicker": "Sprites",
+      "toc": "Bees, bats and other real superpowers",
+      "number": 10,
+      "dek": "Sprites have powers. So do real animals: bees that build perfect hexagons and dance directions, and vampire bats who share their dinner."
+    },
+    {
+      "file": "11-shop-smarts.html",
+      "title": "Don't Get Played",
+      "kicker": "The Item Shop",
+      "toc": "Real value, sneaky adverts and flower madness",
+      "number": 11,
+      "dek": "The Item Shop is designed to make you want things. Here's how to spot the tricks, and the strangest shopping craze in history."
+    },
+    {
+      "file": "12-mythbusters-medkit.html",
+      "title": "Is Your Lucky Skin Actually Lucky?",
+      "kicker": "Myths and legends",
+      "toc": "Lucky skins, cartridge myths and real-or-fake",
+      "number": 12,
+      "dek": "Does blowing into a game cartridge fix it? Does a lucky outfit help you win? Here's how to find out what's really true."
+    },
+    {
+      "file": "13-numbers-dont-lie.html",
+      "title": "How the Champions Really Won",
+      "kicker": "The FNCS",
+      "toc": "The two-point world final, and sneaky charts",
+      "number": 13,
+      "dek": "The world championship was decided by two points, and the winners didn't get the most eliminations. Here's the secret hiding in the results."
+    },
+    {
+      "file": "14-final-circle.html",
+      "title": "The Final Circle",
+      "kicker": "Ten quests and a vault",
+      "toc": "The last ten quests, and opening the vault",
+      "number": 14,
+      "dek": "The storm is closing. Ten quests stand between you and a Victory Royale, and then it's time to type in the vault code."
+    },
+    {
+      "file": "15-think-it-through.html",
+      "title": "Walkthroughs",
+      "kicker": "Spoilers inside!",
+      "toc": "Every answer, step by step",
+      "label": "Back of the book",
+      "dek": "Every quest answer, with the walkthrough. Got one wrong? Find the step where your thinking went a different way."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Word Vault",
+      "kicker": "Every Word Drop",
+      "toc": "Every Word Drop, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "16-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where every fact came from",
+      "label": "Back of the book"
+    }
+  ]
+}
