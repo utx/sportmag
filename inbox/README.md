@@ -67,5 +67,17 @@ Facts found on 11 Oct 2026 (re-check against a full report at build time):
   (tie it to the Sydney FC "stay to the final whistle" message). Add a "what would you have
   done at 1-5?" box and Word Watch words such as *pandemonium*, *capitulate* and *improbable*.
 
+### 4. "Trophy cabinet": A-League era major trophies (requested 13 Oct 2026)
+The publisher sent a graphic (with permission), "Clubs Major Trophies so far in the A-League era (2005-2026)", saved as `inbox/aleague-trophies.jpg`. Credit: **"Graphic: used with permission"** (ask the publisher for the creator's name).
+
+As shown: Sydney FC 11 (including an OFC Champions League and an Australia Cup), Melbourne Victory 9, Central Coast Mariners 7 (including the AFC Cup), Adelaide United 6, Melbourne City 6, Brisbane Roar 5, Newcastle Jets 3, a dark-blue club 3 (including an OFC trophy; identify it), Western Sydney Wanderers 2 (including the AFC Champions League), Macarthur FC 2 (both Australia Cups), Western United 1, Perth Glory 1, a light-blue club 1 (Australia Cup; identify it), Wellington Phoenix 0.
+
+- **Angle:** Sydney FC, the local focus, have the most major trophies of any club in the A-League era. Make it a proud Sydney FC feature ("the trophy cabinet you can go and see": tie it to going to games this season).
+- **Before printing, verify every count** against a proper source (A-Leagues/Football Australia honours lists, Wikipedia club honours):
+  - which trophies count as "major" (Premierships = plates, Championships = Grand Finals, Australia Cup, AFC/OFC);
+  - whether the graphic includes the 2025-26 season;
+  - the two clubs not identified above.
+- Draw our own Touchline SVG to go with it: a Sydney FC-focused trophy shelf, split by trophy type (Premierships, Championships, cups, continental).
+
 ## Done
 (nothing yet)
