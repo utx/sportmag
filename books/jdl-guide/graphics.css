@@ -24,9 +24,9 @@
   text-transform: uppercase; color: #fff; text-shadow: 3px 3px 0 var(--ink); }
 .fo__tag { position: absolute; left: 192px; bottom: 26px; background: var(--ink); color: #fff; font-weight: 800; font-size: 20px;
   letter-spacing: .14em; text-transform: uppercase; padding: 5px 14px 6px; border-radius: 4px; }
-.fo--start .fo__num { font-size: 64px; top: 30px; left: 30px; letter-spacing: .02em; }
-.fo--start .fo__word { left: 30px; top: 110px; font-size: 44px; }
-.fo--start .fo__tag { left: 30px; bottom: 18px; }
+.fo--start .fo__num { font-size: 64px; top: 24px; left: 30px; letter-spacing: .02em; }
+.fo--start .fo__word { left: 30px; right: auto; top: 108px; font-size: 42px; white-space: nowrap; }
+.fo--start .fo__tag { left: 30px; bottom: 24px; }
 
 /* ---------- general panel ---------- */
 .panel { border: 5px solid var(--ink); border-radius: 16px; background: var(--paper); padding: 18px 20px 20px; }
