@@ -17,6 +17,8 @@ build/build.py       issues/ -> docs/ (website) and docs/issues/NNN/*.epub (Kind
 build/render.mjs     renders the cover + every graphic to PNG with Chromium for the EPUB
 build/build.sh       runs all three steps
 kindle/              Google Apps Script that emails an issue to the Kindle (see SETUP.md)
+books/<slug>/         stand-alone books (book.json, cover.html, chapters/, img/); build/book.sh <slug>
+                     -> docs/books/<slug>/<slug>.epub (Tier Pressure; The Complete Guide to JDL Football in NSW)
 docs/                the generated site that GitHub Pages serves — don't edit by hand
 ```
 

@@ -8,7 +8,9 @@
 `build/book.sh <slug>` runs all three, then epubcheck and a Kindle-sized preview.
 
 Source layout (books/<slug>/):
-  book.json        title, subtitle, chapters [{file, title, kicker, dek}]
+  book.json        title, subtitle, chapters [{file, title, kicker, dek}], plus who made it and the
+                   small print: creator, publisher, rights, title_notes (lines under the title),
+                   optional series, colour (keep images in colour), accessibility_summary
   cover.html       the cover, laid out at 800x1280 CSS px (rendered to 1600x2560)
   chapters/*.html  XHTML-safe fragments. Macros:
       <item name=".." icon="w-slug" tier="S|A|B|C|D" rarity=".." stats="Label=value;Label=value">..</item>
@@ -16,7 +18,9 @@ Source layout (books/<slug>/):
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
-  img/, art/       Epic Games images (fan content policy) and our own art
+  graphics.css     optional: extra styles for this book's graphics (added after build/book/graphics.css)
+  epub.css         optional: extra styles for this book's EPUB (added after the shared EPUB_CSS)
+  img/, art/       photos and art, credited in the book's credits chapter
 """
 from __future__ import annotations
 
@@ -35,9 +39,6 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "build" / "out" / "book"
 DOCS = ROOT / "docs"
 SITE_URL = "https://utx.github.io/sportmag/"
-
-EPIC_DISCLAIMER = ("Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc. "
-                   "All rights reserved by Epic. This material is not official and is not endorsed by Epic.")
 
 TIERS = {"S": 5, "A": 4, "B": 3, "C": 2, "D": 1}
 TIER_NAMES = {"S": "Super", "A": "Awesome", "B": "Brilliant (sometimes)", "C": "Can work", "D": "Don't bother"}
@@ -135,8 +136,9 @@ def prep(slug: str) -> None:
     (out / "pages").mkdir(parents=True, exist_ok=True)
     for f in (out / "pages").glob("*.html"):
         f.unlink()
+    extra = '<link rel="stylesheet" href="graphics.css"/>' if (book["dir"] / "graphics.css").exists() else ""
     head = (f'<!doctype html><html><head><meta charset="utf-8"/><base href="/books/{slug}/"/>'
-            '<link rel="stylesheet" href="/build/book/graphics.css"/></head><body>')
+            f'<link rel="stylesheet" href="/build/book/graphics.css"/>{extra}</head><body>')
     jobs = []
     cover = (book["dir"] / "cover.html").read_text(encoding="utf-8")
     (out / "pages" / "cover.html").write_text(head + cover + "</body></html>", encoding="utf-8")
@@ -220,8 +222,9 @@ def xhtml(title: str, body: str, body_class: str = "") -> str:
 </html>"""
 
 
-def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
-    """Greyscale, 16 levels (what an e-ink screen shows anyway): small files, crisp edges."""
+def to_kindle_png(src: Path, dst: Path, max_w: int = 1200, colour: bool = False) -> None:
+    """Greyscale, 16 levels (what an e-ink screen shows anyway): small files, crisp edges.
+    colour=True keeps colour for tablets and phone apps (a 128-colour palette keeps files small)."""
     from PIL import Image, ImageOps
     im = Image.open(src)
     if im.mode in ("RGBA", "LA", "P"):
@@ -229,6 +232,12 @@ def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
         bg.alpha_composite(im)
         im = bg
+    if colour:
+        c = im.convert("RGB")
+        if c.width > max_w:
+            c = c.resize((max_w, round(c.height * max_w / c.width)), Image.LANCZOS)
+        c.quantize(colors=128, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE).save(dst, optimize=True)
+        return
     g = ImageOps.grayscale(im.convert("RGB"))
     if g.width > max_w:
         g = g.resize((max_w, round(g.height * max_w / g.width)), Image.LANCZOS)
@@ -236,7 +245,7 @@ def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
     g.save(dst, optimize=True)
 
 
-def to_kindle_jpg(src: Path, dst: Path, max_side: int = 1200) -> None:
+def to_kindle_jpg(src: Path, dst: Path, max_side: int = 1200, colour: bool = False) -> None:
     from PIL import Image, ImageOps
     im = ImageOps.exif_transpose(Image.open(src))
     if im.mode in ("RGBA", "LA", "P"):
@@ -244,6 +253,11 @@ def to_kindle_jpg(src: Path, dst: Path, max_side: int = 1200) -> None:
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
         bg.alpha_composite(im)
         im = bg
+    if colour:
+        c = im.convert("RGB")
+        c.thumbnail((max_side, max_side))
+        c.save(dst, quality=82, optimize=True, progressive=False)
+        return
     g = ImageOps.grayscale(im.convert("RGB"))
     g.thumbnail((max_side, max_side))
     g = ImageOps.autocontrast(g, cutoff=0.3)
@@ -295,6 +309,7 @@ def epub(slug: str) -> None:
         shutil.rmtree(work)
     (work / "images").mkdir(parents=True)
 
+    colour = bool(book.get("colour"))
     used_photos: set[str] = set()
     frags, chapters = [], []
     raw = {}
@@ -335,22 +350,24 @@ def epub(slug: str) -> None:
     # images actually referenced
     gids = sorted(set(re.findall(r'src="images/(g-[\w-]+)\.png"', "".join(frags))))
     for gid in gids:
-        to_kindle_png(rendered / f"{gid}.png", work / "images" / f"{gid}.png")
+        to_kindle_png(rendered / f"{gid}.png", work / "images" / f"{gid}.png", colour=colour)
     for p in sorted(used_photos):
         folder, stem = p.split("/")
         src = next((book["dir"] / folder / f"{stem}{ext}" for ext in (".jpg", ".png") if (book["dir"] / folder / f"{stem}{ext}").exists()), None)
         if not src:
             raise SystemExit(f"epub: missing {p}.jpg/png")
-        to_kindle_jpg(src, work / "images" / f"{folder}-{stem}.jpg")
+        to_kindle_jpg(src, work / "images" / f"{folder}-{stem}.jpg", colour=colour)
     from PIL import Image
     cover = Image.open(rendered / "cover.png").convert("RGB")
     cover.thumbnail((1600, 2560))
     cover.save(work / "images" / "cover.jpg", quality=90, optimize=True)
 
     (work / "cover.xhtml").write_text(xhtml("Cover", f'<div class="cover-img"><img src="images/cover.jpg" alt="{html.escape(book["title"])} cover"/></div>'), encoding="utf-8")
-    title_page = (f'<div class="title-page"><p class="kicker">{html.escape(book["series"])}</p>\n<h1>{html.escape(book["title"])}</h1>\n'
+    series = f'<p class="kicker">{html.escape(book["series"])}</p>\n' if book.get("series") else ""
+    notes = "".join(f'<p class="small">{n}</p>\n' for n in book.get("title_notes", []))
+    title_page = (f'<div class="title-page">{series}<h1>{html.escape(book["title"])}</h1>\n'
                   f'<p class="sub">{html.escape(book["subtitle"])}</p>\n<p class="small">{html.escape(book["version_note"])}</p>\n'
-                  f'<p class="small">An unofficial Fortnite fan book.</p>\n<p class="small"><i>{EPIC_DISCLAIMER}</i></p></div>')
+                  f'{notes}</div>')
     (work / "title.xhtml").write_text(xhtml("Title page", title_page), encoding="utf-8")
     toc_items = "".join(f'<p class="toc-item"><span class="toc-num">{ch["number"] if "number" in ch else "•"}</span> '
                         f'<a href="{n}">{html.escape(ch["title"])}</a>'
@@ -364,9 +381,17 @@ def epub(slug: str) -> None:
                 + '<li><a epub:type="toc" href="contents.xhtml">Contents</a></li>'
                 + f'<li><a epub:type="bodymatter" href="{chapters[0][0]}">Start reading</a></li></ol></nav>')
     (work / "nav.xhtml").write_text(nav, encoding="utf-8")
-    (work / "style.css").write_text(EPUB_CSS, encoding="utf-8")
+    extra_css = book["dir"] / "epub.css"
+    (work / "style.css").write_text(EPUB_CSS + (extra_css.read_text(encoding="utf-8") if extra_css.exists() else ""), encoding="utf-8")
 
     book_id = f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_URL, SITE_URL + 'books/' + slug)}"
+    a11y = ""
+    if book.get("accessibility_summary"):       # EPUB Accessibility 1.1 discovery metadata
+        a11y = "".join(f'\n    <meta property="schema:{k}">{v}</meta>' for k, v in (
+            ("accessMode", "textual"), ("accessMode", "visual"), ("accessModeSufficient", "textual"),
+            ("accessibilityFeature", "alternativeText"), ("accessibilityFeature", "tableOfContents"),
+            ("accessibilityFeature", "readingOrder"), ("accessibilityFeature", "structuralNavigation"),
+            ("accessibilityHazard", "none"), ("accessibilitySummary", html.escape(book["accessibility_summary"]))))
     modified = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     manifest = ['<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
                 '<item id="css" href="style.css" media-type="text/css"/>',
@@ -388,13 +413,13 @@ def epub(slug: str) -> None:
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{book_id}</dc:identifier>
     <dc:title>{html.escape(book['title'])}: {html.escape(book['subtitle'])}</dc:title>
-    <dc:creator>The Chug Jug</dc:creator>
-    <dc:publisher>The Chug Jug (unofficial fan publication)</dc:publisher>
+    <dc:creator>{html.escape(book['creator'])}</dc:creator>
+    <dc:publisher>{html.escape(book['publisher'])}</dc:publisher>
     <dc:language>en-AU</dc:language>
     <dc:date>{book['date']}</dc:date>
     <dc:description>{html.escape(book['description'])}</dc:description>
-    <dc:rights>{html.escape(EPIC_DISCLAIMER)}</dc:rights>
-    <meta property="dcterms:modified">{modified}</meta>
+    <dc:rights>{html.escape(book['rights'])}</dc:rights>
+    <meta property="dcterms:modified">{modified}</meta>{a11y}
     <meta name="cover" content="cover-image"/>
   </metadata>
   <manifest>

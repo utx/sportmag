@@ -1,0 +1,114 @@
+/* The Complete Guide to JDL Football in NSW: graphics rendered to PNG by build/book-render.mjs (on top of build/book/graphics.css).
+   Drawn in colour for tablets and phones, but every colour is also a different grey, so it still reads
+   on a black-and-white Kindle. Labels carry the meaning; colour only helps. */
+:root {
+  --ink: #10213b;      /* navy */
+  --pitch: #1d7a4a;    /* grass */
+  --pitch2: #23894f;   /* mown stripe */
+  --gold: #f2b705;
+  --red: #d2402b;
+  --sky: #cfe6f5;
+  --paper: #f6f4ec;
+  --line: #ffffff;
+  --grey: #6b7684;
+}
+
+/* ---------- chapter opener ---------- */
+.g-opener { width: 600px; }
+.fo { position: relative; height: 230px; overflow: hidden; border-radius: 14px; background: var(--pitch);
+  background-image: repeating-linear-gradient(90deg, var(--pitch) 0 60px, var(--pitch2) 60px 120px); }
+.fo svg.lines { position: absolute; inset: 0; width: 100%; height: 100%; }
+.fo__num { position: absolute; left: 26px; top: 14px; font-family: "Anton", sans-serif; font-size: 150px; line-height: 1;
+  color: var(--gold); -webkit-text-stroke: 4px var(--ink); paint-order: stroke fill; text-shadow: 6px 6px 0 var(--ink); }
+.fo__word { position: absolute; left: 190px; right: 24px; top: 42px; font-family: "Anton", sans-serif; font-size: 50px; line-height: 1.02;
+  text-transform: uppercase; color: #fff; text-shadow: 3px 3px 0 var(--ink); }
+.fo__tag { position: absolute; left: 192px; bottom: 26px; background: var(--ink); color: #fff; font-weight: 800; font-size: 20px;
+  letter-spacing: .14em; text-transform: uppercase; padding: 5px 14px 6px; border-radius: 4px; }
+.fo--start .fo__num { font-size: 64px; top: 30px; left: 30px; letter-spacing: .02em; }
+.fo--start .fo__word { left: 30px; top: 110px; font-size: 44px; }
+.fo--start .fo__tag { left: 30px; bottom: 18px; }
+
+/* ---------- general panel ---------- */
+.panel { border: 5px solid var(--ink); border-radius: 16px; background: var(--paper); padding: 18px 20px 20px; }
+.panel__title { font-family: "Anton", sans-serif; font-size: 34px; line-height: 1.05; text-transform: uppercase; color: var(--ink); margin: 0 0 4px; }
+.panel__sub { font-weight: 700; font-size: 19px; color: var(--grey); margin: 0 0 14px; text-transform: uppercase; letter-spacing: .06em; }
+.panel svg { display: block; width: 100%; height: auto; }
+.svgt { font-family: "Barlow Condensed", sans-serif; font-weight: 800; }
+.svga { font-family: "Anton", sans-serif; }
+
+/* ---------- fact grid ---------- */
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.fact { background: #fff; border: 3px solid var(--ink); border-radius: 10px; padding: 8px 12px 10px; }
+.fact b { display: block; font-family: "Anton", sans-serif; font-weight: 400; font-size: 32px; line-height: 1.05; color: var(--ink); }
+.fact span { display: block; font-weight: 700; font-size: 18px; color: #333; text-transform: uppercase; letter-spacing: .05em; }
+.fact.wide { grid-column: 1 / -1; }
+.fact.hl { background: var(--gold); }
+
+/* ---------- step cards ---------- */
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.steps.two { grid-template-columns: 1fr 1fr; }
+.steps.four { grid-template-columns: 1fr 1fr; }
+.step { background: #fff; border: 3px solid var(--ink); border-radius: 12px; padding: 10px 12px 12px; position: relative; }
+.step__n { font-family: "Anton", sans-serif; font-size: 40px; line-height: 1; color: var(--pitch); }
+.step__h { font-family: "Anton", sans-serif; font-size: 25px; line-height: 1.05; text-transform: uppercase; color: var(--ink); margin: 4px 0 6px; }
+.step__p { font-weight: 600; font-size: 18px; line-height: 1.2; color: #222; }
+.step.dark { background: var(--ink); }
+.step.dark .step__h, .step.dark .step__p { color: #fff; }
+.step.dark .step__n { color: var(--gold); }
+.step.gold { background: var(--gold); }
+
+/* ---------- timeline ---------- */
+.tl { position: relative; padding: 4px 0 0 0; }
+.tl__row { display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: stretch; margin-bottom: 8px; }
+.tl__when { background: var(--ink); color: #fff; font-family: "Anton", sans-serif; font-size: 22px; line-height: 1.05; text-transform: uppercase;
+  border-radius: 8px; padding: 8px 10px; display: flex; align-items: center; }
+.tl__what { background: #fff; border: 3px solid var(--ink); border-radius: 8px; padding: 6px 12px 8px; font-weight: 600; font-size: 19px; line-height: 1.2; }
+.tl__what b { font-family: "Anton", sans-serif; font-weight: 400; font-size: 22px; text-transform: uppercase; color: var(--pitch); display: block; }
+.tl__row.hl .tl__what { background: var(--gold); }
+
+/* ---------- ranking board ---------- */
+.rank { border: 5px solid var(--ink); border-radius: 16px; overflow: hidden; background: #fff; }
+.rank__title { background: var(--ink); color: #fff; font-family: "Anton", sans-serif; font-size: 34px; text-transform: uppercase; padding: 12px 18px 10px; line-height: 1; }
+.rank__title small { display: block; font-family: "Barlow Condensed", sans-serif; font-weight: 700; font-size: 18px; letter-spacing: .08em; color: var(--gold); margin-top: 6px; }
+.rrow { display: grid; grid-template-columns: 54px 1fr 72px 92px; align-items: center; border-top: 2px solid #d5d9de; min-height: 38px; }
+.rrow:nth-child(even) { background: #f3f5f2; }
+.rrow__n { font-family: "Anton", sans-serif; font-size: 26px; text-align: center; color: var(--ink); }
+.rrow__name { font-weight: 800; font-size: 22px; line-height: 1.05; color: #111; padding: 4px 0; }
+.rrow__zone { font-weight: 700; font-size: 16px; letter-spacing: .06em; text-transform: uppercase; color: var(--grey); }
+.badge { justify-self: center; font-weight: 800; font-size: 14px; letter-spacing: .06em; text-transform: uppercase; border-radius: 20px;
+  padding: 3px 9px 4px; border: 2px solid var(--ink); white-space: nowrap; }
+.badge.gold { background: var(--gold); color: var(--ink); }
+.badge.silver { background: #cdd3d9; color: var(--ink); }
+.badge.bronze { background: #b8743c; color: #fff; }
+.badge.dc { background: #fff; color: var(--ink); border-style: dashed; }
+.badge.new { background: var(--ink); color: #fff; }
+.rrow.top { background: #fff6d6 !important; min-height: 48px; }
+.rrow.top .rrow__n { font-size: 34px; color: var(--pitch); }
+.rrow.top .rrow__name { font-size: 25px; }
+.rank__key { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 14px 12px; border-top: 3px solid var(--ink); background: var(--paper); font-weight: 700; font-size: 16px; align-items: center; }
+
+/* ---------- plate ---------- */
+.legend { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; margin-top: 12px; }
+.legend div { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 19px; line-height: 1.1; }
+.legend i { flex: none; width: 26px; height: 26px; border-radius: 6px; border: 3px solid var(--ink); }
+
+/* ---------- cover ---------- */
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: var(--pitch); font-family: "Barlow Condensed", sans-serif;
+  background-image: repeating-linear-gradient(180deg, #1b7346 0 120px, #218650 120px 240px); }
+#cover svg.pitch { position: absolute; inset: 0; width: 100%; height: 100%; }
+#cover .pre, #cover .post { position: absolute; left: 0; right: 0; text-align: center; font-family: "Anton", sans-serif; text-transform: uppercase;
+  color: #fff; -webkit-text-stroke: 5px var(--ink); paint-order: stroke fill; text-shadow: 5px 5px 0 var(--ink); }
+#cover .pre { top: 34px; font-size: 60px; letter-spacing: .03em; }
+#cover .jdl { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Anton", sans-serif; font-size: 372px; line-height: .92;
+  color: var(--gold); -webkit-text-stroke: 10px var(--ink); paint-order: stroke fill; letter-spacing: .02em;
+  text-shadow: 7px 7px 0 var(--ink), 14px 14px 0 var(--ink), 19px 19px 0 #fff, 24px 24px 0 #fff, 30px 34px 22px rgba(0,0,0,.45); }
+#cover .post { top: 530px; font-size: 104px; line-height: 1; }
+#cover .ribbon { position: absolute; top: 668px; left: 50%; transform: translateX(-50%) rotate(-3deg); white-space: nowrap; background: #fff; color: var(--ink);
+  font-weight: 800; font-size: 32px; letter-spacing: .03em; text-transform: uppercase; padding: 8px 24px 10px; border: 5px solid var(--ink); box-shadow: 8px 8px 0 var(--ink); }
+#cover .ball { position: absolute; left: 50%; top: 760px; width: 240px; height: 240px; transform: translateX(-50%) rotate(-12deg);
+  filter: drop-shadow(0 16px 12px rgba(0,0,0,.45)); }
+#cover .chips { position: absolute; left: 30px; right: 30px; bottom: 120px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+#cover .chips span { background: var(--ink); color: #fff; border: 3px solid var(--gold); border-radius: 30px; padding: 4px 18px 6px; font-weight: 800; font-size: 25px; letter-spacing: .04em; text-transform: uppercase; }
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 34px; text-align: center; color: #fff; }
+#cover .foot b { display: block; font-weight: 800; font-size: 24px; letter-spacing: .14em; text-transform: uppercase; }
+#cover .foot span { display: block; font-weight: 600; font-size: 17px; letter-spacing: .14em; text-transform: uppercase; color: #cfe8d8; margin-top: 4px; }
