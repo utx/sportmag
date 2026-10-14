@@ -1,1 +1,69 @@
-<div id="cover" style="width:800px;height:1280px;background:#222"></div>
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #0e1a2e; font-family: "Barlow Condensed", sans-serif; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 45% 40%; filter: saturate(.9) brightness(.5) blur(3px); transform: scale(1.04); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(8,14,32,.95) 0%, rgba(8,14,32,.6) 26%, rgba(8,14,32,.1) 44%, rgba(8,14,32,.1) 60%, rgba(8,14,32,.88) 82%, #080e20 100%); }
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 78px; text-align: center; transform: rotate(-3deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .86; text-transform: uppercase; -webkit-text-stroke: 7px #080e20; paint-order: stroke fill;
+  text-shadow: 3px 3px 0 #080e20, 6px 6px 0 #080e20, 9px 9px 0 #080e20, 12px 12px 0 #080e20, 15px 15px 0 #3fb2ff, 18px 18px 0 #3fb2ff, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t1 { font-size: 205px; color: #fff; }
+#cover .t2 { font-size: 166px; color: #ffd23f; margin-top: 4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 448px; transform: translateX(-50%) rotate(-3deg); white-space: nowrap;
+  background: #fff; color: #080e20; font-weight: 800; font-size: 29px; letter-spacing: .03em; text-transform: uppercase;
+  padding: 8px 26px 9px; border: 5px solid #080e20; box-shadow: 8px 8px 0 #080e20; }
+#cover .ribbon b { color: #1d7fd6; }
+
+#cover .hero { position: absolute; filter: drop-shadow(0 14px 18px rgba(0,0,0,.6)); }
+#cover .h-geno { height: 640px; left: 50%; transform: translateX(-50%); bottom: 300px; opacity: .45; filter: brightness(.55) drop-shadow(0 0 30px rgba(63,178,255,.8)); }
+#cover .h-punk { height: 560px; left: -20px; bottom: 150px; }
+#cover .h-mali { height: 600px; right: -20px; bottom: 150px; }
+
+#cover .stamp { position: absolute; left: 24px; top: 515px; width: 226px; height: 226px; border-radius: 50%; transform: rotate(-14deg);
+  background: #ffd23f; border: 7px solid #080e20; box-shadow: 7px 7px 0 #080e20; text-align: center; color: #080e20; padding-top: 40px; }
+#cover .stamp .big { font-family: "Anton", sans-serif; font-size: 50px; line-height: .95; }
+#cover .stamp .s { font-weight: 800; font-size: 19px; letter-spacing: .08em; text-transform: uppercase; }
+#cover .stamp .tiny { font-weight: 800; font-size: 15px; margin-top: 6px; }
+
+#cover .floaty { position: absolute; filter: drop-shadow(0 10px 10px rgba(0,0,0,.6)); }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 168px; padding: 0 30px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; flex-wrap: wrap; gap: 9px; margin-top: 4px; }
+#cover .chips span { background: rgba(255,255,255,.12); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 15px 4px;
+  font-weight: 800; font-size: 22px; letter-spacing: .04em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 21px; letter-spacing: .14em; text-transform: uppercase; color: #bcd6ff; margin-top: 12px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #8095bd; margin-top: 7px; }
+</style>
+<div id="cover">
+  <img class="bg" src="art/lobby-sprites.jpg" alt=""/>
+  <div class="shade"></div>
+
+  <img class="hero h-geno" src="art/hero-geno.png" alt=""/>
+  <img class="hero h-punk" src="art/hero-gold-punk.png" alt=""/>
+  <img class="hero h-mali" src="art/hero-mali.png" alt=""/>
+
+  <img class="floaty" src="img/s-klombo.png" alt="" style="width:170px;left:300px;bottom:170px;transform:rotate(-6deg)"/>
+  <img class="floaty" src="img/s-x-ray.png" alt="" style="width:130px;left:180px;bottom:300px;transform:rotate(-10deg)"/>
+  <img class="floaty" src="img/i-1-up-token.png" alt="" style="width:110px;left:440px;bottom:330px;transform:rotate(12deg)"/>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">True</div><div class="t2">Royale</div></div>
+
+  <div class="ribbon">Real stories from the Island <b>&amp; how to pull them off</b></div>
+
+  <div class="stamp"><div class="s">Certified</div><div class="big">100% TRUE*</div><div class="tiny">*except the Squad Tales</div></div>
+
+  <div class="foot">
+    <div class="chips"><span>Cracked codes</span><span>Clutch wins</span><span>Sprite secrets</span><span>A race to the South Pole</span></div>
+    <div class="ver">Chapter 7 · Season 4 · Override</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not endorsed by Epic Games</div>
+  </div>
+</div>

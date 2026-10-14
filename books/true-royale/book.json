@@ -7,8 +7,147 @@
   "description": "An unofficial Fortnite fan book of true stories from the Override season: clever plays, cracked codes, championship heartbreak and a race to the South Pole, each with a breakdown of the game mechanic behind it.",
   "glossary_blurb": "Every Word Watch word in this book, from A to Z. Pick three you didn't know before, and use each one today. Extra Chug Jugs if you use one in the lobby.",
   "chapters": [
-    {"file": "00-before-you-drop.html", "title": "Before You Drop", "kicker": "How this book works", "toc": "True stories, Squad Tales and Steal-ability", "label": "Start here", "dek": "What's true, what's made up, and how to steal a trick."},
-    {"file": "01-the-tweet.html", "title": "The Tweet That Hacked Itself", "kicker": "Lobby Hacks", "toc": "A secret code hidden in a scrambled post", "number": 1, "dek": "A villain \"hijacks\" Fortnite's account and leaves behind a puzzle. Can you crack it?"},
-    {"file": "08-extract-or-bust.html", "title": "Extract or Bust", "kicker": "History File: the race to the South Pole", "toc": "History File: the race to the South Pole", "number": 8, "dek": "In 1911, two teams raced to the bottom of the world, and discovered that getting home was the hardest part."}
+    {
+      "file": "00-before-you-drop.html",
+      "title": "Before You Drop",
+      "kicker": "How this book works",
+      "toc": "True Stories, Squad Tales and Steal-ability",
+      "label": "Start here",
+      "dek": "What's true, what's made up, and how to steal a trick."
+    },
+    {
+      "file": "01-the-tweet.html",
+      "title": "The Tweet That Hacked Itself",
+      "kicker": "True story: Lobby Hacks",
+      "toc": "A secret code hidden in a scrambled post",
+      "number": 1,
+      "dek": "A villain “hijacks” Fortnite's account and leaves behind a puzzle. Can you crack it?"
+    },
+    {
+      "file": "02-the-gargoyle.html",
+      "title": "The Gargoyle That Wasn't",
+      "kicker": "True story: Override Consoles",
+      "toc": "SypherPK, Prop Hunt, and the machines that rewrite the rules",
+      "number": 2,
+      "dek": "How a famous creator hid in plain sight, and why every console is a gamble."
+    },
+    {
+      "file": "03-the-sprite-in-glasses.html",
+      "title": "The Sprite in Glasses",
+      "kicker": "True story: Sprites",
+      "toc": "An eight-year-old's design, and how Sprites level up",
+      "number": 3,
+      "dek": "Twenty thousand fans designed Sprites. One of the winners was eight years old."
+    },
+    {
+      "file": "04-squad-tale-three-cartridges.html",
+      "title": "Three Cartridges",
+      "kicker": "Squad Tale #1",
+      "toc": "Squad Tale: the console dilemma",
+      "number": 4,
+      "dek": "Made-up squad, real tricks. Three choices, twenty seconds, and a lot of lightning."
+    },
+    {
+      "file": "05-klombo.html",
+      "title": "The Monster That Only Grows When You Eat",
+      "kicker": "True story: Klombo",
+      "toc": "The Sprite that only levels up when you heal",
+      "number": 5,
+      "dek": "To make it stronger, you have to get hurt. Welcome to the Klombo paradox."
+    },
+    {
+      "file": "06-two-points.html",
+      "title": "Two Points",
+      "kicker": "True story: the world championship",
+      "toc": "The closest world final ever",
+      "number": 6,
+      "dek": "Twelve games, fifty duos, two million dollars, and a title decided by two points."
+    },
+    {
+      "file": "07-no-violence-please.html",
+      "title": "No Violence, Please",
+      "kicker": "True story: Tetris and group healing",
+      "toc": "Why the Tetris blocks heal you",
+      "number": 7,
+      "dek": "The day a famous puzzle game told Fortnite: our blocks only do good things."
+    },
+    {
+      "file": "08-extract-or-bust.html",
+      "title": "Extract or Bust",
+      "kicker": "History File: the race to the South Pole",
+      "toc": "History File: the race to the South Pole",
+      "number": 8,
+      "dek": "In 1911, two teams raced to the bottom of the world, and discovered that getting home was the hardest part."
+    },
+    {
+      "file": "09-squad-tale-the-quiet-way-home.html",
+      "title": "The Quiet Way Home",
+      "kicker": "Squad Tale #2",
+      "toc": "Squad Tale: how to extract a Mythic",
+      "number": 9,
+      "dek": "Made-up squad, real tricks. A Mythic Sprite, an Extraction Site, and ten very long seconds."
+    },
+    {
+      "file": "10-the-storm-doesnt-care.html",
+      "title": "The Storm Doesn't Care",
+      "kicker": "True story: the storm",
+      "toc": "How the best duo in the world lost to the storm",
+      "number": 10,
+      "dek": "They won in Paris. They led the world championship by 78 points. Then the storm moved."
+    },
+    {
+      "file": "11-the-boss-you-cant-beat.html",
+      "title": "The Boss You Can't Beat",
+      "kicker": "True story: Geno and the 1-Up Token",
+      "toc": "Geno's quests, and whether a 1-Up can save you",
+      "number": 11,
+      "dek": "The quest says “take down Geno”. The next one says “be eliminated by Geno”."
+    },
+    {
+      "file": "12-clues-in-the-clouds.html",
+      "title": "Clues in the Clouds",
+      "kicker": "True story: the detectives",
+      "toc": "How fans cracked the season before it started",
+      "number": 12,
+      "dek": "A tune at Wonkeeland, shapes in the sky, and the clue that fooled almost everyone."
+    },
+    {
+      "file": "13-aussie-aussie-aussie.html",
+      "title": "Aussie, Aussie, Aussie",
+      "kicker": "True story: Sprite hunting and Oceania",
+      "toc": "Lachlan, Loserfruit, and Oceania's best",
+      "number": 13,
+      "dek": "A Sprite race between two Aussie creators, and the Australians fighting for a world title."
+    },
+    {
+      "file": "14-squad-tale-final-circle.html",
+      "title": "The Final Circle",
+      "kicker": "Squad Tale #3",
+      "toc": "Squad Tale: brooms, skeletons and a Victory Royale",
+      "number": 14,
+      "dek": "Made-up squad, real tricks. Eleven players left, everyone invisible, and one Witch Broom."
+    },
+    {
+      "file": "15-quiz.html",
+      "title": "The True Royale Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Twenty questions. One Chug Jug for each right answer."
+    },
+    {
+      "file": "@glossary",
+      "title": "Jug of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "17-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
   ]
 }
