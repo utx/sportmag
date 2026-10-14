@@ -1,0 +1,153 @@
+{
+  "title": "Build Different",
+  "subtitle": "How to get better at Fortnite",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-14",
+  "version_note": "Written in Chapter 7 Season 4 (Override), October 2026. The skills in this book work in any season.",
+  "description": "An unofficial Fortnite fan book about getting better: settings, landing, listening, aiming, building, Zero Build movement, the storm, teamwork, practice and keeping your cool.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Pick one a day and use it at dinner. Extra points if nobody notices it came from a Fortnite book.",
+  "chapters": [
+    {
+      "file": "00-before-you-drop.html",
+      "title": "Before You Drop",
+      "kicker": "How this book works",
+      "toc": "How to use this book",
+      "label": "Start here",
+      "dek": "Nobody is born good at Fortnite. Here's how this book turns practice into wins."
+    },
+    {
+      "file": "01-know-your-bars.html",
+      "title": "Know Your Bars",
+      "kicker": "The basics",
+      "toc": "Health, shield and damage",
+      "number": 1,
+      "dek": "Two bars, three colours and one storm. The numbers every good player knows by heart."
+    },
+    {
+      "file": "02-settings-sorted.html",
+      "title": "Settings Sorted",
+      "kicker": "Settings",
+      "toc": "The settings that help most",
+      "number": 2,
+      "dek": "Ten minutes in the menu can win you more fights than ten hours of playing. Here's what to switch on."
+    },
+    {
+      "file": "03-first-sixty-seconds.html",
+      "title": "The First Sixty Seconds",
+      "kicker": "Landing",
+      "toc": "Landing and looting",
+      "number": 3,
+      "dek": "Most matches are won or lost before your feet touch the grass. How to drop fast, land first and loot like lightning."
+    },
+    {
+      "file": "04-ears-wide-open.html",
+      "title": "Ears Wide Open",
+      "kicker": "Sound and awareness",
+      "toc": "Listening and looking",
+      "number": 4,
+      "dek": "The best players know where you are before they can see you. Here's how they do it."
+    },
+    {
+      "file": "05-point-and-chug.html",
+      "title": "Point and Chug",
+      "kicker": "Aiming",
+      "toc": "Aiming",
+      "number": 5,
+      "dek": "Where to keep your crosshair, when to stand still, and why the first shot matters most."
+    },
+    {
+      "file": "06-pick-your-fights.html",
+      "title": "Pick Your Fights",
+      "kicker": "Fighting smart",
+      "toc": "When to fight, when to run",
+      "number": 6,
+      "dek": "Winning a fight is good. Choosing the right fight is better. A flowchart, a warning about third parties, and the art of the getaway."
+    },
+    {
+      "file": "07-brick-by-brick.html",
+      "title": "Brick by Brick",
+      "kicker": "Building and editing",
+      "toc": "Building and editing",
+      "number": 7,
+      "dek": "Four pieces, three materials, and the moves that every builder learns first."
+    },
+    {
+      "file": "08-zero-build-hero.html",
+      "title": "Zero Build Hero",
+      "kicker": "Moving without building",
+      "toc": "Zero Build skills",
+      "number": 8,
+      "dek": "No walls? No problem. Sliding, mantling, wall kicks and the art of hiding behind a very large rock."
+    },
+    {
+      "file": "09-storm-chasers.html",
+      "title": "Storm Chasers",
+      "kicker": "Rotating",
+      "toc": "The storm and how to move",
+      "number": 9,
+      "dek": "The storm is the one enemy you can't eliminate. How it works, and how to stay one step ahead of it."
+    },
+    {
+      "file": "10-squad-goals.html",
+      "title": "Squad Goals",
+      "kicker": "Teamwork",
+      "toc": "Callouts, revives and reboots",
+      "number": 10,
+      "dek": "Four average players who work together will beat four brilliant players who don't. Here's how to be the teammate everyone wants."
+    },
+    {
+      "file": "11-final-circle.html",
+      "title": "The Final Circle",
+      "kicker": "Endgames",
+      "toc": "Winning the endgame",
+      "number": 11,
+      "dek": "Ten players left, a tiny circle and your heart thumping. How to stay calm and finish the job."
+    },
+    {
+      "file": "12-training-montage.html",
+      "title": "Training Montage",
+      "kicker": "Practice and Ranked",
+      "toc": "How to practise, and how Ranked works",
+      "number": 12,
+      "dek": "Playing lots of matches isn't the same as practising. A weekly plan, replays, and how Ranked really works."
+    },
+    {
+      "file": "13-keep-your-cool.html",
+      "title": "Keep Your Cool",
+      "kicker": "Mindset",
+      "toc": "Staying calm, staying kind",
+      "number": 13,
+      "dek": "The secret skill every champion has, and it's got nothing to do with aiming."
+    },
+    {
+      "file": "14-myth-or-fact.html",
+      "title": "Myth or Fact?",
+      "kicker": "Busting the big myths",
+      "toc": "Fortnite myths, busted",
+      "number": 14,
+      "dek": "Do skins make you better? Is higher sensitivity always faster? We check the things everybody says."
+    },
+    {
+      "file": "15-quiz.html",
+      "title": "The Build Different Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Fifteen questions. One Chug Jug for each right answer."
+    },
+    {
+      "file": "@glossary",
+      "title": "Jug of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "17-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}

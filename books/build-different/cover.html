@@ -1,0 +1,82 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #062433; font-family: "Barlow Condensed", sans-serif; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 30% 40%; filter: saturate(.9) hue-rotate(-20deg) brightness(.9); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(4,26,38,.95) 0%, rgba(4,26,38,.7) 26%, rgba(4,26,38,.1) 46%, rgba(4,26,38,.05) 62%, rgba(4,26,38,.88) 84%, #041a26 100%); }
+#cover .grid { position: absolute; left: 0; right: 0; top: 420px; height: 700px; opacity: .35;
+  background-image: linear-gradient(rgba(95,220,255,.9) 2px, transparent 2px), linear-gradient(90deg, rgba(95,220,255,.9) 2px, transparent 2px);
+  background-size: 80px 80px; transform: perspective(600px) rotateX(58deg); transform-origin: 50% 0;
+  -webkit-mask: linear-gradient(180deg, transparent 0%, #000 30%, #000 70%, transparent 100%); mask: linear-gradient(180deg, transparent 0%, #000 30%, #000 70%, transparent 100%); }
+
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 70px; text-align: center; transform: rotate(-3deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .86; text-transform: uppercase; -webkit-text-stroke: 7px #041a26; paint-order: stroke fill; }
+#cover .t1 { font-size: 236px; color: #ffd23f;
+  text-shadow: 3px 3px 0 #041a26, 6px 6px 0 #041a26, 9px 9px 0 #041a26, 12px 12px 0 #ff7a1a, 15px 15px 0 #ff7a1a, 18px 18px 0 #ff7a1a, 26px 28px 18px rgba(0,0,0,.55); }
+#cover .t2 { font-size: 132px; color: #fff; margin-top: 6px; letter-spacing: .02em;
+  text-shadow: 3px 3px 0 #041a26, 6px 6px 0 #041a26, 9px 9px 0 #19b5e6, 12px 12px 0 #19b5e6, 18px 20px 14px rgba(0,0,0,.5); }
+
+#cover .ribbon { position: absolute; left: 50%; top: 432px; transform: translateX(-50%) rotate(-3deg); white-space: nowrap;
+  background: #fff; color: #041a26; font-weight: 800; font-size: 32px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 30px 9px; border: 5px solid #041a26; box-shadow: 8px 8px 0 #041a26; }
+#cover .ribbon b { color: #ff7a1a; }
+
+#cover .hero { position: absolute; filter: drop-shadow(0 14px 18px rgba(0,0,0,.6)); }
+#cover .h-wrixel { height: 600px; left: 50%; transform: translateX(-50%); bottom: 150px; }
+#cover .h-jonesy { height: 600px; left: -30px; bottom: 150px; }
+#cover .h-peely { height: 540px; right: -10px; bottom: 150px; }
+
+#cover .build { position: absolute; }
+#cover .stamp { position: absolute; right: 12px; top: 196px; transform: rotate(9deg); width: 158px; height: 158px; border-radius: 50%;
+  background: #ff7a1a; border: 6px solid #041a26; box-shadow: 7px 7px 0 #041a26; text-align: center; color: #041a26; padding-top: 22px; }
+#cover .stamp .n { font-family: "Anton", sans-serif; font-size: 54px; line-height: .9; color: #fff; -webkit-text-stroke: 3px #041a26; paint-order: stroke fill; }
+#cover .stamp .k { font-weight: 800; font-size: 20px; letter-spacing: .06em; text-transform: uppercase; line-height: 1.05; margin-top: 4px; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 160px; padding: 0 30px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+#cover .chips span { background: rgba(255,255,255,.1); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 15px 4px;
+  font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #a9e6ff; margin-top: 14px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #6fa9c2; margin-top: 8px; }
+</style>
+<div id="cover">
+  <img class="bg" src="art/lobby-override.jpg" alt=""/>
+  <div class="grid"></div>
+  <div class="shade"></div>
+
+  <svg class="build" viewBox="0 0 300 300" style="width:300px;left:-40px;top:470px;opacity:.95" aria-hidden="true">
+    <g stroke="#041a26" stroke-width="6" stroke-linejoin="round">
+      <path d="M40 260 L150 210 L150 90 L40 140z" fill="#19b5e6"/><path d="M40 200 L150 150M95 115 v120" stroke="#bff0ff" stroke-width="4"/>
+      <path d="M150 210 L260 260 L260 140 L150 90z" fill="#0e86ad"/><path d="M150 150 L260 200M205 115 v120" stroke="#8fe0fa" stroke-width="4"/>
+    </g>
+  </svg>
+  <svg class="build" viewBox="0 0 300 300" style="width:280px;right:-50px;top:740px;transform:rotate(6deg)" aria-hidden="true">
+    <g stroke="#041a26" stroke-width="6" stroke-linejoin="round">
+      <path d="M30 250 L120 280 L270 120 L180 90z" fill="#ffd23f"/><path d="M60 218 l90 30 M90 186 l90 30 M120 154 l90 30 M150 122 l90 30" stroke="#b8860b" stroke-width="5"/>
+    </g>
+  </svg>
+
+  <img class="hero h-jonesy" src="art/hero-jonesy-first.png" alt=""/>
+  <img class="hero h-peely" src="art/hero-peely.png" alt=""/>
+  <img class="hero h-wrixel" src="art/hero-wrixel.png" alt=""/>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">Build</div><div class="t2">Different</div></div>
+
+  <div class="ribbon">How to get <b>better</b> at Fortnite</div>
+
+  <div class="stamp"><div class="n">14</div><div class="k">Skills<br/>+ drills</div></div>
+
+  <div class="foot">
+    <div class="chips"><span>Aim</span><span>Build</span><span>Zero Build</span><span>Storm</span><span>Teamwork</span></div>
+    <div class="ver">Works in any season · October 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>
