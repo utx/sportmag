@@ -1,0 +1,110 @@
+<div class="g g-opener" id="g-open-01" data-alt=""><div class="opener"><img class="opener__bg" src="art/lobby-override.jpg" alt="" style="object-position:30% 50%"/><div class="opener__shade"></div><div class="opener__num">True story #1</div><div class="opener__word">The tweet that hacked itself</div></div></div><!--/g-->
+
+<p>At four o'clock on a Sunday morning in August, while almost everyone in Sydney was fast asleep, the Fortnite Island broke.</p>
+
+<p>It happened during a live event called <b>Unstable</b>, the grand finale of the previous season. Millions of players around the world watched the scientist Dr Slone fire a gigantic beam at the damaged Zero Point, the glowing heart of the Island, to repair it. Then the villain <b>Geno</b> hacked in through a secret back door. Everybody's screen went haywire. The game's graphics fell apart, health bars drained by themselves, and silly pop-up adverts covered the screen ("Adopt a rubber duck", "Battle Bus rentals: driver NOT included") which players had to click away one by one. Then the picture cut to an old-fashioned computer start-up screen, and the Zero Point was gone. In its place sat a gigantic game cartridge.</p>
+
+<p>That was strange enough. But about an hour later, something even stranger happened. The official Fortnite account on X, followed by millions of people, posted a message that looked as if it had been typed by somebody who didn't know what they were doing:</p>
+
+<p><i>"seems useful… whatever it means lol"</i></p>
+
+<p>Underneath was a block of what looked like computer gibberish.</p>
+
+<div class="g" id="g-hex-tweet" data-alt="The code block from the post, as we copied it: line 7F00: 52 55 4C 45 53 45 54 20 55 4E 42 4F 55 4E 44. Line 7F10: 52 45 53 54 4F 52 49 4E 47 20 4B 45 59 20 2F 2F. Line 7F20: 4F 56, two question marks, 52 52, two question marks, 44, two question marks, 58, two question marks. LEN 0A. CRC32 37CFAD9D. RECOVERED 6 / 10. STATE == UNVERIFIED ==.">
+<div class="panel" style="background:#111;color:#fff;border-color:#111">
+<div class="label" style="font-size:16px;color:#bbb;margin-bottom:8px">The mystery code, 15 August 2026 (our copy)</div>
+<div style="font-family:'Courier New',monospace;font-weight:700;font-size:21px;line-height:1.5;letter-spacing:.02em">
+7F00 52 55 4C 45 53 45 54 20 55 4E 42 4F 55 4E 44<br/>
+7F10 52 45 53 54 4F 52 49 4E 47 20 4B 45 59 20 2F 2F<br/>
+7F20 4F 56 ?? 52 52 ?? 44 ?? 58 ??<br/>
+LEN 0A<br/>
+CRC32 37CFAD9D<br/>
+RECOVERED 6 / 10<br/>
+STATE == UNVERIFIED ==</div>
+</div></div><!--/g-->
+
+<p>The story, as fans soon worked out, was that Geno had "hijacked" Fortnite's social media accounts and posted a scrambled secret before Epic "regained control". It was all part of the season's storyline, of course: Epic's own way of building excitement before the new season began five days later. But the puzzle inside it was completely real. And you don't need a computer to solve it. You just need to know how computers think about letters.</p>
+
+<div class="box word"><h4>Word Watch</h4><dl>
+<dt>Cryptic<small>adjective</small></dt><dd>Mysterious and hard to understand, often on purpose.</dd>
+<dt>Decipher<small>verb</small></dt><dd>To work out the meaning of something written in a code, or that's hard to read.</dd>
+<dt>Hexadecimal<small>noun</small></dt><dd>A way of writing numbers using sixteen digits, 0 to 9 and then A to F. Computer programmers use it all the time.</dd>
+<dt>Checksum<small>noun</small></dt><dd>A number calculated from a piece of data, used to check that the data is complete and correct.</dd>
+</dl></div>
+
+<h2>How computers spell</h2>
+
+<p>Deep down, computers only understand numbers. So, decades ago, programmers agreed on a code called <b>ASCII</b>, in which every letter, digit and punctuation mark has its own number. Capital A is 65, capital B is 66, and so on, all the way up to Z, which is 90. A space is 32.</p>
+
+<p>Programmers often write those numbers in <span class="ww">hexadecimal</span>, or "hex" for short. Our normal counting system uses ten digits, so when you reach nine, you run out and have to start a new column: 10. Hex uses <i>sixteen</i> digits, 0 to 9 followed by A, B, C, D, E and F, so it doesn't need a new column until it reaches sixteen. In hex, the number 65 is written <b>41</b>, which means four sixteens and one more. So in the code, "41" means A, "42" means B, and "52" means R.</p>
+
+<p>Armed with that, the first line of Geno's message stops being gibberish. The pairs <b>52 55 4C 45 53 45 54</b> spell R, U, L, E, S, E, T. Then <b>20</b> is a space. Then <b>55 4E 42 4F 55 4E 44</b> spells U, N, B, O, U, N, D. The first line says <b>RULESET UNBOUND</b>. The second line says <b>RESTORING KEY //</b>. (The numbers at the very start of each line, 7F00, 7F10 and 7F20, are just "addresses", like line numbers, telling you where in the computer's memory each row lives.)</p>
+
+<div class="g" id="g-hex-key" data-alt="Hex decoder: 20 is a space; 2F is a slash. 41 A, 42 B, 43 C, 44 D, 45 E, 46 F, 47 G, 48 H, 49 I, 4A J, 4B K, 4C L, 4D M, 4E N, 4F O, 50 P, 51 Q, 52 R, 53 S, 54 T, 55 U, 56 V, 57 W, 58 X, 59 Y, 5A Z.">
+<div class="panel"><div class="panel__title">Your hex decoder</div>
+<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:6px">
+<div class="pill" style="text-align:center">41 A</div><div class="pill" style="text-align:center">42 B</div><div class="pill" style="text-align:center">43 C</div><div class="pill" style="text-align:center">44 D</div><div class="pill" style="text-align:center">45 E</div><div class="pill" style="text-align:center">46 F</div><div class="pill" style="text-align:center">47 G</div>
+<div class="pill" style="text-align:center">48 H</div><div class="pill" style="text-align:center">49 I</div><div class="pill" style="text-align:center">4A J</div><div class="pill" style="text-align:center">4B K</div><div class="pill" style="text-align:center">4C L</div><div class="pill" style="text-align:center">4D M</div><div class="pill" style="text-align:center">4E N</div>
+<div class="pill" style="text-align:center">4F O</div><div class="pill" style="text-align:center">50 P</div><div class="pill" style="text-align:center">51 Q</div><div class="pill" style="text-align:center">52 R</div><div class="pill" style="text-align:center">53 S</div><div class="pill" style="text-align:center">54 T</div><div class="pill" style="text-align:center">55 U</div>
+<div class="pill" style="text-align:center">56 V</div><div class="pill" style="text-align:center">57 W</div><div class="pill" style="text-align:center">58 X</div><div class="pill" style="text-align:center">59 Y</div><div class="pill" style="text-align:center">5A Z</div><div class="pill" style="text-align:center;background:#111;color:#fff">20 ␣</div><div class="pill" style="text-align:center;background:#111;color:#fff">2F /</div>
+</div>
+<div style="font-weight:700;font-size:16px;color:#444;margin-top:10px">The black pills: 20 is a space and 2F is a slash.</div>
+</div></div><!--/g-->
+
+<h2>The missing letters</h2>
+
+<p>The third line is where it gets properly tricky. It reads <b>4F 56 ?? 52 52 ?? 44 ?? 58 ??</b>, which decodes to <b>O V _ R R _ D _ X _</b>. This is the "key" the second line promised, but four of its letters have been scrambled into question marks. The message even admits it: "RECOVERED 6 / 10" means six letters survived and four didn't. And "LEN 0A" tells you the key's length. In hex, A means ten, so 0A is simply 10. Ten letters.</p>
+
+<p>So how could anyone possibly work out the missing four? That's what the last clue is for. <b>CRC32 37CFAD9D</b> is a <span class="ww">checksum</span>. A checksum is a kind of fingerprint for a piece of data: you feed the data into a particular calculation, and out comes a number. Change even one letter and the number comes out completely different. Computers use checksums constantly, to make sure files haven't been damaged while they were being downloaded.</p>
+
+<p>Here, the checksum works like the answer at the back of a puzzle book. You guess the four missing letters, calculate the fingerprint of your guess, and if it comes out as 37CFAD9D, you've got it.</p>
+
+<p>Now, you could just start guessing at random. But with 26 possible letters in each of four gaps, there are <b>456,976</b> possible combinations, and that would take a while even for a fast typist. A clever <span class="ww">decipherer</span> thinks instead. What ten-letter word would make sense in a season about hacking the rules? <b>O V _ R R _ D _ …</b> Say it out loud. The answer jumps out: <b>OVERRIDE</b>, with <b>X</b> and one more letter on the end. And what do players always want more of? XP. <b>OVERRIDEXP</b>.</p>
+
+<p>We checked it ourselves with a computer. The checksum of OVERRIDEXP is exactly 37CFAD9D. Even better, we asked the computer to try all 456,976 possible combinations, and OVERRIDEXP was the only one that matched. Puzzle solved.</p>
+
+<div class="g" id="g-checksum" data-alt="Solving the key: O V blank R R blank D blank X blank. The four gaps are E, I, E and P, spelling OVERRIDEXP. Its checksum is 37CFAD9D, a perfect match. Only 1 of 456,976 possible fillings matches.">
+<div class="panel"><div class="panel__title">Cracking the key</div>
+<div style="display:flex;gap:6px;justify-content:center;margin:6px 0 10px">
+<div class="slot" style="flex:0 0 48px;padding:6px 0"><b style="font-size:30px">O</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0"><b style="font-size:30px">V</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0;background:#111;color:#fff"><b style="font-size:30px">E</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0"><b style="font-size:30px">R</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0"><b style="font-size:30px">R</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0;background:#111;color:#fff"><b style="font-size:30px">I</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0"><b style="font-size:30px">D</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0;background:#111;color:#fff"><b style="font-size:30px">E</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0"><b style="font-size:30px">X</b></div><div class="slot" style="flex:0 0 48px;padding:6px 0;background:#111;color:#fff"><b style="font-size:30px">P</b></div>
+</div>
+<div style="display:flex;gap:12px;align-items:center;justify-content:center;font-weight:800;font-size:22px">
+<span>CHECKSUM OF OVERRIDEXP</span><span class="anton" style="font-size:30px">=</span><span class="stamp" style="font-size:26px">37CFAD9D ✓</span></div>
+<div style="text-align:center;font-weight:700;font-size:17px;color:#444;margin-top:10px">Black squares: the four letters that were missing. Out of 456,976 possible ways to fill them, only one matches.</div>
+</div></div><!--/g-->
+
+<h2>What the key unlocked</h2>
+
+<p>Five days later, on 20 August, the new season arrived, and with it came a brand-new button in the Battle Royale lobby: the <b>Admin Panel</b>. Type in a secret code, which Epic calls a <b>Lobby Hack</b>, and you get a reward. And one of the very first codes that worked was <b>OverrideXP</b>, worth 40,000 XP. The "hacked" tweet hadn't been nonsense at all. It had been a treasure map.</p>
+
+<p>Lobby Hacks turned out to be one of the most popular ideas of the season. Epic said that in the first weekend alone, players redeemed an astonishing <b>116.4 million</b> codes. New ones appeared regularly, hidden in Epic's posts, in trailers, and even in the middle of the world championship broadcast in September, when Epic revealed three codes live on air. One of them, fittingly, was <b>WhoCrackedTheCode</b>.</p>
+
+<p>Even the Admin Panel itself has a sense of humour. Type a code that doesn't exist and, instead of a boring error message, it might reply with one of these:</p>
+
+<div class="box"><h4>Wrong code! The Admin Panel's best replies</h4>
+<p><i>"Confidence: 10/10. Accuracy: 0/10."</i><br/>
+<i>"Did you just make that up?"</i><br/>
+<i>"Have you considered just playing normally?"</i><br/>
+<i>"Cheat activated! INFINITE SPRITE DUST... jk jk..."</i><br/>
+And if you keep trying wrong codes too fast: <i>"Still cooling off. You'll live."</i></p>
+</div>
+
+<div class="box"><h4>One word to rule them all</h4>
+<p>Epic's co-founder, Mark Rein, has a tradition: before every new season, he posts a single word as a hint about what's coming. On 6 August 2026, two weeks before Override began, his word was: <b>"Hackers"</b>. Looking back, it was the least <span class="ww">cryptic</span> clue of the lot.</p>
+</div>
+
+<h2>How to pull it off</h2>
+
+<ol>
+<li><b>Find the Admin Panel.</b> It's in the top-right corner of the Battle Royale lobby.</li>
+<li><b>Only use official codes.</b> Real Lobby Hacks come from Epic: its posts, trailers, live streams and in-game news. Codes are one-use, and they expire, so the ones in this book might not work any more.</li>
+<li><b>Never "pay" for a code.</b> No website, video or person should ever ask for your password or money in exchange for a code. If they do, it's a scam. Tell a grown-up.</li>
+<li><b>Check for duplicates.</b> If a code gives you a Sprite you already own, you get 10,000 Sprite Dust instead, so it's never wasted.</li>
+<li><b>Try decoding for fun.</b> Use the hex decoder in this chapter to write secret messages to your friends. Can they crack <b>47 47</b>?</li>
+</ol>
+
+<steal score="5" difficulty="Easy" mode="The Battle Royale lobby" needs="An official code from Epic, and the hex decoder on this page"/>
+
+<div class="box"><h4>Check the tape</h4>
+<p class="small">The post: official Fortnite account on X, 15 August 2026 (about 2.7 million views by October). Unstable event: Epic's official full-event video and the Fortnite Wiki. OverrideXP as a 40,000 XP Lobby Hack: Epic's v42.00 update notes and TheGamer (21 August 2026). 116.4 million codes: Epic's "Override Overclocked" post (26 August 2026). Codes at the world championship: Vice (26 September 2026). Admin Panel messages: Fortnite Wiki. Mark Rein's word: his post on X, 6 August 2026. We decoded the hex and tested every combination ourselves; no news report credits one person with solving it first.</p>
+</div>

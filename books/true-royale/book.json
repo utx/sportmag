@@ -1,0 +1,14 @@
+{
+  "title": "True Royale",
+  "subtitle": "Real stories from the Island, and how to pull them off yourself",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-14",
+  "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.30. Stories up to 14 October 2026.",
+  "description": "An unofficial Fortnite fan book of true stories from the Override season: clever plays, cracked codes, championship heartbreak and a race to the South Pole, each with a breakdown of the game mechanic behind it.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Pick three you didn't know before, and use each one today. Extra Chug Jugs if you use one in the lobby.",
+  "chapters": [
+    {"file": "00-before-you-drop.html", "title": "Before You Drop", "kicker": "How this book works", "toc": "True stories, Squad Tales and Steal-ability", "label": "Start here", "dek": "What's true, what's made up, and how to steal a trick."},
+    {"file": "01-the-tweet.html", "title": "The Tweet That Hacked Itself", "kicker": "Lobby Hacks", "toc": "A secret code hidden in a scrambled post", "number": 1, "dek": "A villain \"hijacks\" Fortnite's account and leaves behind a puzzle. Can you crack it?"},
+    {"file": "08-extract-or-bust.html", "title": "Extract or Bust", "kicker": "History File: the race to the South Pole", "toc": "History File: the race to the South Pole", "number": 8, "dek": "In 1911, two teams raced to the bottom of the world, and discovered that getting home was the hardest part."}
+  ]
+}
