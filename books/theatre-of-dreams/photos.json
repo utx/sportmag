@@ -59,9 +59,19 @@
     "author": "Arne Müseler",
     "license": "CC BY-SA 3.0 DE"
   },
-  "camp-nou": {
-    "file": "Camp Nou aerial.jpg",
-    "author": "Oh-Barcelona.com",
-    "license": "CC BY 2.0"
+  "ronaldo-rooney": {
+    "credit": "Supplied by the publisher, used with permission"
+  },
+  "treble-team": {
+    "credit": "Supplied by the publisher, used with permission"
+  },
+  "treble-fergie": {
+    "credit": "Supplied by the publisher, used with permission"
+  },
+  "moscow-2008": {
+    "credit": "Supplied by the publisher, used with permission"
+  },
+  "moscow-trophy": {
+    "credit": "Photo: Martin Rickett / PA, used with permission"
   }
 }
