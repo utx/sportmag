@@ -1,0 +1,89 @@
+{
+  "title": "The Sprite Whisperer",
+  "subtitle": "How to find all the new Trick or Treat Sprites, fast",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-15",
+  "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.30. Based on a creator's video guide; facts checked 15 October 2026.",
+  "description": "An unofficial Fortnite fan book that turns a YouTube creator's Trick or Treat Sprite hunting strategy into a step-by-step guide.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. A true Sprite Whisperer collects words as well as Sprites. Try to use three of these before the weekend.",
+  "chapters": [
+    {
+      "file": "00-whats-up.html",
+      "title": "What's Up, Sprite Hunters",
+      "kicker": "Before you drop",
+      "toc": "How this book works",
+      "label": "Start here",
+      "dek": "The strategy that got me a new Sprite in almost every match, and how this book will teach it to you."
+    },
+    {
+      "file": "01-treat-yourself.html",
+      "title": "Treat Yourself",
+      "kicker": "Meet the Sprites",
+      "toc": "What Trick or Treat Sprites are",
+      "number": 1,
+      "dek": "Twenty-four spooky variants, one sweet bonus, and why every collector on the Island wants them."
+    },
+    {
+      "file": "02-pumpkin-patrol.html",
+      "title": "Pumpkin Patrol",
+      "kicker": "Where to look",
+      "toc": "Finding Pumpkin Chests",
+      "number": 2,
+      "dek": "The glowing pumpkins that hide the Sprites, and the parts of the map where they gather in gangs."
+    },
+    {
+      "file": "03-the-360.html",
+      "title": "The 360 Pickaxe",
+      "kicker": "The move",
+      "toc": "My secret technique (and the truth about it)",
+      "number": 3,
+      "dek": "Slide, spin, smash. The move I swear by, step by step, and an honest look at whether it really works."
+    },
+    {
+      "file": "04-extract-extract.html",
+      "title": "Extract! Extract! Extract!",
+      "kicker": "Keep what you find",
+      "toc": "Saving your Sprites",
+      "number": 4,
+      "dek": "A Sprite isn't really yours until you've extracted it. Here's how not to lose the good ones."
+    },
+    {
+      "file": "05-bonus-routes.html",
+      "title": "Bonus Routes",
+      "kicker": "More ways to find them",
+      "toc": "Cheat Codes, locators and home zones",
+      "number": 5,
+      "dek": "Pumpkins aren't the only way. Cheat Codes, Sprite Locators and a map of where each Sprite likes to hang out."
+    },
+    {
+      "file": "06-the-haul.html",
+      "title": "The Haul",
+      "kicker": "The collection",
+      "toc": "What I found, plus your checklist",
+      "number": 6,
+      "dek": "One morning of pumpkin smashing, and the collection it built. Then a checklist for building yours."
+    },
+    {
+      "file": "07-quiz.html",
+      "title": "The Sprite Whisperer Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Twelve questions. One pumpkin for each right answer."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Treat Bag of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "09-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}
