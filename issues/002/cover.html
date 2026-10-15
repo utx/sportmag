@@ -1,0 +1,103 @@
+<div class="cover" id="cover">
+  <div class="cover__art" aria-hidden="true">
+    <svg viewBox="0 0 1000 1333" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <pattern id="cv2-dots" width="9" height="9" patternUnits="userSpaceOnUse">
+          <circle cx="4.5" cy="4.5" r="2.1" fill="#151515"/>
+        </pattern>
+        <pattern id="cv2-dots-red" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+          <circle cx="5.5" cy="5.5" r="2.6" fill="#9e141b"/>
+        </pattern>
+        <pattern id="cv2-grid" width="60" height="60" patternUnits="userSpaceOnUse">
+          <path d="M60 0V60H0" fill="none" stroke="#151515" stroke-width="1.2" stroke-opacity=".12"/>
+        </pattern>
+        <clipPath id="cv2-disc"><circle cx="812" cy="545" r="235"/></clipPath>
+        <radialGradient id="cv2-fade" cx=".5" cy=".5" r=".5">
+          <stop offset=".35" stop-color="#fff" stop-opacity="1"/>
+          <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </radialGradient>
+        <mask id="cv2-shadow-mask"><ellipse cx="830" cy="682" rx="90" ry="18" fill="url(#cv2-fade)"/></mask>
+      </defs>
+
+      <!-- chart paper -->
+      <rect x="380" y="300" width="640" height="530" fill="url(#cv2-grid)"/>
+
+      <!-- the red sun -->
+      <circle cx="812" cy="545" r="235" fill="#d01f27"/>
+      <rect x="560" y="300" width="560" height="500" fill="url(#cv2-dots-red)" clip-path="url(#cv2-disc)" opacity=".38"/>
+
+      <!-- axes -->
+      <g stroke="#151515" stroke-linecap="round" fill="none">
+        <path d="M400 320V820H1000" stroke-width="5"/>
+        <path d="M386 340L400 316L414 340M980 806L1004 820L980 834" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M640 330V820M400 512H1000" stroke-width="3" stroke-dasharray="14 10" stroke-opacity=".7"/>
+      </g>
+
+      <!-- everybody else -->
+      <g fill="#151515" fill-opacity=".28"><circle cx="484" cy="801" r="7"/><circle cx="433" cy="656" r="5"/><circle cx="496" cy="805" r="7"/><circle cx="458" cy="804" r="6"/><circle cx="435" cy="804" r="6"/><circle cx="434" cy="739" r="5"/><circle cx="588" cy="735" r="5"/><circle cx="567" cy="775" r="5"/><circle cx="432" cy="641" r="6"/><circle cx="512" cy="746" r="7"/><circle cx="480" cy="658" r="5"/><circle cx="439" cy="738" r="5"/><circle cx="498" cy="744" r="5"/><circle cx="562" cy="725" r="6"/><circle cx="608" cy="770" r="6"/><circle cx="527" cy="612" r="6"/><circle cx="478" cy="666" r="7"/><circle cx="652" cy="804" r="6"/><circle cx="548" cy="633" r="7"/><circle cx="522" cy="728" r="5"/><circle cx="441" cy="771" r="6"/><circle cx="446" cy="757" r="5"/><circle cx="740" cy="804" r="7"/><circle cx="565" cy="633" r="6"/><circle cx="489" cy="782" r="6"/><circle cx="568" cy="764" r="5"/><circle cx="731" cy="760" r="7"/><circle cx="434" cy="690" r="6"/><circle cx="594" cy="578" r="6"/><circle cx="474" cy="777" r="7"/><circle cx="491" cy="604" r="6"/><circle cx="449" cy="803" r="5"/><circle cx="459" cy="790" r="7"/><circle cx="465" cy="776" r="6"/><circle cx="436" cy="765" r="7"/><circle cx="473" cy="802" r="6"/><circle cx="691" cy="791" r="6"/><circle cx="753" cy="706" r="6"/><circle cx="738" cy="801" r="5"/><circle cx="446" cy="713" r="5"/><circle cx="534" cy="733" r="6"/><circle cx="474" cy="802" r="7"/><circle cx="497" cy="739" r="5"/><circle cx="612" cy="751" r="7"/><circle cx="598" cy="686" r="6"/><circle cx="709" cy="672" r="7"/><circle cx="660" cy="776" r="6"/><circle cx="504" cy="759" r="6"/><circle cx="434" cy="804" r="5"/><circle cx="519" cy="803" r="7"/><circle cx="433" cy="805" r="5"/><circle cx="552" cy="600" r="7"/><circle cx="431" cy="634" r="7"/><circle cx="499" cy="720" r="6"/><circle cx="577" cy="760" r="5"/><circle cx="684" cy="578" r="6"/><circle cx="532" cy="787" r="5"/><circle cx="439" cy="783" r="6"/><circle cx="532" cy="703" r="7"/><circle cx="431" cy="599" r="7"/><circle cx="495" cy="703" r="5"/><circle cx="642" cy="789" r="7"/><circle cx="691" cy="701" r="6"/><circle cx="545" cy="619" r="6"/><circle cx="648" cy="747" r="7"/><circle cx="486" cy="797" r="5"/><circle cx="664" cy="657" r="7"/><circle cx="662" cy="798" r="6"/><circle cx="493" cy="805" r="5"/><circle cx="656" cy="761" r="5"/><circle cx="613" cy="596" r="6"/><circle cx="665" cy="692" r="6"/><circle cx="737" cy="780" r="5"/><circle cx="439" cy="761" r="6"/><circle cx="456" cy="723" r="7"/><circle cx="680" cy="759" r="7"/><circle cx="490" cy="718" r="7"/><circle cx="441" cy="776" r="7"/><circle cx="638" cy="760" r="5"/><circle cx="517" cy="720" r="5"/><circle cx="661" cy="589" r="6"/><circle cx="526" cy="685" r="5"/><circle cx="627" cy="800" r="5"/><circle cx="431" cy="733" r="6"/><circle cx="664" cy="802" r="7"/><circle cx="750" cy="714" r="6"/><circle cx="447" cy="744" r="5"/><circle cx="430" cy="589" r="7"/><circle cx="439" cy="683" r="5"/><circle cx="517" cy="635" r="5"/><circle cx="431" cy="797" r="7"/><circle cx="464" cy="734" r="6"/><circle cx="555" cy="651" r="5"/><circle cx="714" cy="782" r="6"/><circle cx="601" cy="658" r="7"/><circle cx="513" cy="615" r="7"/><circle cx="443" cy="801" r="7"/><circle cx="431" cy="767" r="5"/><circle cx="579" cy="673" r="5"/><circle cx="450" cy="761" r="7"/><circle cx="441" cy="804" r="7"/><circle cx="545" cy="742" r="5"/><circle cx="701" cy="805" r="5"/><circle cx="472" cy="675" r="7"/><circle cx="523" cy="805" r="5"/><circle cx="520" cy="727" r="7"/><circle cx="578" cy="798" r="6"/><circle cx="523" cy="747" r="6"/><circle cx="542" cy="794" r="7"/><circle cx="697" cy="603" r="6"/><circle cx="720" cy="626" r="5"/><circle cx="680" cy="802" r="5"/><circle cx="504" cy="787" r="7"/><circle cx="464" cy="804" r="7"/><circle cx="479" cy="803" r="5"/><circle cx="729" cy="718" r="6"/><circle cx="445" cy="630" r="6"/><circle cx="459" cy="598" r="6"/><circle cx="701" cy="801" r="7"/><circle cx="676" cy="801" r="6"/><circle cx="757" cy="774" r="6"/><circle cx="454" cy="786" r="7"/><circle cx="496" cy="784" r="6"/><circle cx="519" cy="805" r="6"/><circle cx="545" cy="789" r="5"/><circle cx="440" cy="614" r="5"/><circle cx="745" cy="803" r="6"/><circle cx="471" cy="620" r="5"/><circle cx="471" cy="802" r="6"/><circle cx="684" cy="708" r="6"/><circle cx="508" cy="747" r="7"/><circle cx="564" cy="700" r="5"/><circle cx="473" cy="664" r="5"/><circle cx="514" cy="804" r="5"/><circle cx="589" cy="664" r="5"/><circle cx="579" cy="797" r="6"/><circle cx="691" cy="765" r="6"/><circle cx="757" cy="771" r="6"/><circle cx="584" cy="805" r="7"/><circle cx="463" cy="803" r="5"/><circle cx="469" cy="800" r="6"/><circle cx="587" cy="748" r="5"/><circle cx="476" cy="755" r="5"/><circle cx="471" cy="663" r="6"/><circle cx="432" cy="805" r="7"/><circle cx="557" cy="799" r="6"/><circle cx="465" cy="766" r="7"/><circle cx="670" cy="769" r="6"/><circle cx="555" cy="628" r="7"/><circle cx="480" cy="797" r="5"/></g>
+
+      <!-- the outlier: a football, way out on its own -->
+      <rect x="730" y="666" width="200" height="40" fill="url(#cv2-dots)" mask="url(#cv2-shadow-mask)" opacity=".8"/>
+      <g transform="translate(830 600)">
+        <circle r="66" fill="#fffdf8" stroke="#151515" stroke-width="5"/>
+        <polygon points="0,-22 21,-7 13,18 -13,18 -21,-7" fill="#151515"/>
+        <g stroke="#151515" stroke-width="4" fill="none" stroke-linejoin="round">
+          <path d="M0 -22V-50M21 -7L48 -16M13 18L30 41M-13 18L-30 41M-21 -7L-48 -16"/>
+        </g>
+        <path d="M-14 -63L0 -50L15 -63" fill="#151515"/>
+        <path d="M48 -16L64 -2L59 -34Z" fill="#151515"/>
+        <path d="M-48 -16L-64 -2L-59 -34Z" fill="#151515"/>
+        <path d="M30 41L52 34L39 57Z" fill="#151515"/>
+        <path d="M-30 41L-52 34L-39 57Z" fill="#151515"/>
+        <path d="M-57 25A66 66 0 0 0 34 57" stroke="#151515" stroke-opacity=".18" stroke-width="11" fill="none"/>
+      </g>
+      <!-- speed lines -->
+      <g stroke="#151515" stroke-width="5" stroke-linecap="round">
+        <path d="M700 570H740M690 602H735M705 634H742"/>
+      </g>
+
+      <!-- data tag -->
+      <g transform="translate(846 420) rotate(-6)">
+        <rect x="-150" y="-36" width="300" height="72" fill="#151515"/>
+        <text x="0" y="-8" text-anchor="middle" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-weight="800" font-size="18" letter-spacing="2.5" fill="#f0bd2c">CHANCES CREATED PER 90</text>
+        <text x="0" y="24" text-anchor="middle" font-family="Anton, Impact, sans-serif" font-size="32" fill="#f3eee4" letter-spacing="1">BRUNO: 4.0</text>
+      </g>
+    </svg>
+  </div>
+
+  <h1 class="cover__mast">Touchline</h1>
+  <div class="cover__strap"><span>Football · Sport · Games</span><span>Issue 02</span><span>15 October 2026</span></div>
+
+  <div class="cover__lines">
+    <p class="cline"><span class="cline__kick cline__kick--red">Champions League</span>
+      <span class="cline__head">Forty-seven seconds</span>
+      <span class="cline__sub">Atlético 2–0 United: the early goal, the soft red and a long night in Madrid.</span></p>
+    <p class="cline"><span class="cline__kick">La Liga</span>
+      <span class="cline__head">One win from <em>history</em></span>
+      <span class="cline__sub">Barça chase a record that has stood since 1968.</span></p>
+    <p class="cline"><span class="cline__kick cline__kick--sky">A-League</span>
+      <span class="cline__head">The trophy cabinet</span>
+      <span class="cline__sub">Sydney FC: the most successful club of the A-League era. Derby tomorrow!</span></p>
+    <p class="cline"><span class="cline__kick">Sweden</span>
+      <span class="cline__head">0–0 to 5–6</span>
+      <span class="cline__sub">The craziest half of football you'll ever read about.</span></p>
+  </div>
+
+  <div class="cover__lead">
+    <div class="cover__lead-kick">Data desk · Score or create?</div>
+    <h2 class="cover__lead-head">The chance <span>machine</span></h2>
+    <p class="cover__lead-sub">1,009 players in Europe's top leagues. Nobody created more chances than Bruno.</p>
+  </div>
+
+  <div class="cover__foot">
+    <div class="cover__foot-lines">
+      <div class="cover__foot-item"><b>Leeds v United</b><span>The Elland Road test</span></div>
+      <div class="cover__foot-item"><b>Front three face-off</b><span>Who's firing?</span></div>
+      <div class="cover__foot-item"><b>World Cup · Bledisloe</b><span>&amp; Fortnite</span></div>
+    </div>
+    <div class="cover__barcode">
+      <svg viewBox="0 0 103 46" preserveAspectRatio="none" aria-hidden="true"><g fill="#151515"><rect x="0" y="0" width="2" height="46"/><rect x="3" y="0" width="3" height="46"/><rect x="8" y="0" width="2" height="40"/><rect x="11" y="0" width="1" height="40"/><rect x="14" y="0" width="3" height="40"/><rect x="19" y="0" width="1" height="40"/><rect x="21" y="0" width="2" height="40"/><rect x="25" y="0" width="1" height="40"/><rect x="27" y="0" width="3" height="40"/><rect x="32" y="0" width="2" height="40"/><rect x="36" y="0" width="1" height="40"/><rect x="39" y="0" width="3" height="40"/><rect x="44" y="0" width="1" height="40"/><rect x="47" y="0" width="2" height="40"/><rect x="53" y="0" width="1" height="46"/><rect x="56" y="0" width="1" height="46"/><rect x="59" y="0" width="3" height="40"/><rect x="63" y="0" width="1" height="40"/><rect x="66" y="0" width="2" height="40"/><rect x="70" y="0" width="1" height="40"/><rect x="72" y="0" width="3" height="40"/><rect x="77" y="0" width="1" height="40"/><rect x="80" y="0" width="2" height="40"/><rect x="84" y="0" width="3" height="40"/><rect x="89" y="0" width="1" height="40"/><rect x="92" y="0" width="2" height="40"/><rect x="96" y="0" width="1" height="40"/><rect x="100" y="0" width="1" height="46"/><rect x="102" y="0" width="1" height="46"/></g></svg>
+      <p>ISSUE 02 · WEEKLY</p>
+    </div>
+  </div>
+</div>
