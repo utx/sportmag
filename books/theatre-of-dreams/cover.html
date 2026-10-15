@@ -1,35 +1,51 @@
 <style>
-#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #2a0007; font-family: "Barlow Condensed", sans-serif; color: #fff; }
-#cover .bg { position: absolute; left: 0; top: 0; width: 100%; height: 640px; object-fit: cover; object-position: 50% 60%; filter: saturate(1.1) contrast(1.05); }
-#cover .statue { position: absolute; left: 0; bottom: 0; width: 100%; height: 760px; object-fit: cover; object-position: 50% 18%; filter: grayscale(.25) contrast(1.15) brightness(.95); }
-#cover .shade { position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(42,0,7,.94) 0%, rgba(160,10,30,.55) 26%, rgba(42,0,7,.35) 44%, rgba(42,0,7,.88) 54%, rgba(42,0,7,.25) 66%, rgba(42,0,7,.15) 80%, rgba(20,0,4,.92) 92%, #140004 100%); }
-#cover .top { position: absolute; left: 0; right: 0; top: 30px; text-align: center; font-weight: 800; font-size: 25px; letter-spacing: .3em; text-transform: uppercase; }
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; font-family: "Barlow Condensed", sans-serif; color: #fff;
+  background: radial-gradient(circle at 50% 48%, #e0102c 0%, #a5001a 38%, #4a000b 78%, #22000a 100%); }
+#cover .rays { position: absolute; left: 50%; top: 50%; width: 1800px; height: 1800px; transform: translate(-50%, -50%); opacity: .22;
+  background: repeating-conic-gradient(from 0deg, rgba(255,255,255,.9) 0 4deg, transparent 4deg 12deg);
+  -webkit-mask: radial-gradient(circle, transparent 0%, #000 16%, #000 40%, transparent 62%); mask: radial-gradient(circle, transparent 0%, #000 16%, #000 40%, transparent 62%); }
+#cover .top { position: absolute; left: 0; right: 0; top: 28px; text-align: center; font-weight: 800; font-size: 25px; letter-spacing: .32em; text-transform: uppercase; }
 #cover .top i { font-style: normal; color: #ffd23f; }
-#cover .title { position: absolute; left: 0; right: 0; top: 92px; text-align: center; font-family: "Anton", sans-serif; text-transform: uppercase; line-height: .86;
-  text-shadow: 0 6px 0 #6b0010, 0 12px 28px rgba(0,0,0,.6); }
-#cover .t1 { font-size: 132px; letter-spacing: .02em; color: #fff; }
-#cover .t2 { font-size: 74px; letter-spacing: .5em; color: #ffd23f; margin: 6px 0 4px; padding-left: .5em; }
-#cover .t3 { font-size: 196px; color: #fff; }
-#cover .rule { position: absolute; left: 120px; right: 120px; top: 560px; height: 0; border-top: 4px solid #ffd23f; }
-#cover .sub { position: absolute; left: 0; right: 0; top: 580px; text-align: center; font-weight: 800; font-size: 34px; letter-spacing: .08em; text-transform: uppercase; }
-#cover .dates { position: absolute; left: 0; right: 0; top: 626px; text-align: center; font-family: "Anton", sans-serif; font-size: 30px; letter-spacing: .25em; color: #ffd23f; }
-#cover .foot { position: absolute; left: 0; right: 0; bottom: 34px; text-align: center; }
-#cover .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 0 30px; }
-#cover .chips span { background: rgba(20,0,4,.72); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px; font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
-#cover .unoff { font-weight: 700; font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #e9b7bf; margin-top: 14px; }
+#cover .title { position: absolute; left: 0; right: 0; top: 70px; text-align: center; font-family: "Anton", sans-serif; text-transform: uppercase; line-height: .84;
+  transform: rotate(-3deg); }
+#cover .title div { -webkit-text-stroke: 6px #22000a; paint-order: stroke fill;
+  text-shadow: 4px 4px 0 #22000a, 8px 8px 0 #22000a, 12px 12px 0 #22000a, 18px 20px 22px rgba(0,0,0,.5); }
+#cover .t1 { font-size: 168px; color: #fff; }
+#cover .t2 { font-size: 118px; color: #ffd23f; margin-top: 2px; }
+#cover .photo { position: absolute; left: -10px; right: -10px; top: 408px; height: 478px; transform: rotate(-3deg);
+  border-top: 12px solid #fff; border-bottom: 12px solid #fff; overflow: hidden; box-shadow: 0 24px 40px rgba(0,0,0,.55); background: #111; }
+#cover .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 55% 30%; filter: saturate(1.15) contrast(1.08); }
+#cover .photo .fade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 62%, rgba(20,0,4,.75) 100%); }
+#cover .names { position: absolute; left: 0; right: 0; bottom: 12px; text-align: center; font-family: "Anton", sans-serif; font-size: 62px;
+  line-height: 1; text-transform: uppercase; letter-spacing: .02em; text-shadow: 3px 3px 0 #000; }
+#cover .names b { color: #ffd23f; font-weight: 400; padding: 0 10px; }
+#cover .burst { position: absolute; right: 24px; top: 352px; width: 196px; height: 196px; transform: rotate(12deg); z-index: 3; }
+#cover .burst .in { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  color: #22000a; font-family: "Anton", sans-serif; text-transform: uppercase; line-height: .95; }
+#cover .burst .in span { font-size: 26px; }
+#cover .burst .in strong { font-size: 44px; font-weight: 400; }
+#cover .ribbon { position: absolute; left: 50%; top: 944px; transform: translateX(-50%) rotate(-3deg); white-space: nowrap;
+  background: #fff; color: #22000a; font-weight: 800; font-size: 31px; letter-spacing: .05em; text-transform: uppercase;
+  padding: 7px 26px 8px; border: 5px solid #22000a; box-shadow: 8px 8px 0 #22000a; }
+#cover .ribbon b { color: #c8102e; }
+#cover .chips { position: absolute; left: 0; right: 0; top: 1062px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 0 34px; }
+#cover .chips span { background: rgba(20,0,4,.6); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px; font-weight: 800; font-size: 24px;
+  letter-spacing: .05em; text-transform: uppercase; }
+#cover .unoff { position: absolute; left: 0; right: 0; bottom: 30px; text-align: center; font-weight: 700; font-size: 16px; letter-spacing: .16em;
+  text-transform: uppercase; color: #f1b6bf; }
 </style>
 <div id="cover">
-  <img class="bg" src="img/old-trafford.jpg" alt=""/>
-  <img class="statue" src="img/trinity.jpg" alt=""/>
-  <div class="shade"></div>
+  <div class="rays"></div>
   <div class="top">Touchline <i>presents</i></div>
-  <div class="title"><div class="t1">Theatre</div><div class="t2">of</div><div class="t3">Dreams</div></div>
-  <div class="rule"></div>
-  <div class="sub">The illustrated story of Manchester United</div>
-  <div class="dates">1878 · 1968 · 1999 · 2008 · NOW</div>
-  <div class="foot">
-    <div class="chips"><span>Ronaldo &amp; Rooney</span><span>Fergie</span><span>The Treble</span><span>Munich</span><span>The Holy Trinity</span><span>City &amp; Liverpool</span></div>
-    <div class="unoff">An unofficial fan book</div>
+  <div class="title"><div class="t1">Theatre</div><div class="t2">of Dreams</div></div>
+  <div class="photo"><img src="img/ronaldo-rooney.jpg" alt=""/><div class="fade"></div>
+    <div class="names">Ronaldo <b>&amp;</b> Rooney</div></div>
+  <div class="burst">
+    <svg viewBox="0 0 200 200" width="196" height="196"><polygon fill="#ffd23f" stroke="#22000a" stroke-width="6" stroke-linejoin="round"
+      points="100,4 118,40 156,22 152,64 194,70 166,100 194,130 152,136 156,178 118,160 100,196 82,160 44,178 48,136 6,130 34,100 6,70 48,64 44,22 82,40"/></svg>
+    <div class="in"><span>The</span><strong>Dream</strong><span>Team</span></div>
   </div>
+  <div class="ribbon">The illustrated story of <b>Manchester United</b></div>
+  <div class="chips"><span>Fergie</span><span>The Treble</span><span>Cantona</span><span>Munich</span><span>The Holy Trinity</span><span>The case against City</span><span>Quiz inside</span></div>
+  <div class="unoff">An unofficial fan book</div>
 </div>
