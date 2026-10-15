@@ -1,0 +1,35 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #2a0007; font-family: "Barlow Condensed", sans-serif; color: #fff; }
+#cover .bg { position: absolute; left: 0; top: 0; width: 100%; height: 640px; object-fit: cover; object-position: 50% 60%; filter: saturate(1.1) contrast(1.05); }
+#cover .statue { position: absolute; left: 0; bottom: 0; width: 100%; height: 760px; object-fit: cover; object-position: 50% 18%; filter: grayscale(.25) contrast(1.15) brightness(.95); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(42,0,7,.94) 0%, rgba(160,10,30,.55) 26%, rgba(42,0,7,.35) 44%, rgba(42,0,7,.88) 54%, rgba(42,0,7,.25) 66%, rgba(42,0,7,.15) 80%, rgba(20,0,4,.92) 92%, #140004 100%); }
+#cover .top { position: absolute; left: 0; right: 0; top: 30px; text-align: center; font-weight: 800; font-size: 25px; letter-spacing: .3em; text-transform: uppercase; }
+#cover .top i { font-style: normal; color: #ffd23f; }
+#cover .title { position: absolute; left: 0; right: 0; top: 92px; text-align: center; font-family: "Anton", sans-serif; text-transform: uppercase; line-height: .86;
+  text-shadow: 0 6px 0 #6b0010, 0 12px 28px rgba(0,0,0,.6); }
+#cover .t1 { font-size: 132px; letter-spacing: .02em; color: #fff; }
+#cover .t2 { font-size: 74px; letter-spacing: .5em; color: #ffd23f; margin: 6px 0 4px; padding-left: .5em; }
+#cover .t3 { font-size: 196px; color: #fff; }
+#cover .rule { position: absolute; left: 120px; right: 120px; top: 560px; height: 0; border-top: 4px solid #ffd23f; }
+#cover .sub { position: absolute; left: 0; right: 0; top: 580px; text-align: center; font-weight: 800; font-size: 34px; letter-spacing: .08em; text-transform: uppercase; }
+#cover .dates { position: absolute; left: 0; right: 0; top: 626px; text-align: center; font-family: "Anton", sans-serif; font-size: 30px; letter-spacing: .25em; color: #ffd23f; }
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 34px; text-align: center; }
+#cover .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 0 30px; }
+#cover .chips span { background: rgba(20,0,4,.72); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px; font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .unoff { font-weight: 700; font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #e9b7bf; margin-top: 14px; }
+</style>
+<div id="cover">
+  <img class="bg" src="img/old-trafford.jpg" alt=""/>
+  <img class="statue" src="img/trinity.jpg" alt=""/>
+  <div class="shade"></div>
+  <div class="top">Touchline <i>presents</i></div>
+  <div class="title"><div class="t1">Theatre</div><div class="t2">of</div><div class="t3">Dreams</div></div>
+  <div class="rule"></div>
+  <div class="sub">The illustrated story of Manchester United</div>
+  <div class="dates">1878 · 1968 · 1999 · 2008 · NOW</div>
+  <div class="foot">
+    <div class="chips"><span>Ronaldo &amp; Rooney</span><span>Fergie</span><span>The Treble</span><span>Munich</span><span>The Holy Trinity</span><span>City &amp; Liverpool</span></div>
+    <div class="unoff">An unofficial fan book</div>
+  </div>
+</div>

@@ -8,7 +8,8 @@
 `build/book.sh <slug>` runs all three, then epubcheck and a Kindle-sized preview.
 
 Source layout (books/<slug>/):
-  book.json        title, subtitle, chapters [{file, title, kicker, dek}]
+  book.json        title, subtitle, chapters [{file, title, kicker, dek}]; optional creator, publisher,
+                   rights and title_notes (default to The Chug Jug's, with Epic's disclaimer)
   cover.html       the cover, laid out at 800x1280 CSS px (rendered to 1600x2560)
   chapters/*.html  XHTML-safe fragments. Macros:
       <item name=".." icon="w-slug" tier="S|A|B|C|D" rarity=".." stats="Label=value;Label=value">..</item>
@@ -348,9 +349,10 @@ def epub(slug: str) -> None:
     cover.save(work / "images" / "cover.jpg", quality=90, optimize=True)
 
     (work / "cover.xhtml").write_text(xhtml("Cover", f'<div class="cover-img"><img src="images/cover.jpg" alt="{html.escape(book["title"])} cover"/></div>'), encoding="utf-8")
+    notes = book.get("title_notes", ["An unofficial Fortnite fan book.", f"<i>{EPIC_DISCLAIMER}</i>"])
     title_page = (f'<div class="title-page"><p class="kicker">{html.escape(book["series"])}</p>\n<h1>{html.escape(book["title"])}</h1>\n'
                   f'<p class="sub">{html.escape(book["subtitle"])}</p>\n<p class="small">{html.escape(book["version_note"])}</p>\n'
-                  f'<p class="small">An unofficial Fortnite fan book.</p>\n<p class="small"><i>{EPIC_DISCLAIMER}</i></p></div>')
+                  + "".join(f'<p class="small">{n}</p>\n' for n in notes) + '</div>')
     (work / "title.xhtml").write_text(xhtml("Title page", title_page), encoding="utf-8")
     toc_items = "".join(f'<p class="toc-item"><span class="toc-num">{ch["number"] if "number" in ch else "•"}</span> '
                         f'<a href="{n}">{html.escape(ch["title"])}</a>'
@@ -388,12 +390,12 @@ def epub(slug: str) -> None:
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{book_id}</dc:identifier>
     <dc:title>{html.escape(book['title'])}: {html.escape(book['subtitle'])}</dc:title>
-    <dc:creator>The Chug Jug</dc:creator>
-    <dc:publisher>The Chug Jug (unofficial fan publication)</dc:publisher>
+    <dc:creator>{html.escape(book.get('creator', 'The Chug Jug'))}</dc:creator>
+    <dc:publisher>{html.escape(book.get('publisher', 'The Chug Jug (unofficial fan publication)'))}</dc:publisher>
     <dc:language>en-AU</dc:language>
     <dc:date>{book['date']}</dc:date>
     <dc:description>{html.escape(book['description'])}</dc:description>
-    <dc:rights>{html.escape(EPIC_DISCLAIMER)}</dc:rights>
+    <dc:rights>{html.escape(book.get('rights', EPIC_DISCLAIMER))}</dc:rights>
     <meta property="dcterms:modified">{modified}</meta>
     <meta name="cover" content="cover-image"/>
   </metadata>

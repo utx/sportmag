@@ -1,0 +1,136 @@
+{
+  "title": "Theatre of Dreams",
+  "subtitle": "The illustrated story of Manchester United",
+  "series": "Touchline presents",
+  "date": "2026-10-15",
+  "version_note": "The story so far, up to the middle of October 2026.",
+  "creator": "Touchline",
+  "publisher": "Touchline (an independent fan publication)",
+  "rights": "An unofficial fan book. Not made, approved or endorsed by Manchester United. Photographs are credited at the back of the book.",
+  "title_notes": [
+    "An unofficial fan book. It isn't made, approved or endorsed by Manchester United.",
+    "Every score, date and quote has been checked. The opinions are a United fan's, and we're not shy about them."
+  ],
+  "description": "The story of Manchester United, from Ronaldo and Rooney to Ferguson's Treble, the Busby Babes, Munich and the Holy Trinity, and the war with City and Liverpool. With Word Watch boxes, myth-busters and a quiz.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. The stars tell you how tricky each one is: ★ is a warm-up, ★★★ is a proper challenge. Try using three of them this week, and see if anyone notices.",
+  "chapters": [
+    {
+      "file": "01-greatest-hits.html",
+      "title": "The Greatest Hits",
+      "kicker": "Part One: The Dream Team",
+      "toc": "Ronaldo and Rooney, 2004–2009",
+      "number": 1,
+      "dek": "One was a skinny winger from Madeira. The other was a stocky teenager from Liverpool. Together, they were the most dangerous partnership in football."
+    },
+    {
+      "file": "02-on-the-brink.html",
+      "title": "On the Brink",
+      "kicker": "Part Two: The Fergie Years",
+      "toc": "Ferguson arrives, 1986–1990",
+      "number": 2,
+      "dek": "Three years in, no trophies, and a banner in the crowd telling him to go. How Alex Ferguson survived."
+    },
+    {
+      "file": "03-twenty-six-years.html",
+      "title": "Twenty-Six Years",
+      "kicker": "Part Two: The Fergie Years",
+      "toc": "The first title, 1991–1993",
+      "number": 3,
+      "dek": "A night in Rotterdam, a phone call from Leeds, a Frenchman with his collar up, and two headers from a centre-back."
+    },
+    {
+      "file": "04-kids-and-a-king.html",
+      "title": "Kids and a King",
+      "kicker": "Part Two: The Fergie Years",
+      "toc": "The Class of '92 and Cantona, 1993–1997",
+      "number": 4,
+      "dek": "\"You can't win anything with kids,\" said the man on the telly. The kids had other ideas."
+    },
+    {
+      "file": "05-the-treble.html",
+      "title": "Football, Bloody Hell",
+      "kicker": "Part Two: The Fergie Years",
+      "toc": "The Treble, 1999",
+      "number": 5,
+      "dek": "Three trophies in eleven days, a wonder goal, the bravest captain, and the most famous three minutes in the club's history."
+    },
+    {
+      "file": "06-railwaymen.html",
+      "title": "Railwaymen to Red Devils",
+      "kicker": "Part Three: Flashback",
+      "toc": "Where it all began, 1878–1945",
+      "number": 6,
+      "dek": "Before Ferguson, before Busby, before red shirts, there was a team of railway workers in green and gold. And they were nearly bankrupt."
+    },
+    {
+      "file": "07-munich.html",
+      "title": "The Babes and Munich",
+      "kicker": "Part Three: Flashback",
+      "toc": "Busby's Babes and the 1958 air disaster",
+      "number": 7,
+      "dek": "The greatest young team England had ever seen, and the day the club nearly died with them."
+    },
+    {
+      "file": "08-holy-trinity.html",
+      "title": "The Holy Trinity",
+      "kicker": "Part Three: Flashback",
+      "toc": "Best, Law, Charlton, and the long wait, 1958–1986",
+      "number": 8,
+      "dek": "Ten years after Munich, Matt Busby finally lifted the European Cup. Then came the hard years."
+    },
+    {
+      "file": "09-moscow.html",
+      "title": "Moscow and Number Twenty",
+      "kicker": "Part Four: Glory, Goodbye and Now",
+      "toc": "Champions of Europe, champions of England, 2008–2013",
+      "number": 9,
+      "dek": "Rain in Moscow, a slip on the spot, the perch, and the day Sir Alex Ferguson said goodbye."
+    },
+    {
+      "file": "10-after-fergie.html",
+      "title": "After Fergie",
+      "kicker": "Part Four: Glory, Goodbye and Now",
+      "toc": "Seven managers and the road back, 2013–2026",
+      "number": 10,
+      "dek": "Following the greatest manager of all time turned out to be the hardest job in football. Here's how United found their way back."
+    },
+    {
+      "file": "11-noisy-neighbours.html",
+      "title": "Noisy Neighbours",
+      "kicker": "Part Five: Us and Them",
+      "toc": "Manchester City",
+      "number": 11,
+      "dek": "A century in United's shadow, a mountain of money, and 114 broken rules. The case against Manchester City."
+    },
+    {
+      "file": "12-this-means-war.html",
+      "title": "This Means War",
+      "kicker": "Part Five: Us and Them",
+      "toc": "Liverpool, Leeds, and the Records Room",
+      "number": 12,
+      "dek": "The fiercest rivalry in English football, a grudge older than both clubs, and the numbers that settle every argument."
+    },
+    {
+      "file": "13-quiz.html",
+      "title": "The Theatre of Dreams Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Twenty questions on the whole story, including a Word Watch round."
+    },
+    {
+      "file": "@glossary",
+      "title": "Word Bank",
+      "kicker": "Every Word Watch word",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "14-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}
