@@ -1,6 +1,8 @@
 <style>
 #cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #0b0628; font-family: "Barlow Condensed", sans-serif; }
-#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(11,6,40,.88) 0%, rgba(11,6,40,.55) 24%, rgba(11,6,40,.1) 42%, rgba(11,6,40,0) 70%, rgba(27,16,48,.7) 88%, #1b1030 100%); }
 #cover .top { position: absolute; left: 0; right: 0; top: 24px; text-align: center; color: #fff; }
 #cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 24px; letter-spacing: .22em; text-transform: uppercase; }
 #cover .presents i { font-style: normal; color: #ffd23f; }
@@ -32,7 +34,9 @@
 #cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #b9aee6; margin-top: 6px; }
 </style>
 <div id="cover">
-  <img class="bg" src="art/cover-art.svg" alt=""/>
+  <img class="bg" src="art/cover-poster.jpg" alt=""/>
+  <div class="shade"></div>
+  <img class="bg" src="art/cover-fg.svg" alt=""/>
 
   <div class="top"><span class="presents">
     <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>

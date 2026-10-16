@@ -597,5 +597,20 @@ def s_cover():
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {cw} {ch}" width="{cw}" height="{ch}">{defs(u)}{b}</svg>')
 
 
-SCENES = {"cover-art": s_cover, "grove": s_grove, "bridge": s_bridge, "squad": s_squad, "hackers": s_hackers, "final": s_final, "home": s_home, "bedroom": s_bedroom, "bus": s_bus, "pumpkin": s_pumpkin, "extraction": s_extraction, "cheatcode": s_cheatcode,
+def s_cover_fg():
+    """Transparent foreground for the poster cover: Billy, the 'Brella and Pip, laid over the publisher's poster."""
+    u = "cvf"
+    cw, ch = 800, 1280
+    from draw import defs
+    b = f'<ellipse cx="400" cy="700" rx="270" ry="300" fill="#ffd9a0" opacity=".55" filter="url(#{u}-soft)"/>'
+    b += f'<ellipse cx="400" cy="700" rx="200" ry="230" fill="#ffffff" opacity=".35" filter="url(#{u}-soft)"/>'
+    b += speedlines(400, 720, 26, 250, 380, "#ffffff", .55, 6, seed=33, a0=0, a1=360)
+    b += billy(410, 800, 1.42, lean=-6, armF=(70, 40), armB=(-128, -150), legF=(24, -6), legB=(-14, -34), expr="grin", pip=True, uid=u,
+               holdB=(umbrella(), -28, 1.0))
+    for sx, sy in ((150, 600), (660, 560), (640, 900), (170, 930)):
+        b += sparkle(sx, sy, 18)
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {cw} {ch}" width="{cw}" height="{ch}">{defs(u)}{b}</svg>'
+
+
+SCENES = {"cover-fg": s_cover_fg, "cover-art": s_cover, "grove": s_grove, "bridge": s_bridge, "squad": s_squad, "hackers": s_hackers, "final": s_final, "home": s_home, "bedroom": s_bedroom, "bus": s_bus, "pumpkin": s_pumpkin, "extraction": s_extraction, "cheatcode": s_cheatcode,
           "console": s_console, "victory": s_victory, "lobby": s_lobby, "neighborhood": s_neighborhood, "eliminated": s_eliminated}
