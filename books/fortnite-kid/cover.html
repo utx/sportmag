@@ -1,0 +1,52 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #0b0628; font-family: "Barlow Condensed", sans-serif; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; }
+#cover .top { position: absolute; left: 0; right: 0; top: 24px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 24px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 24px; height: 32px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 66px; text-align: center; transform: rotate(-4deg) skewX(-6deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .88; text-transform: uppercase;
+  -webkit-text-stroke: 7px #1b1030; paint-order: stroke fill; letter-spacing: .01em;
+  text-shadow: 3px 3px 0 #1b1030, 6px 6px 0 #1b1030, 9px 9px 0 #1b1030, 12px 12px 0 #1b1030, 15px 15px 0 #b65cff, 18px 18px 0 #b65cff, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t0 { font-size: 62px; color: #fff; }
+#cover .t1 { font-size: 168px; color: #ffd23f; }
+#cover .t2 { font-size: 196px; color: #ff9a3c; margin-top: -4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 470px; transform: translateX(-50%) rotate(-4deg); white-space: nowrap;
+  background: #fff; color: #1b1030; font-weight: 800; font-size: 27px; letter-spacing: .03em; text-transform: uppercase;
+  padding: 8px 26px 9px; border: 5px solid #1b1030; box-shadow: 8px 8px 0 #1b1030; }
+#cover .ribbon b { color: #7b2cbf; }
+
+#cover .badge { position: absolute; right: 22px; top: 640px; transform: rotate(9deg); width: 168px; height: 168px; border-radius: 50%;
+  background: #ffd23f; border: 6px solid #1b1030; box-shadow: 7px 7px 0 #1b1030; text-align: center; color: #1b1030; padding-top: 30px; }
+#cover .badge div { font-family: "Anton", sans-serif; font-size: 31px; line-height: 1.02; text-transform: uppercase; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 150px; padding: 26px 30px 0; color: #fff;
+  background: linear-gradient(180deg, rgba(27,16,48,0) 0%, rgba(27,16,48,.82) 38%, #1b1030 100%); }
+#cover .chips { display: flex; justify-content: center; gap: 10px; margin-top: 22px; }
+#cover .chips span { background: rgba(27,16,48,.75); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px;
+  font-weight: 800; font-size: 22px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 20px; letter-spacing: .14em; text-transform: uppercase; color: #ffd0a6; margin-top: 12px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #b9aee6; margin-top: 6px; }
+</style>
+<div id="cover">
+  <img class="bg" src="art/cover-art.svg" alt=""/>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t0">The</div><div class="t1">Fortnite</div><div class="t2">Kid</div></div>
+
+  <div class="ribbon">100 players. <b>1 way home.</b> Win it.</div>
+
+  <div class="badge"><div>Trapped<br/>inside<br/>the game!</div></div>
+
+  <div class="foot">
+    <div class="chips"><span>The Bus</span><span>The Sprites</span><span>The Storm</span><span>The Squad</span></div>
+    <div class="ver">Chapter 7 · Season 4 · Override · October 2026</div>
+    <div class="unoff">An unofficial Fortnite fan novel · Not made or endorsed by Epic Games</div>
+  </div>
+</div>

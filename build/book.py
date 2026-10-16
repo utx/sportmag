@@ -13,6 +13,7 @@ Source layout (books/<slug>/):
   chapters/*.html  XHTML-safe fragments. Macros:
       <item name=".." icon="w-slug" tier="S|A|B|C|D" rarity=".." stats="Label=value;Label=value">..</item>
       <tierboard title=".."/>   tier board of every <item> in the chapter
+      <art name="x" alt=".."/>  full-width illustration: inlines art/x.svg as graphic g-art-x
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
@@ -119,6 +120,17 @@ def expand(book: dict, ch: dict, frag: str) -> tuple[str, list[dict]]:
                 f'{"".join(rows)}</div></div><!--/g-->')
 
     s = re.sub(r"<tierboard\s*([^>]*?)/>", board, s)
+
+    def art(m: re.Match) -> str:
+        a = attrs(m.group(1))
+        src = book["dir"] / "art" / f"{a['name']}.svg"
+        if not src.exists():
+            raise SystemExit(f"{ch['file']}: missing illustration art/{a['name']}.svg")
+        svg = re.sub(r"^<\?xml[^>]*>\s*", "", src.read_text(encoding="utf-8"))
+        return (f'<div class="g g-art" id="g-art-{slugify(a["name"])}" data-alt="{html.escape(a.get("alt", ""))}">'
+                f'{svg}</div><!--/g-->')
+
+    s = re.sub(r"<art\s([^>]*?)/>", art, s)
     return s, items
 
 
@@ -220,8 +232,9 @@ def xhtml(title: str, body: str, body_class: str = "") -> str:
 </html>"""
 
 
-def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
-    """Greyscale, 16 levels (what an e-ink screen shows anyway): small files, crisp edges."""
+def to_kindle_png(src: Path, dst: Path, max_w: int = 1200, colour: bool = False) -> None:
+    """Greyscale, 16 levels (what an e-ink screen shows anyway): small files, crisp edges.
+    colour=True keeps a 256-colour version for colour Kindles and reading apps (e-ink greys it itself)."""
     from PIL import Image, ImageOps
     im = Image.open(src)
     if im.mode in ("RGBA", "LA", "P"):
@@ -229,6 +242,12 @@ def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
         bg.alpha_composite(im)
         im = bg
+    if colour:
+        c = im.convert("RGB")
+        if c.width > max_w:
+            c = c.resize((max_w, round(c.height * max_w / c.width)), Image.LANCZOS)
+        c.quantize(colors=256, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.FLOYDSTEINBERG).save(dst, optimize=True)
+        return
     g = ImageOps.grayscale(im.convert("RGB"))
     if g.width > max_w:
         g = g.resize((max_w, round(g.height * max_w / g.width)), Image.LANCZOS)
@@ -335,7 +354,8 @@ def epub(slug: str) -> None:
     # images actually referenced
     gids = sorted(set(re.findall(r'src="images/(g-[\w-]+)\.png"', "".join(frags))))
     for gid in gids:
-        to_kindle_png(rendered / f"{gid}.png", work / "images" / f"{gid}.png")
+        to_kindle_png(rendered / f"{gid}.png", work / "images" / f"{gid}.png",
+                      colour=bool(book.get("colour_art")) and gid.startswith("g-art-"))
     for p in sorted(used_photos):
         folder, stem = p.split("/")
         src = next((book["dir"] / folder / f"{stem}{ext}" for ext in (".jpg", ".png") if (book["dir"] / folder / f"{stem}{ext}").exists()), None)

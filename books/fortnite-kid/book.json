@@ -1,0 +1,31 @@
+{
+  "title": "The Fortnite Kid",
+  "subtitle": "One boy. One hundred players. No way home except a Victory Royale.",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-16",
+  "version_note": "A novel set in Chapter 7 Season 4 (Override), during Fortnitemares and the v42.40 update. Game details checked 16 October 2026.",
+  "description": "An unofficial Fortnite fan novel. At five o'clock one Sunday morning in Sydney, Billy logs in for the Trick or Treat Sprite Power Hour and gets pulled into the Island for real. To get home he has to level himself up like a Sprite, and win.",
+  "glossary_blurb": "Every Word Watch word in the book, from A to Z. Billy collects Sprites; you can collect words. Try to use five of these before the weekend.",
+  "colour_art": true,
+  "chapters": [
+    {"file": "01-five-am.html", "title": "Five A.M.", "kicker": "Sydney, Sunday", "toc": "The Power Hour", "number": 1},
+    {"file": "02-the-bus.html", "title": "Thank the Bus Driver", "kicker": "The drop", "toc": "The Battle Bus", "number": 2},
+    {"file": "03-slide-spin-smash.html", "title": "Slide, Spin, Smash", "kicker": "North of Stone Sanctum", "toc": "Pumpkins, and Pip", "number": 3},
+    {"file": "04-added-to-collection.html", "title": "Added to Collection", "kicker": "Green Hill Zone", "toc": "The Extraction Site", "number": 4},
+    {"file": "05-code-red.html", "title": "Code Red", "kicker": "The digger", "toc": "Cracking a Cheat Code", "number": 5},
+    {"file": "06-override.html", "title": "Override", "kicker": "Reality's Reign", "toc": "The console", "number": 6},
+    {"file": "07-victory-royale.html", "title": "Victory Royale", "kicker": "The final circle", "toc": "Match one", "number": 7},
+    {"file": "08-the-lobby.html", "title": "The Lobby at the End of the World", "kicker": "Between matches", "toc": "The Sprite Garden", "number": 8},
+    {"file": "09-nightmare-neighborhood.html", "title": "Nightmare Neighborhood", "kicker": "Match two", "toc": "Into the fog", "number": 9},
+    {"file": "10-eliminated.html", "title": "Eliminated", "kicker": "The girl with the antlers", "toc": "Billy loses", "number": 10},
+    {"file": "11-golden-grove.html", "title": "Golden Grove", "kicker": "Match three", "toc": "The comeback", "number": 11},
+    {"file": "12-the-choice.html", "title": "The Choice", "kicker": "The storm's edge", "toc": "Enemies, or not", "number": 12},
+    {"file": "13-squad-up.html", "title": "Squad Up", "kicker": "The lobby, again", "toc": "One squad", "number": 13},
+    {"file": "14-hackers.html", "title": "Hackers", "kicker": "Match four", "toc": "Marked on every map", "number": 14},
+    {"file": "15-the-final-circle.html", "title": "The Final Circle", "kicker": "Under Geno's storm", "toc": "Win together", "number": 15},
+    {"file": "16-home.html", "title": "Home", "kicker": "Sydney, 7.14 a.m.", "toc": "Extracted", "number": 16},
+    {"file": "17-quiz.html", "title": "The Fortnite Kid Quiz", "kicker": "Test yourself", "toc": "Quiz", "label": "Back of the book", "dek": "Fifteen questions. One Chug Jug for each right answer."},
+    {"file": "@glossary", "title": "Billy's Word Hoard", "kicker": "Word bank", "toc": "Every Word Watch word, A to Z", "label": "Back of the book"},
+    {"file": "19-behind-the-book.html", "title": "Behind the Book", "kicker": "The small print", "toc": "What's real, what's made up, and credits", "label": "Back of the book"}
+  ]
+}
