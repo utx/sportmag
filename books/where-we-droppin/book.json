@@ -4,7 +4,7 @@
   "series": "The Chug Jug presents",
   "date": "2026-10-17",
   "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.40. Facts checked on 17 October 2026.",
-  "description": "An unofficial Fortnite fan book: five real landing spots on the Chapter 7 Season 4 Island, the secrets hidden in each, and a training ground for big words.",
+  "description": "An unofficial Fortnite fan book: five real landing spots on the Chapter 7 Season 4 Island, the secrets hidden in each, and a bonus round of word puzzles.",
   "glossary_blurb": "Every Word Watch word in this book, from A to Z. Words are loot too: the more you carry, the better your chances. Try to use three of these before your next match.",
   "chapters": [
     {
@@ -66,10 +66,10 @@
     {
       "file": "07-training-ground.html",
       "title": "The Word Training Ground",
-      "kicker": "Test yourself",
-      "toc": "Cloze passages, mood, character and Thinking Skills",
+      "kicker": "Bonus round",
+      "toc": "Word puzzles, a poem and detective logic",
       "label": "Back of the book",
-      "dek": "The kind of questions selective-school tests love, set on the Island. Answers at the end."
+      "dek": "Six rounds of word puzzles and brain-teasers, all set on the Island. Answers at the end."
     },
     {
       "file": "@glossary",
