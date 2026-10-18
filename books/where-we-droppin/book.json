@@ -1,0 +1,89 @@
+{
+  "title": "Where We Droppin'?",
+  "subtitle": "The ultimate Fortnite drop guide: secret spots and Victory Royales",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-17",
+  "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.40. Facts checked on 17 October 2026.",
+  "description": "An unofficial Fortnite fan book: five real landing spots on the Chapter 7 Season 4 Island, the secrets hidden in each, and a training ground for big words.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Words are loot too: the more you carry, the better your chances. Try to use three of these before your next match.",
+  "chapters": [
+    {
+      "file": "00-start-here.html",
+      "title": "Where We Droppin'?",
+      "kicker": "Before you jump",
+      "toc": "How this book works, and how we checked it",
+      "label": "Start here",
+      "dek": "Thirty seconds on the Battle Bus, one huge decision. Five spots, five secrets, and a promise: everything in here is real."
+    },
+    {
+      "file": "01-wonkeeland.html",
+      "title": "Thrills, Spills and Grind Rails",
+      "kicker": "WonkeeLand",
+      "toc": "WonkeeLand: the haunted theme park",
+      "number": 1,
+      "dek": "A theme park gone spooky, a roller-coaster you can surf, and a console that rewrites the rules of the match."
+    },
+    {
+      "file": "02-heatwave-harbor.html",
+      "title": "Get Your Ducks in a Row",
+      "kicker": "Heatwave Harbor",
+      "toc": "Heatwave Harbor: the Duck Race",
+      "number": 2,
+      "dek": "Four rubber ducks, one river and a prize worth racing for. The most ridiculous mini-game on the Island, explained."
+    },
+    {
+      "file": "03-stone-sanctum.html",
+      "title": "Key Moments",
+      "kicker": "Stone Sanctum",
+      "toc": "Stone Sanctum: the Temple Vault",
+      "number": 3,
+      "dek": "Vanishing walls, invisible containers and a pool that drains away to reveal a secret chamber."
+    },
+    {
+      "file": "04-slurp-and-chill.html",
+      "title": "Slurp and Chill",
+      "kicker": "The quiet east island",
+      "toc": "The quiet island, and the Slurp Truck trick",
+      "number": 4,
+      "dek": "The calmest landing on the map, golden fishing spots, and a truck full of shield juice."
+    },
+    {
+      "file": "05-mega-maze.html",
+      "title": "A-Maze-ing Loot",
+      "kicker": "Mega Maze",
+      "toc": "Mega Maze: the runaway key",
+      "number": 5,
+      "dek": "A key that runs away from you, traps under your feet, and an exit through a portable toilet. Really."
+    },
+    {
+      "file": "06-drop-sheet.html",
+      "title": "The Drop Sheet",
+      "kicker": "Cheat sheet",
+      "toc": "All five spots compared, and which one suits you",
+      "number": 6,
+      "dek": "Everything in one place, plus a guide to choosing the drop that matches your character."
+    },
+    {
+      "file": "07-training-ground.html",
+      "title": "The Word Training Ground",
+      "kicker": "Test yourself",
+      "toc": "Cloze passages, mood, character and Thinking Skills",
+      "label": "Back of the book",
+      "dek": "The kind of questions selective-school tests love, set on the Island. Answers at the end."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Loot Pool of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "09-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}

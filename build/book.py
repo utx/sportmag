@@ -13,6 +13,7 @@ Source layout (books/<slug>/):
   chapters/*.html  XHTML-safe fragments. Macros:
       <item name=".." icon="w-slug" tier="S|A|B|C|D" rarity=".." stats="Label=value;Label=value">..</item>
       <tierboard title=".."/>   tier board of every <item> in the chapter
+      <spot name=".." img="spot-x" danger="1-5" loot="1-5" where=".." chests=".." best=".."/>   drop-spot card
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
@@ -44,6 +45,8 @@ TIER_NAMES = {"S": "Super", "A": "Awesome", "B": "Brilliant (sometimes)", "C": "
 
 JUG = ('<svg viewBox="0 0 40 52" class="jug{cls}"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0'
        '-5-2-5-5z" /><path class="band" d="M8 24h24v8H8z"/><path class="h" d="M32 16c7 0 7 16 0 16" fill="none"/></svg>')
+FLAME = ('<svg viewBox="0 0 40 52" class="flame{cls}"><path d="M20 2c3 9 14 15 14 30 0 10-7 17-14 17S6 42 6 32c0-7 4-11 7-14 0 5 '
+         '2 8 5 9-1-9 0-17 2-25z"/><path class="core" d="M20 30c2 4 7 6 7 12 0 4-3 6-7 6s-7-2-7-6c0-5 5-7 7-12z"/></svg>')
 
 
 def slugify(s: str) -> str:
@@ -119,6 +122,28 @@ def expand(book: dict, ch: dict, frag: str) -> tuple[str, list[dict]]:
                 f'{"".join(rows)}</div></div><!--/g-->')
 
     s = re.sub(r"<tierboard\s*([^>]*?)/>", board, s)
+
+    def spot(m: re.Match) -> str:
+        a = attrs(m.group(1))
+        d, l = int(a["danger"]), int(a["loot"])
+        if not (1 <= d <= 5 and 1 <= l <= 5):
+            raise SystemExit(f"{ch['file']}: danger/loot for {a['name']} must be 1-5")
+        if not (book["dir"] / "img" / f"{a['img']}.jpg").exists():
+            raise SystemExit(f"{ch['file']}: missing img/{a['img']}.jpg for {a['name']}")
+        flames = "".join(FLAME.format(cls="" if i < d else " empty") for i in range(5))
+        jugs = "".join(JUG.format(cls="" if i < l else " empty") for i in range(5))
+        facts = "".join(f'<div class="spot__fact"><small>{k}</small>{html.escape(a[f])}</div>'
+                        for k, f in (("Where", "where"), ("Chests", "chests"), ("Best for", "best")) if a.get(f))
+        alt = (f'{a["name"]}: danger {d} out of 5, loot {l} out of 5 Chug Jugs.'
+               + (f' Best for: {a["best"]}.' if a.get("best") else ""))
+        return (f'<div class="g g-spot" id="g-spot-{slugify(a["name"])}" data-alt="{html.escape(alt)}"><div class="spot">'
+                f'<div class="spot__name">{html.escape(a["name"])}</div>'
+                f'<div class="spot__body"><img class="spot__pic" src="img/{a["img"]}.jpg" alt=""/>'
+                f'<div class="spot__ratings"><div class="spot__row"><small>Danger</small><div>{flames}</div></div>'
+                f'<div class="spot__row"><small>Loot</small><div>{jugs}</div></div></div></div>'
+                f'<div class="spot__facts">{facts}</div></div></div><!--/g-->')
+
+    s = re.sub(r"<spot\s([^>]*?)/>", spot, s)
     return s, items
 
 

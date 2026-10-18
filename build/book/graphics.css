@@ -120,3 +120,31 @@ body { font-family: "Barlow Condensed", sans-serif; }
 .mapfig.wide { height: auto; }
 .pill { display: inline-block; background: #fff; border: 3px solid #111; border-radius: 30px; padding: 3px 12px 4px; font-weight: 800;
   font-size: 20px; text-transform: uppercase; line-height: 1.1; }
+
+/* ---------- drop-spot card (<spot/> macro) ---------- */
+.spot { border: 6px solid #111; border-radius: 18px; overflow: hidden; background: #fff; }
+.spot__name { background: #111; color: #fff; font-family: "Anton", sans-serif; font-size: 40px; line-height: 1; padding: 12px 18px 14px; text-transform: uppercase; }
+.spot__body { display: flex; border-bottom: 4px solid #111; }
+.spot__pic { width: 300px; height: 190px; object-fit: cover; display: block; border-right: 4px solid #111; filter: grayscale(1) contrast(1.25); }
+.spot__ratings { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 16px; padding: 10px 14px;
+  background: repeating-linear-gradient(135deg, #fff 0 12px, #f2f2f2 12px 14px); }
+.spot__row small { display: block; font-weight: 800; font-size: 17px; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 4px; }
+.spot__row > div { display: flex; gap: 7px; }
+.spot .jug { width: 34px; height: 44px; fill: #111; stroke: #111; }
+.spot .jug .band { fill: #fff; }
+.spot .jug.empty { fill: none; stroke: #aaa; }
+.spot .jug.empty .band { fill: none; }
+.flame { width: 34px; height: 44px; fill: #111; stroke: #111; stroke-width: 2.5; }
+.flame .core { fill: #fff; stroke: none; }
+.flame.empty { fill: none; stroke: #aaa; }
+.flame.empty .core { fill: none; }
+.spot__facts { display: flex; }
+.spot__fact { flex: 1; padding: 8px 12px 10px; font-weight: 800; font-size: 19px; line-height: 1.1; border-left: 3px solid #111; }
+.spot__fact:first-child { border-left: 0; }
+.spot__fact small { display: block; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: #555; margin-bottom: 3px; }
+
+/* ---------- diagrams drawn as inline SVG ---------- */
+.diagram { border: 5px solid #111; border-radius: 16px; padding: 12px 14px; }
+.diagram svg { display: block; width: 100%; height: auto; }
+.diagram svg text { font-family: "Barlow Condensed", sans-serif; font-weight: 800; }
+.diagram__title { font-family: "Anton", sans-serif; font-size: 28px; text-transform: uppercase; line-height: 1.05; margin-bottom: 6px; }

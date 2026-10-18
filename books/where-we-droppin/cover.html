@@ -1,0 +1,71 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #0b2a5c; font-family: "Barlow Condensed", sans-serif; }
+#cover .map { position: absolute; width: 1100px; height: 1100px; left: -150px; top: 250px; max-width: none; filter: saturate(1.15); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(6,20,52,.97) 0%, rgba(6,20,52,.85) 30%, rgba(6,20,52,.15) 46%, rgba(6,20,52,0) 70%, rgba(6,20,52,.85) 88%, #06142f 100%); }
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 78px; text-align: center; transform: rotate(-4deg) skewX(-6deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .9; text-transform: uppercase;
+  -webkit-text-stroke: 7px #06142f; paint-order: stroke fill; letter-spacing: .01em;
+  text-shadow: 3px 3px 0 #06142f, 6px 6px 0 #06142f, 9px 9px 0 #06142f, 12px 12px 0 #06142f, 15px 15px 0 #3fb6ff, 18px 18px 0 #3fb6ff, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t1 { font-size: 150px; color: #fff; }
+#cover .t2 { font-size: 168px; color: #ffd23f; margin-top: 4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 470px; transform: translateX(-50%) rotate(-4deg); white-space: nowrap;
+  background: #fff; color: #06142f; font-weight: 800; font-size: 30px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 30px 9px; border: 5px solid #06142f; box-shadow: 8px 8px 0 #06142f; }
+#cover .ribbon b { color: #0a7fd1; }
+
+#cover .glider { position: absolute; filter: drop-shadow(0 14px 18px rgba(0,0,0,.6)); }
+#cover .g1 { width: 280px; right: -10px; top: 830px; transform: rotate(-12deg); }
+#cover .g2 { width: 210px; left: 320px; top: 630px; transform: rotate(10deg) scaleX(-1); }
+
+#cover .pin { position: absolute; transform: translate(-50%, -50%); width: 64px; height: 64px; border-radius: 50%;
+  background: #ffd23f; border: 6px solid #06142f; box-shadow: 0 0 0 5px #fff, 6px 8px 0 5px rgba(0,0,0,.4);
+  font-family: "Anton", sans-serif; font-size: 34px; line-height: 52px; text-align: center; color: #06142f; }
+
+#cover .seal { position: absolute; left: 34px; top: 640px; transform: rotate(-9deg); width: 180px; height: 180px; border-radius: 50%;
+  background: #fff; border: 6px solid #06142f; box-shadow: 7px 7px 0 #06142f; text-align: center; color: #06142f; padding-top: 34px; }
+#cover .seal div { font-family: "Anton", sans-serif; font-size: 30px; line-height: 1.05; text-transform: uppercase; }
+#cover .seal small { display: block; font-weight: 800; font-size: 17px; letter-spacing: .08em; text-transform: uppercase; margin-top: 4px; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 168px; padding: 0 30px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; gap: 9px; margin-top: 10px; }
+#cover .chips span { background: rgba(255,255,255,.12); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 14px 4px;
+  font-weight: 800; font-size: 22px; letter-spacing: .05em; text-transform: uppercase; white-space: nowrap; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #bfe3ff; margin-top: 14px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #8fa8d6; margin-top: 8px; }
+</style>
+<div id="cover">
+  <img class="map" src="art/map-colour.jpg" alt=""/>
+  <div class="shade"></div>
+
+  <div class="pin" style="left:611px;top:609px">1</div>
+  <div class="pin" style="left:90px;top:990px">2</div>
+  <div class="pin" style="left:315px;top:946px">3</div>
+  <div class="pin" style="left:701px;top:723px">4</div>
+  <div class="pin" style="left:400px;top:1044px">5</div>
+
+  <img class="glider g2" src="art/glider-default.png" alt=""/>
+  <img class="glider g1" src="art/glider-mako.png" alt=""/>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">Where we</div><div class="t2">Droppin'?</div></div>
+
+  <div class="ribbon">The ultimate drop guide: <b>5 secret spots</b></div>
+
+  <div class="seal"><div>Real<br/>secrets</div><small>Fact-checked!</small></div>
+
+  <div class="foot">
+    <div class="chips"><span>Duck Race</span><span>Temple Vault</span><span>Runaway Key</span><span>Slurp Trucks</span></div>
+    <div class="ver">Chapter 7 · Season 4 · Override · October 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>
