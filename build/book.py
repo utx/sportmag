@@ -14,6 +14,7 @@ Source layout (books/<slug>/):
       <item name=".." icon="w-slug" tier="S|A|B|C|D" rarity=".." stats="Label=value;Label=value">..</item>
       <tierboard title=".."/>   tier board of every <item> in the chapter
       <spot name=".." img="spot-x" danger="1-5" loot="1-5" where=".." chests=".." best=".."/>   drop-spot card
+      <versus n="1" a=".." aimg="i-x" b=".." bimg="i-y"/>   would-you-rather card (images optional)
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
@@ -144,6 +145,22 @@ def expand(book: dict, ch: dict, frag: str) -> tuple[str, list[dict]]:
                 f'<div class="spot__facts">{facts}</div></div></div><!--/g-->')
 
     s = re.sub(r"<spot\s([^>]*?)/>", spot, s)
+
+    def versus(m: re.Match) -> str:
+        a = attrs(m.group(1))
+        def side(k: str) -> str:
+            img = a.get(f"{k}img", "")
+            if img and not (book["dir"] / "img" / f"{img}.png").exists():
+                raise SystemExit(f"{ch['file']}: missing img/{img}.png for dilemma {a['n']}")
+            pic = f'<img src="img/{img}.png" alt=""/>' if img else ""
+            return (f'<div class="wyr__side wyr__{k}{"" if img else " wyr__noimg"}"><div class="wyr__tag">{k.upper()}</div>'
+                    f'{pic}<p>{html.escape(a[k])}</p></div>')
+        alt = f'Would you rather: A, {a["a"]}; or B, {a["b"]}?'
+        return (f'<div class="g g-vs" id="g-vs-{ch["slug"]}-{a["n"]}" data-alt="{html.escape(alt)}"><div class="wyr">'
+                f'<div class="wyr__q"><span>#{a["n"]}</span> Would you rather…</div>'
+                f'<div class="wyr__row">{side("a")}<div class="wyr__or">OR</div>{side("b")}</div></div></div><!--/g-->')
+
+    s = re.sub(r"<versus\s([^>]*?)/>", versus, s)
     return s, items
 
 

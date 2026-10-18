@@ -1,0 +1,72 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #1d1257; font-family: "Barlow Condensed", sans-serif; }
+#cover .half { position: absolute; top: 0; bottom: 0; width: 50%; }
+#cover .left { left: 0; background: radial-gradient(circle at 50% 62%, #3fb6ff 0%, #1a5fd0 45%, #0b2366 100%); }
+#cover .right { right: 0; background: radial-gradient(circle at 50% 62%, #c45cff 0%, #6b23c9 45%, #2a0b5e 100%); }
+#cover .rays { position: absolute; left: 50%; top: 62%; width: 1600px; height: 1600px; transform: translate(-50%, -50%); opacity: .22;
+  background: repeating-conic-gradient(from 0deg, rgba(255,255,255,.9) 0 5deg, transparent 5deg 14deg);
+  -webkit-mask: radial-gradient(circle, #000 0%, #000 14%, transparent 52%); mask: radial-gradient(circle, #000 0%, #000 14%, transparent 52%); }
+#cover .split { position: absolute; left: 50%; top: 0; bottom: 0; width: 16px; transform: translateX(-50%) skewX(-6deg); background: #fff; box-shadow: 0 0 0 6px #120a3a; }
+#cover .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14,8,50,.92) 0%, rgba(14,8,50,.55) 30%, rgba(14,8,50,0) 45%, rgba(14,8,50,0) 78%, rgba(14,8,50,.9) 92%, #0e0832 100%); }
+
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 76px; text-align: center; transform: rotate(-4deg) skewX(-6deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .9; text-transform: uppercase;
+  -webkit-text-stroke: 7px #120a3a; paint-order: stroke fill;
+  text-shadow: 3px 3px 0 #120a3a, 6px 6px 0 #120a3a, 9px 9px 0 #120a3a, 12px 12px 0 #120a3a, 15px 15px 0 #ff4fa8, 18px 18px 0 #ff4fa8, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t1 { font-size: 168px; color: #ffd23f; }
+#cover .t2 { font-size: 150px; color: #fff; margin-top: 4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 470px; transform: translateX(-50%) rotate(-4deg); white-space: nowrap;
+  background: #fff; color: #120a3a; font-weight: 800; font-size: 32px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 30px 9px; border: 5px solid #120a3a; box-shadow: 8px 8px 0 #120a3a; }
+#cover .ribbon b { color: #c2187a; }
+
+#cover .item { position: absolute; filter: drop-shadow(0 16px 20px rgba(0,0,0,.6)); }
+#cover .i-a { width: 300px; left: 40px; top: 640px; transform: rotate(-10deg); }
+#cover .i-b { width: 300px; right: 40px; top: 650px; transform: rotate(10deg); }
+#cover .tag { position: absolute; top: 590px; font-family: "Anton", sans-serif; font-size: 90px; color: #fff; -webkit-text-stroke: 5px #120a3a; paint-order: stroke fill; text-shadow: 6px 6px 0 #120a3a; }
+#cover .tag-a { left: 40px; } #cover .tag-b { right: 40px; }
+#cover .or { position: absolute; left: 50%; top: 760px; transform: translate(-50%, 0) rotate(-8deg); width: 150px; height: 150px; border-radius: 50%;
+  background: #ffd23f; border: 8px solid #120a3a; box-shadow: 8px 8px 0 #120a3a; font-family: "Anton", sans-serif; font-size: 64px; line-height: 132px; text-align: center; color: #120a3a; }
+#cover .cap { position: absolute; top: 1000px; width: 340px; text-align: center; color: #fff; font-weight: 800; font-size: 30px; line-height: 1.05; text-transform: uppercase; }
+#cover .cap-a { left: 20px; } #cover .cap-b { right: 20px; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 160px; padding: 0 30px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; gap: 9px; margin-top: 10px; }
+#cover .chips span { background: rgba(255,255,255,.12); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 14px 4px;
+  font-weight: 800; font-size: 22px; letter-spacing: .05em; text-transform: uppercase; white-space: nowrap; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #e6d5ff; margin-top: 14px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #a99fd6; margin-top: 8px; }
+</style>
+<div id="cover">
+  <div class="half left"></div><div class="half right"></div>
+  <div class="rays"></div>
+  <div class="split"></div>
+  <div class="shade"></div>
+
+  <div class="tag tag-a">A</div><div class="tag tag-b">B</div>
+  <img class="item i-a" src="img/i-chug-jug.png" alt=""/>
+  <img class="item i-b" src="img/i-small-shield-potion.png" alt=""/>
+  <div class="or">OR</div>
+  <div class="cap cap-a">One Chug Jug</div>
+  <div class="cap cap-b">Six Small Shields</div>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">Chug Life</div><div class="t2">Choices</div></div>
+
+  <div class="ribbon">The Fortnite <b>Would You Rather</b> book</div>
+
+  <div class="foot">
+    <div class="chips"><span>35 dilemmas</span><span>Both sides argued</span><span>No wrong answers</span></div>
+    <div class="ver">Chapter 7 · Season 4 · Override · October 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+{
+  "title": "Chug Life Choices",
+  "subtitle": "The Fortnite Would You Rather book: impossible dilemmas, brilliant arguments, no wrong answers",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-18",
+  "version_note": "Chapter 7 Season 4 (Override), Fortnitemares update v42.40. Game facts checked on 18 October 2026.",
+  "description": "An unofficial Fortnite fan book of would-you-rather dilemmas: loot, places, powers, squads and some truly ridiculous choices, with the case for both sides.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Here's one last would-you-rather: learn three of these this week, or learn five? (Trick question. Five.)",
+  "chapters": [
+    {
+      "file": "00-start-here.html",
+      "title": "You Have to Choose",
+      "kicker": "Before you start",
+      "toc": "How to play, and the one rule you can't break",
+      "label": "Start here",
+      "dek": "Thirty-five impossible choices. No skipping, no sitting on the fence, and absolutely no saying \"both\"."
+    },
+    {
+      "file": "01-loadout.html",
+      "title": "Loadout Lunacy",
+      "kicker": "Weapons and items",
+      "toc": "Chug Jugs, golden guns and rideable rockets",
+      "number": 1,
+      "dek": "Your inventory has five slots and you can't have everything. Time to make some painful decisions."
+    },
+    {
+      "file": "02-island.html",
+      "title": "Island Hopping",
+      "kicker": "Places",
+      "toc": "Where you'd land, live and lose your way",
+      "number": 2,
+      "dek": "Theme parks, temples, mazes and ski lodges. Where would you go, and could you ever leave?"
+    },
+    {
+      "file": "03-powers.html",
+      "title": "Power Trip",
+      "kicker": "Sprites and Overrides",
+      "toc": "Pick your superpower, then live with it",
+      "number": 3,
+      "dek": "Dashes, fangs, X-ray goggles and enormous heads. Every power has a price."
+    },
+    {
+      "file": "04-squad.html",
+      "title": "Squad Goals",
+      "kicker": "Teammates",
+      "toc": "Who you'd play with, and how you'd decide",
+      "number": 4,
+      "dek": "Fortnite is more fun with friends. It is also more complicated."
+    },
+    {
+      "file": "05-absurd.html",
+      "title": "Absolutely Absurd",
+      "kicker": "Ridiculous choices",
+      "toc": "Dancing, shouting, llamas and rubber ducks",
+      "number": 5,
+      "dek": "No strategy. No sense. Just choices so silly that you'll have to think very seriously about them."
+    },
+    {
+      "file": "06-big-thinkers.html",
+      "title": "Big Thinkers",
+      "kicker": "Deep questions",
+      "toc": "Time, fame, honesty and getting better",
+      "number": 6,
+      "dek": "The hardest choices in the book, and the ones grown-ups argue about too."
+    },
+    {
+      "file": "07-your-turn.html",
+      "title": "Your Turn",
+      "kicker": "Bonus round",
+      "toc": "Spot the sneaky argument, then write your own",
+      "label": "Back of the book",
+      "dek": "How to tell a fair choice from a trick one, how to decide like a scientist, and how to build a would-you-rather that nobody can answer."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Word Locker",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "09-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}
