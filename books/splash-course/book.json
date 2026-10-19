@@ -1,0 +1,81 @@
+{
+  "title": "Splash Course",
+  "subtitle": "15 quick Zero Build tips for Fortnite Override, checked and updated",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-19",
+  "version_note": "Chapter 7 Season 4 (Override), after the v42.40 update of 15 October 2026. Based on a creator's launch-week video; every tip re-checked on 19 October 2026.",
+  "description": "An unofficial Fortnite fan book that turns a YouTube creator's 15 quick Zero Build tips into a guide, then checks every tip against the game as it is now.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Like a good Chug Splash, a new word helps everyone nearby. Try splashing three of these into conversation this week.",
+  "chapters": [
+    {
+      "file": "00-pull-the-cork.html",
+      "title": "Pull the Cork",
+      "kicker": "How this book works",
+      "toc": "Who made the tips, and what the stamps mean",
+      "label": "Start here",
+      "dek": "Fifteen tips from a Zero Build expert, recorded in the season's first week. Two months later, we checked every one."
+    },
+    {
+      "file": "01-ring-leader.html",
+      "title": "Ring Leader",
+      "kicker": "Tips 1 to 3",
+      "toc": "Rings, supply llamas and extra lives",
+      "number": 1,
+      "dek": "Free shield that keeps on stacking, a llama full of loot, and a coin that brings you back with everything."
+    },
+    {
+      "file": "02-dust-up.html",
+      "title": "Dust Up",
+      "kicker": "Tips 4 to 7",
+      "toc": "Lobby codes, Loot Hacks and Cheat Codes",
+      "number": 2,
+      "dek": "Eight thousand Sprite Dust before you've even dropped, how to spend it, and the secret of reading a Cheat Code."
+    },
+    {
+      "file": "03-bounce-house.html",
+      "title": "Bounce House",
+      "kicker": "Tips 8 to 11",
+      "toc": "Getting around in Zero Build",
+      "number": 3,
+      "dek": "No building means no ramps. Here's how to bounce, slide, spin and blast your way around the Island instead."
+    },
+    {
+      "file": "04-secret-stash.html",
+      "title": "Secret Stash",
+      "kicker": "Tips 12 to 15",
+      "toc": "Hidden vaults, duck races and golden fish",
+      "number": 4,
+      "dek": "A flooded temple, a race of rubber ducks, a duck in sunglasses and a fish that turns your guns to gold."
+    },
+    {
+      "file": "05-back-to-basics.html",
+      "title": "Back to Basics",
+      "kicker": "The rules that never change",
+      "toc": "How to win a fight, any season",
+      "number": 5,
+      "dek": "Seasons come and go. These five habits work in every one of them."
+    },
+    {
+      "file": "06-quiz.html",
+      "title": "The Splash Course Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Fifteen questions, one for every tip. One Chug Splash for each right answer."
+    },
+    {
+      "file": "@glossary",
+      "title": "A Splash of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "08-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}

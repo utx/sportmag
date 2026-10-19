@@ -1,0 +1,70 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #0b2a3a; font-family: "Barlow Condensed", sans-serif; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 62% 50%; filter: saturate(1.15) brightness(.85) hue-rotate(-20deg); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(4,30,44,.95) 0%, rgba(4,30,44,.62) 27%, rgba(4,30,44,.08) 46%, rgba(4,30,44,.12) 60%, rgba(4,30,44,.9) 84%, #041e2c 100%); }
+#cover .rays { position: absolute; left: 50%; top: 70%; width: 1500px; height: 1500px; transform: translate(-50%, -50%); opacity: .32;
+  background: repeating-conic-gradient(from 0deg, rgba(60,230,230,.9) 0 6deg, transparent 6deg 15deg);
+  -webkit-mask: radial-gradient(circle, #000 0%, #000 16%, transparent 50%); mask: radial-gradient(circle, #000 0%, #000 16%, transparent 50%); }
+
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #5ff0e8; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 84px; text-align: center; transform: rotate(-4deg) skewX(-6deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .9; text-transform: uppercase;
+  -webkit-text-stroke: 7px #041e2c; paint-order: stroke fill; letter-spacing: .01em;
+  text-shadow: 3px 3px 0 #041e2c, 6px 6px 0 #041e2c, 9px 9px 0 #041e2c, 12px 12px 0 #041e2c, 15px 15px 0 #ff4fa3, 18px 18px 0 #ff4fa3, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t1 { font-size: 196px; color: #5ff0e8; }
+#cover .t2 { font-size: 166px; color: #fff; margin-top: 4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 498px; transform: translateX(-50%) rotate(-4deg); white-space: nowrap;
+  background: #fff; color: #041e2c; font-weight: 800; font-size: 30px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 30px 9px; border: 5px solid #041e2c; box-shadow: 8px 8px 0 #041e2c; }
+#cover .ribbon b { color: #e0237f; }
+
+#cover .item { position: absolute; filter: drop-shadow(0 14px 18px rgba(0,0,0,.65)); }
+#cover .i-splash { width: 400px; left: 50%; transform: translateX(-50%) rotate(-6deg); bottom: 190px; }
+#cover .i-oneup { width: 190px; left: 34px; bottom: 300px; transform: rotate(-14deg); }
+#cover .i-pad { width: 220px; right: 22px; bottom: 262px; transform: rotate(12deg); }
+#cover .i-llama { width: 170px; left: 52px; top: 600px; transform: rotate(-8deg); }
+
+#cover .badge { position: absolute; right: 30px; top: 610px; transform: rotate(9deg); width: 186px; height: 186px; border-radius: 50%;
+  background: #5ff0e8; border: 6px solid #041e2c; box-shadow: 7px 7px 0 #041e2c; text-align: center; color: #041e2c; padding-top: 22px; }
+#cover .badge b { display: block; font-family: "Anton", sans-serif; font-weight: 400; font-size: 84px; line-height: .9; }
+#cover .badge span { display: block; font-weight: 800; font-size: 22px; line-height: 1.05; text-transform: uppercase; letter-spacing: .04em; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 168px; padding: 0 34px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+#cover .chips span { background: rgba(255,255,255,.12); border: 3px solid #5ff0e8; border-radius: 30px; padding: 3px 16px 4px;
+  font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #bdf5f2; margin-top: 14px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #8fb8c4; margin-top: 8px; }
+</style>
+<div id="cover">
+  <img class="bg" src="art/lobby-override.jpg" alt=""/>
+  <div class="rays"></div>
+  <div class="shade"></div>
+
+  <img class="item i-llama" src="img/i-llama-supply-drop.png" alt=""/>
+  <img class="item i-oneup" src="img/i-1-up-token.png" alt=""/>
+  <img class="item i-pad" src="img/i-pocket-crash-pad-jr.png" alt=""/>
+  <img class="item i-splash" src="img/i-chug-splash.png" alt=""/>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">Splash</div><div class="t2">Course</div></div>
+
+  <div class="ribbon">Quick <b>Zero Build</b> tips for Override</div>
+
+  <div class="badge"><b>15</b><span>tips, checked<br/>and updated</span></div>
+
+  <div class="foot">
+    <div class="chips"><span>Rings</span><span>Codes</span><span>Mobility</span><span>Secret loot</span></div>
+    <div class="ver">Chapter 7 · Season 4 · Override · October 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>

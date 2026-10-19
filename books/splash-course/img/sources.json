@@ -1,0 +1,147 @@
+{
+ "i-1-up-token.png": {
+  "name": "1-Up Token",
+  "source": "https://fortnite.weirdgloop.org/images/1-Up_Token_-_Item_-_Fortnite.png?0ba3e",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-cheat-code-locator.png": {
+  "name": "Cheat Code Locator",
+  "source": "https://fortnite.weirdgloop.org/images/Cheat_Code_Locator_-_Item_-_Fortnite.png?e62e2",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-llama-supply-drop.png": {
+  "name": "Llama Supply Drop",
+  "source": "https://fortnite.weirdgloop.org/images/Llama_Supply_Drop_-_Item_-_Fortnite.png?d8216",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pocket-crash-pad-jr.png": {
+  "name": "Pocket Crash Pad Jr. (Zero Build)",
+  "source": "https://fortnite.weirdgloop.org/images/Crash_Pad_Jr._-_Item_-_Fortnite.png?e5bbb",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pocket-shockwave-grenade.png": {
+  "name": "Pocket Shockwave Grenade (Zero Build)",
+  "source": "https://fortnite.weirdgloop.org/images/Shockwave_Grenade_-_Item_-_Fortnite.png?01be4",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pro-fishing-rod.png": {
+  "name": "Pro Fishing Rod",
+  "source": "https://fortnite.weirdgloop.org/images/Pro_Fishing_Rod_-_Item_-_Fortnite.png?7f8e1",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-temple-vault-key.png": {
+  "name": "Temple Vault Key",
+  "source": "https://fortnite.weirdgloop.org/images/Temple_Vault_Key_-_Item_-_Fortnite.png?1149e",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-8-bit.png": {
+  "name": "8-Bit Sprite",
+  "source": "https://fortnite.weirdgloop.org/images/8-Bit_Sprite_-_Item_-_Fortnite.png?08190",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-jonesy.png": {
+  "name": "Jonesy Sprite",
+  "source": "https://fortnite.weirdgloop.org/images/Jonesy_Sprite_-_Item_-_Fortnite.png?4a51e",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-klombo.png": {
+  "name": "Klombo Sprite",
+  "source": "https://fortnite.weirdgloop.org/images/Klombo_Sprite_-_Item_-_Fortnite.png?d7336",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-overshield.png": {
+  "name": "Overshield Sprite",
+  "source": "https://fortnite.weirdgloop.org/images/Overshield_Sprite_-_Item_-_Fortnite.png?2f9ba",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-8-bit-shotgun.png": {
+  "name": "8-Bit Shotgun",
+  "source": "https://fortnite.weirdgloop.org/images/8-Bit_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-accelerant-drum-gun.png": {
+  "name": "Accelerant Drum Gun",
+  "source": "https://fortnite.weirdgloop.org/images/Accelerant_Drum_Gun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-balloon-popper-assault-rifle.png": {
+  "name": "Balloon Popper Assault Rifle",
+  "source": "https://fortnite.weirdgloop.org/images/Balloon_Popper_Assault_Rifle_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-overclocked-8-bit-shotgun.png": {
+  "name": "Overclocked 8-Bit Shotgun",
+  "source": "https://fortnite.weirdgloop.org/images/Overclocked_8-Bit_Shotgun_%28v42.20%29_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-overpowered-pump-shotgun.png": {
+  "name": "Overpowered Pump Shotgun",
+  "source": "https://fortnite.weirdgloop.org/images/Overpowered_Pump_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-pump-shotgun.png": {
+  "name": "Pump Shotgun",
+  "source": "https://fortnite.weirdgloop.org/images/Pump_Shotgun_%28v11.00%29_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-cheat-code.png": {
+  "name": "Cheat Code (container)",
+  "source": "https://fortnite.weirdgloop.org/images/Cheat_Codes_-_Container_-_Fortnite.png?34b0b",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "x-sprite-dust.png": {
+  "name": "Sprite Dust",
+  "source": "https://fortnite.weirdgloop.org/images/Sprite_Dust_-_Item_-_Fortnite.png?2c1b9",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-chug-splash.png": {
+  "name": "Chug Splash",
+  "source": "https://fortnite.weirdgloop.org/images/Chug_Splash_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-bass-boost.png": {
+  "name": "Bass Boost",
+  "source": "https://fortnite.weirdgloop.org/images/Bass_Boost_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-oni-shotgun.png": {
+  "name": "Oni Shotgun",
+  "source": "https://fortnite.weirdgloop.org/images/Oni_Shotgun_-_Weapon_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-midas-flopper.png": {
+  "name": "Midas Flopper",
+  "source": "https://fortnite.weirdgloop.org/images/Midas_Flopper_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "map.jpg": {
+  "name": "map.jpg",
+  "source": "fortnite-api.com v1/map (copied from books/tier-pressure)",
+  "credit": "Map: Epic Games / Fortnite, via fortnite-api.com"
+ },
+ "poi-cluster-coast.png": {
+  "name": "poi-cluster-coast.png",
+  "source": "fortnite-api.com v1/map (copied from books/tier-pressure)",
+  "credit": "Map: Epic Games / Fortnite, via fortnite-api.com"
+ },
+ "poi-stone-sanctum.png": {
+  "name": "poi-stone-sanctum.png",
+  "source": "fortnite-api.com v1/map (copied from books/tier-pressure)",
+  "credit": "Map: Epic Games / Fortnite, via fortnite-api.com"
+ },
+ "poi-green-hill-zone.png": {
+  "name": "poi-green-hill-zone.png",
+  "source": "fortnite-api.com v1/map (copied from books/tier-pressure)",
+  "credit": "Map: Epic Games / Fortnite, via fortnite-api.com"
+ },
+ "poi-heatwave-harbor.png": {
+  "name": "poi-heatwave-harbor.png",
+  "source": "fortnite-api.com v1/map (copied from books/tier-pressure)",
+  "credit": "Map: Epic Games / Fortnite, via fortnite-api.com"
+ },
+ "../art/lobby-override.jpg": {
+  "name": "Override lobby background",
+  "source": "copied from books/tier-pressure/art",
+  "credit": "Image: Epic Games / Fortnite"
+ }
+}
