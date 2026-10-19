@@ -1,19 +1,19 @@
 {
   "title": "Splash Course",
-  "subtitle": "15 quick Zero Build tips for Fortnite Override, checked and updated",
+  "subtitle": "15 expert Zero Build tips for Fortnite Override",
   "series": "The Chug Jug presents",
   "date": "2026-10-19",
-  "version_note": "Chapter 7 Season 4 (Override), after the v42.40 update of 15 October 2026. Based on a creator's launch-week video; every tip re-checked on 19 October 2026.",
-  "description": "An unofficial Fortnite fan book that turns a YouTube creator's 15 quick Zero Build tips into a guide, then checks every tip against the game as it is now.",
-  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Like a good Chug Splash, a new word helps everyone nearby. Try splashing three of these into conversation this week.",
+  "version_note": "Chapter 7 Season 4 (Override), after the v42.40 update of 15 October 2026. Every tip checked on 19 October 2026.",
+  "description": "An unofficial Fortnite fan book: fifteen Zero Build tips for the Override season, each explained in depth, with notes on how the season has changed since launch day.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Some of these are words adults use at work every day, so you're ahead of the game. Try splashing three of them into conversation this week, and see who notices.",
   "chapters": [
     {
       "file": "00-pull-the-cork.html",
       "title": "Pull the Cork",
       "kicker": "How this book works",
-      "toc": "Who made the tips, and what the stamps mean",
+      "toc": "How this book works, and Zero Build explained",
       "label": "Start here",
-      "dek": "Fifteen tips from a Zero Build expert, recorded in the season's first week. Two months later, we checked every one."
+      "dek": "Fifteen tips, five chapters, and a quick briefing on the mode where nobody can build a single wall."
     },
     {
       "file": "01-ring-leader.html",
@@ -53,7 +53,7 @@
       "kicker": "The rules that never change",
       "toc": "How to win a fight, any season",
       "number": 5,
-      "dek": "Seasons come and go. These five habits work in every one of them."
+      "dek": "Seasons come and go, loot pools are reshuffled, bosses pack their bags. These five habits work in every one of them."
     },
     {
       "file": "06-quiz.html",
@@ -61,7 +61,7 @@
       "kicker": "Test yourself",
       "toc": "Quiz",
       "label": "Back of the book",
-      "dek": "Fifteen questions, one for every tip. One Chug Splash for each right answer."
+      "dek": "Fifteen questions, one for every tip, and some fiendish vocabulary. One Chug Splash for each right answer."
     },
     {
       "file": "@glossary",

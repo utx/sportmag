@@ -143,5 +143,10 @@
   "name": "Override lobby background",
   "source": "copied from books/tier-pressure/art",
   "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-overdrive-grenade.png": {
+  "name": "Overdrive Grenade",
+  "source": "https://fortnite.weirdgloop.org/images/Overdrive_Grenade_-_Item_-_Fortnite.png?65d7a",
+  "credit": "Image: Epic Games / Fortnite"
  }
 }

@@ -134,7 +134,7 @@ body { font-family: "Barlow Condensed", sans-serif; }
 .tipcard__title { font-family: "Anton", sans-serif; font-size: 31px; line-height: 1; text-transform: uppercase; }
 .tipcard__title .nw { white-space: nowrap; }
 .tipcard__where { font-weight: 800; font-size: 17px; color: #444; text-transform: uppercase; letter-spacing: .05em; margin-top: 6px; }
-.status { margin-top: auto; border: 4px solid #111; border-radius: 8px; padding: 1px 12px 2px;
+.status { white-space: nowrap; margin-top: auto; border: 4px solid #111; border-radius: 8px; padding: 1px 12px 2px;
   font-family: "Anton", sans-serif; font-size: 24px; letter-spacing: .03em; transform: rotate(-3deg); background: #fff; color: #111; }
 .status small { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 15px; letter-spacing: .08em; margin-left: 6px; }
 .status--changed { background: #6a6a6a; color: #fff; }
