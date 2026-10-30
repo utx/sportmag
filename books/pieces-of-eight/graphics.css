@@ -1,0 +1,111 @@
+/* Pieces of Eight: extra graphics (rendered to greyscale PNG for Kindle, so everything is drawn in strong greys). */
+
+/* ---------- parchment panels ---------- */
+.parch { position: relative; border: 6px solid #111; border-radius: 10px; padding: 16px 18px 14px; color: #111;
+  background: radial-gradient(ellipse at 30% 20%, #f4f1ea 0%, #e3ddd0 60%, #c9c1b0 100%); }
+.parch::before { content: ""; position: absolute; inset: 6px; border: 2px dashed #6d6656; border-radius: 4px; pointer-events: none; }
+.parch__title { font-family: "Anton", sans-serif; font-size: 34px; line-height: 1; text-transform: uppercase; letter-spacing: .02em; }
+.parch__sub { font-weight: 700; font-size: 17px; color: #444; margin: 3px 0 10px; }
+
+/* ---------- WANTED posters ---------- */
+.posters { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+.poster { width: 288px; padding: 12px 14px 10px; border: 4px solid #2b2620; text-align: center; position: relative;
+  background: radial-gradient(ellipse at 50% 30%, #f3efe4 0%, #ddd5c3 70%, #bdb39d 100%); box-shadow: 6px 6px 0 #111; }
+.poster__w { font-family: "Anton", sans-serif; font-size: 58px; line-height: .95; letter-spacing: .04em; color: #1a1712; }
+.poster__img { width: 100%; height: 200px; border: 4px solid #2b2620; background: #777; overflow: hidden; margin: 4px 0 6px; }
+.poster__img img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.15) sepia(.15); }
+.poster__dead { font-weight: 800; font-size: 15px; letter-spacing: .25em; text-transform: uppercase; color: #4a4236; }
+.poster__name { font-family: "Anton", sans-serif; font-size: 30px; line-height: 1.02; text-transform: uppercase; margin: 2px 0 2px; }
+.poster__alias { font-weight: 700; font-size: 16px; font-style: italic; color: #3a342a; line-height: 1.1; }
+.poster__bounty { margin-top: 6px; font-family: "Anton", sans-serif; font-size: 21px; letter-spacing: .03em; border-top: 2px solid #2b2620; padding-top: 5px; }
+.poster__stamp { position: absolute; right: 8px; top: 90px; transform: rotate(12deg); background: rgba(255,255,255,.85); border: 4px solid #111;
+  border-radius: 6px; padding: 1px 9px; font-family: "Anton", sans-serif; font-size: 22px; letter-spacing: .05em; color: #111; }
+
+/* ---------- hype meter ---------- */
+.hype { border: 5px solid #111; border-radius: 16px; overflow: hidden; }
+.hype__title { background: #111; color: #fff; font-family: "Anton", sans-serif; font-size: 28px; text-transform: uppercase; padding: 9px 16px 10px; line-height: 1; }
+.hype__title small { display: block; font-family: "Barlow Condensed", sans-serif; font-weight: 700; font-size: 16px; letter-spacing: .08em; color: #ccc; margin-top: 4px; }
+.hrow { display: flex; align-items: center; border-top: 3px solid #111; padding: 7px 12px; gap: 10px; min-height: 64px;
+  background: repeating-linear-gradient(135deg, #fff 0 12px, #f3f3f3 12px 14px); }
+.hrow img { width: 70px; height: 52px; object-fit: cover; border: 3px solid #111; border-radius: 8px; filter: grayscale(1) contrast(1.2); }
+.hrow__name { flex: 1; font-weight: 800; font-size: 19px; line-height: 1.05; text-transform: uppercase; }
+.hrow__name small { display: block; font-weight: 700; font-size: 14px; text-transform: none; color: #444; }
+.hrow__jugs { display: flex; gap: 4px; }
+.hjug { width: 22px; height: 29px; fill: #111; stroke: #111; stroke-width: 2.5; }
+.hjug .band { fill: #fff; stroke: none; }
+.hjug.empty { fill: none; stroke: #999; }
+.hjug.empty .band { fill: none; }
+
+/* ---------- badges inside graphics ---------- */
+.bdg { display: inline-block; font-weight: 800; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; border: 2px solid #111;
+  border-radius: 4px; padding: 0 5px; line-height: 1.35; background: #fff; vertical-align: middle; }
+.bdg.solid { background: #111; color: #fff; }
+.bdg.dash { border-style: dashed; }
+
+/* ---------- meters (chest download) ---------- */
+.meter { display: flex; align-items: center; gap: 12px; margin: 8px 0; }
+.meter__day { flex: 0 0 120px; font-weight: 800; font-size: 18px; text-transform: uppercase; text-align: right; line-height: 1; }
+.meter__day small { display: block; font-weight: 700; font-size: 13px; color: #555; text-transform: none; }
+.meter__bar { flex: 1; height: 34px; border: 4px solid #111; border-radius: 18px; overflow: hidden; background: #fff; }
+.meter__fill { height: 100%; background: repeating-linear-gradient(135deg, #111 0 10px, #333 10px 20px); color: #fff;
+  font-family: "Anton", sans-serif; font-size: 19px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; }
+
+/* ---------- map labels with arrows ---------- */
+.mapfig.trail > img { filter: none; }
+.ml { position: absolute; background: #fff; border: 3px solid #111; border-radius: 7px; padding: 2px 8px 3px; font-weight: 800; font-size: 15px;
+  text-transform: uppercase; line-height: 1.1; box-shadow: 3px 3px 0 #111; white-space: nowrap; }
+.ml small { display: block; font-weight: 700; font-size: 12px; text-transform: none; letter-spacing: 0; }
+.ring { position: absolute; border: 5px solid #fff; border-radius: 50%; box-shadow: 0 0 0 3px #111, inset 0 0 0 3px #111; transform: translate(-50%, -50%); }
+
+/* ---------- pirate trading cards ---------- */
+.pcards { display: flex; flex-wrap: wrap; gap: 12px; }
+.pcard { width: 294px; border: 5px solid #111; border-radius: 14px; overflow: hidden; background: #fff; }
+.pcard__top { background: #111; color: #fff; padding: 8px 12px 9px; }
+.pcard__name { font-family: "Anton", sans-serif; font-size: 27px; line-height: 1; text-transform: uppercase; }
+.pcard__nick { font-weight: 700; font-size: 15px; color: #ccc; font-style: italic; margin-top: 2px; }
+.pcard__art { height: 118px; display: flex; align-items: center; justify-content: center;
+  background: repeating-linear-gradient(135deg, #eee 0 10px, #e2e2e2 10px 12px); border-bottom: 3px solid #111; }
+.pcard__art svg { height: 104px; }
+.pcard table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.pcard td { padding: 3px 10px; border-bottom: 1px solid #bbb; vertical-align: top; line-height: 1.12; }
+.pcard td:first-child { font-weight: 800; text-transform: uppercase; font-size: 12px; letter-spacing: .08em; color: #555; width: 34%; padding-top: 5px; }
+.pcard td:last-child { font-weight: 700; }
+
+/* ---------- myth or fact ---------- */
+.mf { display: flex; border-top: 3px solid #111; }
+.mf:first-of-type { border-top: 0; }
+.mf__q { flex: 1; padding: 10px 14px; font-weight: 700; font-size: 18px; line-height: 1.15; }
+.mf__a { flex: 0 0 150px; display: flex; align-items: center; justify-content: center; font-family: "Anton", sans-serif; font-size: 24px;
+  border-left: 3px solid #111; text-transform: uppercase; text-align: center; line-height: 1; }
+.mf__a.myth { background: #fff; color: #111; }
+.mf__a.fact { background: #111; color: #fff; }
+.mf__a.half { background: repeating-linear-gradient(135deg, #fff 0 10px, #ccc 10px 20px); color: #111; }
+
+/* ---------- flags ---------- */
+.flags { display: flex; gap: 12px; justify-content: space-between; }
+.flag { flex: 1; text-align: center; }
+.flag svg { width: 100%; height: auto; display: block; border: 3px solid #111; border-radius: 4px; }
+.flag b { display: block; font-weight: 800; font-size: 16px; text-transform: uppercase; margin-top: 6px; line-height: 1.05; }
+.flag small { display: block; font-weight: 700; font-size: 13px; color: #555; line-height: 1.1; margin-top: 2px; }
+
+/* ---------- message in a bottle / quote cards ---------- */
+.lines { display: flex; flex-direction: column; gap: 10px; }
+.line { border: 4px solid #111; border-radius: 12px; padding: 10px 16px; font-family: "Literata", serif; font-size: 21px; font-style: italic; line-height: 1.25; background: #fff; }
+.line b { font-family: "Barlow Condensed", sans-serif; font-style: normal; font-weight: 800; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; display: block; color: #555; margin-bottom: 2px; }
+
+/* ---------- photo strip ---------- */
+.strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.strip figure { margin: 0; position: relative; }
+.strip img { width: 100%; height: 118px; object-fit: cover; display: block; border: 3px solid #111; filter: grayscale(1) contrast(1.1); }
+.strip figcaption { position: absolute; left: 4px; bottom: 4px; right: 4px; background: rgba(255,255,255,.92); border: 2px solid #111; font-weight: 800; font-size: 13px;
+  line-height: 1.1; padding: 2px 5px; text-transform: uppercase; }
+.strip .n { position: absolute; left: 0; top: 0; background: #111; color: #fff; font-family: "Anton", sans-serif; font-size: 18px; padding: 0 7px 2px; }
+
+/* ---------- crew board ---------- */
+.crews { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.crew { border: 4px solid #111; border-radius: 12px; padding: 8px 12px 9px; background: #fff; position: relative; min-height: 112px; }
+.crew__n { font-family: "Anton", sans-serif; font-size: 34px; position: absolute; right: 10px; top: 2px; color: #ccc; }
+.crew__name { font-family: "Anton", sans-serif; font-size: 23px; line-height: 1.02; text-transform: uppercase; max-width: 230px; }
+.crew__who { font-weight: 700; font-size: 15px; line-height: 1.15; margin-top: 4px; color: #333; }
+.crew .bdg { margin-top: 6px; }
+.crew.mystery { background: repeating-linear-gradient(135deg, #fff 0 10px, #e9e9e9 10px 20px); border-style: dashed; }

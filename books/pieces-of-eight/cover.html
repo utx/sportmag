@@ -1,0 +1,72 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; font-family: "Barlow Condensed", sans-serif;
+  background: radial-gradient(ellipse at 50% 38%, #1d3b66 0%, #0f2342 45%, #08142a 100%); }
+#cover .rose { position: absolute; left: 50%; top: 330px; width: 980px; height: 980px; transform: translate(-50%, -50%); opacity: .13; }
+#cover .waves { position: absolute; left: 0; right: 0; bottom: 0; height: 330px; opacity: .5; }
+
+#cover .top { position: absolute; left: 0; right: 0; top: 24px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 70px; text-align: center; transform: rotate(-3deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .9; text-transform: uppercase; letter-spacing: .01em;
+  -webkit-text-stroke: 7px #08142a; paint-order: stroke fill;
+  text-shadow: 3px 3px 0 #08142a, 6px 6px 0 #08142a, 9px 9px 0 #08142a, 13px 13px 0 #b9741c, 16px 16px 0 #b9741c, 22px 24px 18px rgba(0,0,0,.6); }
+#cover .t1 { font-size: 200px; color: #ffd23f; }
+#cover .t2 { font-size: 118px; color: #fff3c4; margin-top: 4px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 448px; transform: translateX(-50%) rotate(-3deg); white-space: nowrap;
+  background: #f4ead2; color: #08142a; font-weight: 800; font-size: 29px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 28px 9px; border: 5px solid #08142a; box-shadow: 8px 8px 0 #08142a; }
+#cover .ribbon b { color: #b5420c; }
+
+#cover .art { position: absolute; left: 34px; top: 545px; width: 732px; height: 405px; transform: rotate(2deg);
+  border: 8px solid #f4ead2; box-shadow: 0 0 0 5px #08142a, 14px 16px 0 rgba(0,0,0,.45); overflow: hidden; background: #fff; }
+#cover .art img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+#cover .art .cap { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(8,20,42,.86); color: #f4ead2; font-weight: 800;
+  font-size: 19px; letter-spacing: .14em; text-transform: uppercase; text-align: center; padding: 5px 0 6px; }
+
+#cover .coin { position: absolute; right: 18px; top: 486px; width: 190px; height: 190px; transform: rotate(14deg); filter: drop-shadow(6px 8px 0 rgba(0,0,0,.45)); }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; padding: 0 30px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+#cover .chips span { background: rgba(255,255,255,.1); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px;
+  font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 21px; letter-spacing: .14em; text-transform: uppercase; color: #ffe39a; margin-top: 20px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9fb3d6; margin-top: 8px; }
+</style>
+<div id="cover">
+  <svg class="rose" viewBox="-100 -100 200 200"><g fill="none" stroke="#ffe39a" stroke-width="1.2"><circle r="96"/><circle r="88"/><circle r="40"/></g>
+    <g fill="#ffe39a"><path d="M0 -92 L8 -8 L0 0 L-8 -8z M0 92 L8 8 L0 0 L-8 8z M-92 0 L-8 -8 L0 0 L-8 8z M92 0 L8 -8 L0 0 L8 8z"/>
+    <path d="M-58 -58 L-4 -10 L0 0 L-10 -4z M58 58 L4 10 L0 0 L10 4z M58 -58 L10 -4 L0 0 L4 -10z M-58 58 L-10 4 L0 0 L-4 10z" opacity=".7"/></g></svg>
+  <svg class="waves" viewBox="0 0 800 330" preserveAspectRatio="none"><g fill="none" stroke="#3b6aa8" stroke-width="5">
+    <path d="M0 60 q50 -30 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0"/><path d="M-50 120 q50 -30 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0"/>
+    <path d="M0 180 q50 -30 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0"/><path d="M-50 240 q50 -30 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0"/></g></svg>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t1">Pieces</div><div class="t2">of Eight</div></div>
+
+  <div class="ribbon">Farewell, <b>Override</b>. Ahoy, <b>Treasure Hunters</b>!</div>
+
+  <div class="art"><img src="art/cover-keyart.jpg" alt=""/><div class="cap">The pirates are coming · 1 November</div></div>
+
+  <svg class="coin" viewBox="-100 -100 200 200">
+    <defs><radialGradient id="cg" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#fff6c8"/><stop offset=".5" stop-color="#f2c744"/><stop offset="1" stop-color="#a8701a"/></radialGradient></defs>
+    <circle r="96" fill="#08142a"/><circle r="90" fill="url(#cg)" stroke="#7a4f0e" stroke-width="4"/>
+    <circle r="74" fill="none" stroke="#7a4f0e" stroke-width="3" stroke-dasharray="4 5"/>
+    <text y="34" text-anchor="middle" font-family="Anton, sans-serif" font-size="104" fill="#5b3a08">8</text>
+    <path id="arcT" d="M-62 0 A62 62 0 0 1 62 0" fill="none"/><path id="arcB" d="M-66 0 A66 66 0 0 0 66 0" fill="none"/>
+    <text font-family="Barlow Condensed, sans-serif" font-weight="800" font-size="21" letter-spacing="2" fill="#5b3a08"><textPath href="#arcT" startOffset="50%" text-anchor="middle">WRITTEN BEFORE</textPath></text>
+    <text font-family="Barlow Condensed, sans-serif" font-weight="800" font-size="21" letter-spacing="2" fill="#5b3a08"><textPath href="#arcB" startOffset="50%" text-anchor="middle">LAUNCH DAY</textPath></text>
+  </svg>
+
+  <div class="foot">
+    <div class="chips"><span>Override farewell</span><span>Real pirates</span><span>One Piece</span><span>New map</span></div>
+    <div class="ver">Chapter 7 · Override → Treasure Hunters · November 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>

@@ -16,6 +16,7 @@ Source layout (books/<slug>/):
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
+  graphics.css     optional extra styles for this book's graphics
   img/, art/       Epic Games images (fan content policy) and our own art
 """
 from __future__ import annotations
@@ -135,8 +136,10 @@ def prep(slug: str) -> None:
     (out / "pages").mkdir(parents=True, exist_ok=True)
     for f in (out / "pages").glob("*.html"):
         f.unlink()
+    extra = (f'<link rel="stylesheet" href="/books/{slug}/graphics.css"/>'
+             if (book["dir"] / "graphics.css").exists() else "")   # optional per-book graphics styles
     head = (f'<!doctype html><html><head><meta charset="utf-8"/><base href="/books/{slug}/"/>'
-            '<link rel="stylesheet" href="/build/book/graphics.css"/></head><body>')
+            f'<link rel="stylesheet" href="/build/book/graphics.css"/>{extra}</head><body>')
     jobs = []
     cover = (book["dir"] / "cover.html").read_text(encoding="utf-8")
     (out / "pages" / "cover.html").write_text(head + cover + "</body></html>", encoding="utf-8")
@@ -194,6 +197,7 @@ table.data th { font-family: sans-serif; }
 .word dd { margin: 0 0 0.4em 0; }
 .ww { font-weight: bold; }
 .tip { border-left: 5px solid #000; padding: 0.1em 0 0.1em 0.7em; margin: 0.6em 0 0.9em 0; }
+.badge { font-family: sans-serif; font-size: 0.7em; font-weight: bold; letter-spacing: 0.06em; text-transform: uppercase; border: 1px solid #000; padding: 0 0.3em; white-space: nowrap; }
 .small { font-size: 0.85em; }
 .center { text-align: center; }
 .title-page { text-align: center; margin-top: 2em; }

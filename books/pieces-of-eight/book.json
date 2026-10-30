@@ -1,0 +1,121 @@
+{
+  "title": "Pieces of Eight",
+  "subtitle": "Farewell, Override. Ahoy, Treasure Hunters!",
+  "series": "The Chug Jug presents",
+  "date": "2026-10-29",
+  "version_note": "Written on 29 October 2026, three days before the Treasure Hunters mini-season (update 43.00) launches on 1 November. Everything about the new season comes from Epic's teasers and trailer, news reports and leaks, checked against several sources. Plenty will change at launch.",
+  "description": "An unofficial Fortnite fan book: a farewell to Chapter 7 Season 4 (Override), a pirate primer for the Treasure Hunters mini-season and its One Piece crossover, and some real pirate history along the way.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. A true treasure hunter hoards words as well as gold. Pick three and see if you can sneak them into conversation before the new season lands. Bonus doubloons for using one in the lobby.",
+  "chapters": [
+    {
+      "file": "00-ahoy.html",
+      "title": "Ahoy, Shipmates!",
+      "kicker": "Before you set sail",
+      "toc": "How this book works",
+      "label": "Start here",
+      "dek": "One season is sinking over the horizon, and a pirate ship is sailing in. Here's how to read this book, and how to tell a real treasure map from a fake one."
+    },
+    {
+      "file": "01-so-long-override.html",
+      "title": "So Long, Override",
+      "kicker": "A farewell",
+      "toc": "The greatest hits of the season that's ending",
+      "number": 1,
+      "dek": "Seventy-three days of hacks, Sprites, haunted fog and one very sneaky villain. Before the pirates arrive, let's give Override the send-off it deserves."
+    },
+    {
+      "file": "02-the-chest-that-sang.html",
+      "title": "The Chest That Sang",
+      "kicker": "How the secret got out",
+      "toc": "The teasers, day by day",
+      "number": 2,
+      "dek": "A giant chest that filled up like a loading bar, songs drifting across the water, and a pirate ship sailing out of the fog. How Epic revealed the new season."
+    },
+    {
+      "file": "03-x-marks-the-drop.html",
+      "title": "X Marks the Drop",
+      "kicker": "The new island",
+      "toc": "The map, the places and the flying ship",
+      "number": 3,
+      "dek": "A brand-new island, a pirate ship instead of a Battle Bus, and places borrowed straight from One Piece. Our first look at where you'll be landing."
+    },
+    {
+      "file": "04-pieces-of-eight.html",
+      "title": "Pieces of Eight",
+      "kicker": "Real pirate history",
+      "toc": "Real pirates, real treasure, and a Sydney coin with a hole in it",
+      "number": 4,
+      "dek": "Before Fortnite had pirates, the real world had thousands of them. Meet the most famous, find out what pirate treasure actually was, and learn which bits of pirate legend are pure make-believe."
+    },
+    {
+      "file": "05-fly-the-flag.html",
+      "title": "Fly the Flag",
+      "kicker": "The six crews",
+      "toc": "Jolly Rogers, real and Fortnite",
+      "number": 5,
+      "dek": "Real pirates flew terrifying flags so their victims would surrender without a fight. Treasure Hunters has six crews, each with its own Jolly Roger. Pick your side."
+    },
+    {
+      "file": "06-meet-the-straw-hats.html",
+      "title": "Meet the Straw Hats",
+      "kicker": "One Piece for beginners",
+      "toc": "Who Luffy and his crew are, and why everyone's so excited",
+      "number": 6,
+      "dek": "Never watched One Piece? No problem. Here's the rubber-armed captain, his crew of misfits and the greatest treasure hunt in comics, explained in one chapter."
+    },
+    {
+      "file": "07-most-wanted.html",
+      "title": "Most Wanted",
+      "kicker": "The rest of the line-up",
+      "toc": "Fortnite's own pirates, the guest stars, and who's in the Battle Pass",
+      "number": 7,
+      "dek": "Jonesy in a pirate coat, Cuddle Team Leader with a sword, two singing superstars and a mysterious masked figure. Everyone else who's sailing in."
+    },
+    {
+      "file": "08-loot-ahoy.html",
+      "title": "Loot Ahoy",
+      "kicker": "Weapons and Mythics",
+      "toc": "The new weapons, the Straw Hat Mythics and our Hype Meter",
+      "number": 8,
+      "dek": "Cannons are back. So is something that looks a lot like a blunderbuss. Plus a stretchy punch, three swords at once and a slingshot. We rate the hype."
+    },
+    {
+      "file": "09-here-be-monsters.html",
+      "title": "Here Be Monsters",
+      "kicker": "Mysteries of the deep",
+      "toc": "Sea monsters, new Sprites and the mystery voice",
+      "number": 9,
+      "dek": "A sea serpent called the Lord of the Coast, a Sprite that lives in a treasure chest, and a whispering voice nobody can identify. The season's unsolved mysteries."
+    },
+    {
+      "file": "10-land-ho.html",
+      "title": "Land Ho!",
+      "kicker": "What happens next",
+      "toc": "Launch day, Chapter 8, and how to be a leak detective",
+      "number": 10,
+      "dek": "When you can actually play it in Sydney, what's coming after it, and how to tell treasure from fool's gold when the leaks start flying."
+    },
+    {
+      "file": "11-quiz.html",
+      "title": "Walk the Plank Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Fifteen questions. Every right answer earns you a piece of eight. Every wrong one moves you a step closer to the end of the plank."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Treasure Chest of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "13-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}
