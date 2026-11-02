@@ -59,3 +59,37 @@ Sheets 6–7 (1:30–2:02) not seen yet.
 ## qXRfaI9qq5w: kevinsmak, Week 1 Map Fragment (3:23), from subtitles
 
 See claims.md, chapter 6.
+
+## Seen in the full sheets (pasted in chat, 2 Nov)
+
+NnHcjFwnuEU (Wanted Posters): quest tracker "0/3 Use Sprite Wanted Posters to dig up and open Sprite Chests";
+poster (≈0:22) shows a "?" and "ONLY ALIVE" (confirm on full frame); "Sprite Treasure Map, Legendary x1" (≈0:48);
+red dashes on the ground from the poster spot (≈0:50, ≈1:22); giant red X with dirt mound; chest rises with Search
+prompt; "+900 XP Sprite Chest" each; chest 2 → Wayfinder card (≈1:04): "Rare. Reveals Sprites nearby and grants more
+items when opening Buried Chests. Sprite detection radius increases with each Level Up!"; chest 3 → Chester
+(named in PoUelANPWwc ≈1:48); "Quest Completed +20,000 XP" (≈1:30). Posters: 2 in Loguetown, 1 in Lantern Landing.
+Light beams in the distance are Devil Fruit beams ("Devil Fruits have spawned" banner), not treasure markers.
+
+PoUelANPWwc (All Sprites), Sprite cards on screen (name · rarity · Dust · power):
+- Lil' Flacko · Legendary · 900 · shockwave on landing, knocks back enemies (0:14–0:16, boss drop at The $.$. Rocky)
+- Lil' Squibbly · (Epic?) · 700 · jumping into a fishing hole fishes it + bonus loot (0:22, inside the ship's metal level)
+- Barry O'Fish · Rare · 500 · less tactical-sprint stamina drain in water; Slap at max level (0:34, Cursed Cavern)
+- Transponder Snail · Legendary · 900 · extra resources on pickup, teammates with it get some too (0:52–0:54, Sprite Chest in a mine under the storm)
+- Wayfinder · Rare · 500 (1:08)
+- Re-Pete · Rare · 500 · faster reload, chance reloading refunds ammo (1:32, treasure vault)
+- Kelper (1:52), Chester (1:48)
+- Exmarks · ? · ? · "Reveals Treasure Maps and Wanted Posters. Spawns a Treasure Map at Max Level!" (2:12–2:14, dropped by an eliminated team)
+- Plundarrgh · Mythic · 1,200 · opening chests boosts pickaxe speed and movement speed (2:50–2:56, Sprite Chest upstairs in a Cursed Cavern house)
+Also: Cursed Cavern treasure vault behind a green door, gold piles, Rare Chests, "Stage 1 of 5: Open treasure chests" (1:16–1:30), for ch. 1/4.
+Quest tracker throughout: "0/1 Collect Map Fragment at The $.$. Rocky". Victory recap shows a "Buy levels" button: don't use that frame.
+Frames to avoid: kill feeds and other players' names (crop), "USE CODE SCORE" banner (crop).
+
+EveryDay FN sheets 6–7: Flame-Flame Fruit at Windmill Village turns you into Ace (fire powers);
+title card "You can't drop them from your inventory or hold two at the same time" (≈1:56), "Probably shouldn't eat another one right now..." prompt.
+
+## Frames requested for chapter 6 (file name → video time)
+
+Perfect Score NnHcjFwnuEU: v-poster-loguetown 0:22 · v-map-pickup 0:48 · v-dig-x 0:56 · v-chest-rises 1:00 ·
+v-wayfinder 1:04 · v-poster-lantern 1:10 · v-map-reading 1:18 · v-red-trail 1:22 · v-chest-open 1:28 · v-quest-done 1:30
+Perfect Score PoUelANPWwc: v-exmarks 2:12
+kevinsmak qXRfaI9qq5w: v-rocky-ship 1:12 · (deck break 1:24) · v-fragment 1:36 · (checkmark 1:48)

@@ -32,7 +32,8 @@ Planned 2 Nov 2026. Everything below was researched that day; re-check before wr
   Plundarrgh, Chester, Wayfinder, Kelper, Lil' Squibbly, Lil' Flacko (A$AP Rocky boss drop),
   Sweet Dreams. Variants: Fortune, Cursed (water hurts you), Gold (from v43.10, 12 Nov).
   **Conflict:** one guide counts 13 families / 35 entries, and a YouTube title names a "Transponder"
-  Sprite that's missing from the list above. Resolve this.
+  Sprite that's missing from the list above. Partly resolved 2 Nov: it's the **Transponder Snail** (Legendary),
+  seen on screen in Perfect Score's video, so at least 12 base Sprites. Count still to confirm.
   Mastery track: 40 Sprites → Navigator's Nosedive glider; Sprite Mastery Strongbox back bling.
 - **Captain's Days (Saturdays):** A$AP Rocky 1 Nov, Lil Uzi Vert + Cuddle Team Leader 7 Nov (Buggy and
   the Megalodon arrive), Hatsune Miku & Kasane Teto 14 Nov (resort), Oscar 21 Nov.
@@ -82,7 +83,7 @@ Bonus health link: Nami's Tangerine ↔ citrus and scurvy (vitamin C).
 - **Real Treasure** box (one real-world fact) and **Do the Maths** box (answer upside down) per chapter.
 - **How we checked** box: sources disagreeing, auto-caption bloopers, spotting clickbait titles.
 - Treasure hunt through the book: a hidden X with a letter in each chapter spells a secret word
-  (answer in the credits). Captain's Log checklist (Sprites, locations, fragments). Spot-the-difference
+  (answer in the credits). Secret word: **JOLLYROGER**, one letter per chapter 0–9 (ch. 6 = O). Captain's Log checklist (Sprites, locations, fragments). Spot-the-difference
   from two frames. Pirate cipher in ch. 6.
 - Make & do: design-your-own Sprite card, write your Captain's Log, draw your own island on a grid.
 - Rules: game first, max one real-world box per chapter, history checked against proper sources
