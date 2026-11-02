@@ -71,3 +71,21 @@ Left out on purpose: kevinsmak's creator-code plug (spending).
 | Discover-four-POIs One Piece quest | | theclick | | ✅ |
 | Zipline Deployer heard as "skyline deployers" | Evolve Jake 3:03 | PLAN (unvaulted list) | | blooper for a How we checked box |
 | Pirate Shop Access (free shop for 14 days from chests) | Evolve Jake 9:09–10:41, TG Plays 0:01 | | | left out (shop-focused) |
+
+## Chapter 2
+
+Note: TG Plays' subtitles are machine-translated (Russian slang "imba", "Class."), so paraphrase him; no direct quotes.
+
+| Claim | Video + time | Guides | Status |
+|---|---|---|---|
+| Cannons: climb in, aim, fire yourself to the next POI | TG Plays 29:32 (cannon, landed in a tree) | accountshark (quoted), Epic notes via timesaver | ✅ |
+| Explosive Cannon Ball: throw or load into a cannon | TG Plays ~5:00 | accountshark, beebom | ✅ |
+| No Vending Machines makes mobility harder; Jake uses ziplines more | Evolve Jake 3:03, 6:07 | | ✅ as his opinion (quoted) |
+| Gum-Gum Rocket: aim to launch yourself; "isn't the greatest mobility item of all time" | Evolve Jake 4:04–4:35 | quest text on screen (EveryDay FN frame) | ✅ |
+| Gum-Gum Rocket quest: travel 250 m (70/250 shown) | EveryDay FN frame | | ✅ |
+| Shock Rocket: Shock Rock charges launch you up; lost when you swap; recharge over time | Evolve Jake 5:36; TG Plays 40:04 | accountshark | ✅ |
+| Zipline Deployer, Overdrive Grenade back | Evolve Jake 3:03 ("skyline" blooper) | PLAN unvaulted list | ✅ (Overdrive effect not described) |
+| Nami's Tangerine boosts water speed | Evolve Jake 5:36 | accountshark | ✅ |
+| 45°, complementary angles, drag lowers best angle | | physics refs (AJP 1997, physicsclassroom) | ✅ |
+| Galileo: parabola (Two New Sciences, 1638) | | general knowledge; printed as "about 400 years ago" | ✅ |
+| Zazel, human cannonball, 1877, Royal Aquarium, springs; age disputed (14/17) so not printed | | Wikipedia, Londonist | ✅ |
