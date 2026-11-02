@@ -86,6 +86,28 @@
       "toc": "Confirmed, rumoured, and what might happen on 5 December",
       "number": 9,
       "dek": "A talking chest, a torn-up map and a date circled in red. Sort the facts from the rumours, collect the clues, and make your prediction."
+    },
+    {
+      "file": "10-quiz.html",
+      "title": "The Treasure Hunter's Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz: from Deckhand to Captain",
+      "label": "Back of the book",
+      "dek": "Twenty-five questions. Climb the ranks from Deckhand to Captain."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Treasure Chest of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "11-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from, and the secret word",
+      "label": "Back of the book"
     }
   ]
 }
