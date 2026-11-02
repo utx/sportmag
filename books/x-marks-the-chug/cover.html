@@ -1,0 +1,66 @@
+<style>
+#cover { position: relative; width: 800px; height: 1280px; overflow: hidden; background: #0b2a3a; font-family: "Barlow Condensed", sans-serif; }
+#cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 40% 50%; filter: saturate(1.1) brightness(.85); }
+#cover .shade { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(6,26,38,.94) 0%, rgba(6,26,38,.6) 26%, rgba(6,26,38,.1) 44%, rgba(6,26,38,.1) 60%, rgba(6,26,38,.88) 84%, #071c28 100%); }
+#cover .rays { position: absolute; left: 50%; top: 68%; width: 1500px; height: 1500px; transform: translate(-50%, -50%); opacity: .3;
+  background: repeating-conic-gradient(from 0deg, rgba(255,140,30,.9) 0 6deg, transparent 6deg 15deg);
+  -webkit-mask: radial-gradient(circle, #000 0%, #000 16%, transparent 50%); mask: radial-gradient(circle, #000 0%, #000 16%, transparent 50%); }
+
+#cover .top { position: absolute; left: 0; right: 0; top: 26px; text-align: center; color: #fff; }
+#cover .presents { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 25px; letter-spacing: .22em; text-transform: uppercase; }
+#cover .presents i { font-style: normal; color: #ffd23f; }
+#cover .presents svg { width: 26px; height: 34px; }
+
+#cover .title { position: absolute; left: 0; right: 0; top: 78px; text-align: center; transform: rotate(-4deg) skewX(-6deg); }
+#cover .title div { font-family: "Anton", sans-serif; line-height: .9; text-transform: uppercase;
+  -webkit-text-stroke: 7px #071c28; paint-order: stroke fill; letter-spacing: .01em;
+  text-shadow: 3px 3px 0 #071c28, 6px 6px 0 #071c28, 9px 9px 0 #071c28, 12px 12px 0 #071c28, 15px 15px 0 #ff7a1a, 18px 18px 0 #ff7a1a, 24px 26px 18px rgba(0,0,0,.55); }
+#cover .t0 { font-size: 70px; color: #fff; }
+#cover .t1 { font-size: 172px; color: #ffd23f; }
+#cover .t2 { font-size: 138px; color: #ff9a3c; margin-top: 2px; }
+
+#cover .ribbon { position: absolute; left: 50%; top: 512px; transform: translateX(-50%) rotate(-4deg); white-space: nowrap;
+  background: #fff; color: #071c28; font-weight: 800; font-size: 30px; letter-spacing: .04em; text-transform: uppercase;
+  padding: 8px 30px 9px; border: 5px solid #071c28; box-shadow: 8px 8px 0 #071c28; }
+#cover .ribbon b { color: #e2560c; }
+
+#cover .sprite { position: absolute; filter: drop-shadow(0 14px 18px rgba(0,0,0,.65)); }
+#cover .s-dash { width: 380px; left: 50%; transform: translateX(-50%) rotate(-4deg); bottom: 196px; }
+#cover .s-vamp { width: 250px; left: 4px; bottom: 236px; transform: rotate(-12deg); }
+#cover .s-jon { width: 240px; right: 4px; bottom: 246px; transform: rotate(11deg); }
+
+#cover .steps { position: absolute; right: 26px; top: 640px; transform: rotate(8deg); width: 176px; height: 176px; border-radius: 50%;
+  background: #ffd23f; border: 6px solid #071c28; box-shadow: 7px 7px 0 #071c28; text-align: center; color: #071c28; padding-top: 30px; }
+#cover .steps div { font-family: "Anton", sans-serif; font-size: 34px; line-height: 1.02; text-transform: uppercase; }
+
+#cover .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 168px; padding: 0 34px; color: #fff; }
+#cover .chips { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+#cover .chips span { background: rgba(255,255,255,.12); border: 3px solid #ffd23f; border-radius: 30px; padding: 3px 16px 4px;
+  font-weight: 800; font-size: 23px; letter-spacing: .05em; text-transform: uppercase; }
+#cover .ver { text-align: center; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: #ffd0a6; margin-top: 14px; }
+#cover .unoff { text-align: center; font-weight: 600; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #a99fd6; margin-top: 8px; }
+#cover .capx { position: absolute; width: 520px; right: -90px; bottom: 150px; filter: drop-shadow(0 14px 18px rgba(0,0,0,.6)); }
+#cover .bigx { position: absolute; left: 70px; top: 650px; font: 900 260px/1 sans-serif; color: #e3262b; transform: rotate(-8deg);
+  text-shadow: 6px 6px 0 #071c28; }
+</style>
+<div id="cover">
+  <img class="bg" src="img/e-loading-sliver.png" alt=""/>
+  <div class="rays"></div>
+  <div class="shade"></div>
+  <img class="capx" src="img/e-captain-x.png" alt=""/>
+
+  <div class="top"><span class="presents">
+    <svg viewBox="0 0 40 52"><path d="M8 14c0-4 3-6 6-7V2h12v5c3 1 6 3 6 7v30c0 3-2 5-5 5H13c-3 0-5-2-5-5z" fill="#5fc4ff" stroke="#fff" stroke-width="3"/><path d="M8 24h24v8H8z" fill="#ffd23f"/></svg>
+    The <i>Chug Jug</i> presents</span></div>
+
+  <div class="title"><div class="t0">X Marks</div><div class="t1">the</div><div class="t2">Chug</div></div>
+
+  <div class="ribbon">A treasure hunter's guide to <b>Crossbones Isle</b></div>
+
+  <div class="foot">
+    <div class="chips"><span>The map</span><span>Loot</span><span>Sprites</span><span>Buried treasure</span></div>
+    <div class="ver">Chapter 7 · Treasure Hunters · November 2026</div>
+    <div class="unoff">An unofficial Fortnite fan book · Not made or endorsed by Epic Games</div>
+  </div>
+</div>

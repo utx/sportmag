@@ -9,7 +9,7 @@ Status: ✅ confirmed by 2+ sources · ⚠️ sources disagree (say so in the bo
 |---|---|---|---|---|
 | Week 1 quest "Collect Map Fragment at The $.$. Rocky", 10,000 XP; prompt "Gather Map Fragment" | kevinsmak 00:30–00:51, frames 1:36, 1:48; Perfect Score tracker "0/1 Collect Map Fragment at The $.$. Rocky" | | n/a | ✅ |
 | The $.$. Rocky is on the east side, near Cursed Cavern | kevinsmak 00:51–00:56 ("Cursed Cave") | | v1/map: The $.$. Rocky (66471, 30308), Cursed Cavern (31432, 19822) | ✅ (caption says "Cave", map says "Cavern") |
-| Fragment is NOT on the upper deck: break down through the deck, then a wooden floor, to the metal level; torn map piece hangs beside a wooden box | kevinsmak 01:17–01:40; frames 1:24 (wood floor), 1:36 (fragment by the crate) | | n/a | ✅ (subtitles + frames) |
+| Fragment is NOT on the upper deck: break down through the deck, then a wooden floor, to the metal level; torn map piece beside a wooden crate | kevinsmak 01:17–01:40; frames 1:24 (wood floor), 1:36 (fragment by the crate) | | n/a | ✅ (subtitles + frames; captions say "hanging", frame shows it on the floor) |
 | About 2½ minutes from landing to pickup | kevinsmak 01:51–01:56 | | n/a | ❓ (his own time; say "one creator took about...") |
 | A new fragment each week; collecting them unlocks a loading screen | kevinsmak 02:02–02:20 | | Loading screen **"X Marks the Zero Point Sliver"**: "Map up front, ancient pirate riddle on the back." (added 2026-11-01) | ✅ name from API; captions say "Fragment" (blooper) |
 | Six Map Fragments in all | kevinsmak 02:00–02:04 (guess); kevinsmak frame 1:48 Treasures tab "Collect Map Fragments 1/6" | | | ✅ in-game counter |
