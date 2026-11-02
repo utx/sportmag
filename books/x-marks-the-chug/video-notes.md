@@ -42,6 +42,20 @@ it will automatically extract those as well!" (check before printing)
 Resolves the PLAN.md conflict: the "Transponder" in the video title is the **Transponder Snail** Sprite
 (One Piece's Den Den Mushi), missing from the patch-note list of 11. Check its exact name and count.
 
+## avo57ECRfBo: EveryDay FN, All Bosses & Mythic Weapons (2:02), sheets 1–5 seen (pasted in chat)
+
+No facecam and no creator-code banner, so frames are clean apart from the HUD. Captions are on-screen titles.
+
+| Sheet / time | What's on screen | Use |
+|---|---|---|
+| 1 / 0:00–0:17 | Title card "WEEK 1 BOSS: A$AP ROCKY" (≈0:20 tile 2); boss on the beach at The $.$. Rocky, speech bubble "That hurts..." | ch. 7 boss box |
+| 2 / 0:18–0:35 | Boss fight: A$AP Rocky leaps with the Shock Rocket, purple shock blast (tile 4 ≈0:24) | ch. 7 action shot |
+| 3 / 0:36–0:53 | "Don't play with me." Boss down; player lifts the Shock Rocket (tile 3 ≈0:40). A Halfpeel'd Sprite floats nearby. Then Cursed Cavern (purple trees) as Ace, rocket blast, flying over the cavern (tiles 7–8 ≈0:48–0:50) | ch. 3 Shock Rocket; ch. 1 Cursed Cavern scenery |
+| 4 / 0:54–1:11 | Title "WHEN THE FIRST STORM CIRCLE FORMS 2 MYTHIC GUM-GUM FRUITS SPAWN" at Lantern Landing; Gum-Gum Fruit pickup "Consume (undroppable)" (tile 3 ≈0:58); player becomes Luffy; The Chest beach | ch. 3 Gum-Gum Fruit; check the "2 spawn" claim |
+| 5 / 1:12–1:29 | Luffy at The Chest (giant chest landmark), Gum-Gum Rocket / Gum-Gum Battleaxe prompts (hold to charge), Halfpeel'd Sprites in the shallows; then a "Village" (Windmill Village?) and an orange fruit pickup (Flame-Flame Fruit?) (tile 9 ≈1:28) | ch. 1 The Chest; ch. 3 Devil Fruits |
+
+Sheets 6–7 (1:30–2:02) not seen yet.
+
 ## qXRfaI9qq5w: kevinsmak, Week 1 Map Fragment (3:23), from subtitles
 
 See claims.md, chapter 6.
