@@ -150,3 +150,16 @@ TyluhFryz captions are machine-translated too ("Golden Dragon Shotgun", "Hum-Hum
 | Mastery Monday from 9 AM ET, 2x Sprite XP and Dust | Epic community post | ✅ |
 | Sprite Mastery in Treasure tab, weekly page, 40 → Navigator's Nosedive | Epic post, accountshark | ✅ |
 | Pirate crews voted for captains, elected quartermasters, signed articles | general history (Golden Age piracy) | ✅ |
+
+## Chapter 9
+
+| Claim | Source | Status |
+|---|---|---|
+| Chest voice lines changed daily before launch; "the power to save reality" | ItsRadr 1:03–1:34 (pre-season, auto-captions; short phrase only) | ❓ one creator |
+| Trailer: X on the map marks the giant chest; "Lucky for you, I know how to share" | PUNK'D SIDE 15:02, 15:55 (trailer audio) | ✅ (trailer) |
+| Midas fan theory (gold car) | PUNK'D SIDE 13:48 | printed as theory |
+| Chapter 6 throwback locations | PUNK'D SIDE 8:40–9:12 | printed as his observation |
+| Chapter 8 on 5 Dec | ItsRadr 5:38 (LEGO Pass moved to 5 Dec); games.gg leak | ❓ rumour |
+| Mini-seasons 28–30 days | dotesports | ❓ estimate |
+| Calendar: Julius Caesar, kalendae, knuckle trick; date maths (Dec 1 2026 Tue, Dec 25 Fri) | general knowledge; checked arithmetic | ✅ |
+| Left out: ItsRadr giveaways, "free V-Bucks" Crew-compensation speculation, villain monologue | | — |
