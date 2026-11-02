@@ -89,3 +89,22 @@ Note: TG Plays' subtitles are machine-translated (Russian slang "imba", "Class."
 | 45°, complementary angles, drag lowers best angle | | physics refs (AJP 1997, physicsclassroom) | ✅ |
 | Galileo: parabola (Two New Sciences, 1638) | | general knowledge; printed as "about 400 years ago" | ✅ |
 | Zazel, human cannonball, 1877, Royal Aquarium, springs; age disputed (14/17) so not printed | | Wikipedia, Londonist | ✅ |
+
+## Chapter 3
+
+TyluhFryz captions are machine-translated too ("Golden Dragon Shotgun", "Hum-Hum"): paraphrase only. Evolve Jake quotes are his own words.
+
+| Claim | Video + time | Guides | Status |
+|---|---|---|---|
+| Item names (Gum-Gum Fruit, Flame-Flame Fruit, Zoro's Three Sword Style, Usopp's Slingshot, Nami's Tangerine, Meat on a Stick, A$AP Rocky's Shock Rocket, Bundlebuss Repeater Rifle, Gilded Dragoon Shotgun, Explosive Cannon Ball, Sprite Treasure Map) | | timesaver (Epic notes), wiki file names | ✅ |
+| Devil Fruits: marked on map, transform, undroppable, one at a time ("Probably shouldn't eat another one right now...") | Evolve Jake 4:04–4:35; EveryDay FN frames ("Consume (undroppable)") | accountshark | ✅ |
+| "Devil Fruit has been consumed" banner seen by others | TG Plays frames (he hadn't eaten one) | | ✅ |
+| TyluhFryz ranking 11→1: Meat, Treasure Map, Cannon Ball, Tangerine, Bundlebuss, Zoro, Flame, Shock Rocket, Slingshot, Dragoon, Gum-Gum | TyluhFryz 0:31–10:15 | | ✅ |
+| Gum-Gum: 20–30 m punches through walls | TyluhFryz 9:13–9:44 | | ✅ (his estimate) |
+| Tangerine: 25 shield; extra health 5 (Jake) vs 10 (Ty); stack 6 (Jake) vs 5 (Ty) | Jake 5:06; Ty 2:04 | beebom: "health and shields" only | ⚠️ printed as disagreement |
+| Slingshot damage ~80 (Jake) / ~100 (Ty) / 77 (one site) | Jake 3:33; Ty 6:40 | timesaver weapons table | ⚠️ printed as disagreement |
+| Dragoon single shot, manual reload; "incredible" | Jake 1:01–1:31; Ty 7:41 | FNBRunderground "single-fire" | ✅ (damage numbers not printed) |
+| Bundlebuss "on the weaker side" | Jake 2:02 | | ✅ |
+| Zoro: dashes 4–5, charged attack blocks bullets | Ty 3:35; Jake 3:33 | | ✅ |
+| Later loot: Lever Action, Frenzy Auto, Flapjack | | timesaver | ✅ |
+| Scurvy, James Lind 1747, 12 sailors, oranges and lemons; vitamin C; Casimir Funk 1912 | | general history (Britannica/RMG to double-check before print) | ✅ |
