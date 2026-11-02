@@ -180,5 +180,71 @@
   "source": "https://fortnite.weirdgloop.org/images/Rare_Chest_%28Treasure_Hunters%29_-_Container_-_Fortnite.png?9a961",
   "page": "https://fortnite.weirdgloop.org/w/File:Rare_Chest_(Treasure_Hunters)_-_Container_-_Fortnite.png",
   "credit": "Image: Epic Games / Fortnite"
+ },
+ "o-nami": {
+  "name": "Nami",
+  "file": "o-nami.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_boastjoint/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-zoro": {
+  "name": "Roronoa Zoro",
+  "file": "o-zoro.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_brandcreed/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-luffy": {
+  "name": "Monkey D. Luffy",
+  "file": "o-luffy.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_celerystitch/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-oscar": {
+  "name": "Privateer Oscar",
+  "file": "o-oscar.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_fiercestripe_admiral/featured.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "o-buggy": {
+  "name": "Buggy",
+  "file": "o-buggy.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_flipperbalm/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-ace": {
+  "name": "Portgas D. Ace",
+  "file": "o-ace.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_hermitflop/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-sanji": {
+  "name": "Sanji",
+  "file": "o-sanji.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_insightbawl/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-usopp": {
+  "name": "Usopp",
+  "file": "o-usopp.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_loomrise/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
+ },
+ "o-lil-uzi-vert": {
+  "name": "Pink Star Lil Uzi Vert",
+  "file": "o-lil-uzi-vert.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorye/featured.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "o-asap-rocky": {
+  "name": "Rocky Rugahand",
+  "file": "o-asap-rocky.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailyam/featured.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "o-robin": {
+  "name": "Ms. All Sunday",
+  "file": "o-robin.png",
+  "source": "https://fortnite-api.com/images/cosmetics/br/character_weldflush/featured.png",
+  "credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"
  }
 }

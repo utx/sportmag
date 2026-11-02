@@ -123,3 +123,18 @@ TyluhFryz captions are machine-translated too ("Golden Dragon Shotgun", "Hum-Hum
 | Treasure Chest Hunt, 5 stages, first stage 10,000 XP | kevinsmak 2:22–2:30 + frame "1 of 5"; Perfect Score "Stage 1 of 5" | | ✅ |
 | Pieces of eight, global coin, "two bits" (hedged), Treasure Island parrot | | historyinthemargins, Columbia Community Connection, LBMA | ✅ |
 | Holey dollar & dump 1813, Macquarie, 40,000 dollars, 5s and 15d; NMA and ANMM hold examples | | nma.gov.au, anmm.emuseum, Museums Victoria, leski | ✅ |
+
+## Chapter 7
+
+| Claim | Source | Status |
+|---|---|---|
+| Captain's Days 1, 7, 12, 14, 21 Nov; "all-new weapons, Sprites, and more drop on the map"; 9 AM ET | Epic via Fortnite.gg News; nintendolife (7 Nov 9 AM ET) | ✅ |
+| Lil Uzi 7 Nov, Miku & Teto 14 Nov, Oscar 21 Nov | Epic community post | ✅ |
+| Buggy + Megalodon on 7 Nov | timesaver only | ❓ printed as "one guide says" |
+| Oscar arrives with a ship and Frenzy Auto Shotgun | timesaver | ❓ "one guide says" |
+| A$AP Rocky boss can drop Shock Rocket and Lil' Flacko | Epic post ("can drop") | ✅ |
+| Boss jumps around and fires rockets | TG Plays 37:46 (paraphrased) + EveryDay FN frame | ✅ |
+| Outfit descriptions (Luffy, Zoro, Nami, Usopp, Sanji, Ace, Ms. All Sunday, Buggy, Privateer Oscar) | fortnite-api v2/cosmetics | ✅ verbatim |
+| Perfect Score wears Ms. All Sunday | frames vs outfit art | ✅ |
+| One Piece: manga by Eiichiro Oda, 1997, Guinness record most copies by a single author | general knowledge (Guinness) | ✅ |
+| Drake privateer, knighted; letter of marque | general history | ✅ |
