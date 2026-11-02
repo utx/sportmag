@@ -61,7 +61,7 @@ Left out on purpose: kevinsmak's creator-code plug (spending).
 | US clocks back on 1 Nov 2026; Sydney DST from 4 Oct 2026; gap 15 h → 16 h | | timeanddate rules | | ✅ |
 | 80 players; map smaller | Evolve Jake 0:31 | beebom | | ✅ |
 | Going Merry replaces the Battle Bus | TG Plays 19:16 ("Going Merry") | sortiraparis, frvr, ofzenandcomputing | | ✅ |
-| One player steers the ship each match | Evolve Jake 0:31–1:00 | none | | ❓ credited to Evolve Jake |
+| One player is Captain of the Going Merry each match and steers it | Evolve Jake 0:31–1:00; TG Plays frame "THE CAPTAIN IS [name]" over a skull balloon ship | | | ✅ (frame + video); on-screen "Leave 'em a tip" left out |
 | "map looks like a skull and crossbones if you look closely" | TG Plays 29:02 (auto-translated captions, wording tidied) | beebom "skull-and-crossbones-shaped" | | ✅ |
 | 12 named locations and positions | | timesaver (Epic notes vs map names) | v1/map POIs + labelled map | ✅ API names used |
 | Rubber Resort duck-shaped yacht; Lantern Lanes lantern maze; Arlong Park fish-man stronghold; Windmill Village quiet seaside; Loguetown busy harbour; Baratie floating restaurant | | timesaver quoting Epic's notes | | ✅ (name mapping is ours) |
