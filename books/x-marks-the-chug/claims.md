@@ -117,7 +117,7 @@ TyluhFryz captions are machine-translated too ("Golden Dragon Shotgun", "Hum-Hum
 | "it feels a lot more like an actual battle royale now" | Evolve Jake 6:37 | | ✅ quote |
 | Golden Apple: 40 effective health (was 50), longer low gravity, more often in Produce Boxes | | Epic post | ✅ |
 | Golden Apple overflow → shield | | one guide (PLAN) | ❓ printed as "one guide adds" |
-| Treasure Hours on Sundays: Captain's weapons at match start + boosted drops; no times | | accountshark ("Epic says"), search summary | ✅ (PLAN said "weekends": corrected) |
+| Treasure Hours: Captain's weapons at match start + boosted drops; Sundays (accountshark) vs weekends (PUNK'D SIDE 0:50, PLAN) | PUNK'D SIDE 0:50–1:05 | accountshark | ⚠️ printed as "weekend, one guide says Sundays" |
 | Chest special-reward chance (gizmos, loading screens, wrap) | Evolve Jake 9:09 | | ❓ one source; Pirate Shop Access left out |
 | Vault Key, vault with Rare Chests, Zoro's swords inside, gold piles give metal | TG Plays 29:02–30:33 + frames ("Rare Vault Key") | | ✅ |
 | Treasure Chest Hunt, 5 stages, first stage 10,000 XP | kevinsmak 2:22–2:30 + frame "1 of 5"; Perfect Score "Stage 1 of 5" | | ✅ |
@@ -138,3 +138,15 @@ TyluhFryz captions are machine-translated too ("Golden Dragon Shotgun", "Hum-Hum
 | Perfect Score wears Ms. All Sunday | frames vs outfit art | ✅ |
 | One Piece: manga by Eiichiro Oda, 1997, Guinness record most copies by a single author | general knowledge (Guinness) | ✅ |
 | Drake privateer, knighted; letter of marque | general history | ✅ |
+
+## Chapter 8
+
+| Claim | Source | Status |
+|---|---|---|
+| 8 One Piece quests (wording), 10,000 XP each; sprays after 1/3/5/7 (Luffy+Zoro, Nami+Usopp, Sanji+Chopper, Buggy) | theclick | ❓ one source (quest wording matches on-screen Gum-Gum quest 70/250) |
+| "Discover 4 named locations": landing counts | theclick named-locations guide | ✅ |
+| Sprite Treasure Map is Legendary | Perfect Score frame | ✅ |
+| Ranked rewards Gold→Unreal | Epic community post | ✅ |
+| Mastery Monday from 9 AM ET, 2x Sprite XP and Dust | Epic community post | ✅ |
+| Sprite Mastery in Treasure tab, weekly page, 40 → Navigator's Nosedive | Epic post, accountshark | ✅ |
+| Pirate crews voted for captains, elected quartermasters, signed articles | general history (Golden Age piracy) | ✅ |
