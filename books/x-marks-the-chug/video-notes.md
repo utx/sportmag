@@ -93,3 +93,11 @@ Perfect Score NnHcjFwnuEU: v-poster-loguetown 0:22 · v-map-pickup 0:48 · v-dig
 v-wayfinder 1:04 · v-poster-lantern 1:10 · v-map-reading 1:18 · v-red-trail 1:22 · v-chest-open 1:28 · v-quest-done 1:30
 Perfect Score PoUelANPWwc: v-exmarks 2:12
 kevinsmak qXRfaI9qq5w: v-rocky-ship 1:12 · (deck break 1:24) · v-fragment 1:36 · (checkmark 1:48)
+
+## TG Plays frames seen in chat (not saved; ask to re-send)
+
+Facecam bottom-left (x 14–440, y 432–700 at 1920x1080): always crop to x ≥ 450.
+- Vault interior near Cursed Cavern: piles of gold coins, Rare Chests (blue with chains), ammo boxes; quest "Stage 1 of 5 – Open Rare Chests 1/2"; "Sentinel Pump Shotgun" (Uncommon). Earlier: "Sprites: Open Rare Chests, Quest Completed, No Sprites Acquired +10,000 XP".
+- Item names on screen: "Rare Vault Key", "Nami's Tangerine", "Machine SMG"; banner "Devil Fruit has been consumed".
+- Skydiving from a red-and-blue disc over Lantern Landing (minimap); orange-walled tower near Cursed Cavern with "Complete Weekly Quests – New: The Treasure Hunt Begins!"
+- Sky arc trails above Lantern Landing (cannon shots?), "Survivor I – 50 players remaining".
