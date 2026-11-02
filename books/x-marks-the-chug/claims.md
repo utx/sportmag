@@ -50,3 +50,24 @@ Left out on purpose: kevinsmak's creator-code plug (spending).
 | Mastery Monday: 2x Sprite XP and Dust | | accountshark, PLAN | | ✅ |
 | Victory auto-extracts dropped Sprites | Perfect Score 3:00–3:17 ("Apparently") | | | ❓ printed as "try it" |
 | Plundarrgh "most rare" | Perfect Score 0:00 note | | | ✅ as his opinion |
+
+## Chapter 0–1
+
+| Claim | Video + time | Guides | API | Status |
+|---|---|---|---|---|
+| Launch Sun 1 Nov 2026 (v43.00); exact go-live time disputed (2/4/6/7 am ET) | | beebom, destructoid, playnews | | ✅ date; time not printed |
+| "keep Saturday, December 5, open. Time is on your side… for now." | | beebom (Epic's notes) | | ✅ quoted as Epic's teaser |
+| Gold Sprites from v43.10 on Thu 12 Nov | | beebom, theclick | | ⚠️ (one source says 14th) |
+| US clocks back on 1 Nov 2026; Sydney DST from 4 Oct 2026; gap 15 h → 16 h | | timeanddate rules | | ✅ |
+| 80 players; map smaller | Evolve Jake 0:31 | beebom | | ✅ |
+| Going Merry replaces the Battle Bus | TG Plays 19:16 ("Going Merry") | sortiraparis, frvr, ofzenandcomputing | | ✅ |
+| One player steers the ship each match | Evolve Jake 0:31–1:00 | none | | ❓ credited to Evolve Jake |
+| "map looks like a skull and crossbones if you look closely" | TG Plays 29:02 (auto-translated captions, wording tidied) | beebom "skull-and-crossbones-shaped" | | ✅ |
+| 12 named locations and positions | | timesaver (Epic notes vs map names) | v1/map POIs + labelled map | ✅ API names used |
+| Rubber Resort duck-shaped yacht; Lantern Lanes lantern maze; Arlong Park fish-man stronghold; Windmill Village quiet seaside; Loguetown busy harbour; Baratie floating restaurant | | timesaver quoting Epic's notes | | ✅ (name mapping is ours) |
+| Lil' Uzi's Stronghold label on an early map near Fortune's Fort | | timesaver | wiki promo "Lil' Uzi's Stronghold" | ❓ "might get a makeover" |
+| Treasure vault behind a green door at Cursed Cavern; vault key opens vaults | Perfect Score PoUe 1:16–1:30; TG Plays 29:32–30:03 | | | ✅ (TG's vault location unknown, so worded separately) |
+| Landmarks: Salty Skull, Giant's Battlefield, Boogie Boat (party barge), Henry, Baratie | | | v1/map unnamed POIs | ✅ |
+| Discover-four-POIs One Piece quest | | theclick | | ✅ |
+| Zipline Deployer heard as "skyline deployers" | Evolve Jake 3:03 | PLAN (unvaulted list) | | blooper for a How we checked box |
+| Pirate Shop Access (free shop for 14 days from chests) | Evolve Jake 9:09–10:41, TG Plays 0:01 | | | left out (shop-focused) |
