@@ -166,5 +166,19 @@
   "source": "https://fortnite.weirdgloop.org/images/Sprite_Treasure_Map_-_Item_-_Fortnite.png?3e562",
   "page": "https://fortnite.weirdgloop.org/w/File:Sprite_Treasure_Map_-_Item_-_Fortnite.png",
   "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-golden-apple": {
+  "name": "Golden Apple",
+  "file": "i-golden-apple.png",
+  "source": "https://fortnite.weirdgloop.org/images/Golden_Apple_-_Item_-_Fortnite.png?c724c",
+  "page": "https://fortnite.weirdgloop.org/w/File:Golden_Apple_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-rare-chest": {
+  "name": "Rare Chest (Treasure Hunters)",
+  "file": "i-rare-chest.png",
+  "source": "https://fortnite.weirdgloop.org/images/Rare_Chest_%28Treasure_Hunters%29_-_Container_-_Fortnite.png?9a961",
+  "page": "https://fortnite.weirdgloop.org/w/File:Rare_Chest_(Treasure_Hunters)_-_Container_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
  }
 }

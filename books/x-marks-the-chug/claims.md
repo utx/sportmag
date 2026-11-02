@@ -108,3 +108,18 @@ TyluhFryz captions are machine-translated too ("Golden Dragon Shotgun", "Hum-Hum
 | Zoro: dashes 4–5, charged attack blocks bullets | Ty 3:35; Jake 3:33 | | ✅ |
 | Later loot: Lever Action, Frenzy Auto, Flapjack | | timesaver | ✅ |
 | Scurvy, James Lind 1747, 12 sailors, oranges and lemons; vitamin C; Casimir Funk 1912 | | general history (Britannica/RMG to double-check before print) | ✅ |
+
+## Chapter 4
+
+| Claim | Video + time | Sources | Status |
+|---|---|---|---|
+| Gold Bars vaulted; Vending Machines removed; follower services free; chests refill over time | Evolve Jake 6:07–7:07, 8:38 | Epic Communities post (BR Dev Team, 1 Nov) | ✅ |
+| "it feels a lot more like an actual battle royale now" | Evolve Jake 6:37 | | ✅ quote |
+| Golden Apple: 40 effective health (was 50), longer low gravity, more often in Produce Boxes | | Epic post | ✅ |
+| Golden Apple overflow → shield | | one guide (PLAN) | ❓ printed as "one guide adds" |
+| Treasure Hours on Sundays: Captain's weapons at match start + boosted drops; no times | | accountshark ("Epic says"), search summary | ✅ (PLAN said "weekends": corrected) |
+| Chest special-reward chance (gizmos, loading screens, wrap) | Evolve Jake 9:09 | | ❓ one source; Pirate Shop Access left out |
+| Vault Key, vault with Rare Chests, Zoro's swords inside, gold piles give metal | TG Plays 29:02–30:33 + frames ("Rare Vault Key") | | ✅ |
+| Treasure Chest Hunt, 5 stages, first stage 10,000 XP | kevinsmak 2:22–2:30 + frame "1 of 5"; Perfect Score "Stage 1 of 5" | | ✅ |
+| Pieces of eight, global coin, "two bits" (hedged), Treasure Island parrot | | historyinthemargins, Columbia Community Connection, LBMA | ✅ |
+| Holey dollar & dump 1813, Macquarie, 40,000 dollars, 5s and 15d; NMA and ANMM hold examples | | nma.gov.au, anmm.emuseum, Museums Victoria, leski | ✅ |
