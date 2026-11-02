@@ -8,6 +8,14 @@
   "glossary_blurb": "Every Word Watch word in this book, from A to Z. A true treasure hunter collects words as well as gold. Try to use three of these before the weekend.",
   "chapters": [
     {
+      "file": "00-all-aboard.html",
+      "title": "All Aboard!",
+      "kicker": "Before you set sail",
+      "toc": "What Treasure Hunters is and how this book works",
+      "label": "Start here",
+      "dek": "A skull-shaped island, rubber pirates, buried treasure and a masked captain with a secret. Here's what's going on, and how to use this book."
+    },
+    {
       "file": "05-sprite-ho.html",
       "title": "Sprite Ho!",
       "kicker": "Meet the crew",
