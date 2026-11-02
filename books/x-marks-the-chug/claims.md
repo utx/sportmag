@@ -31,3 +31,22 @@ Left out on purpose: kevinsmak's creator-code plug (spending).
 - X Marks the Zero Point Sliver loading screen: https://fortnite-api.com/images/cosmetics/br/loadingscreen_s43treasure/featured.png
 - Treasure Map wrap: https://fortnite-api.com/images/cosmetics/br/wrap_season43/featured.png
 
+
+## Chapter 5: Sprite Ho!
+
+| Claim | Video + time | Guides | API / wiki | Status |
+|---|---|---|---|---|
+| Epic's list of 11 new Sprites | | spritecatch, theclick (Epic's list) | | ✅ |
+| Transponder Snail: Legendary, extra resources from pickups, shared with teammates who have it equipped | Perfect Score 0:52–0:54 (card) | accountshark, Yahoo/esports list | wiki icon | ✅ |
+| Lil' Uzi Vert Jr.: Legendary, restoring shields → Chug Splash; not at launch | | accountshark (datamined) | wiki icon | ❓ one guide; "coming soon" |
+| Rarities: Rare = Halfpeel'd, Re-Pete, Barry O'Fish, Wayfinder; Epic = Chester, Exmarks, Kelper, Lil' Squibbly; Legendary = Flacko, Snail, Uzi Jr.; Mythic = Sweet Dreams, Plundarrgh | Cards on screen: Flacko Legendary, Barry/Re-Pete/Wayfinder Rare, Plundarrgh Mythic, Snail Legendary | accountshark ("unconfirmed by Epic") | | ✅ where seen on screen; others ❓ |
+| Dust on cards: Rare 500, Epic 700, Legendary 900, Mythic 1,200 | Perfect Score cards (Squibbly 700 Epic inferred) | | | ✅ seen on screen |
+| Powers (all 11) | on-screen cards where shown | accountshark + theclick agree | | ✅ |
+| Fortune reveals nearby chests; Cursed better odds of rare variants, water hurts; Gold bonus XP for eliminations | | theclick, accountshark | | ✅ (two guides) |
+| Cursed not obtainable at launch | | accountshark "Soon"; theclick implies live | | ⚠️ say "not at launch" |
+| Gold from Thu 12 Nov (one says 14) | | theclick, accountshark | | ⚠️ |
+| Red ruby Sprite Chests guarantee Fortune | | accountshark only | | ❓ printed as a tip to test |
+| Navigator's Nosedive umbrella for mastering 40 Sprites; mastering ≠ finding | | accountshark, theclick | | ✅ |
+| Mastery Monday: 2x Sprite XP and Dust | | accountshark, PLAN | | ✅ |
+| Victory auto-extracts dropped Sprites | Perfect Score 3:00–3:17 ("Apparently") | | | ❓ printed as "try it" |
+| Plundarrgh "most rare" | Perfect Score 0:00 note | | | ✅ as his opinion |

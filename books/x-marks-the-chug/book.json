@@ -8,6 +8,14 @@
   "glossary_blurb": "Every Word Watch word in this book, from A to Z. A true treasure hunter collects words as well as gold. Try to use three of these before the weekend.",
   "chapters": [
     {
+      "file": "05-sprite-ho.html",
+      "title": "Sprite Ho!",
+      "kicker": "Meet the crew",
+      "toc": "Every new Sprite, variants and Mastery",
+      "number": 5,
+      "dek": "Thirteen new Sprites, from a banana skeleton to a Mythic grinning skull. Who they are, what they do, and where they hide."
+    },
+    {
       "file": "06-x-marks-the-spot.html",
       "title": "X Marks the Spot",
       "kicker": "Buried treasure",
