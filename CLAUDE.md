@@ -49,14 +49,18 @@ https://utx.github.io/sportmag/chugjug/ (issues in `chugjug/issues/NNN/`, same b
 - Epic's Fan Content Policy (https://legal.epicgames.com/epicgames/fan-art-policy) applies:
   the disclaimer is in every page footer and the Kindle edition (MAGS config in build.py);
   never look official, never link to cheats/hacks, non-commercial only.
-- Images: Epic's own assets only. Use fortnite-api.com (v1/map with POI coordinates,
-  v2/shop, v2/cosmetics, v2/news/br) and Epic's lobby news art. Do NOT show official art of
-  collaboration characters owned by other companies (Sonic, Pac-Man, FNAF, Marvel, horror
-  films, celebrities, etc.) — filter by `series`/`set`; mention them in text only. Credit
-  images in photos.json with {"credit": "Image: Epic Games / Fortnite"}.
+- Images: use fortnite-api.com (v1/map with POI coordinates, v2/shop, v2/cosmetics,
+  v2/news/br) and Epic's lobby news art. Credit images in photos.json with
+  {"credit": "Image: Epic Games / Fortnite"}.
+- Collaboration characters (One Piece, Sonic, Marvel, celebrities, etc.) MAY be shown,
+  including their official art: the publisher has permission for these private projects
+  (2 Nov 2026). Credit the rights holder as well where known, e.g.
+  {"credit": "Image: Epic Games / Fortnite. One Piece © Eiichiro Oda/Shueisha, Toei Animation"}.
+  The age rule below still applies: no horror-collab art.
 - Map markers: world (x, y) -> 2048px map image: px = 975 + 0.00658·x, py = 1016 + 0.00661·y
   (re-check against the labelled map each season).
-- Age-appropriate: skip horror collabs in picks, never pressure spending, "ask a grown-up".
+- Age-appropriate: skip horror collabs in picks and pictures (FNAF, horror films), never
+  pressure spending, "ask a grown-up".
 - Fortnite.com blocks automated access; use fortnite-api.com plus several news write-ups
   (cross-check) for patch details.
 - Kindle: issue codes are prefixed "cj" (e.g. cj001); kindle/Code.gs handles both magazines.
