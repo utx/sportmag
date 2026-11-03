@@ -1,0 +1,27 @@
+{
+  "title": "Shiver Me Shields",
+  "subtitle": "15 tips to survive Crossbones Isle",
+  "series": "The Chug Jug presents",
+  "date": "2026-11-06",
+  "version_note": "Chapter 7 Treasure Hunters mini-season, v43.00. Based on Evolve Jake's video guide; facts checked 3 November 2026.",
+  "description": "An unofficial Fortnite fan book that turns a creator's fifteen Treasure Hunters tips into a guide to moving, healing, looting and surviving on Crossbones Isle, with true stories from science and history along the way.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. A clever captain hoards words as well as treasure. Pick three you've never used before and slip them into conversation this week.",
+  "chapters": [
+    {
+      "file": "00-make-do.html",
+      "title": "Make Do, Me Hearties",
+      "kicker": "Before you drop",
+      "toc": "Why this season is different, and how the book works",
+      "label": "Start here",
+      "dek": "No gold, no Vending Machines and a third party round every corner. Welcome to a season with no shortcuts."
+    },
+    {
+      "file": "01-move-smart.html",
+      "title": "Move Smart",
+      "kicker": "Tips 1 to 5",
+      "toc": "Overdrives, the sword hop, the Pocket Shockwave, free travel and cover",
+      "number": 1,
+      "dek": "Movement is rare this season, so treat it like treasure. Five ways to get around, get away and never get stuck."
+    }
+  ]
+}

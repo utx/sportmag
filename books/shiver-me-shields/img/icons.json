@@ -1,0 +1,79 @@
+{
+ "i-overdrive-grenade": {
+  "name": "Overdrive Grenade",
+  "file": "i-overdrive-grenade.png",
+  "source": "https://fortnite.weirdgloop.org/images/Overdrive_Grenade_-_Item_-_Fortnite.png?65d7a",
+  "page": "https://fortnite.weirdgloop.org/w/File:Overdrive_Grenade_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-shield-bubble": {
+  "name": "Shield Bubble",
+  "file": "i-shield-bubble.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shield_Bubble_-_Item_-_Fortnite.png?290bc",
+  "page": "https://fortnite.weirdgloop.org/w/File:Shield_Bubble_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-golden-firework": {
+  "name": "Golden Firework (Treasure Hunters)",
+  "file": "i-golden-firework.png",
+  "source": "https://fortnite.weirdgloop.org/images/Golden_Firework_%28Treasure_Hunters%29_-_Item_-_Fortnite.png?a5914",
+  "page": "https://fortnite.weirdgloop.org/w/File:Golden_Firework_(Treasure_Hunters)_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-reboot-card": {
+  "name": "Reboot Card",
+  "file": "i-reboot-card.png",
+  "source": "https://fortnite.weirdgloop.org/images/Reboot_Card_-_Item_-_Fortnite.png?67a9e",
+  "page": "https://fortnite.weirdgloop.org/w/File:Reboot_Card_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-rift-to-go": {
+  "name": "Rift-To-Go",
+  "file": "i-rift-to-go.png",
+  "source": "https://fortnite.weirdgloop.org/images/Rift-To-Go_-_Item_-_Fortnite.png?dbc84",
+  "page": "https://fortnite.weirdgloop.org/w/File:Rift-To-Go_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-portable-extractor": {
+  "name": "Portable Extractor",
+  "file": "i-portable-extractor.png",
+  "source": "https://fortnite.weirdgloop.org/images/Portable_Extractor_-_Item_-_Fortnite.png?c118b",
+  "page": "https://fortnite.weirdgloop.org/w/File:Portable_Extractor_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "i-pocket-shockwave": {
+  "name": "Shockwave Grenade",
+  "file": "i-pocket-shockwave.png",
+  "source": "https://fortnite.weirdgloop.org/images/Shockwave_Grenade_-_Item_-_Fortnite.png?01be4",
+  "page": "https://fortnite.weirdgloop.org/w/File:Shockwave_Grenade_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-zoros-three-sword-style": {
+  "name": "Zoro's Three Sword Style",
+  "file": "w-zoros-three-sword-style.png",
+  "source": "https://fortnite.weirdgloop.org/images/Zoro%27s_Three_Sword_Style_-_Item_-_Fortnite.png?d62ca",
+  "page": "https://fortnite.weirdgloop.org/w/File:Zoro%27s_Three_Sword_Style_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "w-namis-tangerine": {
+  "name": "Nami's Tangerine",
+  "file": "w-namis-tangerine.png",
+  "source": "https://fortnite.weirdgloop.org/images/Nami%27s_Tangerine_-_Item_-_Fortnite.png?47318",
+  "page": "https://fortnite.weirdgloop.org/w/File:Nami%27s_Tangerine_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-chester": {
+  "name": "Chester",
+  "file": "s-chester.png",
+  "source": "https://fortnite.weirdgloop.org/images/Chester_-_Item_-_Fortnite.png?98190",
+  "page": "https://fortnite.weirdgloop.org/w/File:Chester_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ },
+ "s-re-pete": {
+  "name": "Re-Pete",
+  "file": "s-re-pete.png",
+  "source": "https://fortnite.weirdgloop.org/images/Re-Pete_-_Item_-_Fortnite.png?b36a4",
+  "page": "https://fortnite.weirdgloop.org/w/File:Re-Pete_-_Item_-_Fortnite.png",
+  "credit": "Image: Epic Games / Fortnite"
+ }
+}
