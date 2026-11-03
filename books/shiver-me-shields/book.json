@@ -46,6 +46,36 @@
       "toc": "Free NPCs, Rifts, and turning Sprite Dust into better weapons",
       "number": 4,
       "dek": "The gold has gone, but help is free. Hire a helper, ride a Rift, and turn your Sprite Dust into stronger weapons."
+    },
+    {
+      "file": "05-squad-goals.html",
+      "title": "Squad Goals",
+      "kicker": "Tip 15 and two bonus tips",
+      "toc": "Reboot vans and cards, the Captain's route, and the ship's music",
+      "number": 5,
+      "dek": "Never give up on a teammate. Reboot vans, cards that come back on their own, a Captain at the wheel, and a song that sailed from Sydney."
+    },
+    {
+      "file": "06-quiz.html",
+      "title": "The Shiver Me Shields Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz: from Cabin Boy to Captain",
+      "label": "Back of the book",
+      "dek": "Twenty questions. Climb from Cabin Boy to Captain."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Captain's Word Hoard",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "07-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
     }
   ]
 }
