@@ -60,3 +60,36 @@ https://utx.github.io/sportmag/chugjug/ (issues in `chugjug/issues/NNN/`, same b
 - Fortnite.com blocks automated access; use fortnite-api.com plus several news write-ups
   (cross-check) for patch details.
 - Kindle: issue codes are prefixed "cj" (e.g. cj001); kindle/Code.gs handles both magazines.
+
+---
+
+# LEGO® Star Wars™ fan book — image permissions and brief
+
+A fan book (in `books/<slug>/`, built with `build/book.py`) reviewing the latest LEGO Star Wars
+sets, with pros and cons for each, for the same reader. Go heavy on photos.
+
+## Image permissions (from the publisher, 5 Nov 2026)
+
+These replace the Wikimedia-Commons-only rule **for LEGO content** (this book and any LEGO
+content in the magazines):
+
+- **Official LEGO product photos: always OK, as many as you like.** The publisher has the
+  LEGO Group's permission to use them without limit. Credit each one in photos.json as
+  `{"credit": "Image: The LEGO Group, used with permission"}`.
+- **Fan-site photos: OK from these named sites only**, where the publisher has permission:
+  Brickset, Brick Fanatics. Credit the site and, where shown, the photographer, e.g.
+  `{"credit": "Photo: Brick Fanatics, used with permission"}`.
+  To add another site, the publisher names it here first. Photos from sites that are not
+  listed, and other random photos found on the web, are not covered.
+- Keep the source URL of every downloaded image in photos.json so credits can be checked.
+
+## Brief
+
+- Writing pros and cons: we haven't built the sets ourselves, so attribute opinions to named
+  reviewers ("Brickset's reviewer found…") and keep the facts (pieces, minifigures, price,
+  age) checked against LEGO's own listings. Prices are in AUD from LEGO's Australian store,
+  with the date we checked.
+- Ratings are out of five 2×4 bricks. Word Watch boxes throughout, quiz at the back.
+- Footer and Kindle edition say it's an unofficial fan book, not made by the LEGO Group or
+  Lucasfilm.
+- Never pressure spending: present the big sets as a wish list, and add "ask a grown-up".
