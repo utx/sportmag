@@ -95,13 +95,18 @@ content in the magazines):
   photo, rating card, facts table, extra photos and minifigure strip from photos.json.
 - LEGO.com blocks automated access; use Brickset's public pages (set lists, set pages, reviews,
   news) and images.brickset.com. Don't try to get round blocked endpoints.
+- The publisher also has a **Brickset API key** (kept outside the repo, never committed). Its
+  `getAdditionalImages` call gives LEGO's own extra product photos per set (box, lifestyle,
+  feature shots), and `getSets` gives prices for the US, UK, Canada and Germany, but not Australia.
+- Story backgrounds ("From the screen" boxes) live in `books/stud-wars/lore.json`; highlighted story
+  words go in each chapter's "Word Watch: story words" box.
 
 ## Brief
 
 - Writing pros and cons: we haven't built the sets ourselves, so attribute opinions to named
   reviewers ("Brickset's reviewer found…") and keep the facts (pieces, minifigures, price,
-  age) checked against LEGO's own listings. Prices are in AUD from LEGO's Australian store,
-  with the date we checked.
+  age) checked against LEGO's own listings. Prices are LEGO's US prices in US$ (no source for
+  Australian prices can be reached automatically), with the date we checked; explain the exchange rate.
 - Ratings are out of five 2×4 bricks. Word Watch boxes throughout, quiz at the back.
 - Footer and Kindle edition say it's an unofficial fan book, not made by the LEGO Group or
   Lucasfilm.

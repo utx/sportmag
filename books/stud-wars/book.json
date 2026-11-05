@@ -7,7 +7,7 @@
   "disclaimer": "LEGO® is a trademark of the LEGO Group, which does not sponsor, authorise or endorse this book. Star Wars™ and related names are trademarks of Lucasfilm Ltd. Product images are © The LEGO Group and used with permission; review photos are © Brickset and used with permission; minifigure images come from Rebrickable.",
   "date": "2026-11-05",
   "version_note": "Covers the 74 LEGO Star Wars sets that Brickset lists as on sale on 5 November 2026. Facts checked against Brickset's set database and reviews that day.",
-  "description": "An unofficial fan guide to every LEGO Star Wars set on sale in November 2026, with pros and cons, ratings, hundreds of photos and plenty of new words.",
+  "description": "An unofficial fan guide to every LEGO Star Wars set on sale in November 2026: the story behind each set, pros and cons, ratings, hundreds of photos and plenty of new words.",
   "glossary_blurb": "Every Word Watch word in this book, from A to Z. Some come from engineering, some from money and shops, some from films and some from science. A true Jedi of words can use three of them in one sentence. Try it.",
   "colour": true,
   "kindle_only": true,
@@ -18,7 +18,7 @@
       "kicker": "How this book works",
       "toc": "Ratings, prices and the small print",
       "label": "Start here",
-      "dek": "Seventy-four sets, five bricks, one honest opinion each. Here's how to read the ratings, the prices and the pros and cons."
+      "dek": "Seventy-four sets, five bricks, one honest opinion each, and the story behind every set. Here's how to read the ratings, the prices and the pros and cons."
     },
     {
       "file": "01-smart-play.html",
@@ -98,7 +98,7 @@
       "kicker": "Test yourself",
       "toc": "Quiz",
       "label": "Back of the book",
-      "dek": "Fifteen questions. Get twelve right and you're a Jedi Master of bricks."
+      "dek": "Eighteen questions. Get sixteen right and you're a Jedi Master of bricks."
     },
     {
       "file": "@glossary",

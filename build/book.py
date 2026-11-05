@@ -22,6 +22,7 @@ Source layout (books/<slug>/):
   img/, art/       images (for Fortnite books: Epic Games images under the fan content policy)
   sets.json        (optional) facts for <set> blocks
   photos.json      (optional) captions, credits and source URLs; build/book_fetch.py re-downloads them
+  lore.json        (optional) {set id: html} story background, shown in a "From the screen" box in each <set>
   graphics.css     (optional) extra styles for this book's graphics
 
 book.json options: "publisher", "fan_line", "disclaimer" (default: the Chug Jug / Epic wording),
@@ -70,6 +71,7 @@ def load(slug: str) -> dict:
     book.setdefault("disclaimer", EPIC_DISCLAIMER)
     book["setdata"] = json.loads((d / "sets.json").read_text(encoding="utf-8")) if (d / "sets.json").exists() else {}
     book["photos"] = json.loads((d / "photos.json").read_text(encoding="utf-8")) if (d / "photos.json").exists() else {}
+    book["lore"] = json.loads((d / "lore.json").read_text(encoding="utf-8")) if (d / "lore.json").exists() else {}
     for i, ch in enumerate(book["chapters"]):
         ch.setdefault("slug", slugify(Path(ch["file"]).stem.split("-", 1)[-1]))
         ch["n"] = i
@@ -191,7 +193,10 @@ def set_html(book: dict, ch: dict, a: dict, body: str) -> str:
            f'<h3>{name}</h3>\n<p class="verdict">Set {x["num"]} · {r["rating"]} out of 5 bricks</p>']
     if main:
         out.append(pic_html(main[0], main[1], "pic-wide", f'{x["num"]} {name}'))
-    out += [graphic, stats, leaving, body.strip()]
+    lore = book["lore"].get(sid, "")
+    if lore:
+        lore = f'<div class="box lore"><h4>From the screen</h4>{lore}</div>'
+    out += [graphic, stats, leaving, lore, body.strip()]
     for rel, m in extras:
         out.append(pic_html(rel, m, "pic-mid", html.escape(m.get("caption", ""))))
     if figs:
@@ -262,6 +267,7 @@ h4 { font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.08em; margin
 .pro, .con { padding-left: 1.6em; text-indent: -1.6em; margin: 0 0 0.45em 0; }
 .lset h3 { font-size: 1.35em; margin-top: 0.5em; }
 .lede { font-size: 1.05em; }
+.lore { border-style: double; border-width: 4px; }
 .cap { font-size: 0.8em; font-style: italic; text-align: center; margin: 0.3em 0 0 0; }
 .item { margin: 0 0 1.4em 0; padding: 0 0 0.6em 0; border-bottom: 1px solid #888; }
 .item h3 { text-align: center; }
