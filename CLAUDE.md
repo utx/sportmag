@@ -86,11 +86,11 @@ content in the magazines):
 
 ## Mechanics
 
-- The first book is `books/stud-wars/` ("Stud Wars"). It is **Kindle only**: `"kindle_only": true` in
-  book.json keeps the EPUB in `build/out/book/stud-wars/` (never docs/), and its photos stay out of
-  the public repo (`books/stud-wars/img/` is git-ignored). `build/book.sh stud-wars --kindle`
+- The first book is `books/cool-lego-star-wars-sets/` ("Cool LEGO Star Wars Sets"). It is **Kindle only**: `"kindle_only": true` in
+  book.json keeps the EPUB in `build/out/book/cool-lego-star-wars-sets/` (never docs/), and its photos stay out of
+  the public repo (`books/cool-lego-star-wars-sets/img/` is git-ignored). `build/book.sh cool-lego-star-wars-sets --kindle`
   re-downloads them from the source URLs in photos.json (`build/book_fetch.py`), then builds.
-- Set facts live in `books/stud-wars/sets.json` (from Brickset); each review is a
+- Set facts live in `books/cool-lego-star-wars-sets/sets.json` (from Brickset); each review is a
   `<set id="75460-1" rating=".." play=".." display=".." value="..">` block, and the builder adds the
   photo, rating card, facts table, extra photos and minifigure strip from photos.json.
 - LEGO.com blocks automated access; use Brickset's public pages (set lists, set pages, reviews,
@@ -98,7 +98,7 @@ content in the magazines):
 - The publisher also has a **Brickset API key** (kept outside the repo, never committed). Its
   `getAdditionalImages` call gives LEGO's own extra product photos per set (box, lifestyle,
   feature shots), and `getSets` gives prices for the US, UK, Canada and Germany, but not Australia.
-- Story backgrounds ("From the screen" boxes) live in `books/stud-wars/lore.json`; highlighted story
+- Story backgrounds ("From the screen" boxes) live in `books/cool-lego-star-wars-sets/lore.json`; highlighted story
   words go in each chapter's "Word Watch: story words" box.
 
 ## Brief

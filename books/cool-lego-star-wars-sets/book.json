@@ -1,8 +1,8 @@
 {
-  "title": "Stud Wars",
-  "subtitle": "Every LEGO® Star Wars™ set on sale right now, rated brick by brick",
+  "title": "Cool LEGO® Star Wars™ Sets",
+  "subtitle": "Every one on sale right now, rated brick by brick",
   "series": "The unofficial brick guide",
-  "publisher": "Stud Wars",
+  "publisher": "The unofficial brick guide",
   "fan_line": "An unofficial LEGO® Star Wars™ fan guide, made for one family. Not for sale.",
   "disclaimer": "LEGO® is a trademark of the LEGO Group, which does not sponsor, authorise or endorse this book. Star Wars™ and related names are trademarks of Lucasfilm Ltd. Product images are © The LEGO Group and used with permission; review photos are © Brickset and used with permission; minifigure images come from Rebrickable.",
   "date": "2026-11-05",
@@ -86,7 +86,7 @@
     },
     {
       "file": "09-awards.html",
-      "title": "The Stud Wars Awards",
+      "title": "The Cool Sets Awards",
       "kicker": "Winners, losers and numbers",
       "toc": "Best sets, charts and a set-finder",
       "number": 9,
