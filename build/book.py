@@ -16,7 +16,17 @@ Source layout (books/<slug>/):
       <div class="g" id="g-.." data-alt="..">hand-built graphic</div><!--/g-->
       <div class="pic"><img src="img/x.jpg" alt=".."/><p class="cap">..</p></div>
       <div class="box word"><h4>Word Watch</h4><dl><dt>..</dt><dd>..</dd></dl></div>  (feeds the word bank)
-  img/, art/       Epic Games images (fan content policy) and our own art
+      <set id="75460-1" rating="4" play="4" display="3" value="3">..</set>
+                   a LEGO set review: photo, rating graphic, facts from sets.json, then the body, then
+                   every extra photo and the minifigure strip for that set listed in photos.json
+  img/, art/       images (for Fortnite books: Epic Games images under the fan content policy)
+  sets.json        (optional) facts for <set> blocks
+  photos.json      (optional) captions, credits and source URLs; build/book_fetch.py re-downloads them
+  graphics.css     (optional) extra styles for this book's graphics
+
+book.json options: "publisher", "fan_line", "disclaimer" (default: the Chug Jug / Epic wording),
+"colour": true (keep colour photos and graphics, for colour Kindles and the Kindle app),
+"kindle_only": true (write the EPUB to build/out/book/<slug>/ only, never to the public site).
 """
 from __future__ import annotations
 
@@ -55,6 +65,11 @@ def load(slug: str) -> dict:
     book = json.loads((d / "book.json").read_text(encoding="utf-8"))
     book["dir"] = d
     book["slug"] = slug
+    book.setdefault("publisher", "The Chug Jug")
+    book.setdefault("fan_line", "An unofficial Fortnite fan book.")
+    book.setdefault("disclaimer", EPIC_DISCLAIMER)
+    book["setdata"] = json.loads((d / "sets.json").read_text(encoding="utf-8")) if (d / "sets.json").exists() else {}
+    book["photos"] = json.loads((d / "photos.json").read_text(encoding="utf-8")) if (d / "photos.json").exists() else {}
     for i, ch in enumerate(book["chapters"]):
         ch.setdefault("slug", slugify(Path(ch["file"]).stem.split("-", 1)[-1]))
         ch["n"] = i
@@ -119,7 +134,70 @@ def expand(book: dict, ch: dict, frag: str) -> tuple[str, list[dict]]:
                 f'{"".join(rows)}</div></div><!--/g-->')
 
     s = re.sub(r"<tierboard\s*([^>]*?)/>", board, s)
+    s = re.sub(r"<set\s([^>]*)>(.*?)</set>", lambda m: set_html(book, ch, attrs(m.group(1)), m.group(2)), s, flags=re.S)
     return s, items
+
+
+BRICK = ('<svg viewBox="0 0 44 30" class="brick{cls}"><rect x="2" y="9" width="40" height="19" rx="2"/>'
+         '<rect x="5" y="3" width="7" height="7" rx="1.5"/><rect x="14.5" y="3" width="7" height="7" rx="1.5"/>'
+         '<rect x="24" y="3" width="7" height="7" rx="1.5"/><rect x="33" y="3" width="7" height="7" rx="1.5"/></svg>')
+
+
+def short_credit(c: str) -> str:
+    return re.sub(r",? used with permission$", "", c)
+
+
+def pic_html(rel: str, meta: dict, cls: str, caption: str) -> str:
+    cap = f'{caption} <span class="credit">{html.escape(short_credit(meta.get("credit", "")))}</span>'.strip()
+    return f'<div class="pic {cls}"><img src="{rel}" alt="{html.escape(re.sub(r"<[^>]+>", "", caption))}"/><p class="cap">{cap}</p></div>'
+
+
+def set_html(book: dict, ch: dict, a: dict, body: str) -> str:
+    sid = a["id"]
+    x = book["setdata"].get(sid)
+    if not x:
+        raise SystemExit(f"{ch['file']}: set {sid} is not in sets.json")
+    r = {k: int(a.get(k, 0)) for k in ("rating", "play", "display", "value")}
+    if not all(1 <= v <= 5 for v in r.values()):
+        raise SystemExit(f"{ch['file']}: set {sid} needs rating, play, display and value from 1 to 5")
+    for rel in book["photos"]:
+        if book["photos"][rel].get("set") == sid and not (book["dir"] / rel).exists():
+            raise SystemExit(f"{ch['file']}: missing {rel}; run build/book_fetch.py {book['slug']}")
+    mine = [(rel, m) for rel, m in book["photos"].items() if m.get("set") == sid]
+    main = next(((rel, m) for rel, m in mine if m.get("role") == "main"), None)
+    extras = [(rel, m) for rel, m in mine if m.get("role") == "extra"]
+    figs = next(((rel, m) for rel, m in mine if m.get("role") == "figs"), None)
+    name = html.escape(x["name"])
+    bricks = "".join(BRICK.format(cls="" if i < r["rating"] else " empty") for i in range(5))
+
+    def bar(label: str, n: int) -> str:
+        cells = "".join(f'<i class="{"on" if i < n else ""}"></i>' for i in range(5))
+        return f'<div class="rbar"><span>{label}</span><div class="rbar__cells">{cells}</div><b>{n}</b></div>'
+    price = f'US${x["usd"]:,.2f}' if x.get("usd") else "n/a"
+    chips = [f'Ages {x["age"]}' if x.get("age") else "", f'{x["pieces"]:,} pieces', f'{x["minifigs"]} minifig{"s" if x["minifigs"] != 1 else ""}', price]
+    graphic = (f'<div class="g g-rate" id="g-rate-{sid}" data-alt="{name}: {r["rating"]} out of 5 bricks. Play {r["play"]}, display {r["display"]}, '
+               f'value for money {r["value"]}, all out of 5.">'
+               f'<div class="rate"><div class="rate__l"><div class="rate__num">{r["rating"]}<small>/5</small></div>'
+               f'<div class="rate__bricks">{bricks}</div><div class="rate__lab">Our rating</div></div>'
+               f'<div class="rate__r"><div class="rate__set">{x["num"]} · {name}</div>{bar("Play", r["play"])}{bar("Display", r["display"])}{bar("Value", r["value"])}'
+               f'<div class="rate__chips">{"".join(f"<span>{html.escape(c)}</span>" for c in chips if c)}</div></div></div></div><!--/g-->')
+    fan = f'{x["fan"]:.1f} / 5 ({x["fan_count"]} fans)' if x.get("fan") else "not rated yet"
+    cpp = f'{x["cents_per_piece"]:.1f}c' if x.get("cents_per_piece") else "n/a"
+    stats = ('<table class="stats"><tr><th>Pieces</th><th>Minifigs</th><th>Ages</th><th>US price</th><th>Per piece</th><th>Fans say</th></tr>'
+             f'<tr><td>{x["pieces"]:,}</td><td>{x["minifigs"]}</td><td>{html.escape(x.get("age") or "n/a")}</td><td>{price}</td><td>{cpp}</td><td>{fan}</td></tr></table>')
+    leaving = ('<p class="leaving"><b>Leaving soon?</b> Brickset expects this set to retire at the end of 2026.</p>'
+               if x.get("leaving_2026") else "")
+    out = [f'<div class="item lset" id="set-{x["num"]}">',
+           f'<h3>{name}</h3>\n<p class="verdict">Set {x["num"]} · {r["rating"]} out of 5 bricks</p>']
+    if main:
+        out.append(pic_html(main[0], main[1], "pic-wide", f'{x["num"]} {name}'))
+    out += [graphic, stats, leaving, body.strip()]
+    for rel, m in extras:
+        out.append(pic_html(rel, m, "pic-mid", html.escape(m.get("caption", ""))))
+    if figs:
+        out.append(pic_html(figs[0], figs[1], "pic-wide", "Who's in the box."))
+    out.append("</div>")
+    return "\n".join(o for o in out if o)
 
 
 def fragment(book: dict, ch: dict) -> tuple[str, list[dict]]:
@@ -136,7 +214,9 @@ def prep(slug: str) -> None:
     for f in (out / "pages").glob("*.html"):
         f.unlink()
     head = (f'<!doctype html><html><head><meta charset="utf-8"/><base href="/books/{slug}/"/>'
-            '<link rel="stylesheet" href="/build/book/graphics.css"/></head><body>')
+            '<link rel="stylesheet" href="/build/book/graphics.css"/>'
+            + (f'<link rel="stylesheet" href="/books/{slug}/graphics.css"/>' if (book["dir"] / "graphics.css").exists() else "")
+            + '</head><body>')
     jobs = []
     cover = (book["dir"] / "cover.html").read_text(encoding="utf-8")
     (out / "pages" / "cover.html").write_text(head + cover + "</body></html>", encoding="utf-8")
@@ -176,6 +256,12 @@ h4 { font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.08em; margin
 .pic { text-align: center; margin: 0.8em 0 1em 0; page-break-inside: avoid; }
 .pic img { width: 55%; }
 .pic-wide img { width: 100%; }
+.pic-mid img { width: 80%; }
+.credit { font-style: normal; font-size: 0.85em; white-space: nowrap; }
+.leaving { font-family: sans-serif; font-size: 0.85em; border: 1px dashed #000; padding: 0.3em 0.5em; }
+.pro, .con { padding-left: 1.6em; text-indent: -1.6em; margin: 0 0 0.45em 0; }
+.lset h3 { font-size: 1.35em; margin-top: 0.5em; }
+.lede { font-size: 1.05em; }
 .cap { font-size: 0.8em; font-style: italic; text-align: center; margin: 0.3em 0 0 0; }
 .item { margin: 0 0 1.4em 0; padding: 0 0 0.6em 0; border-bottom: 1px solid #888; }
 .item h3 { text-align: center; }
@@ -220,10 +306,20 @@ def xhtml(title: str, body: str, body_class: str = "") -> str:
 </html>"""
 
 
-def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
-    """Greyscale, 16 levels (what an e-ink screen shows anyway): small files, crisp edges."""
+def to_kindle_png(src: Path, dst: Path, max_w: int = 1200, colour: bool = False) -> None:
+    """Greyscale, 16 levels (what an e-ink screen shows anyway): small files, crisp edges.
+    With colour=True: keep colour, 128-colour palette (colour Kindles and the Kindle app)."""
     from PIL import Image, ImageOps
     im = Image.open(src)
+    if colour:
+        im = im.convert("RGBA")
+        bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
+        bg.alpha_composite(im)
+        c = bg.convert("RGB")
+        if c.width > max_w:
+            c = c.resize((max_w, round(c.height * max_w / c.width)), Image.LANCZOS)
+        c.quantize(colors=128, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE).save(dst, optimize=True)
+        return
     if im.mode in ("RGBA", "LA", "P"):
         im = im.convert("RGBA")
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
@@ -236,7 +332,7 @@ def to_kindle_png(src: Path, dst: Path, max_w: int = 1200) -> None:
     g.save(dst, optimize=True)
 
 
-def to_kindle_jpg(src: Path, dst: Path, max_side: int = 1200) -> None:
+def to_kindle_jpg(src: Path, dst: Path, max_side: int = 1200, colour: bool = False) -> None:
     from PIL import Image, ImageOps
     im = ImageOps.exif_transpose(Image.open(src))
     if im.mode in ("RGBA", "LA", "P"):
@@ -244,6 +340,11 @@ def to_kindle_jpg(src: Path, dst: Path, max_side: int = 1200) -> None:
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
         bg.alpha_composite(im)
         im = bg
+    if colour:
+        c = im.convert("RGB")
+        c.thumbnail((max_side, max_side))
+        c.save(dst, quality=76, optimize=True, progressive=False)
+        return
     g = ImageOps.grayscale(im.convert("RGB"))
     g.thumbnail((max_side, max_side))
     g = ImageOps.autocontrast(g, cutoff=0.3)
@@ -283,6 +384,11 @@ def collect_words(frags: list[str]) -> list[tuple[str, str, str]]:
                 word, kind = (m.group(1).strip(), m.group(2).strip()) if m else (dt_.strip(), "")
                 words.setdefault(re.sub(r"<[^>]+>", "", word).lower(), (re.sub(r"<[^>]+>", "", word), kind, dd.strip()))
     return [words[k] for k in sorted(words)]
+
+
+def epub_dir(book: dict) -> Path:
+    """Public books go to the website (docs/); kindle_only books stay in build/out (git-ignored)."""
+    return OUT / book["slug"] if book.get("kindle_only") else DOCS / "books" / book["slug"]
 
 
 def epub(slug: str) -> None:
@@ -334,14 +440,15 @@ def epub(slug: str) -> None:
 
     # images actually referenced
     gids = sorted(set(re.findall(r'src="images/(g-[\w-]+)\.png"', "".join(frags))))
+    colour = bool(book.get("colour"))
     for gid in gids:
-        to_kindle_png(rendered / f"{gid}.png", work / "images" / f"{gid}.png")
+        to_kindle_png(rendered / f"{gid}.png", work / "images" / f"{gid}.png", colour=colour)
     for p in sorted(used_photos):
         folder, stem = p.split("/")
         src = next((book["dir"] / folder / f"{stem}{ext}" for ext in (".jpg", ".png") if (book["dir"] / folder / f"{stem}{ext}").exists()), None)
         if not src:
             raise SystemExit(f"epub: missing {p}.jpg/png")
-        to_kindle_jpg(src, work / "images" / f"{folder}-{stem}.jpg")
+        to_kindle_jpg(src, work / "images" / f"{folder}-{stem}.jpg", max_side=1000 if colour else 1200, colour=colour)
     from PIL import Image
     cover = Image.open(rendered / "cover.png").convert("RGB")
     cover.thumbnail((1600, 2560))
@@ -350,7 +457,7 @@ def epub(slug: str) -> None:
     (work / "cover.xhtml").write_text(xhtml("Cover", f'<div class="cover-img"><img src="images/cover.jpg" alt="{html.escape(book["title"])} cover"/></div>'), encoding="utf-8")
     title_page = (f'<div class="title-page"><p class="kicker">{html.escape(book["series"])}</p>\n<h1>{html.escape(book["title"])}</h1>\n'
                   f'<p class="sub">{html.escape(book["subtitle"])}</p>\n<p class="small">{html.escape(book["version_note"])}</p>\n'
-                  f'<p class="small">An unofficial Fortnite fan book.</p>\n<p class="small"><i>{EPIC_DISCLAIMER}</i></p></div>')
+                  f'<p class="small">{html.escape(book["fan_line"])}</p>\n<p class="small"><i>{html.escape(book["disclaimer"])}</i></p></div>')
     (work / "title.xhtml").write_text(xhtml("Title page", title_page), encoding="utf-8")
     toc_items = "".join(f'<p class="toc-item"><span class="toc-num">{ch["number"] if "number" in ch else "•"}</span> '
                         f'<a href="{n}">{html.escape(ch["title"])}</a>'
@@ -388,12 +495,12 @@ def epub(slug: str) -> None:
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{book_id}</dc:identifier>
     <dc:title>{html.escape(book['title'])}: {html.escape(book['subtitle'])}</dc:title>
-    <dc:creator>The Chug Jug</dc:creator>
-    <dc:publisher>The Chug Jug (unofficial fan publication)</dc:publisher>
+    <dc:creator>{html.escape(book['publisher'])}</dc:creator>
+    <dc:publisher>{html.escape(book['publisher'])} (unofficial fan publication)</dc:publisher>
     <dc:language>en-AU</dc:language>
     <dc:date>{book['date']}</dc:date>
     <dc:description>{html.escape(book['description'])}</dc:description>
-    <dc:rights>{html.escape(EPIC_DISCLAIMER)}</dc:rights>
+    <dc:rights>{html.escape(book['disclaimer'])}</dc:rights>
     <meta property="dcterms:modified">{modified}</meta>
     <meta name="cover" content="cover-image"/>
   </metadata>
@@ -414,7 +521,7 @@ def epub(slug: str) -> None:
     (work / "content.opf").write_text(opf, encoding="utf-8")
     (work / "toc.ncx").write_text(ncx, encoding="utf-8")
 
-    home = DOCS / "books" / slug
+    home = epub_dir(book)
     home.mkdir(parents=True, exist_ok=True)
     out = home / f"{slug}.epub"
     with zipfile.ZipFile(out, "w") as z:
@@ -426,7 +533,8 @@ def epub(slug: str) -> None:
         for f in sorted(work.rglob("*")):
             if f.is_file():
                 z.write(f, "OEBPS/" + f.relative_to(work).as_posix(), compress_type=zipfile.ZIP_DEFLATED)
-    shutil.copy(work / "images" / "cover.jpg", home / "cover.jpg")
+    if not book.get("kindle_only"):
+        shutil.copy(work / "images" / "cover.jpg", home / "cover.jpg")
     nwords = len(re.sub(r"<[^>]+>", " ", "".join(frags)).split())
     print(f"epub: {out.relative_to(ROOT)} ({out.stat().st_size // 1024} KB, {len(gids)} graphics, "
           f"{len(used_photos)} pictures, ~{nwords} words, {len(words)} glossary words)")

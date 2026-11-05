@@ -1,3 +1,6 @@
 build/out/
 __pycache__/
 .DS_Store
+
+# LEGO fan book: photos are re-downloaded by build/book_fetch.py, never committed
+books/stud-wars/img/

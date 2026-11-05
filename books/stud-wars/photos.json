@@ -1,0 +1,3048 @@
+{
+ "img/s-30727-1.jpg": {
+  "set": "30727-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/30727-1.jpg"
+ },
+ "img/s-30728-1.jpg": {
+  "set": "30728-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/30728-1.jpg"
+ },
+ "img/s-40795-1.jpg": {
+  "set": "40795-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/40795-1.jpg"
+ },
+ "img/s-40806-1.jpg": {
+  "set": "40806-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/40806-1.jpg"
+ },
+ "img/p-40806-1-1.jpg": {
+  "set": "40806-1",
+  "role": "extra",
+  "caption": "The gingerbread Darth Vader minifigure, cape and all.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/125072_Gingerbread%205.jpg"
+ },
+ "img/p-40806-1-2.jpg": {
+  "set": "40806-1",
+  "role": "extra",
+  "caption": "Lift the roof and there's a cosy lounge with a fireplace inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/125072_Gingerbread%2014.jpg"
+ },
+ "img/p-40806-1-3.jpg": {
+  "set": "40806-1",
+  "role": "extra",
+  "caption": "Icing stripes and sweets are made from LEGO pieces.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/125072_Gingerbread%2019.jpg"
+ },
+ "img/f-40806-1.jpg": {
+  "set": "40806-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016875/161504.jpg",
+    "label": "Gingerbread Darth Vader"
+   }
+  ]
+ },
+ "img/s-40856-1.jpg": {
+  "set": "40856-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/40856-1.jpg"
+ },
+ "img/p-40856-1-1.jpg": {
+  "set": "40856-1",
+  "role": "extra",
+  "caption": "Five BrickHeadz: Grogu, the Mandalorian, a snowtrooper, an Anzellan and Colonel Ward.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129958_Armchair%201.jpg"
+ },
+ "img/p-40856-1-2.jpg": {
+  "set": "40856-1",
+  "role": "extra",
+  "caption": "Lined up on a shelf.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129958_Armchair%204.jpg"
+ },
+ "img/s-75192-1.jpg": {
+  "set": "75192-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75192-1.jpg"
+ },
+ "img/f-75192-1.jpg": {
+  "set": "75192-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002544/138512.jpg",
+    "label": "BB-8"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002514/111826.jpg",
+    "label": "C-3PO"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-001714/161722.jpg",
+    "label": "Chewbacca"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-001810/58259.jpg",
+    "label": "Finn"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002550/58258.jpg",
+    "label": "Han Solo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002551/58117.jpg",
+    "label": "Han Solo (older)"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014404/137658.jpg",
+    "label": "Porg"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002549/108001.jpg",
+    "label": "Princess Leia"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002057/104893.jpg",
+    "label": "Rey"
+   }
+  ]
+ },
+ "img/s-75328-1.jpg": {
+  "set": "75328-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75328-1.jpg"
+ },
+ "img/p-75328-1-1.jpg": {
+  "set": "75328-1",
+  "role": "extra",
+  "caption": "Behind the visor: a colourful skeleton of bricks holds it together.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/70551_Djarin%203.jpg"
+ },
+ "img/p-75328-1-2.jpg": {
+  "set": "75328-1",
+  "role": "extra",
+  "caption": "Next to the Boba Fett helmet from the same series.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/70551_Djarin%206.jpg"
+ },
+ "img/p-75328-1-3.jpg": {
+  "set": "75328-1",
+  "role": "extra",
+  "caption": "Part of a growing helmet collection.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/70551_Djarin%209.jpg"
+ },
+ "img/s-75367-1.jpg": {
+  "set": "75367-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75367-1.jpg"
+ },
+ "img/p-75367-1-1.jpg": {
+  "set": "75367-1",
+  "role": "extra",
+  "caption": "Admiral Yularen, one of only two minifigures.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/99978_Venator%208.jpg"
+ },
+ "img/p-75367-1-2.jpg": {
+  "set": "75367-1",
+  "role": "extra",
+  "caption": "The display plaque, with Captain Rex and the admiral.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/99978_Venator%2011.jpg"
+ },
+ "img/p-75367-1-3.jpg": {
+  "set": "75367-1",
+  "role": "extra",
+  "caption": "Blue engine glow at the back of the cruiser.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/99978_Venator%2036.jpg"
+ },
+ "img/f-75367-1.jpg": {
+  "set": "75367-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014391/145329.jpg",
+    "label": "Admiral Wulf Yularen"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014392/128926.jpg",
+    "label": "Captain Rex"
+   }
+  ]
+ },
+ "img/s-75372-1.jpg": {
+  "set": "75372-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75372-1.jpg"
+ },
+ "img/p-75372-1-1.jpg": {
+  "set": "75372-1",
+  "role": "extra",
+  "caption": "Clone Troopers in their Phase II armour.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/105224_Clone%202.jpg"
+ },
+ "img/p-75372-1-2.jpg": {
+  "set": "75372-1",
+  "role": "extra",
+  "caption": "Super Battle Droids, back after years away.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/105224_Clone%206.jpg"
+ },
+ "img/p-75372-1-3.jpg": {
+  "set": "75372-1",
+  "role": "extra",
+  "caption": "The Tri-Droid can clamber over rubble.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/105224_Clone%2010.jpg"
+ },
+ "img/p-75372-1-4.jpg": {
+  "set": "75372-1",
+  "role": "extra",
+  "caption": "The whole battle, ready to play.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/105224_Clone%201.jpg"
+ },
+ "img/f-75372-1.jpg": {
+  "set": "75372-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014663/135535.jpg",
+    "label": "Battle Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-003734/66810.jpg",
+    "label": "Battle Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014307/127891.jpg",
+    "label": "Clone Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014662/180325.jpg",
+    "label": "Clone Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014665/146166.jpg",
+    "label": "Super Battle Droid"
+   }
+  ]
+ },
+ "img/s-75375-1.jpg": {
+  "set": "75375-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75375-1.jpg"
+ },
+ "img/p-75375-1-1.jpg": {
+  "set": "75375-1",
+  "role": "extra",
+  "caption": "The curved display stand.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/107054_Falcon%203.jpg"
+ },
+ "img/p-75375-1-2.jpg": {
+  "set": "75375-1",
+  "role": "extra",
+  "caption": "Tiny characters hidden inside the docking tubes.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/107054_Falcon%209.jpg"
+ },
+ "img/p-75375-1-3.jpg": {
+  "set": "75375-1",
+  "role": "extra",
+  "caption": "On its stand, side on.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/107054_Falcon%2011.jpg"
+ },
+ "img/s-75379-1.jpg": {
+  "set": "75379-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75379-1.jpg"
+ },
+ "img/p-75379-1-1.jpg": {
+  "set": "75379-1",
+  "role": "extra",
+  "caption": "Bonus minifigure: Darth Malak, from a video game.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/107961_Artoo%205.jpg"
+ },
+ "img/p-75379-1-2.jpg": {
+  "set": "75379-1",
+  "role": "extra",
+  "caption": "The third leg folds down, just like in the films.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/107961_Artoo%2016.jpg"
+ },
+ "img/p-75379-1-3.jpg": {
+  "set": "75379-1",
+  "role": "extra",
+  "caption": "The finished droid with its plaque.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/107961_Artoo%201.jpg"
+ },
+ "img/f-75379-1.jpg": {
+  "set": "75379-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-012571/161770.jpg",
+    "label": "R2-D2"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014799/137937.jpg",
+    "label": "Darth Malak"
+   }
+  ]
+ },
+ "img/s-75382-1.jpg": {
+  "set": "75382-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75382-1.jpg"
+ },
+ "img/p-75382-1-1.jpg": {
+  "set": "75382-1",
+  "role": "extra",
+  "caption": "The TIE pilot minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/108130_Interceptor%204.jpg"
+ },
+ "img/p-75382-1-2.jpg": {
+  "set": "75382-1",
+  "role": "extra",
+  "caption": "Next to the big UCS TIE Fighter.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/108130_Interceptor%208.jpg"
+ },
+ "img/p-75382-1-3.jpg": {
+  "set": "75382-1",
+  "role": "extra",
+  "caption": "Peek inside the cockpit.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/108130_Interceptor%2018.jpg"
+ },
+ "img/f-75382-1.jpg": {
+  "set": "75382-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015005/141177.jpg",
+    "label": "Mouse droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014986/141004.jpg",
+    "label": "TIE Interceptor Pilot"
+   }
+  ]
+ },
+ "img/s-75389-1.jpg": {
+  "set": "75389-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75389-1.jpg"
+ },
+ "img/p-75389-1-1.jpg": {
+  "set": "75389-1",
+  "role": "extra",
+  "caption": "Darth Jar Jar and another dark-side twist.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113091_Falcon%208.jpg"
+ },
+ "img/p-75389-1-2.jpg": {
+  "set": "75389-1",
+  "role": "extra",
+  "caption": "The glowing red cockpit.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113091_Falcon%2017.jpg"
+ },
+ "img/p-75389-1-3.jpg": {
+  "set": "75389-1",
+  "role": "extra",
+  "caption": "A peek inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113091_Falcon%2034.jpg"
+ },
+ "img/p-75389-1-4.jpg": {
+  "set": "75389-1",
+  "role": "extra",
+  "caption": "The Dark Falcon and its six minifigures.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113091_Falcon%201.jpg"
+ },
+ "img/f-75389-1.jpg": {
+  "set": "75389-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015345/151009.jpg",
+    "label": "Beach Luke"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015339/145749.jpg",
+    "label": "C-3PO"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015341/147107.jpg",
+    "label": "Darth Dev"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015337/146999.jpg",
+    "label": "Darth Jar Jar"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015340/147106.jpg",
+    "label": "Darth Rey"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015343/144324.jpg",
+    "label": "Jedi Vader"
+   }
+  ]
+ },
+ "img/s-75394-1.jpg": {
+  "set": "75394-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75394-1.jpg"
+ },
+ "img/p-75394-1-1.jpg": {
+  "set": "75394-1",
+  "role": "extra",
+  "caption": "Imperial crew and a stormtrooper.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/111733_Destroyer%207.jpg"
+ },
+ "img/p-75394-1-2.jpg": {
+  "set": "75394-1",
+  "role": "extra",
+  "caption": "Cal Kestis, from the Jedi video games.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/111733_Destroyer%2010.jpg"
+ },
+ "img/p-75394-1-3.jpg": {
+  "set": "75394-1",
+  "role": "extra",
+  "caption": "Inside the Star Destroyer.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/111733_Destroyer%2031.jpg"
+ },
+ "img/f-75394-1.jpg": {
+  "set": "75394-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015315/144007.jpg",
+    "label": "Cal Kestis"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015312/157843.jpg",
+    "label": "Commander Praji"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014190/127922.jpg",
+    "label": "Darth Vader"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015311/161724.jpg",
+    "label": "Imperial Crew"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015314/147296.jpg",
+    "label": "Imperial Gunner"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015313/161715.jpg",
+    "label": "Imperial Navy Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014802/161678.jpg",
+    "label": "Stormtrooper"
+   }
+  ]
+ },
+ "img/s-75397-1.jpg": {
+  "set": "75397-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75397-1.jpg"
+ },
+ "img/p-75397-1-1.jpg": {
+  "set": "75397-1",
+  "role": "extra",
+  "caption": "One of the eleven minifigures.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113598_Barge%209.jpg"
+ },
+ "img/p-75397-1-2.jpg": {
+  "set": "75397-1",
+  "role": "extra",
+  "caption": "Jabba's lounge, inside the barge.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113598_Barge%2062.jpg"
+ },
+ "img/p-75397-1-3.jpg": {
+  "set": "75397-1",
+  "role": "extra",
+  "caption": "Out on deck, under the desert sun.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/113598_Barge%2084.jpg"
+ },
+ "img/f-75397-1.jpg": {
+  "set": "75397-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015584/147777.jpg",
+    "label": "R2-D2"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015574/147760.jpg",
+    "label": "Bib Fortuna"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-012570/161728.jpg",
+    "label": "C-3PO"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-012358/147763.jpg",
+    "label": "Gamorrean Guard"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015573/147767.jpg",
+    "label": "Jabba the Hutt"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015577/147770.jpg",
+    "label": "Kithaba"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-004008/68660.jpg",
+    "label": "Max Rebo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015579/147772.jpg",
+    "label": "Princess Leia"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015575/147765.jpg",
+    "label": "Vizam"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015576/147779.jpg",
+    "label": "Wooof"
+   }
+  ]
+ },
+ "img/s-75398-1.jpg": {
+  "set": "75398-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75398-1.jpg"
+ },
+ "img/p-75398-1-1.jpg": {
+  "set": "75398-1",
+  "role": "extra",
+  "caption": "The plaque and the little C-3PO minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/111638_C-3PO%205.jpg"
+ },
+ "img/p-75398-1-2.jpg": {
+  "set": "75398-1",
+  "role": "extra",
+  "caption": "Big C-3PO with big R2-D2 (sold separately).",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/111638_C-3PO%209.jpg"
+ },
+ "img/p-75398-1-3.jpg": {
+  "set": "75398-1",
+  "role": "extra",
+  "caption": "Posable arms for waving.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/111638_C-3PO%2015.jpg"
+ },
+ "img/f-75398-1.jpg": {
+  "set": "75398-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-012591/107325.jpg",
+    "label": "C-3PO"
+   }
+  ]
+ },
+ "img/s-75399-1.jpg": {
+  "set": "75399-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75399-1.jpg"
+ },
+ "img/p-75399-1-1.jpg": {
+  "set": "75399-1",
+  "role": "extra",
+  "caption": "Cassian Andor and K-2SO.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121211_U-wing%203.jpg"
+ },
+ "img/p-75399-1-2.jpg": {
+  "set": "75399-1",
+  "role": "extra",
+  "caption": "The new U-wing (front) next to the bigger 2016 version.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121211_U-wing%209.jpg"
+ },
+ "img/p-75399-1-3.jpg": {
+  "set": "75399-1",
+  "role": "extra",
+  "caption": "The passenger bay.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121211_U-wing%2019.jpg"
+ },
+ "img/f-75399-1.jpg": {
+  "set": "75399-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016242/156253.jpg",
+    "label": "Cassian Andor"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016243/156254.jpg",
+    "label": "Dedra Meero"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016244/156255.jpg",
+    "label": "ISB Tactical Agent"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016241/160109.jpg",
+    "label": "K-2SO"
+   }
+  ]
+ },
+ "img/s-75400-1.jpg": {
+  "set": "75400-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75400-1.jpg"
+ },
+ "img/p-75400-1-1.jpg": {
+  "set": "75400-1",
+  "role": "extra",
+  "caption": "The Plo Koon minifigure, the star of the set.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121157_Plo%202.jpg"
+ },
+ "img/p-75400-1-2.jpg": {
+  "set": "75400-1",
+  "role": "extra",
+  "caption": "Plo Koon at the controls.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121157_Plo%207.jpg"
+ },
+ "img/f-75400-1.jpg": {
+  "set": "75400-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016445/157457.jpg",
+    "label": "Plo Koon"
+   }
+  ]
+ },
+ "img/s-75402-1.jpg": {
+  "set": "75402-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75402-1.jpg"
+ },
+ "img/p-75402-1-1.jpg": {
+  "set": "75402-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of the ARC-170.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75402-1/75402_web_sec01_nobg_en-gb.jpg"
+ },
+ "img/p-75402-1-2.jpg": {
+  "set": "75402-1",
+  "role": "extra",
+  "caption": "The minifigures.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75402-1/75402_web_lineup_nobg_en-gb.jpg"
+ },
+ "img/f-75402-1.jpg": {
+  "set": "75402-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015727/152305.jpg",
+    "label": "R4-P44"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015724/152302.jpg",
+    "label": "Clone Pilot Jag"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015723/152303.jpg",
+    "label": "Clone Pilot Odd Ball"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015726/182003.jpg",
+    "label": "Clone Pilot"
+   }
+  ]
+ },
+ "img/s-75403-1.jpg": {
+  "set": "75403-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75403-1.jpg"
+ },
+ "img/p-75403-1-1.jpg": {
+  "set": "75403-1",
+  "role": "extra",
+  "caption": "Grogu in his hover pram.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75403-1/75403_web_sec03_nobg_en-gb.jpg"
+ },
+ "img/p-75403-1-2.jpg": {
+  "set": "75403-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75403-1/75403_web_sec04_nobg_en-gb.jpg"
+ },
+ "img/f-75403-1.jpg": {
+  "set": "75403-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-010525/75011.jpg",
+    "label": "Grogu"
+   }
+  ]
+ },
+ "img/s-75406-1.jpg": {
+  "set": "75406-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75406-1.jpg"
+ },
+ "img/s-75407-1.jpg": {
+  "set": "75407-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75407-1.jpg"
+ },
+ "img/p-75407-1-1.jpg": {
+  "set": "75407-1",
+  "role": "extra",
+  "caption": "Next to the MARVEL logo set.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120736_Logo%203.jpg"
+ },
+ "img/p-75407-1-2.jpg": {
+  "set": "75407-1",
+  "role": "extra",
+  "caption": "Lift a panel on the T and there's a tiny space battle inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120736_Logo%208.jpg"
+ },
+ "img/p-75407-1-3.jpg": {
+  "set": "75407-1",
+  "role": "extra",
+  "caption": "From the back, the letters read backwards.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120736_Logo%209.jpg"
+ },
+ "img/s-75408-1.jpg": {
+  "set": "75408-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75408-1.jpg"
+ },
+ "img/p-75408-1-1.jpg": {
+  "set": "75408-1",
+  "role": "extra",
+  "caption": "Jango (middle) between the Boba Fett and Mandalorian helmets.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120875_Jango%203.jpg"
+ },
+ "img/p-75408-1-2.jpg": {
+  "set": "75408-1",
+  "role": "extra",
+  "caption": "Colourful bricks hidden inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120875_Jango%206.jpg"
+ },
+ "img/p-75408-1-3.jpg": {
+  "set": "75408-1",
+  "role": "extra",
+  "caption": "The rangefinder sticks up on one side.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120875_Jango%208.jpg"
+ },
+ "img/s-75409-1.jpg": {
+  "set": "75409-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75409-1.jpg"
+ },
+ "img/p-75409-1-1.jpg": {
+  "set": "75409-1",
+  "role": "extra",
+  "caption": "Jango Fett and young Boba Fett.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120586_Starship%205.jpg"
+ },
+ "img/p-75409-1-2.jpg": {
+  "set": "75409-1",
+  "role": "extra",
+  "caption": "Next to an older Slave I.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120586_Starship%2014.jpg"
+ },
+ "img/p-75409-1-3.jpg": {
+  "set": "75409-1",
+  "role": "extra",
+  "caption": "The cockpit, with Jango at the controls.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120586_Starship%2039.jpg"
+ },
+ "img/f-75409-1.jpg": {
+  "set": "75409-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016249/156383.jpg",
+    "label": "Young Boba Fett"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016251/156362.jpg",
+    "label": "Jango Fett"
+   }
+  ]
+ },
+ "img/s-75410-1.jpg": {
+  "set": "75410-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75410-1.jpg"
+ },
+ "img/p-75410-1-1.jpg": {
+  "set": "75410-1",
+  "role": "extra",
+  "caption": "Swooshing the N-1 Starfighter.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75410-1/75410_web_sec03_nobg_en-gb.jpg"
+ },
+ "img/p-75410-1-2.jpg": {
+  "set": "75410-1",
+  "role": "extra",
+  "caption": "The minifigures.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75410-1/75410_web_lineup_nobg_en-gb.jpg"
+ },
+ "img/f-75410-1.jpg": {
+  "set": "75410-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015729/159948.jpg",
+    "label": "R5-D4"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-010525/75011.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-013735/159943.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75411-1.jpg": {
+  "set": "75411-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75411-1.jpg"
+ },
+ "img/p-75411-1-1.jpg": {
+  "set": "75411-1",
+  "role": "extra",
+  "caption": "The Darth Maul minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121180_Maul%202.jpg"
+ },
+ "img/p-75411-1-2.jpg": {
+  "set": "75411-1",
+  "role": "extra",
+  "caption": "Maul climbs inside the mech.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121180_Maul%208.jpg"
+ },
+ "img/p-75411-1-3.jpg": {
+  "set": "75411-1",
+  "role": "extra",
+  "caption": "Ready for a fight.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121180_Maul%209.jpg"
+ },
+ "img/f-75411-1.jpg": {
+  "set": "75411-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016487/161222.jpg",
+    "label": "Darth Maul"
+   }
+  ]
+ },
+ "img/s-75412-1.jpg": {
+  "set": "75412-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75412-1.jpg"
+ },
+ "img/p-75412-1-1.jpg": {
+  "set": "75412-1",
+  "role": "extra",
+  "caption": "Death Troopers.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121188_Night%202.jpg"
+ },
+ "img/p-75412-1-2.jpg": {
+  "set": "75412-1",
+  "role": "extra",
+  "caption": "Night Troopers.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121188_Night%204.jpg"
+ },
+ "img/p-75412-1-3.jpg": {
+  "set": "75412-1",
+  "role": "extra",
+  "caption": "Five troopers squeeze inside the dropship.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121188_Night%2011.jpg"
+ },
+ "img/f-75412-1.jpg": {
+  "set": "75412-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016444/157743.jpg",
+    "label": "Death Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015330/157745.jpg",
+    "label": "Night Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016443/157744.jpg",
+    "label": "Night Trooper"
+   }
+  ]
+ },
+ "img/s-75413-1.jpg": {
+  "set": "75413-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75413-1.jpg"
+ },
+ "img/p-75413-1-1.jpg": {
+  "set": "75413-1",
+  "role": "extra",
+  "caption": "Jedi Master Ki-Adi-Mundi.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122967_Juggernaut%204.jpg"
+ },
+ "img/p-75413-1-2.jpg": {
+  "set": "75413-1",
+  "role": "extra",
+  "caption": "The panels open to show the inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122967_Juggernaut%2022.jpg"
+ },
+ "img/p-75413-1-3.jpg": {
+  "set": "75413-1",
+  "role": "extra",
+  "caption": "Lots of big wheels.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122967_Juggernaut%2028.jpg"
+ },
+ "img/f-75413-1.jpg": {
+  "set": "75413-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002330/108353.jpg",
+    "label": "Battle Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016594/166200.jpg",
+    "label": "Commander Bacara"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016593/182002.jpg",
+    "label": "Galactic Marine"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016592/167338.jpg",
+    "label": "Ki-Adi-Mundi"
+   }
+  ]
+ },
+ "img/s-75414-1.jpg": {
+  "set": "75414-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75414-1.jpg"
+ },
+ "img/p-75414-1-1.jpg": {
+  "set": "75414-1",
+  "role": "extra",
+  "caption": "Sig Greebling and Darth Dev.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/126129_Burner%203A.jpg"
+ },
+ "img/p-75414-1-2.jpg": {
+  "set": "75414-1",
+  "role": "extra",
+  "caption": "Next to a classic white Snowspeeder.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/126129_Burner%2011.jpg"
+ },
+ "img/p-75414-1-3.jpg": {
+  "set": "75414-1",
+  "role": "extra",
+  "caption": "Two seats, back to back.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/126129_Burner%2015.jpg"
+ },
+ "img/f-75414-1.jpg": {
+  "set": "75414-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016621/163591.jpg",
+    "label": "Darth Dev"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016620/163589.jpg",
+    "label": "Sig Greebling"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016623/163593.jpg",
+    "label": "Solitus"
+   }
+  ]
+ },
+ "img/s-75415-1.jpg": {
+  "set": "75415-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75415-1.jpg"
+ },
+ "img/p-75415-1-1.jpg": {
+  "set": "75415-1",
+  "role": "extra",
+  "caption": "Printed pieces make the pattern on the mask.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121990_Kylo%204.jpg"
+ },
+ "img/p-75415-1-2.jpg": {
+  "set": "75415-1",
+  "role": "extra",
+  "caption": "Side view: lots of studs for shaping.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/121990_Kylo%206.jpg"
+ },
+ "img/s-75416-1.jpg": {
+  "set": "75416-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75416-1.jpg"
+ },
+ "img/p-75416-1-1.jpg": {
+  "set": "75416-1",
+  "role": "extra",
+  "caption": "Chopper, R2-D2 and C-3PO all fit the same scale.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120709_Chopper%206.jpg"
+ },
+ "img/p-75416-1-2.jpg": {
+  "set": "75416-1",
+  "role": "extra",
+  "caption": "Arms out, ready to cause trouble.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120709_Chopper%2010.jpg"
+ },
+ "img/p-75416-1-3.jpg": {
+  "set": "75416-1",
+  "role": "extra",
+  "caption": "Chopper rocks on his wheels.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/120709_Chopper%2021.jpg"
+ },
+ "img/f-75416-1.jpg": {
+  "set": "75416-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014294/127826.jpg",
+    "label": "Chopper"
+   }
+  ]
+ },
+ "img/s-75417-1.jpg": {
+  "set": "75417-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75417-1.jpg"
+ },
+ "img/p-75417-1-1.jpg": {
+  "set": "75417-1",
+  "role": "extra",
+  "caption": "The plaque and the AT-ST driver.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124968_Scout%205.jpg"
+ },
+ "img/p-75417-1-2.jpg": {
+  "set": "75417-1",
+  "role": "extra",
+  "caption": "Next to an older LEGO AT-ST.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124968_Scout%207.jpg"
+ },
+ "img/p-75417-1-3.jpg": {
+  "set": "75417-1",
+  "role": "extra",
+  "caption": "Inside the cockpit.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124968_Scout%2024.jpg"
+ },
+ "img/f-75417-1.jpg": {
+  "set": "75417-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016689/160057.jpg",
+    "label": "AT-ST Driver"
+   }
+  ]
+ },
+ "img/s-75419-1.jpg": {
+  "set": "75419-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75419-1.jpg"
+ },
+ "img/p-75419-1-1.jpg": {
+  "set": "75419-1",
+  "role": "extra",
+  "caption": "A tiny Imperial shuttle comes too.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124606_Star%209.jpg"
+ },
+ "img/p-75419-1-2.jpg": {
+  "set": "75419-1",
+  "role": "extra",
+  "caption": "One of the many rooms inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124606_Star%2052.jpg"
+ },
+ "img/p-75419-1-3.jpg": {
+  "set": "75419-1",
+  "role": "extra",
+  "caption": "An X-wing racing along the trench.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124606_Star%2059.jpg"
+ },
+ "img/p-75419-1-4.jpg": {
+  "set": "75419-1",
+  "role": "extra",
+  "caption": "The Emperor's throne room at the top.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/124606_Star%2067.jpg"
+ },
+ "img/f-75419-1.jpg": {
+  "set": "75419-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016911/161713.jpg",
+    "label": "5D6-RA-7"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016906/161760.jpg",
+    "label": "Admiral Motti"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-012571/161770.jpg",
+    "label": "R2-D2"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016901/161769.jpg",
+    "label": "R3-T6"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-012570/161728.jpg",
+    "label": "C-3PO"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-001714/161722.jpg",
+    "label": "Chewbacca"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016908/161740.jpg",
+    "label": "Colonel Yularen"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-013445/122068.jpg",
+    "label": "Darth Vader"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016922/161736.jpg",
+    "label": "Director Krennic"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-013742/122021.jpg",
+    "label": "Emperor Palpatine"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016924/161765.jpg",
+    "label": "Galen Erso"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016907/161754.jpg",
+    "label": "General Tagge"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016909/161757.jpg",
+    "label": "Grand Moff Tarkin"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016892/161707.jpg",
+    "label": "Han Solo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016893/161710.jpg",
+    "label": "Han Solo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016920/161693.jpg",
+    "label": "Hot Tub Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015311/161724.jpg",
+    "label": "Imperial Crew"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016897/161726.jpg",
+    "label": "Imperial Crew Member"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016916/161746.jpg",
+    "label": "Imperial Dignitary Sim Aloo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016912/161733.jpg",
+    "label": "Imperial Gunner"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016910/161730.jpg",
+    "label": "Imperial Gunner"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016900/161755.jpg",
+    "label": "Imperial Navy Officer"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016913/161749.jpg",
+    "label": "Imperial Navy Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-015313/161715.jpg",
+    "label": "Imperial Navy Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016921/161763.jpg",
+    "label": "Imperial Shuttle Pilot"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016931/161772.jpg",
+    "label": "Interrogation Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016915/161698.jpg",
+    "label": "Luke Skywalker"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016896/161704.jpg",
+    "label": "Luke Skywalker"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016923/161701.jpg",
+    "label": "Luke Skywalker"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-010442/161768.jpg",
+    "label": "Mouse droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016903/161718.jpg",
+    "label": "Obi-Wan Kenobi"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016894/161743.jpg",
+    "label": "Princess Leia Organa"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016918/161695.jpg",
+    "label": "Royal Guard"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016926/161674.jpg",
+    "label": "Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014802/161678.jpg",
+    "label": "Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016925/161680.jpg",
+    "label": "Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016899/161683.jpg",
+    "label": "Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016889/161686.jpg",
+    "label": "Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016890/161689.jpg",
+    "label": "Stormtrooper"
+   }
+  ]
+ },
+ "img/s-75420-1.jpg": {
+  "set": "75420-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75420-1.jpg"
+ },
+ "img/p-75420-1-1.jpg": {
+  "set": "75420-1",
+  "role": "extra",
+  "caption": "Driving the Landspeeder.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Demand%204.jpg"
+ },
+ "img/p-75420-1-2.jpg": {
+  "set": "75420-1",
+  "role": "extra",
+  "caption": "The SMART Brick (sold separately) slots in and lights up.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Demand%206.jpg"
+ },
+ "img/f-75420-1.jpg": {
+  "set": "75420-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017505/170198.jpg",
+    "label": "Gonk droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017504/170199.jpg",
+    "label": "Jawa"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017503/170181.jpg",
+    "label": "SMART Luke Skywalker"
+   }
+  ]
+ },
+ "img/s-75421-1.jpg": {
+  "set": "75421-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75421-1.jpg"
+ },
+ "img/f-75421-1.jpg": {
+  "set": "75421-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017459/170031.jpg",
+    "label": "SMART Darth Vader"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014209/167145.jpg",
+    "label": "Rebel Fleet Trooper"
+   }
+  ]
+ },
+ "img/s-75422-1.jpg": {
+  "set": "75422-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75422-1.jpg"
+ },
+ "img/p-75422-1-1.jpg": {
+  "set": "75422-1",
+  "role": "extra",
+  "caption": "Inside Yoda's hut: a bed and a cooking area.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130315_Training%206.jpg"
+ },
+ "img/p-75422-1-2.jpg": {
+  "set": "75422-1",
+  "role": "extra",
+  "caption": "The Force-training tower, which needs a SMART Brick to do anything clever.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130315_Training%2010.jpg"
+ },
+ "img/p-75422-1-3.jpg": {
+  "set": "75422-1",
+  "role": "extra",
+  "caption": "Yoda, R2-D2 and Luke.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130315_Training%2016.jpg"
+ },
+ "img/f-75422-1.jpg": {
+  "set": "75422-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017489/170133.jpg",
+    "label": "R2-D2"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017488/170135.jpg",
+    "label": "SMART Luke Skywalker"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017491/170131.jpg",
+    "label": "SMART Yoda"
+   }
+  ]
+ },
+ "img/s-75423-1.jpg": {
+  "set": "75423-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75423-1.jpg"
+ },
+ "img/p-75423-1-1.jpg": {
+  "set": "75423-1",
+  "role": "extra",
+  "caption": "The SMART Brick goes in behind the cockpit.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75423-1/75423_Lifestyle_cons_4.jpg"
+ },
+ "img/f-75423-1.jpg": {
+  "set": "75423-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017471/170037.jpg",
+    "label": "SMART R2-D2"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017470/170039.jpg",
+    "label": "SMART Luke Skywalker"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017468/170042.jpg",
+    "label": "SMART Princess Leia"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017472/170045.jpg",
+    "label": "Rebel Crew"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014802/161678.jpg",
+    "label": "Stormtrooper"
+   }
+  ]
+ },
+ "img/s-75424-1.jpg": {
+  "set": "75424-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75424-1.jpg"
+ },
+ "img/p-75424-1-1.jpg": {
+  "set": "75424-1",
+  "role": "extra",
+  "caption": "The AT-ST and the speeder bike.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Rash%201.jpg"
+ },
+ "img/p-75424-1-2.jpg": {
+  "set": "75424-1",
+  "role": "extra",
+  "caption": "Battle on Endor.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Rash%204.jpg"
+ },
+ "img/p-75424-1-3.jpg": {
+  "set": "75424-1",
+  "role": "extra",
+  "caption": "With a SMART Brick, the speeder bike lights up and makes sounds.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Rash%207.jpg"
+ },
+ "img/f-75424-1.jpg": {
+  "set": "75424-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017482/170191.jpg",
+    "label": "AT-ST Driver"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017520/170193.jpg",
+    "label": "Imperial Scout Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017481/170196.jpg",
+    "label": "SMART Wicket"
+   }
+  ]
+ },
+ "img/s-75425-1.jpg": {
+  "set": "75425-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75425-1.jpg"
+ },
+ "img/p-75425-1-1.jpg": {
+  "set": "75425-1",
+  "role": "extra",
+  "caption": "The cantina splits into four parts for play.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Hive%204.jpg"
+ },
+ "img/p-75425-1-2.jpg": {
+  "set": "75425-1",
+  "role": "extra",
+  "caption": "The ejector sofa sends a minifigure flying.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Hive%207.jpg"
+ },
+ "img/p-75425-1-3.jpg": {
+  "set": "75425-1",
+  "role": "extra",
+  "caption": "Obi-Wan at the bar.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Hive%208.jpg"
+ },
+ "img/f-75425-1.jpg": {
+  "set": "75425-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-004065/156676.jpg",
+    "label": "Bith Musician"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017507/170201.jpg",
+    "label": "SMART Greedo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017509/170206.jpg",
+    "label": "SMART Obi-Wan Kenobi"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017510/170203.jpg",
+    "label": "Sandtrooper"
+   }
+  ]
+ },
+ "img/s-75426-1.jpg": {
+  "set": "75426-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75426-1.jpg"
+ },
+ "img/p-75426-1-1.jpg": {
+  "set": "75426-1",
+  "role": "extra",
+  "caption": "Next to an older Millennium Falcon play set.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130151_Falcon%203.jpg"
+ },
+ "img/p-75426-1-2.jpg": {
+  "set": "75426-1",
+  "role": "extra",
+  "caption": "The roof lifts off to show the inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130151_Falcon%2010.jpg"
+ },
+ "img/p-75426-1-3.jpg": {
+  "set": "75426-1",
+  "role": "extra",
+  "caption": "SMART Luke and Han, with the printed patches on their sides.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130151_Falcon%2019.jpg"
+ },
+ "img/p-75426-1-4.jpg": {
+  "set": "75426-1",
+  "role": "extra",
+  "caption": "Swooshing the SMART Play Millennium Falcon.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/129608_Point%208.jpg"
+ },
+ "img/f-75426-1.jpg": {
+  "set": "75426-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017498/170185.jpg",
+    "label": "SMART C-3PO"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017500/170179.jpg",
+    "label": "SMART Chewbacca"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017502/170188.jpg",
+    "label": "SMART Han Solo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017503/170181.jpg",
+    "label": "SMART Luke Skywalker"
+   }
+  ]
+ },
+ "img/s-75427-1.jpg": {
+  "set": "75427-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75427-1.jpg"
+ },
+ "img/p-75427-1-1.jpg": {
+  "set": "75427-1",
+  "role": "extra",
+  "caption": "The throne room, with glowing SMART Tags.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/sets/AdditionalImages/75427-1/75427_Lifestyle_cons_5.jpg"
+ },
+ "img/f-75427-1.jpg": {
+  "set": "75427-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017459/170031.jpg",
+    "label": "SMART Darth Vader"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017461/173589.jpg",
+    "label": "SMART Emperor Palpatine"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017457/173593.jpg",
+    "label": "SMART Luke Skywalker"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017465/170137.jpg",
+    "label": "A-wing pilot"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017463/173596.jpg",
+    "label": "Royal Guard"
+   }
+  ]
+ },
+ "img/s-75428-1.jpg": {
+  "set": "75428-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75428-1.jpg"
+ },
+ "img/p-75428-1-1.jpg": {
+  "set": "75428-1",
+  "role": "extra",
+  "caption": "A minifigure-sized droid on a mini STAP.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122018_STAP%204.jpg"
+ },
+ "img/p-75428-1-2.jpg": {
+  "set": "75428-1",
+  "role": "extra",
+  "caption": "The stand and plaque.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122018_STAP%207.jpg"
+ },
+ "img/p-75428-1-3.jpg": {
+  "set": "75428-1",
+  "role": "extra",
+  "caption": "The big droid can also stand on its own.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122018_STAP%2024.jpg"
+ },
+ "img/f-75428-1.jpg": {
+  "set": "75428-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-003512/158617.jpg",
+    "label": "Battle Droid"
+   }
+  ]
+ },
+ "img/s-75429-1.jpg": {
+  "set": "75429-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75429-1.jpg"
+ },
+ "img/p-75429-1-1.jpg": {
+  "set": "75429-1",
+  "role": "extra",
+  "caption": "Colourful pieces inside the helmet.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/118462_Driver%204.jpg"
+ },
+ "img/p-75429-1-2.jpg": {
+  "set": "75429-1",
+  "role": "extra",
+  "caption": "The face up close.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/118462_Driver%206.jpg"
+ },
+ "img/p-75429-1-3.jpg": {
+  "set": "75429-1",
+  "role": "extra",
+  "caption": "Next to the TIE pilot and stormtrooper helmets.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/118462_Driver%2011.jpg"
+ },
+ "img/s-75430-1.jpg": {
+  "set": "75430-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75430-1.jpg"
+ },
+ "img/p-75430-1-1.jpg": {
+  "set": "75430-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of Wicket.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/122845_Yub%203.jpg"
+ },
+ "img/p-75430-1-2.jpg": {
+  "set": "75430-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of Wicket.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/122845_Yub%205.jpg"
+ },
+ "img/f-75430-1.jpg": {
+  "set": "75430-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016714/182455.jpg",
+    "label": "Wicket"
+   }
+  ]
+ },
+ "img/s-75431-1.jpg": {
+  "set": "75431-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75431-1.jpg"
+ },
+ "img/p-75431-1-1.jpg": {
+  "set": "75431-1",
+  "role": "extra",
+  "caption": "327th Star Corps Clone Troopers, in yellow.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122900_Corps%202.jpg"
+ },
+ "img/p-75431-1-2.jpg": {
+  "set": "75431-1",
+  "role": "extra",
+  "caption": "Super Battle Droids.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122900_Corps%205.jpg"
+ },
+ "img/p-75431-1-3.jpg": {
+  "set": "75431-1",
+  "role": "extra",
+  "caption": "An AT-RT walker with its clone driver.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122900_Corps%2012.jpg"
+ },
+ "img/p-75431-1-4.jpg": {
+  "set": "75431-1",
+  "role": "extra",
+  "caption": "The Dwarf Spider Droid.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122900_Corps%2015.jpg"
+ },
+ "img/f-75431-1.jpg": {
+  "set": "75431-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016588/182001.jpg",
+    "label": "327th Clone Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016587/160196.jpg",
+    "label": "327th Clone Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014665/146166.jpg",
+    "label": "Super Battle Droid"
+   }
+  ]
+ },
+ "img/s-75432-1.jpg": {
+  "set": "75432-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75432-1.jpg"
+ },
+ "img/p-75432-1-1.jpg": {
+  "set": "75432-1",
+  "role": "extra",
+  "caption": "Obi-Wan Kenobi and a clone pilot.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/123301_Torrent%205.jpg"
+ },
+ "img/p-75432-1-2.jpg": {
+  "set": "75432-1",
+  "role": "extra",
+  "caption": "Asajj Ventress, back after ten years.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/123301_Torrent%207.jpg"
+ },
+ "img/p-75432-1-3.jpg": {
+  "set": "75432-1",
+  "role": "extra",
+  "caption": "Wings up, ready to fly around the room.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/123301_Torrent%2012.jpg"
+ },
+ "img/f-75432-1.jpg": {
+  "set": "75432-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016607/161008.jpg",
+    "label": "Asajj Ventress"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016606/170066.jpg",
+    "label": "Clone Pilot"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016605/161010.jpg",
+    "label": "Obi-Wan Kenobi"
+   }
+  ]
+ },
+ "img/s-75433-1.jpg": {
+  "set": "75433-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75433-1.jpg"
+ },
+ "img/p-75433-1-1.jpg": {
+  "set": "75433-1",
+  "role": "extra",
+  "caption": "Jango Fett and young Boba Fett.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/123751_Fett%204.jpg"
+ },
+ "img/p-75433-1-2.jpg": {
+  "set": "75433-1",
+  "role": "extra",
+  "caption": "Lama Su, the Kaminoan.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/123751_Fett%206.jpg"
+ },
+ "img/p-75433-1-3.jpg": {
+  "set": "75433-1",
+  "role": "extra",
+  "caption": "Next to the Boba Fett's Starship set from 2021.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/123751_Fett%209.jpg"
+ },
+ "img/f-75433-1.jpg": {
+  "set": "75433-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016249/156383.jpg",
+    "label": "Young Boba Fett"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017888/182004.jpg",
+    "label": "Jango Fett"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016669/166717.jpg",
+    "label": "Lama Su"
+   }
+  ]
+ },
+ "img/s-75434-1.jpg": {
+  "set": "75434-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75434-1.jpg"
+ },
+ "img/p-75434-1-1.jpg": {
+  "set": "75434-1",
+  "role": "extra",
+  "caption": "The plaque and the K-2SO minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/117938_Kay%205.jpg"
+ },
+ "img/p-75434-1-2.jpg": {
+  "set": "75434-1",
+  "role": "extra",
+  "caption": "Long, thin legs, built strong enough to stand.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/117938_Kay%2019.jpg"
+ },
+ "img/p-75434-1-3.jpg": {
+  "set": "75434-1",
+  "role": "extra",
+  "caption": "The finished droid.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/117938_Kay%2021.jpg"
+ },
+ "img/f-75434-1.jpg": {
+  "set": "75434-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016241/160109.jpg",
+    "label": "K-2SO"
+   }
+  ]
+ },
+ "img/s-75435-1.jpg": {
+  "set": "75435-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75435-1.jpg"
+ },
+ "img/p-75435-1-1.jpg": {
+  "set": "75435-1",
+  "role": "extra",
+  "caption": "Aayla Secura.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122862_Felucia%204.jpg"
+ },
+ "img/p-75435-1-2.jpg": {
+  "set": "75435-1",
+  "role": "extra",
+  "caption": "Commander Bly.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122862_Felucia%207.jpg"
+ },
+ "img/p-75435-1-3.jpg": {
+  "set": "75435-1",
+  "role": "extra",
+  "caption": "The droid rack slides out.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122862_Felucia%2018.jpg"
+ },
+ "img/p-75435-1-4.jpg": {
+  "set": "75435-1",
+  "role": "extra",
+  "caption": "Inside the MTT.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/122862_Felucia%2027.jpg"
+ },
+ "img/f-75435-1.jpg": {
+  "set": "75435-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016602/168570.jpg",
+    "label": "Aayla Secura"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-002330/108353.jpg",
+    "label": "Battle Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016601/160777.jpg",
+    "label": "Clone Commander Bly"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016603/162118.jpg",
+    "label": "Commando Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014965/140902.jpg",
+    "label": "Pilot Battle Droid"
+   }
+  ]
+ },
+ "img/s-75436-1.jpg": {
+  "set": "75436-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75436-1.jpg"
+ },
+ "img/p-75436-1-1.jpg": {
+  "set": "75436-1",
+  "role": "extra",
+  "caption": "The Mandalorian with his helmet off.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/128783_Mandalorian%204.jpg"
+ },
+ "img/p-75436-1-2.jpg": {
+  "set": "75436-1",
+  "role": "extra",
+  "caption": "Grogu.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/128783_Mandalorian%205.jpg"
+ },
+ "img/p-75436-1-3.jpg": {
+  "set": "75436-1",
+  "role": "extra",
+  "caption": "Grogu rides in a satchel on the side.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/128783_Mandalorian%2011.jpg"
+ },
+ "img/f-75436-1.jpg": {
+  "set": "75436-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-010525/75011.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017161/166306.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75437-1.jpg": {
+  "set": "75437-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75437-1.jpg"
+ },
+ "img/p-75437-1-1.jpg": {
+  "set": "75437-1",
+  "role": "extra",
+  "caption": "Cobb Vanth in Boba Fett's old armour.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127787_Vanth%203.jpg"
+ },
+ "img/p-75437-1-2.jpg": {
+  "set": "75437-1",
+  "role": "extra",
+  "caption": "Cad Bane.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127787_Vanth%206.jpg"
+ },
+ "img/p-75437-1-3.jpg": {
+  "set": "75437-1",
+  "role": "extra",
+  "caption": "A storage compartment inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127787_Vanth%2012A.jpg"
+ },
+ "img/f-75437-1.jpg": {
+  "set": "75437-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017324/166345.jpg",
+    "label": "Cad Bane"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017323/166346.jpg",
+    "label": "Cobb Vanth"
+   }
+  ]
+ },
+ "img/s-75438-1.jpg": {
+  "set": "75438-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75438-1.jpg"
+ },
+ "img/p-75438-1-1.jpg": {
+  "set": "75438-1",
+  "role": "extra",
+  "caption": "The Yoda minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/132074_Yoda%202.jpg"
+ },
+ "img/p-75438-1-2.jpg": {
+  "set": "75438-1",
+  "role": "extra",
+  "caption": "Yoda next to the Darth Vader Bust.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/132074_Yoda%208.jpg"
+ },
+ "img/p-75438-1-3.jpg": {
+  "set": "75438-1",
+  "role": "extra",
+  "caption": "The face, up close: see the straight lines round the eyes.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/132074_Yoda%2013.jpg"
+ },
+ "img/f-75438-1.jpg": {
+  "set": "75438-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014192/143864.jpg",
+    "label": "Yoda"
+   }
+  ]
+ },
+ "img/s-75439-1.jpg": {
+  "set": "75439-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75439-1.jpg"
+ },
+ "img/p-75439-1-1.jpg": {
+  "set": "75439-1",
+  "role": "extra",
+  "caption": "The Darth Vader minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131264_Darth%202.jpg"
+ },
+ "img/p-75439-1-2.jpg": {
+  "set": "75439-1",
+  "role": "extra",
+  "caption": "The mask, up close.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131264_Darth%2012.jpg"
+ },
+ "img/f-75439-1.jpg": {
+  "set": "75439-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014190/127922.jpg",
+    "label": "Darth Vader"
+   }
+  ]
+ },
+ "img/s-75440-1.jpg": {
+  "set": "75440-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75440-1.jpg"
+ },
+ "img/p-75440-1-1.jpg": {
+  "set": "75440-1",
+  "role": "extra",
+  "caption": "The tiny Snowspeeder wraps its tow cable round the legs.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/129054_AT-AT%204.jpg"
+ },
+ "img/p-75440-1-2.jpg": {
+  "set": "75440-1",
+  "role": "extra",
+  "caption": "Inside: tiny brick snowtroopers waiting to jump out.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/129054_AT-AT%2013.jpg"
+ },
+ "img/s-75441-1.jpg": {
+  "set": "75441-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75441-1.jpg"
+ },
+ "img/p-75441-1-1.jpg": {
+  "set": "75441-1",
+  "role": "extra",
+  "caption": "Next to the Invisible Hand, built to the same scale.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127788_Class%203.jpg"
+ },
+ "img/p-75441-1-2.jpg": {
+  "set": "75441-1",
+  "role": "extra",
+  "caption": "Tiny crew made from round pieces.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127788_Class%2010.jpg"
+ },
+ "img/p-75441-1-3.jpg": {
+  "set": "75441-1",
+  "role": "extra",
+  "caption": "The engines.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127788_Class%2017.jpg"
+ },
+ "img/s-75442-1.jpg": {
+  "set": "75442-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75442-1.jpg"
+ },
+ "img/p-75442-1-1.jpg": {
+  "set": "75442-1",
+  "role": "extra",
+  "caption": "The Mandalorian minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131142_Theed%205.jpg"
+ },
+ "img/p-75442-1-2.jpg": {
+  "set": "75442-1",
+  "role": "extra",
+  "caption": "The display stand.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131142_Theed%2012.jpg"
+ },
+ "img/p-75442-1-3.jpg": {
+  "set": "75442-1",
+  "role": "extra",
+  "caption": "Grogu rides behind the cockpit.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131142_Theed%2035.jpg"
+ },
+ "img/f-75442-1.jpg": {
+  "set": "75442-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017554/179286.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017573/180055.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75443-1.jpg": {
+  "set": "75443-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75443-1.jpg"
+ },
+ "img/p-75443-1-1.jpg": {
+  "set": "75443-1",
+  "role": "extra",
+  "caption": "The box.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/127525_Grogu.jpg"
+ },
+ "img/s-75444-1.jpg": {
+  "set": "75444-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75444-1.jpg"
+ },
+ "img/p-75444-1-1.jpg": {
+  "set": "75444-1",
+  "role": "extra",
+  "caption": "Grogu.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131087_AT-RT%206.jpg"
+ },
+ "img/p-75444-1-2.jpg": {
+  "set": "75444-1",
+  "role": "extra",
+  "caption": "The Imperial Remnant AT-RT driver.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131087_AT-RT%208.jpg"
+ },
+ "img/p-75444-1-3.jpg": {
+  "set": "75444-1",
+  "role": "extra",
+  "caption": "The defence tower and its turret.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131087_AT-RT%2017.jpg"
+ },
+ "img/f-75444-1.jpg": {
+  "set": "75444-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017554/179286.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017571/176703.jpg",
+    "label": "Imperial Remnant AT-RT Driver"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017568/174318.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75445-1.jpg": {
+  "set": "75445-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75445-1.jpg"
+ },
+ "img/p-75445-1-1.jpg": {
+  "set": "75445-1",
+  "role": "extra",
+  "caption": "Two Anzellans. They really are tiny.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131010_Anzellan%205.jpg"
+ },
+ "img/p-75445-1-2.jpg": {
+  "set": "75445-1",
+  "role": "extra",
+  "caption": "Panels open up for play.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131010_Anzellan%2010.jpg"
+ },
+ "img/p-75445-1-3.jpg": {
+  "set": "75445-1",
+  "role": "extra",
+  "caption": "Inside the starship.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131010_Anzellan%2014.jpg"
+ },
+ "img/f-75445-1.jpg": {
+  "set": "75445-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017552/179289.jpg",
+    "label": "Grogu"
+   }
+  ]
+ },
+ "img/s-75446-1.jpg": {
+  "set": "75446-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75446-1.jpg"
+ },
+ "img/p-75446-1-1.jpg": {
+  "set": "75446-1",
+  "role": "extra",
+  "caption": "The little Grogu figure that comes with it.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131237_Grogu%203.jpg"
+ },
+ "img/p-75446-1-2.jpg": {
+  "set": "75446-1",
+  "role": "extra",
+  "caption": "Next to the 2020 version, The Child.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131237_Grogu%208.jpg"
+ },
+ "img/p-75446-1-3.jpg": {
+  "set": "75446-1",
+  "role": "extra",
+  "caption": "The Technic skeleton inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131237_Grogu%2019.jpg"
+ },
+ "img/f-75446-1.jpg": {
+  "set": "75446-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017552/179289.jpg",
+    "label": "Grogu"
+   }
+  ]
+ },
+ "img/s-75447-1.jpg": {
+  "set": "75447-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75447-1.jpg"
+ },
+ "img/p-75447-1-1.jpg": {
+  "set": "75447-1",
+  "role": "extra",
+  "caption": "The Mandalorian with his helmet off.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130720_Razor%204.jpg"
+ },
+ "img/p-75447-1-2.jpg": {
+  "set": "75447-1",
+  "role": "extra",
+  "caption": "Zeb Orrelios.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130720_Razor%207.jpg"
+ },
+ "img/p-75447-1-3.jpg": {
+  "set": "75447-1",
+  "role": "extra",
+  "caption": "The cockpit.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130720_Razor%2022.jpg"
+ },
+ "img/p-75447-1-4.jpg": {
+  "set": "75447-1",
+  "role": "extra",
+  "caption": "The hold opens up, but there isn't much inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/130720_Razor%2026B.jpg"
+ },
+ "img/f-75447-1.jpg": {
+  "set": "75447-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017569/174314.jpg",
+    "label": "Colonel Ward"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017570/174315.jpg",
+    "label": "Garazeb (Zeb) Orrelios"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017552/179289.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017567/174317.jpg",
+    "label": "Imperial Remnant Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017568/174318.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75448-1.jpg": {
+  "set": "75448-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75448-1.jpg"
+ },
+ "img/p-75448-1-1.jpg": {
+  "set": "75448-1",
+  "role": "extra",
+  "caption": "The Clone Shock Trooper.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/129938_Shock%202.jpg"
+ },
+ "img/p-75448-1-2.jpg": {
+  "set": "75448-1",
+  "role": "extra",
+  "caption": "The trooper climbs inside.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/129938_Shock%208.jpg"
+ },
+ "img/p-75448-1-3.jpg": {
+  "set": "75448-1",
+  "role": "extra",
+  "caption": "Ready to fire.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/129938_Shock%201.jpg"
+ },
+ "img/f-75448-1.jpg": {
+  "set": "75448-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014307/127891.jpg",
+    "label": "Clone Trooper"
+   }
+  ]
+ },
+ "img/s-75449-1.jpg": {
+  "set": "75449-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75449-1.jpg"
+ },
+ "img/p-75449-1-1.jpg": {
+  "set": "75449-1",
+  "role": "extra",
+  "caption": "Mandalorian Super Commandos.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127971_Siege%202.jpg"
+ },
+ "img/p-75449-1-2.jpg": {
+  "set": "75449-1",
+  "role": "extra",
+  "caption": "Clone Troopers from the 332nd.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127971_Siege%207.jpg"
+ },
+ "img/p-75449-1-3.jpg": {
+  "set": "75449-1",
+  "role": "extra",
+  "caption": "The speeder.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/127971_Siege%2014.jpg"
+ },
+ "img/f-75449-1.jpg": {
+  "set": "75449-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-014194/181999.jpg",
+    "label": "Clone Trooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017326/166348.jpg",
+    "label": "Mandalorian Super Commando"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017325/166347.jpg",
+    "label": "Mandalorian Super Commando"
+   }
+  ]
+ },
+ "img/s-75451-1.jpg": {
+  "set": "75451-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75451-1.jpg"
+ },
+ "img/p-75451-1-1.jpg": {
+  "set": "75451-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of the set.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131526_Embo%202.jpg"
+ },
+ "img/p-75451-1-2.jpg": {
+  "set": "75451-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of the set.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131526_Embo%203.jpg"
+ },
+ "img/f-75451-1.jpg": {
+  "set": "75451-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018027/179777.jpg",
+    "label": "Embo"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017552/179289.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017568/174318.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75452-1.jpg": {
+  "set": "75452-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75452-1.jpg"
+ },
+ "img/p-75452-1-1.jpg": {
+  "set": "75452-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of BB-8.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/127474_BB%203.jpg"
+ },
+ "img/p-75452-1-2.jpg": {
+  "set": "75452-1",
+  "role": "extra",
+  "caption": "Another official LEGO picture of BB-8.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/127474_BB%205.jpg"
+ },
+ "img/f-75452-1.jpg": {
+  "set": "75452-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017261/178477.jpg",
+    "label": "BB-8"
+   }
+  ]
+ },
+ "img/s-75453-1.jpg": {
+  "set": "75453-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75453-1.jpg"
+ },
+ "img/p-75453-1-1.jpg": {
+  "set": "75453-1",
+  "role": "extra",
+  "caption": "The Mandalorian, Grogu and Kuiil.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132126_Track%206.jpg"
+ },
+ "img/p-75453-1-2.jpg": {
+  "set": "75453-1",
+  "role": "extra",
+  "caption": "Inside the Sandcrawler.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132126_Track%207.jpg"
+ },
+ "img/p-75453-1-3.jpg": {
+  "set": "75453-1",
+  "role": "extra",
+  "caption": "Building the Sandcrawler.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132126_Track%209.jpg"
+ },
+ "img/p-75453-1-4.jpg": {
+  "set": "75453-1",
+  "role": "extra",
+  "caption": "Three Jawas.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132126_Track%2014.jpg"
+ },
+ "img/f-75453-1.jpg": {
+  "set": "75453-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018039/182558.jpg",
+    "label": "Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017554/179286.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018036/180463.jpg",
+    "label": "Jawa"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018037/179770.jpg",
+    "label": "Jawa"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018038/179769.jpg",
+    "label": "Jawa"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018034/179767.jpg",
+    "label": "Kuiil"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018035/179702.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75454-1.jpg": {
+  "set": "75454-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75454-1.jpg"
+ },
+ "img/p-75454-1-1.jpg": {
+  "set": "75454-1",
+  "role": "extra",
+  "caption": "Building the AT-AT.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132125_Early%204.jpg"
+ },
+ "img/p-75454-1-2.jpg": {
+  "set": "75454-1",
+  "role": "extra",
+  "caption": "The side opens up.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132125_Early%206.jpg"
+ },
+ "img/p-75454-1-3.jpg": {
+  "set": "75454-1",
+  "role": "extra",
+  "caption": "The INT-4 starfighter.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132125_Early%208.jpg"
+ },
+ "img/p-75454-1-4.jpg": {
+  "set": "75454-1",
+  "role": "extra",
+  "caption": "Commander Barro and an AT-AT driver.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/132125_Early%2010.jpg"
+ },
+ "img/f-75454-1.jpg": {
+  "set": "75454-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018033/181891.jpg",
+    "label": "AT-AT Driver"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017554/179286.jpg",
+    "label": "Grogu"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018031/181889.jpg",
+    "label": "Imperial Remnant Snowtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018032/181890.jpg",
+    "label": "Imperial Remnant Snowtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018028/181887.jpg",
+    "label": "Imperial Remnant Warlord"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018030/181888.jpg",
+    "label": "Snowtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017568/174318.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75455-1.jpg": {
+  "set": "75455-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75455-1.jpg"
+ },
+ "img/p-75455-1-1.jpg": {
+  "set": "75455-1",
+  "role": "extra",
+  "caption": "The plaque and the Boba Fett minifigure.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/133668_Fett%206.jpg"
+ },
+ "img/p-75455-1-2.jpg": {
+  "set": "75455-1",
+  "role": "extra",
+  "caption": "Posed with his blaster.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/133668_Fett%2017.jpg"
+ },
+ "img/p-75455-1-3.jpg": {
+  "set": "75455-1",
+  "role": "extra",
+  "caption": "The jetpack on his back.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/133668_Fett%2022.jpg"
+ },
+ "img/f-75455-1.jpg": {
+  "set": "75455-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017977/182201.jpg",
+    "label": "Boba Fett"
+   }
+  ]
+ },
+ "img/s-75456-1.jpg": {
+  "set": "75456-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75456-1.jpg"
+ },
+ "img/f-75456-1.jpg": {
+  "set": "75456-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017539/180465.jpg",
+    "label": "Carson Teva"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018128/180539.jpg",
+    "label": "Din Djarin (festive jumper)"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018126/180542.jpg",
+    "label": "Festive Pit Droid"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018125/180534.jpg",
+    "label": "Grogu (festive jumper)"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018124/180531.jpg",
+    "label": "IG-11"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018036/180463.jpg",
+    "label": "Jawa"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018127/180536.jpg",
+    "label": "Moff Gideon (festive jumper)"
+   }
+  ]
+ },
+ "img/s-75457-1.jpg": {
+  "set": "75457-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75457-1.jpg"
+ },
+ "img/p-75457-1-1.jpg": {
+  "set": "75457-1",
+  "role": "extra",
+  "caption": "Bounty hunters Dengar and IG-88.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/134514_Executor%209.jpg"
+ },
+ "img/p-75457-1-2.jpg": {
+  "set": "75457-1",
+  "role": "extra",
+  "caption": "More bounty hunters.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/134514_Executor%2013.jpg"
+ },
+ "img/p-75457-1-3.jpg": {
+  "set": "75457-1",
+  "role": "extra",
+  "caption": "The minifigure scene: bounty hunters on the Executor's bridge.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/134514_Executor%2016.jpg"
+ },
+ "img/p-75457-1-4.jpg": {
+  "set": "75457-1",
+  "role": "extra",
+  "caption": "Side on. It is over 1.3 metres long.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/134514_Executor%2020.jpg"
+ },
+ "img/f-75457-1.jpg": {
+  "set": "75457-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-018188/182601.jpg",
+    "label": "Bossk"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-013445/122068.jpg",
+    "label": "Darth Vader"
+   }
+  ]
+ },
+ "img/s-75458-1.jpg": {
+  "set": "75458-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75458-1.jpg"
+ },
+ "img/p-75458-1-1.jpg": {
+  "set": "75458-1",
+  "role": "extra",
+  "caption": "Next to the AT-AT Driver Helmet.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/133012_Remnant%203.jpg"
+ },
+ "img/p-75458-1-2.jpg": {
+  "set": "75458-1",
+  "role": "extra",
+  "caption": "Inside the helmet.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/133012_Remnant%207.jpg"
+ },
+ "img/s-75459-1.jpg": {
+  "set": "75459-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75459-1.jpg"
+ },
+ "img/p-75459-1-1.jpg": {
+  "set": "75459-1",
+  "role": "extra",
+  "caption": "Building the shuttle.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131598_Daemon%2010.jpg"
+ },
+ "img/p-75459-1-2.jpg": {
+  "set": "75459-1",
+  "role": "extra",
+  "caption": "Dr Pershing.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131598_Daemon%2013.jpg"
+ },
+ "img/p-75459-1-3.jpg": {
+  "set": "75459-1",
+  "role": "extra",
+  "caption": "Moff Gideon.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131598_Daemon%2014.jpg"
+ },
+ "img/f-75459-1.jpg": {
+  "set": "75459-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-016926/161674.jpg",
+    "label": "Stormtrooper"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017573/180055.jpg",
+    "label": "The Mandalorian"
+   }
+  ]
+ },
+ "img/s-75460-1.jpg": {
+  "set": "75460-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75460-1.jpg"
+ },
+ "img/p-75460-1-1.jpg": {
+  "set": "75460-1",
+  "role": "extra",
+  "caption": "Carson Teva and Colonel Ward.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131200_New%203.jpg"
+ },
+ "img/p-75460-1-2.jpg": {
+  "set": "75460-1",
+  "role": "extra",
+  "caption": "The New Republic astromech droid.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131200_New%206A.jpg"
+ },
+ "img/p-75460-1-3.jpg": {
+  "set": "75460-1",
+  "role": "extra",
+  "caption": "Next to 75301 Luke Skywalker's X-wing Fighter.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131200_New%208.jpg"
+ },
+ "img/p-75460-1-4.jpg": {
+  "set": "75460-1",
+  "role": "extra",
+  "caption": "The cockpit.",
+  "credit": "Photo: Brickset, used with permission",
+  "source": "https://images.brickset.com/news/131200_New%2014.jpg"
+ },
+ "img/f-75460-1.jpg": {
+  "set": "75460-1",
+  "role": "figs",
+  "credit": "Minifigure images: Rebrickable, used with permission",
+  "composite": [
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017540/182717.jpg",
+    "label": "New Republic astromech"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017539/180465.jpg",
+    "label": "Carson Teva"
+   },
+   {
+    "src": "https://cdn.rebrickable.com/media/sets/fig-017538/180056.jpg",
+    "label": "Colonel Ward"
+   }
+  ]
+ },
+ "img/s-75461-1.jpg": {
+  "set": "75461-1",
+  "role": "main",
+  "credit": "Image: The LEGO Group, used with permission",
+  "source": "https://images.brickset.com/sets/large/75461-1.jpg"
+ },
+ "img/p-75461-1-1.jpg": {
+  "set": "75461-1",
+  "role": "extra",
+  "caption": "It's about 28 centimetres tall.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131538_Vent%2013.jpg"
+ },
+ "img/p-75461-1-2.jpg": {
+  "set": "75461-1",
+  "role": "extra",
+  "caption": "The face, up close.",
+  "credit": "Image: The LEGO Group (via Brickset), used with permission",
+  "source": "https://images.brickset.com/news/131538_Vent%2014.jpg"
+ }
+}

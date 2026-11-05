@@ -1,0 +1,118 @@
+{
+  "title": "Stud Wars",
+  "subtitle": "Every LEGO® Star Wars™ set on sale right now, rated brick by brick",
+  "series": "The unofficial brick guide",
+  "publisher": "Stud Wars",
+  "fan_line": "An unofficial LEGO® Star Wars™ fan guide, made for one family. Not for sale.",
+  "disclaimer": "LEGO® is a trademark of the LEGO Group, which does not sponsor, authorise or endorse this book. Star Wars™ and related names are trademarks of Lucasfilm Ltd. Product images are © The LEGO Group and used with permission; review photos are © Brickset and used with permission; minifigure images come from Rebrickable.",
+  "date": "2026-11-05",
+  "version_note": "Covers the 74 LEGO Star Wars sets that Brickset lists as on sale on 5 November 2026. Facts checked against Brickset's set database and reviews that day.",
+  "description": "An unofficial fan guide to every LEGO Star Wars set on sale in November 2026, with pros and cons, ratings, hundreds of photos and plenty of new words.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Some come from engineering, some from money and shops, some from films and some from science. A true Jedi of words can use three of them in one sentence. Try it.",
+  "colour": true,
+  "kindle_only": true,
+  "chapters": [
+    {
+      "file": "00-before-you-build.html",
+      "title": "Before You Build",
+      "kicker": "How this book works",
+      "toc": "Ratings, prices and the small print",
+      "label": "Start here",
+      "dek": "Seventy-four sets, five bricks, one honest opinion each. Here's how to read the ratings, the prices and the pros and cons."
+    },
+    {
+      "file": "01-smart-play.html",
+      "title": "The Brick That Talks Back",
+      "kicker": "SMART Play",
+      "toc": "The new SMART Play sets",
+      "number": 1,
+      "dek": "LEGO's biggest new idea in decades: a brick with a speaker, lights and sensors inside. Australia was one of only six countries to get it first. Is it any good?"
+    },
+    {
+      "file": "02-mando-and-grogu.html",
+      "title": "This Is the Way",
+      "kicker": "The Mandalorian and Grogu",
+      "toc": "Mando, Grogu and the movie sets",
+      "number": 2,
+      "dek": "A new film means a whole galaxy of new sets, from a tiny paper-bag Razor Crest to a 1,683-piece Sandcrawler."
+    },
+    {
+      "file": "03-clone-wars.html",
+      "title": "Send in the Clones",
+      "kicker": "The Clone Wars and Battle Packs",
+      "toc": "Clones, droids and army builders",
+      "number": 3,
+      "dek": "Clone Troopers, Battle Droids, walkers and a very wobbly tank. Plus the big question: why do Battle Packs cost so much more than they used to?"
+    },
+    {
+      "file": "04-ships-to-swoosh.html",
+      "title": "Ships to Swoosh",
+      "kicker": "Starships for playing",
+      "toc": "Starfighters and starships",
+      "number": 4,
+      "dek": "Sets built to be flown around the room at top speed, making engine noises with your mouth. (Everyone does it.)"
+    },
+    {
+      "file": "05-droids-and-heroes.html",
+      "title": "Big Heads, Bigger Droids",
+      "kicker": "Brick-built characters",
+      "toc": "Droids, busts and giant figures",
+      "number": 5,
+      "dek": "R2-D2, C-3PO, Chopper, K-2SO, BB-8, a giant Darth Vader and a Battle Droid on a flying scooter: the characters you build instead of the vehicles."
+    },
+    {
+      "file": "06-shelf-stars.html",
+      "title": "Shelf Stars",
+      "kicker": "Helmets and display models",
+      "toc": "Helmets, mini starships and the logo",
+      "number": 6,
+      "dek": "Models made for looking at, not playing with. Most say 18+ on the box, but that's about who they're for, not a rule."
+    },
+    {
+      "file": "07-dream-shelf.html",
+      "title": "The Dream Shelf",
+      "kicker": "Ultimate Collector Series",
+      "toc": "The giant UCS sets",
+      "number": 7,
+      "dek": "The biggest, most detailed and most expensive LEGO Star Wars sets of all. This is a chapter for dreaming, not shopping."
+    },
+    {
+      "file": "08-festive-force.html",
+      "title": "The Festive Force",
+      "kicker": "Seasonal sets",
+      "toc": "The Advent Calendar and a gingerbread walker",
+      "number": 8,
+      "dek": "It's November, so the Christmas sets are here: an Advent Calendar and an AT-AT made of (LEGO) gingerbread."
+    },
+    {
+      "file": "09-awards.html",
+      "title": "The Stud Wars Awards",
+      "kicker": "Winners, losers and numbers",
+      "toc": "Best sets, charts and a set-finder",
+      "number": 9,
+      "dek": "Best value, best minifigures, biggest, priciest and most disappointing, plus a flowchart to find the right set for you."
+    },
+    {
+      "file": "10-quiz.html",
+      "title": "The Jedi Trials",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Fifteen questions. Get twelve right and you're a Jedi Master of bricks."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Word Holocron",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "11-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}

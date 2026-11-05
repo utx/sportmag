@@ -77,11 +77,24 @@ content in the magazines):
   LEGO Group's permission to use them without limit. Credit each one in photos.json as
   `{"credit": "Image: The LEGO Group, used with permission"}`.
 - **Fan-site photos: OK from these named sites only**, where the publisher has permission:
-  Brickset, Brick Fanatics. Credit the site and, where shown, the photographer, e.g.
-  `{"credit": "Photo: Brick Fanatics, used with permission"}`.
+  Brickset, Brick Fanatics, Rebrickable (minifigure images; the publisher supplied an API key,
+  which lives outside the repo and must never be committed). Credit the site and, where shown,
+  the photographer, e.g. `{"credit": "Photo: Brick Fanatics, used with permission"}`.
   To add another site, the publisher names it here first. Photos from sites that are not
   listed, and other random photos found on the web, are not covered.
 - Keep the source URL of every downloaded image in photos.json so credits can be checked.
+
+## Mechanics
+
+- The first book is `books/stud-wars/` ("Stud Wars"). It is **Kindle only**: `"kindle_only": true` in
+  book.json keeps the EPUB in `build/out/book/stud-wars/` (never docs/), and its photos stay out of
+  the public repo (`books/stud-wars/img/` is git-ignored). `build/book.sh stud-wars --kindle`
+  re-downloads them from the source URLs in photos.json (`build/book_fetch.py`), then builds.
+- Set facts live in `books/stud-wars/sets.json` (from Brickset); each review is a
+  `<set id="75460-1" rating=".." play=".." display=".." value="..">` block, and the builder adds the
+  photo, rating card, facts table, extra photos and minifigure strip from photos.json.
+- LEGO.com blocks automated access; use Brickset's public pages (set lists, set pages, reviews,
+  news) and images.brickset.com. Don't try to get round blocked endpoints.
 
 ## Brief
 

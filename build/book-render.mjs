@@ -67,8 +67,11 @@ if (!KINDLE) {
   const kdir = path.join(OUT, "kindle");
   fs.rmSync(kdir, { recursive: true, force: true });
   fs.mkdirSync(path.join(kdir, "src"), { recursive: true });
+  // kindle_only books are built into build/out; public ones into docs/books
+  const privateEpub = path.join(OUT, `${slug}.epub`);
+  const epubPath = fs.existsSync(privateEpub) ? privateEpub : path.join(ROOT, "docs", "books", slug, `${slug}.epub`);
   execFileSync("python3", ["-I", "-c", `import zipfile,sys; zipfile.ZipFile(sys.argv[1]).extractall(sys.argv[2])`,
-    path.join(ROOT, "docs", "books", slug, `${slug}.epub`), path.join(kdir, "src")]);
+    epubPath, path.join(kdir, "src")]);
   const opf = fs.readFileSync(path.join(kdir, "src", "OEBPS", "content.opf"), "utf8");
   const files = [...opf.matchAll(/href="([\w.-]+\.xhtml)"/g)].map((m) => m[1]).filter((f) => f !== "nav.xhtml");
   const ctx = await browser.newContext({ viewport: { width: 540, height: 720 }, deviceScaleFactor: 1 });
