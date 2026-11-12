@@ -1,0 +1,94 @@
+<div class="g g-opener" id="g-open-03" data-alt=""><div class="opener"><img class="opener__bg" src="img/v-chest-rises.jpg" alt="" style="object-position:50% 50%"/><div class="opener__shade"></div><div class="opener__num">Chapter 3</div><div class="opener__word">At least one</div></div></div><!--/g-->
+
+<p>Here's a question that sounds easy and isn't.</p>
+
+<p>The chance of a Gizmo is 1 in 127. So if you open <b>127 chests</b>, are you certain to get one?</p>
+
+<p>Most people say yes. It feels obvious: 127 tries at a 1-in-127 prize. But think about a dice. The chance of a six is 1 in 6. If you roll six times, are you <i>certain</i> to get a six? Of course not. You've rolled six times without a six before, probably during a board game, probably while groaning.</p>
+
+<p>So what <i>is</i> the chance? To find out, we need a trick that was worked out in France in the year 1654.</p>
+
+<h2>The gambler and the two geniuses</h2>
+
+<p>Antoine Gombaud was a French writer who called himself the Chevalier de M&#233;r&#233;, and he liked to gamble with dice. He had a favourite bet: that he could roll <b>at least one six in four rolls</b> of a dice. He won this bet a little more often than he lost it, and it made him money.</p>
+
+<p>Then he tried a new bet: that he could roll <b>at least one double six in 24 rolls of two dice</b>. He was sure it was just as good. It wasn't. Slowly, he lost. Puzzled, he took the problem to a brilliant mathematician called <b>Blaise Pascal</b>.</p>
+
+<p>Pascal was so interested that he wrote to another brilliant mathematician, <b>Pierre de Fermat</b>, and the two of them swapped letters all through the summer and autumn of 1654. By the time they'd finished, they had solved the Chevalier's puzzles and, without quite meaning to, invented the maths of probability.</p>
+
+<p>The trick they used is the one you're about to learn.</p>
+
+<div class="box word"><h4>Word Watch</h4><dl>
+<dt>Complement<small>noun</small></dt><dd>In probability, the opposite of an event: everything that <i>isn't</i> it. The complement of "at least one six" is "no sixes at all". (Not to be confused with a compliment, which is a nice thing someone says.)</dd>
+<dt>Certain<small>adjective</small></dt><dd>Sure to happen: a probability of 100%. Very few things are truly certain.</dd>
+<dt>Counterintuitive<small>adjective</small></dt><dd>The opposite of what your instincts tell you. A lot of probability is counterintuitive, which is why it needs maths.</dd>
+<dt>Chevalier<small>noun</small></dt><dd>A French word for a knight. It comes from <i>cheval</i>, the French for horse, because knights rode horses.</dd>
+</dl></div>
+
+<h2>The trick: work out the chance of losing</h2>
+
+<p>Working out the chance of "at least one six in four rolls" directly is a headache. You could get a six on the first roll, or the second, or the first and third, or all four... there are too many ways to win.</p>
+
+<p>But there's only <b>one</b> way to lose: no six, four times in a row. So work that out instead.</p>
+
+<ul>
+<li>The chance of <i>not</i> rolling a six is 5 in 6, or 5/6.</li>
+<li>The chance of doing that four times running is 5/6 &#215; 5/6 &#215; 5/6 &#215; 5/6. (Remember the rule from Chapter 2: for independent things, multiply.)</li>
+<li>On a calculator: 5 &#247; 6 = 0.8333. Then 0.8333 &#215; 0.8333 &#215; 0.8333 &#215; 0.8333 = <b>0.482</b>, or 48.2%.</li>
+</ul>
+
+<p>So the chance of losing is 48.2%. And since you must either win or lose, the chance of winning is whatever's left over: 100% &#8722; 48.2% = <b>51.8%</b>.</p>
+
+<p>That's why the Chevalier's first bet made money: it won slightly more than half the time. Do the same sum for his second bet (35/36 multiplied by itself 24 times) and the chance of winning comes out at 49.1%: slightly <i>less</i> than half. A difference of under three per cent, and he noticed it by losing money. He must have played an awful lot of dice.</p>
+
+<div class="g" id="g-complement" data-alt="The at-least-one trick in three steps. Step 1: find the chance of missing once. Step 2: multiply it by itself, once for every try. That's the chance of missing every time. Step 3: take that away from 100 per cent. What's left is the chance of at least one win.">
+<div class="board"><div class="board__title">The at-least-one trick</div>
+<div class="trow t-S"><div class="trow__l">1</div><div class="trow__chips" style="display:block;padding:12px 18px"><div class="anton" style="font-size:28px">CHANCE OF ONE MISS</div><div style="font-weight:700;font-size:19px">For a Gizmo: 126 misses out of 127. On a calculator, 126 &#247; 127.</div></div></div>
+<div class="trow t-A"><div class="trow__l">2</div><div class="trow__chips" style="display:block;padding:12px 18px"><div class="anton" style="font-size:28px">MULTIPLY FOR EVERY TRY</div><div style="font-weight:700;font-size:19px">Multiply it by itself once per chest. That's the chance of missing every time.</div></div></div>
+<div class="trow t-B"><div class="trow__l">3</div><div class="trow__chips" style="display:block;padding:12px 18px"><div class="anton" style="font-size:28px">TAKE IT FROM 100%</div><div style="font-weight:700;font-size:19px">What's left over is the chance of at least one win.</div></div></div>
+</div></div><!--/g-->
+
+<p>Mathematicians call the opposite of an event its <span class="ww">complement</span>. So this is sometimes called the complement rule. We prefer "the pirate's trick": if you can't count the treasure, count the empty chests.</p>
+
+<h2>Back to the 127 chests</h2>
+
+<p>Now we can answer the question from the start of the chapter. Multiplying 126/127 by itself 127 times would take all afternoon, so use the power button on a calculator (it usually looks like <b>x<sup>y</sup></b> or <b>^</b>). Type 126 &#247; 127, then raise it to the power of 127.</p>
+
+<p>The answer is 0.366. So the chance of opening 127 chests and finding <i>no</i> Gizmo is 36.6%, and the chance of finding at least one is <b>63.4%</b>.</p>
+
+<p>Not 100%. Not even close. If three friends each open 127 chests, the maths says one of them will probably still be Gizmo-less.</p>
+
+<p>Here's the really strange part. Try the same sum with any of the treasures. Open 568 chests hunting the 1-in-568 Pickaxe: 63.2%. Open 137,500 chests hunting the 1-in-137,500 token: 63.2%. It's always about 63%. Whenever you make as many tries as the odds, your chance of at least one win is a bit under two-thirds, and your chance of nothing at all is a bit over one-third. This is <span class="ww">counterintuitive</span>, and it catches out grown-ups all the time.</p>
+
+<div class="tip"><p><b>Remember:</b> A 1-in-100 chance, tried 100 times, is <i>not</i> <span class="ww">certain</span>. It's about 63%. More than a third of the time, you'll get nothing.</p></div>
+
+<h2>The 400-chest table</h2>
+
+<p>Let's use the trick on something real. A keen player who lands at chest-heavy spots, doesn't stop to fight and keeps moving can open something like <b>200 chests an hour</b>. (That's fast. Most of us are slower.) So in a two-hour session they might open <b>400 chests</b>.</p>
+
+<p>What is their chance of finding at least one of each treasure in those 400 chests? Step 1: one miss. Step 2: to the power of 400. Step 3: take it from 100%.</p>
+
+<div class="g" id="g-400" data-alt="Chance of at least one of each treasure in 400 chests at normal rates. Gizmo: 95.8 per cent. Loading Screen: 77.1 per cent. Jam Track: 64.1 per cent. Pickaxe or Back Bling: 50.6 per cent. Vehicle and Decal: 5 per cent. Pirate Shop Access: 0.29 per cent. Gold Outfit: 0.03 per cent.">
+<div class="chart"><div class="chart__title">400 chests: your chance of at least one</div><div class="chart__sub">Normal rates · about two hours of very fast hunting</div>
+<div class="bar"><div class="bar__name">Gizmo</div><div class="bar__track"><div class="bar__fill" style="width:95.8%">95.8%</div></div></div>
+<div class="bar"><div class="bar__name">Loading Screen</div><div class="bar__track"><div class="bar__fill" style="width:77.1%">77.1%</div></div></div>
+<div class="bar"><div class="bar__name">Jam Track</div><div class="bar__track"><div class="bar__fill" style="width:64.1%">64.1%</div></div></div>
+<div class="bar"><div class="bar__name">Pickaxe / Back Bling</div><div class="bar__track"><div class="bar__fill" style="width:50.6%">50.6%</div></div></div>
+<div class="bar"><div class="bar__name">Vehicle</div><div class="bar__track"><div class="bar__fill lo" style="width:5%"></div></div><div class="bar__val">5.0%</div></div>
+<div class="bar"><div class="bar__name">Pirate Shop</div><div class="bar__track"><div class="bar__fill lo" style="width:0.4%"></div></div><div class="bar__val">0.29%</div></div>
+<div class="bar"><div class="bar__name">Gold Outfit</div><div class="bar__track"><div class="bar__fill lo" style="width:0.2%"></div></div><div class="bar__val">0.03%</div></div>
+<div class="chart__foot">Worked out with the at-least-one trick from Epic's published odds.</div>
+</div></div><!--/g-->
+
+<p>Read that chart from the top. After 400 chests you'll almost certainly have a Gizmo, and probably a Loading Screen. The Jam Track is better than a coin flip. The Pickaxe or Back Bling is almost exactly a coin flip.</p>
+
+<p>Then the chart falls off a cliff. The Vehicle: one hunter in twenty. Pirate Shop Access: 0.29%, which is about one hunter in every 345. The Gold Outfit: about one in 3,900.</p>
+
+<p>Put it another way. Imagine 345 players all doing the same two-hour, 400-chest hunt. Between them they open 138,000 chests. And at the end, on average, <b>one</b> of them has the token. The other 344 have sore thumbs.</p>
+
+<div class="pic pic-wide"><img src="img/v-gizmos.jpg" alt="The lobby's Gizmos row showing five gadgets with counts of 19, 15, 42, 84 and 26, with the Golden Firework selected."/><p class="cap">One very busy hunter's Gizmo collection: 19, 15, 42, 84 and 26. Gizmos are the only treasure that keeps dropping. We'll use these numbers for some detective work in Chapter 4. <i>(Screenshot: Epic Games / Fortnite)</i></p></div>
+
+<div class="tip"><p><b>Work it out:</b> You roll one dice ten times. What's the chance of at least one six? (Calculator: 5 &#247; 6, to the power of 10, then take it from 1.)</p>
+<p class="small"><b>Answer:</b> (5/6)<sup>10</sup> = 0.162, so the chance of no sixes is 16.2%, and the chance of at least one is 83.8%. Likely, but about one time in six you'll roll ten times and get nothing.</p></div>
+
+<p>The at-least-one trick tells you your chances for a set number of chests. But hunters usually ask a different question: <i>how long will it take?</i> That turns out to be the question people get most wrong of all.</p>

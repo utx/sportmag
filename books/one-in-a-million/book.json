@@ -1,0 +1,113 @@
+{
+  "title": "One in a Million",
+  "subtitle": "The maths of luck on Crossbones Isle",
+  "series": "The Chug Jug presents",
+  "date": "2026-11-12",
+  "version_note": "Chapter 7 Treasure Hunters mini-season, v43.00. Treasure odds as published by Epic Games on 7 November 2026; facts checked 12 November 2026.",
+  "description": "An unofficial Fortnite fan book about luck: the real odds of every treasure in the Treasure Hunters season, the maths that explains them, a famously lucky match, and how to tell good thinking from superstition.",
+  "glossary_blurb": "Every Word Watch word in this book, from A to Z. Words are the one treasure with a drop rate of 100 per cent: read one, and it's yours. Try to use three of them this week.",
+  "chapters": [
+    {
+      "file": "00-feeling-lucky.html",
+      "title": "Feeling Lucky, Matey?",
+      "kicker": "Before you drop",
+      "toc": "What this book is about, and how it works",
+      "label": "Start here",
+      "dek": "A whole season built on luck, a list of numbers that shocked everybody, and the maths that makes sense of it all."
+    },
+    {
+      "file": "01-chest-pains.html",
+      "title": "Chest Pains",
+      "kicker": "The treasure hunt",
+      "toc": "The seven treasures and their real odds",
+      "number": 1,
+      "dek": "Every chest on the Isle is a tiny lottery ticket. Here are the seven prizes, and the numbers Epic finally revealed."
+    },
+    {
+      "file": "02-one-in-what.html",
+      "title": "One in What?",
+      "kicker": "Reading the odds",
+      "toc": "Fractions, percentages, coins and dice",
+      "number": 2,
+      "dek": "What \"1 in 137,500\" really means, and how to picture a number that big using nothing but a coin."
+    },
+    {
+      "file": "03-at-least-one.html",
+      "title": "At Least One, Me Hearties",
+      "kicker": "The pirate's best trick",
+      "toc": "The chance of at least one, and the 400-chest table",
+      "number": 3,
+      "dek": "The cleverest trick in the whole of probability: to find the chance of winning, work out the chance of losing first."
+    },
+    {
+      "file": "04-are-we-there-yet.html",
+      "title": "Are We There Yet?",
+      "kicker": "Averages and guarantees",
+      "toc": "Why an average is not a promise",
+      "number": 4,
+      "dek": "How long should a treasure take? The answer is an average, and an average is not a promise. Chests have no memory."
+    },
+    {
+      "file": "05-luckiest-match.html",
+      "title": "The Luckiest Match on the Isle",
+      "kicker": "A true story",
+      "toc": "Six treasures in one game: how rare was it?",
+      "number": 5,
+      "dek": "One squad, one match, treasure after treasure. Was it a miracle, a secret trick, or exactly what the maths expects?"
+    },
+    {
+      "file": "06-shiver-me-superstitions.html",
+      "title": "Shiver Me Superstitions",
+      "kicker": "Luck myths",
+      "toc": "Hot tables, lucky rituals and rigged rumours",
+      "number": 6,
+      "dek": "Hot tables, pretending not to care, and the rumour that the whole hunt was rigged. Why clever brains believe strange things."
+    },
+    {
+      "file": "07-treasure-hour.html",
+      "title": "Happy Hour for Treasure",
+      "kicker": "Boosts and time zones",
+      "toc": "Treasure Hours, multipliers and Sydney time",
+      "number": 7,
+      "dek": "For two hours the odds get better. How much better? And when exactly is nine o'clock at night in New York if you live in Sydney?"
+    },
+    {
+      "file": "08-worth-its-weight.html",
+      "title": "Worth Its Weight in Chug?",
+      "kicker": "Deciding well",
+      "toc": "Time, FOMO and choosing your own hunt",
+      "number": 8,
+      "dek": "Every hour you spend hunting is an hour you can't spend on anything else. How to decide what a treasure is really worth to you."
+    },
+    {
+      "file": "09-odds-lab.html",
+      "title": "The Odds Lab",
+      "kicker": "Try it yourself",
+      "toc": "Five experiments with coins, dice and chests",
+      "number": 9,
+      "dek": "Don't take our word for any of it. Five experiments you can run with a coin, two dice and a pencil."
+    },
+    {
+      "file": "10-quiz.html",
+      "title": "The One in a Million Quiz",
+      "kicker": "Test yourself",
+      "toc": "Quiz",
+      "label": "Back of the book",
+      "dek": "Twenty questions. No luck required."
+    },
+    {
+      "file": "@glossary",
+      "title": "The Treasure Chest of Words",
+      "kicker": "Word bank",
+      "toc": "Every Word Watch word, A to Z",
+      "label": "Back of the book"
+    },
+    {
+      "file": "12-credits.html",
+      "title": "Credits and Sources",
+      "kicker": "The small print",
+      "toc": "Where everything came from",
+      "label": "Back of the book"
+    }
+  ]
+}
